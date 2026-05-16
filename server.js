@@ -3,6 +3,11 @@ import dotenv from 'dotenv';
 import cors from 'cors';
 import morgan from 'morgan';
 import connectDB from './configs/db.js';
+import productRoutes from './routes/productRoutes.js';
+import userRoutes from './routes/userRoutes.js';
+import orderRoutes from './routes/orderRoutes.js';
+import uploadRoutes from './routes/uploadRoutes.js';
+import { notFound, errorHandler } from './middlewares/errorMiddleware.js';
 
 dotenv.config();
 
@@ -15,20 +20,16 @@ app.use(express.json());
 app.use(cors());
 app.use(morgan('dev'));
 
-// Simple route for testing
+// Routes
 app.get('/', (req, res) => {
     res.send('API is running...');
 });
-
-import productRoutes from './routes/productRoutes.js';
-import userRoutes from './routes/userRoutes.js';
-import orderRoutes from './routes/orderRoutes.js';
-import { notFound, errorHandler } from './middlewares/errorMiddleware.js';
-
 app.use('/api/products', productRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/orders', orderRoutes);
+app.use('/api/upload', uploadRoutes);
 
+// Error handling (phải đặt sau cùng)
 app.use(notFound);
 app.use(errorHandler);
 
