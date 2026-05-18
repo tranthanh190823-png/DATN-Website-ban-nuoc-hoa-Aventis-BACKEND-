@@ -144,4 +144,66 @@ const updateProduct = async (req, res) => {
     }
 };
 
-export { getProducts, getProductById, deleteProduct, createProduct, updateProduct };
+// @desc    Create new review
+// @route   POST /api/products/:id/reviews
+// @access  Private
+const createProductReview = async (req, res) => {
+    try {
+        const { rating, comment } = req.body;
+
+        const product = await Product.findById(req.params.id);
+
+        if (product) {
+            const alreadyReviewed = product.reviews.find(
+                (r) => r.user.toString() === req.user._id.toString()
+            );
+
+            if (alreadyReviewed) {
+                return res.status(400).json({ message: 'Bạn đã đánh giá sản phẩm này rồi' });
+            }
+
+            const review = {
+                name: req.user.name,
+                rating: Number(rating),
+                comment,
+                user: req.user._id,
+            };
+
+            product.reviews.push(review);
+            product.numReviews = product.reviews.length;
+
+            product.rating =
+                product.reviews.reduce((acc, item) => item.rating + acc, 0) /
+                product.reviews.length;
+
+            await product.save();
+            res.status(201).json({ message: 'Đã thêm đánh giá' });
+        } else {
+            res.status(404).json({ message: 'Không tìm thấy sản phẩm' });
+        }
+    } catch (error) {
+        res.status(500).json({ message: 'Lỗi server khi thêm đánh giá' });
+    }
+};
+
+// @desc    Get top rated products
+// @route   GET /api/products/top
+// @access  Public
+const getTopProducts = async (req, res) => {
+    try {
+        const products = await Product.find({}).sort({ rating: -1 }).limit(4);
+        res.json(products);
+    } catch (error) {
+        res.status(500).json({ message: 'Lỗi server khi lấy sản phẩm nổi bật' });
+    }
+};
+
+export { 
+    getProducts, 
+    getProductById, 
+    deleteProduct, 
+    createProduct, 
+    updateProduct,
+    createProductReview,
+    getTopProducts
+};
