@@ -2,41 +2,86 @@ import mongoose from 'mongoose';
 import bcrypt from 'bcryptjs';
 
 const userSchema = mongoose.Schema({
+    firstName: {
+        type: String,
+        required: true,
+        trim: true
+    },
+    lastName: {
+        type: String,
+        required: true,
+        trim: true
+    },
+    // Tên đầy đủ (tự động ghép hoặc đặt thủ công)
     name: {
         type: String,
-        required: true
+        trim: true
     },
     email: {
         type: String,
         required: true,
-        unique: true
+        unique: true,
+        lowercase: true,
+        trim: true
+    },
+    phone: {
+        type: String,
+        trim: true
     },
     password: {
         type: String,
-        required: true
+        required: function() {
+            // Không yêu cầu password nếu đăng nhập bằng Google
+            return !this.googleId;
+        }
     },
+    // Google OAuth
+    googleId: {
+        type: String,
+        sparse: true,
+        unique: true
+    },
+    googleAvatar: {
+        type: String
+    },
+    // Quyền
     isAdmin: {
         type: Boolean,
         required: true,
         default: false
+    },
+    // Avatar
+    avatar: {
+        type: String
+    },
+    // Trạng thái
+    isActive: {
+        type: Boolean,
+        default: true
     }
 }, {
     timestamps: true
 });
 
-// Method to verify password match
+// Tự động tạo name từ firstName + lastName, hash password
+userSchema.pre('save', async function() {
+    // Ghép tên đầy đủ
+    if (this.isModified('firstName') || this.isModified('lastName')) {
+        this.name = `${this.firstName} ${this.lastName}`.trim();
+    }
+
+    // Hash password nếu có thay đổi
+    if (this.isModified('password') && this.password) {
+        const salt = await bcrypt.genSalt(10);
+        this.password = await bcrypt.hash(this.password, salt);
+    }
+});
+
+// Phương thức kiểm tra mật khẩu
 userSchema.methods.matchPassword = async function(enteredPassword) {
+    if (!this.password) return false;
     return await bcrypt.compare(enteredPassword, this.password);
 };
-
-// Hook to hash password before saving
-userSchema.pre('save', async function(next) {
-    if (!this.isModified('password')) {
-        next();
-    }
-    const salt = await bcrypt.genSalt(10);
-    this.password = await bcrypt.hash(this.password, salt);
-});
 
 const User = mongoose.model('User', userSchema);
 export default User;

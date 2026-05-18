@@ -15,6 +15,13 @@ const getProducts = async (req, res) => {
 
         const category = req.query.category ? { category: req.query.category } : {};
         
+        // Lọc theo dung tích (10, 20, 30, 100)
+        let volumeFilter = {};
+        if (req.query.volume) {
+            const vol = req.query.volume.toLowerCase() === 'full' ? 100 : Number(req.query.volume);
+            volumeFilter = { 'volumes.ml': vol };
+        }
+
         const priceFilter = (req.query.minPrice || req.query.maxPrice) ? {
             salePrice: {
                 $gte: Number(req.query.minPrice) || 0,
@@ -22,8 +29,10 @@ const getProducts = async (req, res) => {
             }
         } : {};
 
-        const count = await Product.countDocuments({ ...keyword, ...category, ...priceFilter });
-        const products = await Product.find({ ...keyword, ...category, ...priceFilter })
+        const filter = { ...keyword, ...category, ...priceFilter, ...volumeFilter };
+
+        const count = await Product.countDocuments(filter);
+        const products = await Product.find(filter)
             .limit(pageSize)
             .skip(pageSize * (page - 1));
 

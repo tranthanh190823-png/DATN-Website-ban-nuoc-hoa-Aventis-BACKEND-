@@ -9,34 +9,55 @@ import products from './data/products.js';
 dotenv.config();
 connectDB();
 
+const sampleUsers = [
+    {
+        firstName: 'Admin',
+        lastName: 'NuocHoa',
+        email: 'admin@nuochoa.vn',
+        phone: '0901234567',
+        password: 'Admin@2026',
+        isAdmin: true
+    },
+    {
+        firstName: 'Nguyen',
+        lastName: 'Van An',
+        email: 'nguyenvanan@gmail.com',
+        phone: '0912345678',
+        password: 'User@2026',
+        isAdmin: false
+    },
+    {
+        firstName: 'Tran',
+        lastName: 'Thi Bich',
+        email: 'tranbich@gmail.com',
+        phone: '0923456789',
+        password: 'User@2026',
+        isAdmin: false
+    }
+];
+
 const importData = async () => {
     try {
         await Order.deleteMany();
         await Product.deleteMany();
         await User.deleteMany();
 
-        // Admin User
-        const createdUsers = await User.create([
-            {
-                name: 'Admin User',
-                email: 'admin@example.com',
-                password: 'password123',
-                isAdmin: true
-            }
-        ]);
+        console.log('Da xoa toan bo du lieu cu...');
 
+        const createdUsers = await User.create(sampleUsers);
         const adminUser = createdUsers[0]._id;
 
-        const sampleProducts = products.map(product => {
-            return { ...product, user: adminUser };
-        });
+        console.log(`Da tao ${createdUsers.length} nguoi dung.`);
 
+        const sampleProducts = products.map(p => ({ ...p, user: adminUser }));
         await Product.insertMany(sampleProducts);
 
-        console.log('Dữ liệu đã được chèn vào MongoDB!');
+        console.log(`Da tao ${sampleProducts.length} san pham.`);
+        console.log('=== SEED THANH CONG! ===');
+        console.log('Admin: admin@nuochoa.vn / Admin@2026');
         process.exit();
     } catch (error) {
-        console.error(`Lỗi: ${error.message}`);
+        console.error(`Loi: ${error.message}`);
         process.exit(1);
     }
 };
@@ -46,11 +67,10 @@ const destroyData = async () => {
         await Order.deleteMany();
         await Product.deleteMany();
         await User.deleteMany();
-
-        console.log('Đã xóa toàn bộ dữ liệu!');
+        console.log('Da xoa toan bo du lieu!');
         process.exit();
     } catch (error) {
-        console.error(`Lỗi: ${error.message}`);
+        console.error(`Loi: ${error.message}`);
         process.exit(1);
     }
 };
