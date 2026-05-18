@@ -1,4 +1,6 @@
 import Order from '../models/Order.js';
+import Product from '../models/Product.js';
+import Voucher from '../models/Voucher.js';
 
 // @desc    Create new order
 // @route   POST /api/orders
@@ -11,7 +13,9 @@ const addOrderItems = async (req, res, next) => {
             paymentMethod,
             itemsPrice,
             shippingPrice,
-            totalPrice
+            totalPrice,
+            voucherCode,
+            discountPrice
         } = req.body;
 
         if (orderItems && orderItems.length === 0) {
@@ -25,10 +29,22 @@ const addOrderItems = async (req, res, next) => {
                 paymentMethod,
                 itemsPrice,
                 shippingPrice,
-                totalPrice
+                totalPrice,
+                voucherCode,
+                discountPrice
             });
 
             const createdOrder = await order.save();
+
+            // Cập nhật lượt sử dụng Voucher (nếu có)
+            if (voucherCode) {
+                const voucher = await Voucher.findOne({ code: voucherCode.toUpperCase() });
+                if (voucher) {
+                    voucher.usedCount += 1;
+                    await voucher.save();
+                }
+            }
+
             res.status(201).json(createdOrder);
         }
     } catch (error) {
@@ -128,11 +144,58 @@ const updateOrderToDelivered = async (req, res, next) => {
     }
 };
 
+// @desc    Cancel order
+// @route   PUT /api/orders/:id/cancel
+// @access  Private
+const cancelOrder = async (req, res, next) => {
+    try {
+        const order = await Order.findById(req.params.id);
+
+        if (!order) {
+            res.status(404);
+            throw new Error('Không tìm thấy đơn hàng');
+        }
+
+        if (order.user.toString() !== req.user._id.toString() && !req.user.isAdmin) {
+            res.status(403);
+            throw new Error('Không có quyền hủy đơn hàng này');
+        }
+
+        if (order.isDelivered || order.isPaid) {
+            res.status(400);
+            throw new Error('Không thể hủy đơn hàng đã thanh toán hoặc đã giao');
+        }
+
+        if (order.isCancelled) {
+            res.status(400);
+            throw new Error('Đơn hàng này đã bị hủy trước đó');
+        }
+
+        order.isCancelled = true;
+        order.cancelledAt = Date.now();
+
+        // Hoàn lại kho
+        for (const item of order.orderItems) {
+            const product = await Product.findById(item.product);
+            if (product) {
+                product.stock += item.qty;
+                await product.save();
+            }
+        }
+
+        const updatedOrder = await order.save();
+        res.json(updatedOrder);
+    } catch (error) {
+        next(error);
+    }
+};
+
 export {
     addOrderItems,
     getOrderById,
     updateOrderToPaid,
     updateOrderToDelivered,
     getMyOrders,
-    getOrders
+    getOrders,
+    cancelOrder
 };

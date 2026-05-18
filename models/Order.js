@@ -43,6 +43,13 @@ const orderSchema = mongoose.Schema({
         required: true,
         default: 0.0
     },
+    voucherCode: {
+        type: String
+    },
+    discountPrice: {
+        type: Number,
+        default: 0.0
+    },
     isPaid: {
         type: Boolean,
         required: true,
@@ -57,6 +64,14 @@ const orderSchema = mongoose.Schema({
         default: false
     },
     deliveredAt: {
+        type: Date
+    },
+    isCancelled: {
+        type: Boolean,
+        required: true,
+        default: false
+    },
+    cancelledAt: {
         type: Date
     }
 }, {
