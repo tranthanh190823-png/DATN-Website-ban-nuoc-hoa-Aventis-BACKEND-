@@ -1,5 +1,7 @@
 import User from '../models/User.js';
 import generateToken from '../utils/generateToken.js';
+import sendEmail from '../utils/sendEmail.js';
+import crypto from 'crypto';
 
 // @desc    Auth user & get token
 // @route   POST /api/users/login
@@ -41,7 +43,13 @@ const registerUser = async (req, res, next) => {
             throw new Error('User already exists');
         }
 
+        const nameParts = name ? name.split(' ') : ['Unknown'];
+        const firstName = nameParts[0];
+        const lastName = nameParts.length > 1 ? nameParts.slice(1).join(' ') : firstName; // Tránh rỗng
+
         const user = await User.create({
+            firstName,
+            lastName,
             name,
             email,
             password
@@ -95,7 +103,13 @@ const updateUserProfile = async (req, res, next) => {
         const user = await User.findById(req.user._id);
 
         if (user) {
-            user.name = req.body.name || user.name;
+            if (req.body.name) {
+                user.name = req.body.name;
+                const nameParts = req.body.name.split(' ');
+                user.firstName = nameParts[0];
+                user.lastName = nameParts.length > 1 ? nameParts.slice(1).join(' ') : nameParts[0];
+            }
+            
             user.email = req.body.email || user.email;
 
             if (req.body.password) {
@@ -180,6 +194,97 @@ const updateUser = async (req, res, next) => {
     }
 };
 
+// @desc    Forgot Password
+// @route   POST /api/users/forgotpassword
+// @access  Public
+const forgotPassword = async (req, res, next) => {
+    try {
+        const user = await User.findOne({ email: req.body.email });
+
+        if (!user) {
+            res.status(404);
+            throw new Error('Không có tài khoản nào sử dụng email này');
+        }
+
+        // Tạo token
+        const resetToken = user.getResetPasswordToken();
+
+        await user.save({ validateBeforeSave: false });
+
+        // Tạo URL reset password (Thay http://localhost:3000 bằng URL thật khi deploy)
+        const resetUrl = `http://localhost:3000/resetpassword/${resetToken}`;
+
+        const message = `Bạn nhận được email này vì bạn (hoặc ai đó) đã yêu cầu đặt lại mật khẩu.\n\nHãy truy cập vào đường dẫn sau để đặt lại mật khẩu của bạn:\n\n${resetUrl}`;
+        
+        // Log URL ra console để dễ test trong môi trường dev
+        console.log(`\n\n---------------------------------`);
+        console.log(`🔗 Link Đặt Lại Mật Khẩu: \n${resetUrl}`);
+        console.log(`---------------------------------\n\n`);
+
+        try {
+            // Tạm thời comment lại phần gửi mail thực tế để test dễ dàng
+            /*
+            await sendEmail({
+                email: user.email,
+                subject: 'Yêu cầu đặt lại mật khẩu',
+                message
+            });
+            */
+            // Giả lập gửi thành công
+            res.status(200).json({ message: 'Email đã được gửi (Check Terminal để lấy Link)' });
+        } catch (error) {
+            user.resetPasswordToken = undefined;
+            user.resetPasswordExpire = undefined;
+            await user.save({ validateBeforeSave: false });
+
+            res.status(500);
+            throw new Error('Không thể gửi email');
+        }
+    } catch (error) {
+        next(error);
+    }
+};
+
+// @desc    Reset Password
+// @route   PUT /api/users/resetpassword/:token
+// @access  Public
+const resetPassword = async (req, res, next) => {
+    try {
+        // Hash lại token từ param để so sánh với db
+        const resetPasswordToken = crypto
+            .createHash('sha256')
+            .update(req.params.token)
+            .digest('hex');
+
+        const user = await User.findOne({
+            resetPasswordToken,
+            resetPasswordExpire: { $gt: Date.now() }
+        });
+
+        if (!user) {
+            res.status(400);
+            throw new Error('Token không hợp lệ hoặc đã hết hạn');
+        }
+
+        // Đặt lại mật khẩu (schema sẽ tự hash)
+        user.password = req.body.password;
+        user.resetPasswordToken = undefined;
+        user.resetPasswordExpire = undefined;
+
+        await user.save();
+
+        res.status(200).json({
+            _id: user._id,
+            name: user.name,
+            email: user.email,
+            isAdmin: user.isAdmin,
+            token: generateToken(res, user._id)
+        });
+    } catch (error) {
+        next(error);
+    }
+};
+
 export {
     authUser,
     registerUser,
@@ -187,5 +292,7 @@ export {
     updateUserProfile,
     getUsers,
     deleteUser,
-    updateUser
+    updateUser,
+    forgotPassword,
+    resetPassword
 };

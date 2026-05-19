@@ -7,66 +7,93 @@ import User from '../models/User.js';
 // @access  Private/Admin
 const getDashboardStats = async (req, res) => {
     try {
-        // 1. Tổng số đơn hàng
+        // 1. Đếm tổng các thực thể
         const totalOrders = await Order.countDocuments();
+        const totalUsers = await User.countDocuments({ isAdmin: false });
+        const totalProducts = await Product.countDocuments({ isActive: true });
 
-        // 2. Tổng doanh thu (chỉ tính những đơn đã thanh toán)
+        const pendingOrders = await Order.countDocuments({ isCancelled: false, isDelivered: false });
+        const deliveredOrders = await Order.countDocuments({ isDelivered: true });
+        const cancelledOrders = await Order.countDocuments({ isCancelled: true });
+
+        // 2. Tổng doanh thu (đơn đã giao)
         const salesData = await Order.aggregate([
-            { $match: { isPaid: true } },
+            { $match: { isDelivered: true } },
             { $group: { _id: null, totalSales: { $sum: '$totalPrice' } } }
         ]);
-        const totalSales = salesData.length > 0 ? salesData[0].totalSales : 0;
+        const totalSales = salesData[0]?.totalSales || 0;
 
-        // 3. Tổng số lượng khách hàng (trừ Admin)
-        const totalUsers = await User.countDocuments({ isAdmin: false });
-
-        // 4. Sản phẩm sắp hết hàng (stock < 10)
-        const lowStockProducts = await Product.find({ stock: { $lt: 10 } })
-            .select('name stock price')
-            .limit(5);
-
-        // 5. Doanh thu theo từng tháng trong năm nay
+        // 3. Doanh thu theo từng tháng trong năm nay
         const currentYear = new Date().getFullYear();
         const startOfYear = new Date(`${currentYear}-01-01`);
         const endOfYear = new Date(`${currentYear}-12-31T23:59:59.999Z`);
 
         const salesByMonth = await Order.aggregate([
-            {
-                $match: {
-                    isPaid: true,
-                    createdAt: { $gte: startOfYear, $lte: endOfYear }
-                }
-            },
-            {
-                $group: {
-                    _id: { $month: '$createdAt' },
-                    totalSales: { $sum: '$totalPrice' }
-                }
-            },
-            {
-                $sort: { _id: 1 } // Sắp xếp theo tháng tăng dần
-            }
+            { $match: { isDelivered: true, createdAt: { $gte: startOfYear, $lte: endOfYear } } },
+            { $group: { _id: { $month: '$createdAt' }, totalSales: { $sum: '$totalPrice' }, orders: { $sum: 1 } } },
+            { $sort: { _id: 1 } }
         ]);
 
-        // Định dạng lại mảng doanh thu theo tháng cho dễ đọc với frontend
         const formattedSalesByMonth = Array.from({ length: 12 }, (_, i) => {
-            const monthData = salesByMonth.find(item => item._id === i + 1);
-            return {
-                month: i + 1,
-                totalSales: monthData ? monthData.totalSales : 0
-            };
+            const found = salesByMonth.find(item => item._id === i + 1);
+            return { month: i + 1, totalSales: found?.totalSales || 0, orders: found?.orders || 0 };
         });
 
+        // 4. 5 Đơn hàng gần nhất
+        const recentOrders = await Order.find({})
+            .populate('user', 'name email')
+            .sort({ createdAt: -1 })
+            .limit(5)
+            .lean();
+
+        // 5. Sản phẩm tồn kho thấp (stock < 5)
+        const lowStockProducts = await Product.find({ stock: { $lt: 5 }, isActive: true })
+            .select('name stock brand')
+            .limit(10)
+            .lean();
+
+        // 6. Doanh thu theo thương hiệu
+        const revenueByBrand = await Order.aggregate([
+            { $match: { isDelivered: true } },
+            { $unwind: '$orderItems' },
+            {
+                $lookup: {
+                    from: 'products',
+                    localField: 'orderItems.product',
+                    foreignField: '_id',
+                    as: 'productInfo'
+                }
+            },
+            { $unwind: { path: '$productInfo', preserveNullAndEmptyArrays: true } },
+            {
+                $group: {
+                    _id: { $ifNull: ['$productInfo.brand', 'Khác'] },
+                    revenue: { $sum: { $multiply: ['$orderItems.price', '$orderItems.qty'] } },
+                    count: { $sum: '$orderItems.qty' }
+                }
+            },
+            { $sort: { revenue: -1 } },
+            { $limit: 6 }
+        ]);
+
         res.json({
-            totalOrders,
-            totalSales,
-            totalUsers,
+            summary: {
+                totalOrders,
+                totalUsers,
+                totalProducts,
+                totalSales,
+                pendingOrders,
+                deliveredOrders,
+                cancelledOrders
+            },
+            salesByMonth: formattedSalesByMonth,
+            recentOrders,
             lowStockProducts,
-            salesByMonth: formattedSalesByMonth
+            revenueByBrand
         });
 
     } catch (error) {
-        res.status(500).json({ message: 'Lỗi server khi lấy dữ liệu thống kê' });
+        res.status(500).json({ message: 'Lỗi server khi lấy dữ liệu thống kê', error: error.message });
     }
 };
 

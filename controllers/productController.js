@@ -13,7 +13,19 @@ const getProducts = async (req, res) => {
             }
         } : {};
 
-        const category = req.query.category ? { category: req.query.category } : {};
+        let categoryFilter = {};
+        if (req.query.category) {
+            const cat = req.query.category;
+            if (cat === 'Nam' || cat === 'nam') {
+                categoryFilter = { gender: 'Nam' };
+            } else if (cat === 'Nữ' || cat === 'Nu' || cat === 'nữ' || cat === 'nu') {
+                categoryFilter = { gender: 'Nu' };
+            } else if (cat === 'Unisex' || cat === 'unisex') {
+                categoryFilter = { gender: 'Unisex' };
+            } else {
+                categoryFilter = { scentCategory: cat };
+            }
+        }
         
         // Lọc theo dung tích (10, 20, 30, 100)
         let volumeFilter = {};
@@ -29,7 +41,7 @@ const getProducts = async (req, res) => {
             }
         } : {};
 
-        const filter = { ...keyword, ...category, ...priceFilter, ...volumeFilter };
+        const filter = { ...keyword, ...categoryFilter, ...priceFilter, ...volumeFilter };
 
         const count = await Product.countDocuments(filter);
         const products = await Product.find(filter)

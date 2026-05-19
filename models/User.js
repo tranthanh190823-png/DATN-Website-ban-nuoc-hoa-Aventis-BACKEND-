@@ -1,5 +1,6 @@
 import mongoose from 'mongoose';
 import bcrypt from 'bcryptjs';
+import crypto from 'crypto';
 
 const userSchema = mongoose.Schema({
     firstName: {
@@ -58,7 +59,10 @@ const userSchema = mongoose.Schema({
     isActive: {
         type: Boolean,
         default: true
-    }
+    },
+    // Khôi phục mật khẩu
+    resetPasswordToken: String,
+    resetPasswordExpire: Date
 }, {
     timestamps: true
 });
@@ -81,6 +85,23 @@ userSchema.pre('save', async function() {
 userSchema.methods.matchPassword = async function(enteredPassword) {
     if (!this.password) return false;
     return await bcrypt.compare(enteredPassword, this.password);
+};
+
+// Phương thức tạo token reset mật khẩu
+userSchema.methods.getResetPasswordToken = function() {
+    // Tạo token ngẫu nhiên
+    const resetToken = crypto.randomBytes(20).toString('hex');
+
+    // Hash token và lưu vào db
+    this.resetPasswordToken = crypto
+        .createHash('sha256')
+        .update(resetToken)
+        .digest('hex');
+
+    // Set hạn dùng token (10 phút)
+    this.resetPasswordExpire = Date.now() + 10 * 60 * 1000;
+
+    return resetToken;
 };
 
 const User = mongoose.model('User', userSchema);
