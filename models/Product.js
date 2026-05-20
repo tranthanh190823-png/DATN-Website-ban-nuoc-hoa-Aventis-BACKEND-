@@ -66,6 +66,8 @@ const productSchema = new mongoose.Schema({
     // Trạng thái
     isHot: { type: Boolean, default: false },
     isSale: { type: Boolean, default: false },
+    isBestSeller: { type: Boolean, default: false },
+    isNewArrival: { type: Boolean, default: false },
     isActive: { type: Boolean, default: true }
 }, { timestamps: true });
 

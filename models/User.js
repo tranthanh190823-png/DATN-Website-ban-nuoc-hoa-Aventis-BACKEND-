@@ -51,6 +51,11 @@ const userSchema = mongoose.Schema({
         required: true,
         default: false
     },
+    // Nhân viên (quản lý đơn hàng & sản phẩm, không xóa user)
+    isStaff: {
+        type: Boolean,
+        default: false
+    },
     // Avatar
     avatar: {
         type: String

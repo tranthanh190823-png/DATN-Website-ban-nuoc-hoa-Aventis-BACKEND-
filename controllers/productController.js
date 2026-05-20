@@ -3,31 +3,29 @@ import Product from '../models/Product.js';
 // Lấy danh sách sản phẩm
 const getProducts = async (req, res) => {
     try {
-        const pageSize = 12;
+        const pageSize = Number(req.query.limit) || 12;
         const page = Number(req.query.pageNumber) || 1;
 
         const keyword = req.query.keyword ? {
-            name: {
-                $regex: req.query.keyword,
-                $options: 'i'
-            }
+            name: { $regex: req.query.keyword, $options: 'i' }
         } : {};
 
         let categoryFilter = {};
         if (req.query.category) {
             const cat = req.query.category;
-            if (cat === 'Nam' || cat === 'nam') {
-                categoryFilter = { gender: 'Nam' };
-            } else if (cat === 'Nữ' || cat === 'Nu' || cat === 'nữ' || cat === 'nu') {
-                categoryFilter = { gender: 'Nu' };
-            } else if (cat === 'Unisex' || cat === 'unisex') {
-                categoryFilter = { gender: 'Unisex' };
-            } else {
-                categoryFilter = { scentCategory: cat };
-            }
+            if (cat === 'Nam' || cat === 'nam') categoryFilter = { gender: 'Nam' };
+            else if (cat === 'Nữ' || cat === 'Nu' || cat === 'nữ' || cat === 'nu') categoryFilter = { gender: 'Nu' };
+            else if (cat === 'Unisex' || cat === 'unisex') categoryFilter = { gender: 'Unisex' };
+            else categoryFilter = { scentCategory: cat };
         }
-        
-        // Lọc theo dung tích (10, 20, 30, 100)
+
+        // Filter theo brand
+        let brandFilter = {};
+        if (req.query.brand) {
+            brandFilter = { brand: { $regex: req.query.brand, $options: 'i' } };
+        }
+
+        // Lọc theo dung tích
         let volumeFilter = {};
         if (req.query.volume) {
             const vol = req.query.volume.toLowerCase() === 'full' ? 100 : Number(req.query.volume);
@@ -35,20 +33,36 @@ const getProducts = async (req, res) => {
         }
 
         const priceFilter = (req.query.minPrice || req.query.maxPrice) ? {
-            salePrice: {
+            price: {
                 $gte: Number(req.query.minPrice) || 0,
                 $lte: Number(req.query.maxPrice) || 100000000
             }
         } : {};
 
-        const filter = { ...keyword, ...categoryFilter, ...priceFilter, ...volumeFilter };
+        // Filter theo flags
+        let flagFilter = {};
+        if (req.query.isBestSeller === 'true') flagFilter.isBestSeller = true;
+        if (req.query.isNewArrival === 'true') flagFilter.isNewArrival = true;
+        if (req.query.isSale === 'true') flagFilter.isSale = true;
+        if (req.query.isHot === 'true') flagFilter.isHot = true;
+
+        const filter = { ...keyword, ...categoryFilter, ...brandFilter, ...priceFilter, ...volumeFilter, ...flagFilter };
+
+        // Sort options
+        let sortOption = { createdAt: -1 };
+        if (req.query.sort === 'newest') sortOption = { createdAt: -1 };
+        else if (req.query.sort === 'best_seller') sortOption = { numReviews: -1, rating: -1 };
+        else if (req.query.sort === 'price_asc') sortOption = { price: 1 };
+        else if (req.query.sort === 'price_desc') sortOption = { price: -1 };
+        else if (req.query.sort === 'rating') sortOption = { rating: -1 };
 
         const count = await Product.countDocuments(filter);
         const products = await Product.find(filter)
+            .sort(sortOption)
             .limit(pageSize)
             .skip(pageSize * (page - 1));
 
-        res.json({ products, page, pages: Math.ceil(count / pageSize) });
+        res.json({ products, page, pages: Math.ceil(count / pageSize), count });
     } catch (error) {
         res.status(500).json({ message: 'Lỗi server khi lấy dữ liệu sản phẩm' });
     }
@@ -116,18 +130,10 @@ const createProduct = async (req, res) => {
 const updateProduct = async (req, res) => {
     try {
         const {
-            name,
-            brand,
-            price,
-            salePrice,
-            description,
-            images,
-            category,
-            scentNotes,
-            stock,
-            rating,
-            isHot,
-            isSale
+            name, brand, price, salePrice, description, images,
+            category, scentNotes, stock, rating,
+            isHot, isSale, isBestSeller, isNewArrival,
+            gender, origin, volumes
         } = req.body;
 
         const product = await Product.findById(req.params.id);
@@ -145,6 +151,11 @@ const updateProduct = async (req, res) => {
             product.rating = rating !== undefined ? rating : product.rating;
             product.isHot = isHot !== undefined ? isHot : product.isHot;
             product.isSale = isSale !== undefined ? isSale : product.isSale;
+            product.isBestSeller = isBestSeller !== undefined ? isBestSeller : product.isBestSeller;
+            product.isNewArrival = isNewArrival !== undefined ? isNewArrival : product.isNewArrival;
+            if (gender !== undefined) product.gender = gender;
+            if (origin !== undefined) product.origin = origin;
+            if (volumes !== undefined) product.volumes = volumes;
 
             const updatedProduct = await product.save();
             res.json(updatedProduct);

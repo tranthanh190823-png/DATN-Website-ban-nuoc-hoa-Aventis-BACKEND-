@@ -139,8 +139,86 @@ const updateUserProfile = async (req, res, next) => {
 // @access  Private/Admin
 const getUsers = async (req, res, next) => {
     try {
-        const users = await User.find({});
+        const users = await User.find({}).select('-password').sort({ createdAt: -1 });
         res.json(users);
+    } catch (error) {
+        next(error);
+    }
+};
+
+// @desc    Get all staff
+// @route   GET /api/users/staff
+// @access  Private/Admin
+const getStaff = async (req, res, next) => {
+    try {
+        const staff = await User.find({ isStaff: true }).select('-password').sort({ createdAt: -1 });
+        res.json(staff);
+    } catch (error) {
+        next(error);
+    }
+};
+
+// @desc    Create staff account
+// @route   POST /api/users/staff
+// @access  Private/Admin
+const createStaff = async (req, res, next) => {
+    try {
+        const { name, email, password } = req.body;
+
+        const userExists = await User.findOne({ email });
+        if (userExists) {
+            res.status(400);
+            throw new Error('Email đã tồn tại');
+        }
+
+        const nameParts = name ? name.split(' ') : ['Nhân viên'];
+        const firstName = nameParts[0];
+        const lastName = nameParts.length > 1 ? nameParts.slice(1).join(' ') : firstName;
+
+        const staff = await User.create({
+            firstName,
+            lastName,
+            name,
+            email,
+            password,
+            isStaff: true,
+            isAdmin: false
+        });
+
+        if (staff) {
+            res.status(201).json({
+                _id: staff._id,
+                name: staff.name,
+                email: staff.email,
+                isAdmin: staff.isAdmin,
+                isStaff: staff.isStaff
+            });
+        } else {
+            res.status(400);
+            throw new Error('Dữ liệu nhân viên không hợp lệ');
+        }
+    } catch (error) {
+        next(error);
+    }
+};
+
+// @desc    Toggle user active status (khoá / mở khoá)
+// @route   PUT /api/users/:id/toggle-status
+// @access  Private/Admin
+const toggleUserStatus = async (req, res, next) => {
+    try {
+        const user = await User.findById(req.params.id);
+        if (!user) {
+            res.status(404);
+            throw new Error('Không tìm thấy tài khoản');
+        }
+        if (user.isAdmin) {
+            res.status(400);
+            throw new Error('Không thể khoá tài khoản admin');
+        }
+        user.isActive = !user.isActive;
+        await user.save();
+        res.json({ _id: user._id, isActive: user.isActive, message: user.isActive ? 'Tài khoản đã mở khoá' : 'Tài khoản đã bị khoá' });
     } catch (error) {
         next(error);
     }
@@ -176,6 +254,7 @@ const updateUser = async (req, res, next) => {
             user.name = req.body.name || user.name;
             user.email = req.body.email || user.email;
             user.isAdmin = req.body.isAdmin !== undefined ? req.body.isAdmin : user.isAdmin;
+            user.isStaff = req.body.isStaff !== undefined ? req.body.isStaff : user.isStaff;
 
             const updatedUser = await user.save();
 
@@ -184,6 +263,8 @@ const updateUser = async (req, res, next) => {
                 name: updatedUser.name,
                 email: updatedUser.email,
                 isAdmin: updatedUser.isAdmin,
+                isStaff: updatedUser.isStaff,
+                isActive: updatedUser.isActive
             });
         } else {
             res.status(404);
@@ -291,6 +372,9 @@ export {
     getUserProfile,
     updateUserProfile,
     getUsers,
+    getStaff,
+    createStaff,
+    toggleUserStatus,
     deleteUser,
     updateUser,
     forgotPassword,
