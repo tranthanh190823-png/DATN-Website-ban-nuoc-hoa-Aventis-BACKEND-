@@ -46,7 +46,13 @@ const getProducts = async (req, res) => {
         if (req.query.isSale === 'true') flagFilter.isSale = true;
         if (req.query.isHot === 'true') flagFilter.isHot = true;
 
-        const filter = { ...keyword, ...categoryFilter, ...brandFilter, ...priceFilter, ...volumeFilter, ...flagFilter };
+        // Filter theo type
+        let typeFilter = {};
+        if (req.query.type) {
+            typeFilter = { type: req.query.type };
+        }
+
+        const filter = { ...keyword, ...categoryFilter, ...brandFilter, ...priceFilter, ...volumeFilter, ...flagFilter, ...typeFilter };
 
         // Sort options
         let sortOption = { createdAt: -1 };
