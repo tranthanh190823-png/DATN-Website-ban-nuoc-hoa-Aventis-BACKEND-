@@ -102,6 +102,22 @@ const getVouchers = async (req, res) => {
     }
 };
 
+// @desc    Get public available vouchers
+// @route   GET /api/vouchers/public
+// @access  Public
+const getPublicVouchers = async (req, res) => {
+    try {
+        const vouchers = await Voucher.find({
+            isActive: true,
+            expirationDate: { $gt: new Date() },
+            $expr: { $lt: ["$usedCount", "$usageLimit"] }
+        }).select('-__v -createdAt -updatedAt'); // Ẩn bớt các trường không cần thiết
+        res.json(vouchers);
+    } catch (error) {
+        res.status(500).json({ message: 'Lỗi server khi lấy danh sách mã giảm giá' });
+    }
+};
+
 // @desc    Delete a voucher
 // @route   DELETE /api/vouchers/:id
 // @access  Private/Admin
@@ -150,6 +166,7 @@ export {
     checkVoucher,
     createVoucher,
     getVouchers,
+    getPublicVouchers,
     deleteVoucher,
     updateVoucher
 };

@@ -67,6 +67,10 @@ products.forEach((p, index) => {
             v.salePrice = v.price;
         }
     });
+
+    // 5. Add missing flags
+    p.isNewArrival = Math.random() > 0.7;
+    p.isBestSeller = Math.random() > 0.7;
 });
 
 const content = `const products = ${JSON.stringify(products, null, 2)};\n\nexport default products;\n`;

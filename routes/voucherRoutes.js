@@ -3,12 +3,16 @@ import {
     checkVoucher,
     createVoucher,
     getVouchers,
+    getPublicVouchers,
     deleteVoucher,
     updateVoucher
 } from '../controllers/voucherController.js';
 import { protect, admin } from '../middlewares/authMiddleware.js';
 
 const router = express.Router();
+
+// Public route must be before /:id to avoid "public" being parsed as an id
+router.get('/public', getPublicVouchers);
 
 router.route('/')
     .get(protect, admin, getVouchers)

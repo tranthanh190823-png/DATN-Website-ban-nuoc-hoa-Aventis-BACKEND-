@@ -2,7 +2,21 @@ import mongoose from 'mongoose';
 import bcrypt from 'bcryptjs';
 import crypto from 'crypto';
 
-const userSchema = mongoose.Schema({
+const addressSchema = new mongoose.Schema({
+    name: { type: String, required: true },
+    phone: { type: String, required: true },
+    company: { type: String },
+    address: { type: String, required: true },
+    province: { type: String, required: true },
+    district: { type: String, required: true },
+    ward: { type: String, required: true },
+    provinceName: { type: String },
+    districtName: { type: String },
+    wardName: { type: String },
+    isDefault: { type: Boolean, default: false }
+});
+
+const userSchema = new mongoose.Schema({
     firstName: {
         type: String,
         required: true,
@@ -67,7 +81,9 @@ const userSchema = mongoose.Schema({
     },
     // Khôi phục mật khẩu
     resetPasswordToken: String,
-    resetPasswordExpire: Date
+    resetPasswordExpire: Date,
+    // Danh sách địa chỉ
+    addresses: [addressSchema]
 }, {
     timestamps: true
 });

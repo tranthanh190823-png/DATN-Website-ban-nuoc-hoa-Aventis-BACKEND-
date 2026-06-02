@@ -39,6 +39,13 @@ const products = [
         "stock": 23
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2650000,
+        "salePrice": 2650000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 5300000,
@@ -51,7 +58,9 @@ const products = [
     "stock": 18,
     "rating": 3.6,
     "isHot": true,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "AFNAN Sport Pour Homme",
@@ -93,6 +102,13 @@ const products = [
         "stock": 30
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2250000,
+        "salePrice": 1912500,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 4500000,
@@ -105,7 +121,9 @@ const products = [
     "stock": 5,
     "rating": 3.6,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": true
   },
   {
     "name": "AFNAN L'eau EDP",
@@ -147,6 +165,13 @@ const products = [
         "stock": 65
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2750000,
+        "salePrice": 2750000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 5500000,
@@ -159,7 +184,9 @@ const products = [
     "stock": 13,
     "rating": 4.7,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "AFNAN Blanc EDT",
@@ -201,6 +228,13 @@ const products = [
         "stock": 75
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1250000,
+        "salePrice": 1062500,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 2500000,
@@ -213,7 +247,9 @@ const products = [
     "stock": 25,
     "rating": 4.9,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "AFNAN Elixir EDT",
@@ -255,6 +291,13 @@ const products = [
         "stock": 54
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1450000,
+        "salePrice": 1450000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 2900000,
@@ -267,7 +310,9 @@ const products = [
     "stock": 12,
     "rating": 3.5,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "AFNAN Noir Pour Femme",
@@ -309,6 +354,13 @@ const products = [
         "stock": 70
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1850000,
+        "salePrice": 1572500,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 3700000,
@@ -321,7 +373,9 @@ const products = [
     "stock": 17,
     "rating": 4.3,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "AFNAN Intense EDT",
@@ -363,6 +417,13 @@ const products = [
         "stock": 29
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1100000,
+        "salePrice": 1100000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 2200000,
@@ -375,7 +436,9 @@ const products = [
     "stock": 30,
     "rating": 4.7,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": true
   },
   {
     "name": "AFNAN Jour EDP",
@@ -401,6 +464,13 @@ const products = [
         "price": 1700000,
         "salePrice": 1700000,
         "stock": 15
+      },
+      {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 850000,
+        "salePrice": 850000,
+        "stock": 50
       }
     ],
     "price": 1700000,
@@ -408,7 +478,9 @@ const products = [
     "stock": 15,
     "rating": 4,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "AFNAN Magic Pour Homme",
@@ -434,6 +506,13 @@ const products = [
         "price": 3200000,
         "salePrice": 2624000,
         "stock": 6
+      },
+      {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1600000,
+        "salePrice": 1360000,
+        "stock": 50
       }
     ],
     "price": 3200000,
@@ -441,7 +520,9 @@ const products = [
     "stock": 6,
     "rating": 3.6,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "AFNAN Royal Unisex",
@@ -483,6 +564,13 @@ const products = [
         "stock": 38
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2150000,
+        "salePrice": 1827500,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 4300000,
@@ -495,7 +583,9 @@ const products = [
     "stock": 13,
     "rating": 3.6,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": true
   },
   {
     "name": "AFNAN Parfum EDP",
@@ -521,6 +611,13 @@ const products = [
         "price": 4400000,
         "salePrice": 4400000,
         "stock": 24
+      },
+      {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2200000,
+        "salePrice": 2200000,
+        "stock": 50
       }
     ],
     "price": 4400000,
@@ -528,7 +625,9 @@ const products = [
     "stock": 24,
     "rating": 4.3,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "AFNAN Parfum EDT",
@@ -570,6 +669,13 @@ const products = [
         "stock": 13
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 800000,
+        "salePrice": 800000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 1600000,
@@ -582,7 +688,9 @@ const products = [
     "stock": 8,
     "rating": 3.8,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "AFNAN Royal Edition",
@@ -624,6 +732,13 @@ const products = [
         "stock": 27
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2000000,
+        "salePrice": 1700000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 4000000,
@@ -636,7 +751,9 @@ const products = [
     "stock": 28,
     "rating": 4.7,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": true
   },
   {
     "name": "AFNAN Classic EDP",
@@ -678,6 +795,13 @@ const products = [
         "stock": 42
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2050000,
+        "salePrice": 1742500,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 4100000,
@@ -690,7 +814,9 @@ const products = [
     "stock": 24,
     "rating": 4.8,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "AFNAN Nuit Pour Femme",
@@ -732,6 +858,13 @@ const products = [
         "stock": 72
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1800000,
+        "salePrice": 1800000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 3600000,
@@ -744,7 +877,9 @@ const products = [
     "stock": 9,
     "rating": 4.3,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": true,
+    "isBestSeller": true
   },
   {
     "name": "AFNAN Elixir Edition",
@@ -770,6 +905,13 @@ const products = [
         "price": 4400000,
         "salePrice": 4400000,
         "stock": 20
+      },
+      {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2200000,
+        "salePrice": 2200000,
+        "stock": 50
       }
     ],
     "price": 4400000,
@@ -777,7 +919,9 @@ const products = [
     "stock": 20,
     "rating": 3.7,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "AFNAN Classic Unisex",
@@ -819,6 +963,13 @@ const products = [
         "stock": 60
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1850000,
+        "salePrice": 1572500,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 3700000,
@@ -831,7 +982,9 @@ const products = [
     "stock": 13,
     "rating": 3.8,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": true
   },
   {
     "name": "AFNAN Intense Pour Femme",
@@ -873,6 +1026,13 @@ const products = [
         "stock": 34
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2800000,
+        "salePrice": 2380000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 5600000,
@@ -885,7 +1045,9 @@ const products = [
     "stock": 21,
     "rating": 4.2,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "AFNAN Oud EDT",
@@ -927,6 +1089,13 @@ const products = [
         "stock": 27
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2100000,
+        "salePrice": 2100000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 4200000,
@@ -939,7 +1108,9 @@ const products = [
     "stock": 6,
     "rating": 4.8,
     "isHot": true,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": true,
+    "isBestSeller": true
   },
   {
     "name": "AFNAN Oud Pour Homme",
@@ -981,6 +1152,13 @@ const products = [
         "stock": 71
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2000000,
+        "salePrice": 2000000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 4000000,
@@ -993,7 +1171,9 @@ const products = [
     "stock": 12,
     "rating": 5,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": true
   },
   {
     "name": "CHANEL Sport Pour Homme",
@@ -1035,6 +1215,13 @@ const products = [
         "stock": 32
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1800000,
+        "salePrice": 1800000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 3600000,
@@ -1047,7 +1234,9 @@ const products = [
     "stock": 15,
     "rating": 3.7,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "CHANEL Velvet Edition",
@@ -1089,6 +1278,13 @@ const products = [
         "stock": 52
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1950000,
+        "salePrice": 1950000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 3900000,
@@ -1101,7 +1297,9 @@ const products = [
     "stock": 25,
     "rating": 3.7,
     "isHot": true,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "CHANEL Noir Pour Femme",
@@ -1127,6 +1325,13 @@ const products = [
         "price": 2500000,
         "salePrice": 2500000,
         "stock": 14
+      },
+      {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1250000,
+        "salePrice": 1250000,
+        "stock": 50
       }
     ],
     "price": 2500000,
@@ -1134,7 +1339,9 @@ const products = [
     "stock": 14,
     "rating": 5,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": true,
+    "isBestSeller": false
   },
   {
     "name": "CHANEL Velvet Unisex",
@@ -1176,6 +1383,13 @@ const products = [
         "stock": 45
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2950000,
+        "salePrice": 2507500,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 5900000,
@@ -1188,7 +1402,9 @@ const products = [
     "stock": 12,
     "rating": 4.6,
     "isHot": true,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": true
   },
   {
     "name": "CHANEL Magic Pour Femme",
@@ -1230,6 +1446,13 @@ const products = [
         "stock": 74
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2650000,
+        "salePrice": 2650000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 5300000,
@@ -1242,7 +1465,9 @@ const products = [
     "stock": 9,
     "rating": 3.6,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "CHANEL Blue Pour Homme",
@@ -1268,6 +1493,13 @@ const products = [
         "price": 5800000,
         "salePrice": 5800000,
         "stock": 18
+      },
+      {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2900000,
+        "salePrice": 2900000,
+        "stock": 50
       }
     ],
     "price": 5800000,
@@ -1275,7 +1507,9 @@ const products = [
     "stock": 18,
     "rating": 5,
     "isHot": true,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "CHANEL Cologne Unisex",
@@ -1317,6 +1551,13 @@ const products = [
         "stock": 12
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2450000,
+        "salePrice": 2450000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 4900000,
@@ -1329,7 +1570,9 @@ const products = [
     "stock": 18,
     "rating": 4.9,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "CHANEL Fraiche Pour Homme",
@@ -1355,6 +1598,13 @@ const products = [
         "price": 5200000,
         "salePrice": 4264000,
         "stock": 21
+      },
+      {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2600000,
+        "salePrice": 2210000,
+        "stock": 50
       }
     ],
     "price": 5200000,
@@ -1362,7 +1612,9 @@ const products = [
     "stock": 21,
     "rating": 4.5,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "CHANEL Noir Pour Homme",
@@ -1404,6 +1656,13 @@ const products = [
         "stock": 65
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2800000,
+        "salePrice": 2800000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 5600000,
@@ -1416,7 +1675,9 @@ const products = [
     "stock": 5,
     "rating": 4.3,
     "isHot": true,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": true,
+    "isBestSeller": false
   },
   {
     "name": "CHANEL Extreme EDT",
@@ -1442,6 +1703,13 @@ const products = [
         "price": 5500000,
         "salePrice": 4565000,
         "stock": 26
+      },
+      {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2750000,
+        "salePrice": 2337500,
+        "stock": 50
       }
     ],
     "price": 5500000,
@@ -1449,7 +1717,9 @@ const products = [
     "stock": 26,
     "rating": 3.7,
     "isHot": true,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": true
   },
   {
     "name": "CHANEL Bloom EDP",
@@ -1475,6 +1745,13 @@ const products = [
         "price": 3200000,
         "salePrice": 3200000,
         "stock": 8
+      },
+      {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1600000,
+        "salePrice": 1600000,
+        "stock": 50
       }
     ],
     "price": 3200000,
@@ -1482,7 +1759,9 @@ const products = [
     "stock": 8,
     "rating": 3.5,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "CHANEL Bloom EDT",
@@ -1524,6 +1803,13 @@ const products = [
         "stock": 78
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1950000,
+        "salePrice": 1657500,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 3900000,
@@ -1536,7 +1822,9 @@ const products = [
     "stock": 16,
     "rating": 4.3,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "CHANEL Bloom Unisex",
@@ -1578,6 +1866,13 @@ const products = [
         "stock": 69
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1000000,
+        "salePrice": 1000000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 2000000,
@@ -1590,7 +1885,9 @@ const products = [
     "stock": 19,
     "rating": 4.5,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": true,
+    "isBestSeller": false
   },
   {
     "name": "CHANEL Intense Pour Homme",
@@ -1616,6 +1913,13 @@ const products = [
         "price": 4000000,
         "salePrice": 4000000,
         "stock": 28
+      },
+      {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2000000,
+        "salePrice": 2000000,
+        "stock": 50
       }
     ],
     "price": 4000000,
@@ -1623,7 +1927,9 @@ const products = [
     "stock": 28,
     "rating": 4.6,
     "isHot": true,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": true,
+    "isBestSeller": false
   },
   {
     "name": "CHANEL L'eau Pour Femme",
@@ -1665,6 +1971,13 @@ const products = [
         "stock": 53
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 750000,
+        "salePrice": 637500,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 1500000,
@@ -1677,7 +1990,9 @@ const products = [
     "stock": 24,
     "rating": 4.4,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": true
   },
   {
     "name": "CHANEL L'eau Pour Homme",
@@ -1719,6 +2034,13 @@ const products = [
         "stock": 24
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1800000,
+        "salePrice": 1800000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 3600000,
@@ -1731,7 +2053,9 @@ const products = [
     "stock": 13,
     "rating": 5,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": true,
+    "isBestSeller": false
   },
   {
     "name": "CHANEL Extreme Unisex",
@@ -1773,6 +2097,13 @@ const products = [
         "stock": 80
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2050000,
+        "salePrice": 1742500,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 4100000,
@@ -1785,7 +2116,9 @@ const products = [
     "stock": 15,
     "rating": 4.6,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": true
   },
   {
     "name": "CHANEL Blue Edition",
@@ -1827,6 +2160,13 @@ const products = [
         "stock": 55
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2750000,
+        "salePrice": 2750000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 5500000,
@@ -1839,7 +2179,9 @@ const products = [
     "stock": 15,
     "rating": 3.6,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": true
   },
   {
     "name": "CHANEL Cologne Edition",
@@ -1881,6 +2223,13 @@ const products = [
         "stock": 71
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1000000,
+        "salePrice": 1000000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 2000000,
@@ -1893,7 +2242,9 @@ const products = [
     "stock": 8,
     "rating": 4.9,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": true,
+    "isBestSeller": false
   },
   {
     "name": "CHANEL Jour EDT",
@@ -1935,6 +2286,13 @@ const products = [
         "stock": 34
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1500000,
+        "salePrice": 1500000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 3000000,
@@ -1947,7 +2305,9 @@ const products = [
     "stock": 19,
     "rating": 5,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": true
   },
   {
     "name": "GUCCI Rouge Pour Femme",
@@ -1989,6 +2349,13 @@ const products = [
         "stock": 60
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2350000,
+        "salePrice": 1997500,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 4700000,
@@ -2001,7 +2368,9 @@ const products = [
     "stock": 17,
     "rating": 3.9,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "GUCCI Gold Pour Homme",
@@ -2043,6 +2412,13 @@ const products = [
         "stock": 16
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1850000,
+        "salePrice": 1850000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 3700000,
@@ -2055,7 +2431,9 @@ const products = [
     "stock": 20,
     "rating": 3.6,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": true
   },
   {
     "name": "GUCCI L'eau EDT",
@@ -2097,6 +2475,13 @@ const products = [
         "stock": 74
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2650000,
+        "salePrice": 2650000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 5300000,
@@ -2109,7 +2494,9 @@ const products = [
     "stock": 15,
     "rating": 4.6,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": true,
+    "isBestSeller": false
   },
   {
     "name": "GUCCI Noir EDP",
@@ -2135,6 +2522,13 @@ const products = [
         "price": 5300000,
         "salePrice": 5300000,
         "stock": 7
+      },
+      {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2650000,
+        "salePrice": 2650000,
+        "stock": 50
       }
     ],
     "price": 5300000,
@@ -2142,7 +2536,9 @@ const products = [
     "stock": 7,
     "rating": 4.2,
     "isHot": true,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": true,
+    "isBestSeller": false
   },
   {
     "name": "GUCCI Blue Pour Femme",
@@ -2184,6 +2580,13 @@ const products = [
         "stock": 14
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1350000,
+        "salePrice": 1350000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 2700000,
@@ -2196,7 +2599,9 @@ const products = [
     "stock": 17,
     "rating": 4.2,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "GUCCI Nuit Unisex",
@@ -2238,6 +2643,13 @@ const products = [
         "stock": 20
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2900000,
+        "salePrice": 2465000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 5800000,
@@ -2250,7 +2662,9 @@ const products = [
     "stock": 26,
     "rating": 4.2,
     "isHot": true,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "GUCCI Absolu Pour Homme",
@@ -2292,6 +2706,13 @@ const products = [
         "stock": 23
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1650000,
+        "salePrice": 1650000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 3300000,
@@ -2304,7 +2725,9 @@ const products = [
     "stock": 23,
     "rating": 4.2,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": true,
+    "isBestSeller": true
   },
   {
     "name": "GUCCI Magic Unisex",
@@ -2346,6 +2769,13 @@ const products = [
         "stock": 43
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 850000,
+        "salePrice": 850000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 1700000,
@@ -2358,7 +2788,9 @@ const products = [
     "stock": 28,
     "rating": 4,
     "isHot": true,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "GUCCI Oud Unisex",
@@ -2400,6 +2832,13 @@ const products = [
         "stock": 48
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 850000,
+        "salePrice": 850000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 1700000,
@@ -2412,7 +2851,9 @@ const products = [
     "stock": 27,
     "rating": 4.2,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": true
   },
   {
     "name": "GUCCI Oud EDP",
@@ -2438,6 +2879,13 @@ const products = [
         "price": 4900000,
         "salePrice": 4900000,
         "stock": 12
+      },
+      {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2450000,
+        "salePrice": 2450000,
+        "stock": 50
       }
     ],
     "price": 4900000,
@@ -2445,7 +2893,9 @@ const products = [
     "stock": 12,
     "rating": 4.1,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "GUCCI Bloom Unisex",
@@ -2487,6 +2937,13 @@ const products = [
         "stock": 34
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1700000,
+        "salePrice": 1700000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 3400000,
@@ -2499,7 +2956,9 @@ const products = [
     "stock": 16,
     "rating": 4.8,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "GUCCI L'eau Edition",
@@ -2541,6 +3000,13 @@ const products = [
         "stock": 77
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2550000,
+        "salePrice": 2167500,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 5100000,
@@ -2553,7 +3019,9 @@ const products = [
     "stock": 5,
     "rating": 4.2,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "GUCCI Oud Pour Femme",
@@ -2595,6 +3063,13 @@ const products = [
         "stock": 29
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2800000,
+        "salePrice": 2800000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 5600000,
@@ -2607,7 +3082,9 @@ const products = [
     "stock": 5,
     "rating": 4,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "GUCCI Parfum EDT",
@@ -2649,6 +3126,13 @@ const products = [
         "stock": 38
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1750000,
+        "salePrice": 1487500,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 3500000,
@@ -2661,7 +3145,9 @@ const products = [
     "stock": 29,
     "rating": 4.6,
     "isHot": true,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "GUCCI Velvet Edition",
@@ -2703,6 +3189,13 @@ const products = [
         "stock": 63
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1150000,
+        "salePrice": 977500,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 2300000,
@@ -2715,7 +3208,9 @@ const products = [
     "stock": 27,
     "rating": 3.7,
     "isHot": true,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "GUCCI Nuit Pour Homme",
@@ -2741,6 +3236,13 @@ const products = [
         "price": 2500000,
         "salePrice": 2050000,
         "stock": 15
+      },
+      {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1250000,
+        "salePrice": 1062500,
+        "stock": 50
       }
     ],
     "price": 2500000,
@@ -2748,7 +3250,9 @@ const products = [
     "stock": 15,
     "rating": 4.5,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "GUCCI Classic Edition",
@@ -2790,6 +3294,13 @@ const products = [
         "stock": 42
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 800000,
+        "salePrice": 800000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 1600000,
@@ -2802,7 +3313,9 @@ const products = [
     "stock": 30,
     "rating": 3.8,
     "isHot": true,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "GUCCI Absolu EDT",
@@ -2844,6 +3357,13 @@ const products = [
         "stock": 64
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2300000,
+        "salePrice": 1955000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 4600000,
@@ -2856,7 +3376,9 @@ const products = [
     "stock": 21,
     "rating": 4,
     "isHot": true,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "GUCCI Blue Pour Homme",
@@ -2898,6 +3420,13 @@ const products = [
         "stock": 59
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1800000,
+        "salePrice": 1800000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 3600000,
@@ -2910,7 +3439,9 @@ const products = [
     "stock": 25,
     "rating": 3.9,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "GUCCI Noir Pour Homme",
@@ -2952,6 +3483,13 @@ const products = [
         "stock": 21
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2850000,
+        "salePrice": 2850000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 5700000,
@@ -2964,7 +3502,9 @@ const products = [
     "stock": 26,
     "rating": 5,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": true,
+    "isBestSeller": false
   },
   {
     "name": "HERMES Intense Unisex",
@@ -3006,6 +3546,13 @@ const products = [
         "stock": 72
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1400000,
+        "salePrice": 1190000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 2800000,
@@ -3018,7 +3565,9 @@ const products = [
     "stock": 23,
     "rating": 4.9,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": true,
+    "isBestSeller": false
   },
   {
     "name": "HERMES Nuit Pour Femme",
@@ -3060,6 +3609,13 @@ const products = [
         "stock": 34
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2850000,
+        "salePrice": 2850000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 5700000,
@@ -3072,7 +3628,9 @@ const products = [
     "stock": 21,
     "rating": 4.9,
     "isHot": true,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": true,
+    "isBestSeller": true
   },
   {
     "name": "HERMES Blanc Pour Femme",
@@ -3114,6 +3672,13 @@ const products = [
         "stock": 10
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1600000,
+        "salePrice": 1600000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 3200000,
@@ -3126,7 +3691,9 @@ const products = [
     "stock": 25,
     "rating": 5,
     "isHot": true,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": true,
+    "isBestSeller": false
   },
   {
     "name": "HERMES Gold Unisex",
@@ -3168,6 +3735,13 @@ const products = [
         "stock": 69
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1150000,
+        "salePrice": 977500,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 2300000,
@@ -3180,7 +3754,9 @@ const products = [
     "stock": 23,
     "rating": 4.7,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "HERMES Noir Pour Femme",
@@ -3206,6 +3782,13 @@ const products = [
         "price": 3300000,
         "salePrice": 3300000,
         "stock": 26
+      },
+      {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1650000,
+        "salePrice": 1650000,
+        "stock": 50
       }
     ],
     "price": 3300000,
@@ -3213,7 +3796,9 @@ const products = [
     "stock": 26,
     "rating": 3.9,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "HERMES Cologne Edition",
@@ -3255,6 +3840,13 @@ const products = [
         "stock": 53
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2950000,
+        "salePrice": 2507500,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 5900000,
@@ -3267,7 +3859,9 @@ const products = [
     "stock": 13,
     "rating": 4.6,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "HERMES Blue Pour Homme",
@@ -3293,6 +3887,13 @@ const products = [
         "price": 1600000,
         "salePrice": 1600000,
         "stock": 19
+      },
+      {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 800000,
+        "salePrice": 800000,
+        "stock": 50
       }
     ],
     "price": 1600000,
@@ -3300,7 +3901,9 @@ const products = [
     "stock": 19,
     "rating": 3.8,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": true
   },
   {
     "name": "HERMES Magic Edition",
@@ -3326,6 +3929,13 @@ const products = [
         "price": 4500000,
         "salePrice": 3780000,
         "stock": 30
+      },
+      {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2250000,
+        "salePrice": 1912500,
+        "stock": 50
       }
     ],
     "price": 4500000,
@@ -3333,7 +3943,9 @@ const products = [
     "stock": 30,
     "rating": 3.5,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "HERMES Extreme Pour Homme",
@@ -3375,6 +3987,13 @@ const products = [
         "stock": 78
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2950000,
+        "salePrice": 2507500,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 5900000,
@@ -3387,7 +4006,9 @@ const products = [
     "stock": 26,
     "rating": 4.6,
     "isHot": true,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "HERMES Gold Edition",
@@ -3429,6 +4050,13 @@ const products = [
         "stock": 69
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2350000,
+        "salePrice": 1997500,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 4700000,
@@ -3441,7 +4069,9 @@ const products = [
     "stock": 28,
     "rating": 3.8,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "HERMES Parfum EDT",
@@ -3467,6 +4097,13 @@ const products = [
         "price": 3800000,
         "salePrice": 3800000,
         "stock": 8
+      },
+      {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1900000,
+        "salePrice": 1900000,
+        "stock": 50
       }
     ],
     "price": 3800000,
@@ -3474,7 +4111,9 @@ const products = [
     "stock": 8,
     "rating": 4.4,
     "isHot": true,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "HERMES Blue EDP",
@@ -3516,6 +4155,13 @@ const products = [
         "stock": 37
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2050000,
+        "salePrice": 1742500,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 4100000,
@@ -3528,7 +4174,9 @@ const products = [
     "stock": 21,
     "rating": 3.6,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "HERMES Absolu EDP",
@@ -3570,6 +4218,13 @@ const products = [
         "stock": 24
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1550000,
+        "salePrice": 1550000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 3100000,
@@ -3582,7 +4237,9 @@ const products = [
     "stock": 29,
     "rating": 3.6,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "HERMES Classic Edition",
@@ -3608,6 +4265,13 @@ const products = [
         "price": 5800000,
         "salePrice": 4756000,
         "stock": 29
+      },
+      {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2900000,
+        "salePrice": 2465000,
+        "stock": 50
       }
     ],
     "price": 5800000,
@@ -3615,7 +4279,9 @@ const products = [
     "stock": 29,
     "rating": 5,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": true
   },
   {
     "name": "HERMES Blue Unisex",
@@ -3657,6 +4323,13 @@ const products = [
         "stock": 64
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1350000,
+        "salePrice": 1350000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 2700000,
@@ -3669,7 +4342,9 @@ const products = [
     "stock": 27,
     "rating": 3.8,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": true,
+    "isBestSeller": true
   },
   {
     "name": "HERMES Fraiche Edition",
@@ -3711,6 +4386,13 @@ const products = [
         "stock": 53
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1400000,
+        "salePrice": 1190000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 2800000,
@@ -3723,7 +4405,9 @@ const products = [
     "stock": 18,
     "rating": 3.6,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "HERMES Blanc EDP",
@@ -3765,6 +4449,13 @@ const products = [
         "stock": 74
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1450000,
+        "salePrice": 1232500,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 2900000,
@@ -3777,7 +4468,9 @@ const products = [
     "stock": 24,
     "rating": 4.1,
     "isHot": true,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "HERMES Bloom Pour Femme",
@@ -3819,6 +4512,13 @@ const products = [
         "stock": 56
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1200000,
+        "salePrice": 1200000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 2400000,
@@ -3831,7 +4531,9 @@ const products = [
     "stock": 12,
     "rating": 4.5,
     "isHot": true,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "HERMES Rouge Unisex",
@@ -3873,6 +4575,13 @@ const products = [
         "stock": 63
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1900000,
+        "salePrice": 1615000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 3800000,
@@ -3885,7 +4594,9 @@ const products = [
     "stock": 18,
     "rating": 4.7,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": true
   },
   {
     "name": "HERMES Absolu Pour Homme",
@@ -3927,6 +4638,13 @@ const products = [
         "stock": 29
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1550000,
+        "salePrice": 1550000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 3100000,
@@ -3939,7 +4657,9 @@ const products = [
     "stock": 16,
     "rating": 4.9,
     "isHot": true,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": true,
+    "isBestSeller": true
   },
   {
     "name": "YSL Parfum Pour Femme",
@@ -3981,6 +4701,13 @@ const products = [
         "stock": 40
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2850000,
+        "salePrice": 2422500,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 5700000,
@@ -3993,7 +4720,9 @@ const products = [
     "stock": 11,
     "rating": 4.8,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "YSL Jour Pour Femme",
@@ -4035,6 +4764,13 @@ const products = [
         "stock": 43
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2750000,
+        "salePrice": 2750000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 5500000,
@@ -4047,7 +4783,9 @@ const products = [
     "stock": 29,
     "rating": 4.5,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": true
   },
   {
     "name": "YSL L'eau EDT",
@@ -4089,6 +4827,13 @@ const products = [
         "stock": 71
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1300000,
+        "salePrice": 1105000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 2600000,
@@ -4101,7 +4846,9 @@ const products = [
     "stock": 14,
     "rating": 4.9,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "YSL Magic Pour Homme",
@@ -4143,6 +4890,13 @@ const products = [
         "stock": 53
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1450000,
+        "salePrice": 1450000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 2900000,
@@ -4155,7 +4909,9 @@ const products = [
     "stock": 5,
     "rating": 4.9,
     "isHot": true,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "YSL L'eau EDP",
@@ -4181,6 +4937,13 @@ const products = [
         "price": 3900000,
         "salePrice": 3003000,
         "stock": 27
+      },
+      {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1950000,
+        "salePrice": 1657500,
+        "stock": 50
       }
     ],
     "price": 3900000,
@@ -4188,7 +4951,9 @@ const products = [
     "stock": 27,
     "rating": 3.8,
     "isHot": true,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "YSL Cologne EDT",
@@ -4230,6 +4995,13 @@ const products = [
         "stock": 37
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2200000,
+        "salePrice": 1870000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 4400000,
@@ -4242,7 +5014,9 @@ const products = [
     "stock": 28,
     "rating": 3.7,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": true,
+    "isBestSeller": false
   },
   {
     "name": "YSL Absolu EDT",
@@ -4268,6 +5042,13 @@ const products = [
         "price": 5000000,
         "salePrice": 5000000,
         "stock": 9
+      },
+      {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2500000,
+        "salePrice": 2500000,
+        "stock": 50
       }
     ],
     "price": 5000000,
@@ -4275,7 +5056,9 @@ const products = [
     "stock": 9,
     "rating": 4.1,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "YSL Intense EDP",
@@ -4317,6 +5100,13 @@ const products = [
         "stock": 30
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2600000,
+        "salePrice": 2210000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 5200000,
@@ -4329,7 +5119,9 @@ const products = [
     "stock": 30,
     "rating": 4.9,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": true
   },
   {
     "name": "YSL Fraiche Edition",
@@ -4355,6 +5147,13 @@ const products = [
         "price": 3500000,
         "salePrice": 2975000,
         "stock": 10
+      },
+      {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1750000,
+        "salePrice": 1487500,
+        "stock": 50
       }
     ],
     "price": 3500000,
@@ -4362,7 +5161,9 @@ const products = [
     "stock": 10,
     "rating": 4.4,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": true
   },
   {
     "name": "YSL Bloom EDT",
@@ -4404,6 +5205,13 @@ const products = [
         "stock": 50
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 850000,
+        "salePrice": 850000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 1700000,
@@ -4416,7 +5224,9 @@ const products = [
     "stock": 26,
     "rating": 3.5,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "YSL Royal Edition",
@@ -4458,6 +5268,13 @@ const products = [
         "stock": 39
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1550000,
+        "salePrice": 1317500,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 3100000,
@@ -4470,7 +5287,9 @@ const products = [
     "stock": 26,
     "rating": 4.9,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": true,
+    "isBestSeller": false
   },
   {
     "name": "YSL Blanc Pour Homme",
@@ -4512,6 +5331,13 @@ const products = [
         "stock": 40
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1200000,
+        "salePrice": 1200000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 2400000,
@@ -4524,7 +5350,9 @@ const products = [
     "stock": 12,
     "rating": 3.8,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": true,
+    "isBestSeller": true
   },
   {
     "name": "YSL Cologne Pour Homme",
@@ -4566,6 +5394,13 @@ const products = [
         "stock": 43
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1250000,
+        "salePrice": 1062500,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 2500000,
@@ -4578,7 +5413,9 @@ const products = [
     "stock": 10,
     "rating": 4.5,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "YSL Blue Pour Femme",
@@ -4620,6 +5457,13 @@ const products = [
         "stock": 57
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2250000,
+        "salePrice": 2250000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 4500000,
@@ -4632,7 +5476,9 @@ const products = [
     "stock": 15,
     "rating": 3.7,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": true,
+    "isBestSeller": true
   },
   {
     "name": "YSL Velvet EDT",
@@ -4674,6 +5520,13 @@ const products = [
         "stock": 30
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1950000,
+        "salePrice": 1657500,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 3900000,
@@ -4686,7 +5539,9 @@ const products = [
     "stock": 19,
     "rating": 4.3,
     "isHot": true,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": true,
+    "isBestSeller": false
   },
   {
     "name": "YSL Absolu Pour Femme",
@@ -4728,6 +5583,13 @@ const products = [
         "stock": 21
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1800000,
+        "salePrice": 1530000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 3600000,
@@ -4740,7 +5602,9 @@ const products = [
     "stock": 27,
     "rating": 3.5,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "YSL Elixir Edition",
@@ -4766,6 +5630,13 @@ const products = [
         "price": 3500000,
         "salePrice": 2625000,
         "stock": 22
+      },
+      {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1750000,
+        "salePrice": 1487500,
+        "stock": 50
       }
     ],
     "price": 3500000,
@@ -4773,7 +5644,9 @@ const products = [
     "stock": 22,
     "rating": 4.3,
     "isHot": true,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "YSL Jour EDP",
@@ -4815,6 +5688,13 @@ const products = [
         "stock": 54
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1300000,
+        "salePrice": 1105000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 2600000,
@@ -4827,7 +5707,9 @@ const products = [
     "stock": 27,
     "rating": 4.7,
     "isHot": true,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": true,
+    "isBestSeller": false
   },
   {
     "name": "YSL Royal Unisex",
@@ -4853,6 +5735,13 @@ const products = [
         "price": 2500000,
         "salePrice": 2500000,
         "stock": 7
+      },
+      {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1250000,
+        "salePrice": 1250000,
+        "stock": 50
       }
     ],
     "price": 2500000,
@@ -4860,7 +5749,9 @@ const products = [
     "stock": 7,
     "rating": 4.9,
     "isHot": true,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "YSL Extreme EDT",
@@ -4902,6 +5793,13 @@ const products = [
         "stock": 20
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1000000,
+        "salePrice": 850000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 2000000,
@@ -4914,7 +5812,9 @@ const products = [
     "stock": 20,
     "rating": 3.5,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "DIOR Gold Pour Homme",
@@ -4940,6 +5840,13 @@ const products = [
         "price": 4900000,
         "salePrice": 4410000,
         "stock": 8
+      },
+      {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2450000,
+        "salePrice": 2082500,
+        "stock": 50
       }
     ],
     "price": 4900000,
@@ -4947,7 +5854,9 @@ const products = [
     "stock": 8,
     "rating": 4.1,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": true,
+    "isBestSeller": true
   },
   {
     "name": "DIOR Absolu Pour Femme",
@@ -4989,6 +5898,13 @@ const products = [
         "stock": 66
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1550000,
+        "salePrice": 1317500,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 3100000,
@@ -5001,7 +5917,9 @@ const products = [
     "stock": 5,
     "rating": 3.6,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "DIOR Parfum Pour Femme",
@@ -5027,6 +5945,13 @@ const products = [
         "price": 3800000,
         "salePrice": 3800000,
         "stock": 16
+      },
+      {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1900000,
+        "salePrice": 1900000,
+        "stock": 50
       }
     ],
     "price": 3800000,
@@ -5034,7 +5959,9 @@ const products = [
     "stock": 16,
     "rating": 4.5,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": true,
+    "isBestSeller": false
   },
   {
     "name": "DIOR Magic Unisex",
@@ -5076,6 +6003,13 @@ const products = [
         "stock": 29
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 950000,
+        "salePrice": 807500,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 1900000,
@@ -5088,7 +6022,9 @@ const products = [
     "stock": 10,
     "rating": 4.6,
     "isHot": true,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": true,
+    "isBestSeller": false
   },
   {
     "name": "DIOR Classic EDP",
@@ -5114,6 +6050,13 @@ const products = [
         "price": 5600000,
         "salePrice": 5600000,
         "stock": 8
+      },
+      {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2800000,
+        "salePrice": 2800000,
+        "stock": 50
       }
     ],
     "price": 5600000,
@@ -5121,7 +6064,9 @@ const products = [
     "stock": 8,
     "rating": 5,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "DIOR Fraiche EDT",
@@ -5147,6 +6092,13 @@ const products = [
         "price": 3000000,
         "salePrice": 3000000,
         "stock": 6
+      },
+      {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1500000,
+        "salePrice": 1500000,
+        "stock": 50
       }
     ],
     "price": 3000000,
@@ -5154,7 +6106,9 @@ const products = [
     "stock": 6,
     "rating": 4.3,
     "isHot": true,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "DIOR Jour Unisex",
@@ -5196,6 +6150,13 @@ const products = [
         "stock": 42
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2750000,
+        "salePrice": 2750000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 5500000,
@@ -5208,7 +6169,9 @@ const products = [
     "stock": 28,
     "rating": 3.5,
     "isHot": true,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": true
   },
   {
     "name": "DIOR Gold EDP",
@@ -5250,6 +6213,13 @@ const products = [
         "stock": 29
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1250000,
+        "salePrice": 1250000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 2500000,
@@ -5262,7 +6232,9 @@ const products = [
     "stock": 23,
     "rating": 4,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": true,
+    "isBestSeller": true
   },
   {
     "name": "DIOR Blanc Pour Homme",
@@ -5304,6 +6276,13 @@ const products = [
         "stock": 69
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1500000,
+        "salePrice": 1500000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 3000000,
@@ -5316,7 +6295,9 @@ const products = [
     "stock": 6,
     "rating": 3.9,
     "isHot": true,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": true,
+    "isBestSeller": false
   },
   {
     "name": "DIOR Jour Edition",
@@ -5342,6 +6323,13 @@ const products = [
         "price": 4200000,
         "salePrice": 3612000,
         "stock": 26
+      },
+      {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2100000,
+        "salePrice": 1785000,
+        "stock": 50
       }
     ],
     "price": 4200000,
@@ -5349,7 +6337,9 @@ const products = [
     "stock": 26,
     "rating": 4.9,
     "isHot": true,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "DIOR Elixir EDP",
@@ -5375,6 +6365,13 @@ const products = [
         "price": 2300000,
         "salePrice": 1863000,
         "stock": 14
+      },
+      {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1150000,
+        "salePrice": 977500,
+        "stock": 50
       }
     ],
     "price": 2300000,
@@ -5382,7 +6379,9 @@ const products = [
     "stock": 14,
     "rating": 3.6,
     "isHot": true,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": true,
+    "isBestSeller": true
   },
   {
     "name": "DIOR Bloom Edition",
@@ -5424,6 +6423,13 @@ const products = [
         "stock": 30
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2450000,
+        "salePrice": 2450000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 4900000,
@@ -5436,7 +6442,9 @@ const products = [
     "stock": 28,
     "rating": 4.7,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "DIOR Oud Pour Femme",
@@ -5478,6 +6486,13 @@ const products = [
         "stock": 67
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2250000,
+        "salePrice": 2250000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 4500000,
@@ -5490,7 +6505,9 @@ const products = [
     "stock": 12,
     "rating": 4.2,
     "isHot": true,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": true,
+    "isBestSeller": true
   },
   {
     "name": "DIOR Absolu Unisex",
@@ -5532,6 +6549,13 @@ const products = [
         "stock": 46
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2450000,
+        "salePrice": 2082500,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 4900000,
@@ -5544,7 +6568,9 @@ const products = [
     "stock": 7,
     "rating": 4,
     "isHot": true,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "DIOR Magic Edition",
@@ -5586,6 +6612,13 @@ const products = [
         "stock": 60
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2350000,
+        "salePrice": 1997500,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 4700000,
@@ -5598,7 +6631,9 @@ const products = [
     "stock": 14,
     "rating": 4.1,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "DIOR L'eau Pour Homme",
@@ -5640,6 +6675,13 @@ const products = [
         "stock": 54
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1100000,
+        "salePrice": 935000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 2200000,
@@ -5652,7 +6694,9 @@ const products = [
     "stock": 25,
     "rating": 3.6,
     "isHot": false,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "DIOR Royal EDP",
@@ -5694,6 +6738,13 @@ const products = [
         "stock": 72
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 1000000,
+        "salePrice": 850000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 2000000,
@@ -5706,7 +6757,9 @@ const products = [
     "stock": 8,
     "rating": 3.6,
     "isHot": true,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": false
   },
   {
     "name": "DIOR Intense EDP",
@@ -5732,6 +6785,13 @@ const products = [
         "price": 5200000,
         "salePrice": 5200000,
         "stock": 21
+      },
+      {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2600000,
+        "salePrice": 2600000,
+        "stock": 50
       }
     ],
     "price": 5200000,
@@ -5739,7 +6799,9 @@ const products = [
     "stock": 21,
     "rating": 3.5,
     "isHot": true,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": false,
+    "isBestSeller": true
   },
   {
     "name": "DIOR Magic EDP",
@@ -5781,6 +6843,13 @@ const products = [
         "stock": 34
       },
       {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2650000,
+        "salePrice": 2650000,
+        "stock": 50
+      },
+      {
         "ml": 100,
         "label": "100ml (Full box)",
         "price": 5300000,
@@ -5793,7 +6862,9 @@ const products = [
     "stock": 9,
     "rating": 4.2,
     "isHot": false,
-    "isSale": false
+    "isSale": false,
+    "isNewArrival": true,
+    "isBestSeller": true
   },
   {
     "name": "DIOR Bloom Pour Homme",
@@ -5819,6 +6890,13 @@ const products = [
         "price": 5600000,
         "salePrice": 4424000,
         "stock": 5
+      },
+      {
+        "ml": 50,
+        "label": "50ml (Chiết)",
+        "price": 2800000,
+        "salePrice": 2380000,
+        "stock": 50
       }
     ],
     "price": 5600000,
@@ -5826,7 +6904,9 @@ const products = [
     "stock": 5,
     "rating": 4.6,
     "isHot": true,
-    "isSale": true
+    "isSale": true,
+    "isNewArrival": false,
+    "isBestSeller": true
   }
 ];
 

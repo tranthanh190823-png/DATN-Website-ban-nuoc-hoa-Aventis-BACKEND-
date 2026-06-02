@@ -17,6 +17,8 @@ const authUser = async (req, res, next) => {
                 _id: user._id,
                 name: user.name,
                 email: user.email,
+                phone: user.phone,
+                addresses: user.addresses,
                 isAdmin: user.isAdmin,
                 token: generateToken(res, user._id)
             });
@@ -60,6 +62,8 @@ const registerUser = async (req, res, next) => {
                 _id: user._id,
                 name: user.name,
                 email: user.email,
+                phone: user.phone,
+                addresses: user.addresses,
                 isAdmin: user.isAdmin,
                 token: generateToken(res, user._id)
             });
@@ -84,6 +88,8 @@ const getUserProfile = async (req, res, next) => {
                 _id: user._id,
                 name: user.name,
                 email: user.email,
+                phone: user.phone,
+                addresses: user.addresses,
                 isAdmin: user.isAdmin,
             });
         } else {
@@ -112,8 +118,25 @@ const updateUserProfile = async (req, res, next) => {
             
             user.email = req.body.email || user.email;
 
+            if (req.body.phone !== undefined) {
+                user.phone = req.body.phone;
+            }
+
             if (req.body.password) {
+                if (!req.body.currentPassword) {
+                    res.status(400);
+                    throw new Error('Vui lòng nhập mật khẩu hiện tại để đổi mật khẩu');
+                }
+                const isMatch = await user.matchPassword(req.body.currentPassword);
+                if (!isMatch) {
+                    res.status(400);
+                    throw new Error('Mật khẩu hiện tại không đúng');
+                }
                 user.password = req.body.password;
+            }
+
+            if (req.body.addresses) {
+                user.addresses = req.body.addresses;
             }
 
             const updatedUser = await user.save();
@@ -122,6 +145,8 @@ const updateUserProfile = async (req, res, next) => {
                 _id: updatedUser._id,
                 name: updatedUser.name,
                 email: updatedUser.email,
+                phone: updatedUser.phone,
+                addresses: updatedUser.addresses,
                 isAdmin: updatedUser.isAdmin,
                 token: generateToken(res, updatedUser._id)
             });
