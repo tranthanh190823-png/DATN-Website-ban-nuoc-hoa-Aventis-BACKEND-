@@ -36,6 +36,21 @@ const addOrderItems = async (req, res, next) => {
 
             const createdOrder = await order.save();
 
+            // Cập nhật tồn kho (trừ kho)
+            for (const item of orderItems) {
+                const product = await Product.findById(item.product);
+                if (product) {
+                    product.stock = Math.max(0, product.stock - item.qty);
+                    if (item.volume && product.volumes) {
+                        const volumeObj = product.volumes.find(v => v.ml === item.volume);
+                        if (volumeObj) {
+                            volumeObj.stock = Math.max(0, volumeObj.stock - item.qty);
+                        }
+                    }
+                    await product.save();
+                }
+            }
+
             // Cập nhật lượt sử dụng Voucher (nếu có)
             if (voucherCode) {
                 const voucher = await Voucher.findOne({ code: voucherCode.toUpperCase() });
@@ -179,6 +194,12 @@ const cancelOrder = async (req, res, next) => {
             const product = await Product.findById(item.product);
             if (product) {
                 product.stock += item.qty;
+                if (item.volume && product.volumes) {
+                    const volumeObj = product.volumes.find(v => v.ml === item.volume);
+                    if (volumeObj) {
+                        volumeObj.stock += item.qty;
+                    }
+                }
                 await product.save();
             }
         }

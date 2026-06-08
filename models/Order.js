@@ -11,6 +11,7 @@ const orderSchema = mongoose.Schema({
         qty: { type: Number, required: true },
         image: { type: String, required: true },
         price: { type: Number, required: true },
+        volume: { type: Number }, // Lưu dung tích đã chọn (ml) để trừ kho
         product: {
             type: mongoose.Schema.Types.ObjectId,
             required: true,

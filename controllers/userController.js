@@ -2,6 +2,9 @@ import User from '../models/User.js';
 import generateToken from '../utils/generateToken.js';
 import sendEmail from '../utils/sendEmail.js';
 import crypto from 'crypto';
+import { OAuth2Client } from 'google-auth-library';
+
+const client = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
 
 // @desc    Auth user & get token
 // @route   POST /api/users/login
@@ -391,6 +394,47 @@ const resetPassword = async (req, res, next) => {
     }
 };
 
+// @desc    Auth with Google
+// @route   POST /api/users/google
+// @access  Public
+const authGoogle = async (req, res, next) => {
+    try {
+        const { credential } = req.body;
+        const ticket = await client.verifyIdToken({
+            idToken: credential,
+            audience: process.env.GOOGLE_CLIENT_ID,
+        });
+        const payload = ticket.getPayload();
+        const { email, name, given_name, family_name } = payload;
+
+        let user = await User.findOne({ email });
+
+        if (!user) {
+            // Create user if not exists
+            user = await User.create({
+                name: name,
+                firstName: given_name || name.split(' ')[0],
+                lastName: family_name || name.split(' ')[1] || '',
+                email: email,
+                password: crypto.randomBytes(16).toString('hex'),
+            });
+        }
+
+        res.json({
+            _id: user._id,
+            name: user.name,
+            email: user.email,
+            phone: user.phone,
+            addresses: user.addresses,
+            isAdmin: user.isAdmin,
+            token: generateToken(res, user._id)
+        });
+    } catch (error) {
+        res.status(401);
+        next(new Error('Invalid Google Token'));
+    }
+};
+
 export {
     authUser,
     registerUser,
@@ -403,5 +447,6 @@ export {
     deleteUser,
     updateUser,
     forgotPassword,
-    resetPassword
+    resetPassword,
+    authGoogle
 };

@@ -16,6 +16,11 @@ const protect = async (req, res, next) => {
 
             // Find user by id, but exclude password from being returned
             req.user = await User.findById(decoded.userId).select('-password');
+            
+            if (!req.user) {
+                res.status(401);
+                throw new Error('Not authorized, user not found');
+            }
 
             next();
         } catch (error) {

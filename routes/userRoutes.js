@@ -11,7 +11,8 @@ import {
     deleteUser,
     updateUser,
     forgotPassword,
-    resetPassword
+    resetPassword,
+    authGoogle
 } from '../controllers/userController.js';
 import { protect, admin } from '../middlewares/authMiddleware.js';
 
@@ -20,6 +21,7 @@ const router = express.Router();
 router.route('/').post(registerUser).get(protect, admin, getUsers);
 router.route('/staff').get(protect, admin, getStaff).post(protect, admin, createStaff);
 router.post('/login', authUser);
+router.post('/google', authGoogle);
 router.route('/profile')
     .get(protect, getUserProfile)
     .put(protect, updateUserProfile);
