@@ -4,7 +4,30 @@ import sendEmail from '../utils/sendEmail.js';
 import crypto from 'crypto';
 import { OAuth2Client } from 'google-auth-library';
 
-const client = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
+const googleClient = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
+
+const buildAuthResponse = (user, res) => ({
+    _id: user._id,
+    name: user.name,
+    email: user.email,
+    phone: user.phone,
+    addresses: user.addresses,
+    isAdmin: user.isAdmin,
+    token: generateToken(res, user._id)
+});
+
+const splitName = (fullName, fallbackName = 'Unknown') => {
+    const safeName = fullName?.trim() || fallbackName;
+    const nameParts = safeName.split(/\s+/);
+    const firstName = nameParts[0];
+    const lastName = nameParts.length > 1 ? nameParts.slice(1).join(' ') : firstName;
+
+    return {
+        firstName,
+        lastName,
+        name: safeName
+    };
+};
 
 // @desc    Auth user & get token
 // @route   POST /api/users/login
@@ -16,15 +39,7 @@ const authUser = async (req, res, next) => {
         const user = await User.findOne({ email });
 
         if (user && (await user.matchPassword(password))) {
-            res.json({
-                _id: user._id,
-                name: user.name,
-                email: user.email,
-                phone: user.phone,
-                addresses: user.addresses,
-                isAdmin: user.isAdmin,
-                token: generateToken(res, user._id)
-            });
+            res.json(buildAuthResponse(user, res));
         } else {
             res.status(401);
             throw new Error('Invalid email or password');
@@ -48,32 +63,100 @@ const registerUser = async (req, res, next) => {
             throw new Error('User already exists');
         }
 
-        const nameParts = name ? name.split(' ') : ['Unknown'];
-        const firstName = nameParts[0];
-        const lastName = nameParts.length > 1 ? nameParts.slice(1).join(' ') : firstName; // Tránh rỗng
+        const { firstName, lastName, name: normalizedName } = splitName(name);
 
         const user = await User.create({
             firstName,
             lastName,
-            name,
+            name: normalizedName,
             email,
             password
         });
 
         if (user) {
-            res.status(201).json({
-                _id: user._id,
-                name: user.name,
-                email: user.email,
-                phone: user.phone,
-                addresses: user.addresses,
-                isAdmin: user.isAdmin,
-                token: generateToken(res, user._id)
-            });
+            res.status(201).json(buildAuthResponse(user, res));
         } else {
             res.status(400);
             throw new Error('Invalid user data');
         }
+    } catch (error) {
+        next(error);
+    }
+};
+
+// @desc    Authenticate/Register user with Google
+// @route   POST /api/users/google
+// @access  Public
+const authWithGoogle = async (req, res, next) => {
+    try {
+        const { credential } = req.body;
+
+        if (!process.env.GOOGLE_CLIENT_ID) {
+            res.status(500);
+            throw new Error('Google login is not configured on the server');
+        }
+
+        if (!credential) {
+            res.status(400);
+            throw new Error('Google credential is required');
+        }
+
+        const ticket = await googleClient.verifyIdToken({
+            idToken: credential,
+            audience: process.env.GOOGLE_CLIENT_ID
+        });
+
+        const payload = ticket.getPayload();
+
+        if (!payload?.email || !payload.sub) {
+            res.status(400);
+            throw new Error('Invalid Google account data');
+        }
+
+        if (!payload.email_verified) {
+            res.status(400);
+            throw new Error('Google email is not verified');
+        }
+
+        const normalizedEmail = payload.email.toLowerCase().trim();
+        const googleProfile = splitName(payload.name || payload.given_name || normalizedEmail.split('@')[0]);
+
+        let user = await User.findOne({
+            $or: [
+                { email: normalizedEmail },
+                { googleId: payload.sub }
+            ]
+        });
+
+        if (user) {
+            user.email = normalizedEmail;
+            user.googleId = payload.sub;
+            user.googleAvatar = payload.picture || user.googleAvatar;
+            user.avatar = user.avatar || payload.picture;
+
+            if (!user.firstName || !user.lastName) {
+                user.firstName = googleProfile.firstName;
+                user.lastName = googleProfile.lastName;
+            }
+
+            if (!user.name) {
+                user.name = googleProfile.name;
+            }
+
+            await user.save();
+        } else {
+            user = await User.create({
+                firstName: googleProfile.firstName,
+                lastName: googleProfile.lastName,
+                name: googleProfile.name,
+                email: normalizedEmail,
+                googleId: payload.sub,
+                googleAvatar: payload.picture,
+                avatar: payload.picture
+            });
+        }
+
+        res.status(200).json(buildAuthResponse(user, res));
     } catch (error) {
         next(error);
     }
@@ -394,49 +477,9 @@ const resetPassword = async (req, res, next) => {
     }
 };
 
-// @desc    Auth with Google
-// @route   POST /api/users/google
-// @access  Public
-const authGoogle = async (req, res, next) => {
-    try {
-        const { credential } = req.body;
-        const ticket = await client.verifyIdToken({
-            idToken: credential,
-            audience: process.env.GOOGLE_CLIENT_ID,
-        });
-        const payload = ticket.getPayload();
-        const { email, name, given_name, family_name } = payload;
-
-        let user = await User.findOne({ email });
-
-        if (!user) {
-            // Create user if not exists
-            user = await User.create({
-                name: name,
-                firstName: given_name || name.split(' ')[0],
-                lastName: family_name || name.split(' ')[1] || '',
-                email: email,
-                password: crypto.randomBytes(16).toString('hex'),
-            });
-        }
-
-        res.json({
-            _id: user._id,
-            name: user.name,
-            email: user.email,
-            phone: user.phone,
-            addresses: user.addresses,
-            isAdmin: user.isAdmin,
-            token: generateToken(res, user._id)
-        });
-    } catch (error) {
-        res.status(401);
-        next(new Error('Invalid Google Token'));
-    }
-};
-
 export {
     authUser,
+    authWithGoogle,
     registerUser,
     getUserProfile,
     updateUserProfile,
@@ -447,6 +490,5 @@ export {
     deleteUser,
     updateUser,
     forgotPassword,
-    resetPassword,
-    authGoogle
+    resetPassword
 };
