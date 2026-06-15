@@ -58,8 +58,8 @@ const getProducts = async (req, res) => {
         let sortOption = { createdAt: -1 };
         if (req.query.sort === 'newest') sortOption = { createdAt: -1 };
         else if (req.query.sort === 'best_seller') sortOption = { numReviews: -1, rating: -1 };
-        else if (req.query.sort === 'price_asc') sortOption = { price: 1 };
-        else if (req.query.sort === 'price_desc') sortOption = { price: -1 };
+        else if (req.query.sort === 'price_asc') sortOption = { salePrice: 1 };
+        else if (req.query.sort === 'price_desc') sortOption = { salePrice: -1 };
         else if (req.query.sort === 'rating') sortOption = { rating: -1 };
 
         const count = await Product.countDocuments(filter);

@@ -15,7 +15,8 @@ const addOrderItems = async (req, res, next) => {
             shippingPrice,
             totalPrice,
             voucherCode,
-            discountPrice
+            discountPrice,
+            userAddressData
         } = req.body;
 
         if (orderItems && orderItems.length === 0) {
@@ -57,6 +58,32 @@ const addOrderItems = async (req, res, next) => {
                 if (voucher) {
                     voucher.usedCount += 1;
                     await voucher.save();
+                }
+            }
+
+            // Lưu địa chỉ vào sổ địa chỉ của user nếu có
+            if (userAddressData && userAddressData.province && userAddressData.district && userAddressData.ward) {
+                const existingAddress = req.user.addresses.find(a => 
+                    a.address === userAddressData.address &&
+                    a.province === userAddressData.province &&
+                    a.district === userAddressData.district &&
+                    a.ward === userAddressData.ward
+                );
+                
+                if (!existingAddress) {
+                    req.user.addresses.push({
+                        name: userAddressData.name || req.user.name,
+                        phone: userAddressData.phone || req.user.phone,
+                        address: userAddressData.address,
+                        province: userAddressData.province,
+                        district: userAddressData.district,
+                        ward: userAddressData.ward,
+                        provinceName: userAddressData.provinceName,
+                        districtName: userAddressData.districtName,
+                        wardName: userAddressData.wardName,
+                        isDefault: req.user.addresses.length === 0
+                    });
+                    await req.user.save();
                 }
             }
 

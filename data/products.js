@@ -9,7 +9,7 @@ const products = [
       "Đàn hương",
       "Tuyết tùng"
     ],
-    "origin": "Anh",
+    "origin": "UAE",
     "description": "Sản phẩm AFNAN Rouge EDP cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
     "images": [
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
@@ -72,7 +72,7 @@ const products = [
       "Đàn hương",
       "Tuyết tùng"
     ],
-    "origin": "Anh",
+    "origin": "UAE",
     "description": "Sản phẩm AFNAN Sport Pour Homme cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
@@ -135,7 +135,7 @@ const products = [
       "Hoa hồng",
       "Hoa nhài"
     ],
-    "origin": "Mỹ",
+    "origin": "UAE",
     "description": "Sản phẩm AFNAN L'eau EDP cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
@@ -198,7 +198,7 @@ const products = [
       "Vanilla",
       "Caramel"
     ],
-    "origin": "Mỹ",
+    "origin": "UAE",
     "description": "Sản phẩm AFNAN Blanc EDT cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
@@ -261,7 +261,7 @@ const products = [
       "Cam tươi",
       "Cam Bergamot"
     ],
-    "origin": "Anh",
+    "origin": "UAE",
     "description": "Sản phẩm AFNAN Elixir EDT cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
     "images": [
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
@@ -324,7 +324,7 @@ const products = [
       "Cam tươi",
       "Cam Bergamot"
     ],
-    "origin": "Anh",
+    "origin": "UAE",
     "description": "Sản phẩm AFNAN Noir Pour Femme cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
@@ -450,7 +450,7 @@ const products = [
       "Hoa hồng",
       "Hoa nhài"
     ],
-    "origin": "Pháp",
+    "origin": "UAE",
     "description": "Sản phẩm AFNAN Jour EDP cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
@@ -492,7 +492,7 @@ const products = [
       "Hoa hồng",
       "Hoa nhài"
     ],
-    "origin": "Tây Ban Nha",
+    "origin": "UAE",
     "description": "Sản phẩm AFNAN Magic Pour Homme cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
@@ -534,7 +534,7 @@ const products = [
       "Cam tươi",
       "Cam Bergamot"
     ],
-    "origin": "Tây Ban Nha",
+    "origin": "UAE",
     "description": "Sản phẩm AFNAN Royal Unisex cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
@@ -597,7 +597,7 @@ const products = [
       "Vanilla",
       "Caramel"
     ],
-    "origin": "Ý",
+    "origin": "UAE",
     "description": "Sản phẩm AFNAN Parfum EDP cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
@@ -765,7 +765,7 @@ const products = [
       "Hoa hồng",
       "Hoa nhài"
     ],
-    "origin": "Ý",
+    "origin": "UAE",
     "description": "Sản phẩm AFNAN Classic EDP cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
@@ -828,7 +828,7 @@ const products = [
       "Hoa hồng",
       "Hoa nhài"
     ],
-    "origin": "Pháp",
+    "origin": "UAE",
     "description": "Sản phẩm AFNAN Nuit Pour Femme cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
@@ -891,7 +891,7 @@ const products = [
       "Đàn hương",
       "Tuyết tùng"
     ],
-    "origin": "Mỹ",
+    "origin": "UAE",
     "description": "Sản phẩm AFNAN Elixir Edition cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
@@ -933,7 +933,7 @@ const products = [
       "Vanilla",
       "Caramel"
     ],
-    "origin": "Ý",
+    "origin": "UAE",
     "description": "Sản phẩm AFNAN Classic Unisex cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
@@ -996,7 +996,7 @@ const products = [
       "Vanilla",
       "Caramel"
     ],
-    "origin": "Anh",
+    "origin": "UAE",
     "description": "Sản phẩm AFNAN Intense Pour Femme cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
@@ -1122,7 +1122,7 @@ const products = [
       "Hoa hồng",
       "Hoa nhài"
     ],
-    "origin": "Ý",
+    "origin": "UAE",
     "description": "Sản phẩm AFNAN Oud Pour Homme cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
     "images": [
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
@@ -1248,7 +1248,7 @@ const products = [
       "Đàn hương",
       "Tuyết tùng"
     ],
-    "origin": "Mỹ",
+    "origin": "Pháp",
     "description": "Sản phẩm CHANEL Velvet Edition cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
@@ -1311,7 +1311,7 @@ const products = [
       "Cam tươi",
       "Cam Bergamot"
     ],
-    "origin": "UAE",
+    "origin": "Pháp",
     "description": "Sản phẩm CHANEL Noir Pour Femme cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
@@ -1353,7 +1353,7 @@ const products = [
       "Hoa hồng",
       "Hoa nhài"
     ],
-    "origin": "Tây Ban Nha",
+    "origin": "Pháp",
     "description": "Sản phẩm CHANEL Velvet Unisex cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
@@ -1416,7 +1416,7 @@ const products = [
       "Đàn hương",
       "Tuyết tùng"
     ],
-    "origin": "UAE",
+    "origin": "Pháp",
     "description": "Sản phẩm CHANEL Magic Pour Femme cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
@@ -1479,7 +1479,7 @@ const products = [
       "Cam tươi",
       "Cam Bergamot"
     ],
-    "origin": "Ý",
+    "origin": "Pháp",
     "description": "Sản phẩm CHANEL Blue Pour Homme cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
@@ -1521,7 +1521,7 @@ const products = [
       "Cam tươi",
       "Cam Bergamot"
     ],
-    "origin": "Anh",
+    "origin": "Pháp",
     "description": "Sản phẩm CHANEL Cologne Unisex cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
@@ -1584,7 +1584,7 @@ const products = [
       "Vanilla",
       "Caramel"
     ],
-    "origin": "Ý",
+    "origin": "Pháp",
     "description": "Sản phẩm CHANEL Fraiche Pour Homme cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
@@ -1626,7 +1626,7 @@ const products = [
       "Vanilla",
       "Caramel"
     ],
-    "origin": "Anh",
+    "origin": "Pháp",
     "description": "Sản phẩm CHANEL Noir Pour Homme cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
     "images": [
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
@@ -1689,7 +1689,7 @@ const products = [
       "Vanilla",
       "Caramel"
     ],
-    "origin": "Ý",
+    "origin": "Pháp",
     "description": "Sản phẩm CHANEL Extreme EDT cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
@@ -1773,7 +1773,7 @@ const products = [
       "Cam tươi",
       "Cam Bergamot"
     ],
-    "origin": "Anh",
+    "origin": "Pháp",
     "description": "Sản phẩm CHANEL Bloom EDT cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
@@ -1899,7 +1899,7 @@ const products = [
       "Đàn hương",
       "Tuyết tùng"
     ],
-    "origin": "UAE",
+    "origin": "Pháp",
     "description": "Sản phẩm CHANEL Intense Pour Homme cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
     "images": [
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
@@ -1941,7 +1941,7 @@ const products = [
       "Hoa hồng",
       "Hoa nhài"
     ],
-    "origin": "Mỹ",
+    "origin": "Pháp",
     "description": "Sản phẩm CHANEL L'eau Pour Femme cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
@@ -2004,7 +2004,7 @@ const products = [
       "Đàn hương",
       "Tuyết tùng"
     ],
-    "origin": "UAE",
+    "origin": "Pháp",
     "description": "Sản phẩm CHANEL L'eau Pour Homme cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
     "images": [
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
@@ -2067,7 +2067,7 @@ const products = [
       "Vanilla",
       "Caramel"
     ],
-    "origin": "Ý",
+    "origin": "Pháp",
     "description": "Sản phẩm CHANEL Extreme Unisex cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
     "images": [
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
@@ -2130,7 +2130,7 @@ const products = [
       "Cam tươi",
       "Cam Bergamot"
     ],
-    "origin": "Anh",
+    "origin": "Pháp",
     "description": "Sản phẩm CHANEL Blue Edition cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
@@ -2193,7 +2193,7 @@ const products = [
       "Cam tươi",
       "Cam Bergamot"
     ],
-    "origin": "Tây Ban Nha",
+    "origin": "Pháp",
     "description": "Sản phẩm CHANEL Cologne Edition cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
@@ -2256,7 +2256,7 @@ const products = [
       "Cam tươi",
       "Cam Bergamot"
     ],
-    "origin": "Ý",
+    "origin": "Pháp",
     "description": "Sản phẩm CHANEL Jour EDT cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
@@ -2319,7 +2319,7 @@ const products = [
       "Cam tươi",
       "Cam Bergamot"
     ],
-    "origin": "Tây Ban Nha",
+    "origin": "Ý",
     "description": "Sản phẩm GUCCI Rouge Pour Femme cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
@@ -2445,7 +2445,7 @@ const products = [
       "Cam tươi",
       "Cam Bergamot"
     ],
-    "origin": "Tây Ban Nha",
+    "origin": "Ý",
     "description": "Sản phẩm GUCCI L'eau EDT cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
@@ -2550,7 +2550,7 @@ const products = [
       "Hoa hồng",
       "Hoa nhài"
     ],
-    "origin": "Tây Ban Nha",
+    "origin": "Ý",
     "description": "Sản phẩm GUCCI Blue Pour Femme cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
@@ -2613,7 +2613,7 @@ const products = [
       "Cam tươi",
       "Cam Bergamot"
     ],
-    "origin": "Mỹ",
+    "origin": "Ý",
     "description": "Sản phẩm GUCCI Nuit Unisex cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
@@ -2676,7 +2676,7 @@ const products = [
       "Hoa hồng",
       "Hoa nhài"
     ],
-    "origin": "Tây Ban Nha",
+    "origin": "Ý",
     "description": "Sản phẩm GUCCI Absolu Pour Homme cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
@@ -2739,7 +2739,7 @@ const products = [
       "Hoa hồng",
       "Hoa nhài"
     ],
-    "origin": "Anh",
+    "origin": "Ý",
     "description": "Sản phẩm GUCCI Magic Unisex cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
@@ -2802,7 +2802,7 @@ const products = [
       "Hoa hồng",
       "Hoa nhài"
     ],
-    "origin": "Tây Ban Nha",
+    "origin": "Ý",
     "description": "Sản phẩm GUCCI Oud Unisex cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
@@ -2865,7 +2865,7 @@ const products = [
       "Đàn hương",
       "Tuyết tùng"
     ],
-    "origin": "Tây Ban Nha",
+    "origin": "Ý",
     "description": "Sản phẩm GUCCI Oud EDP cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
     "images": [
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
@@ -2907,7 +2907,7 @@ const products = [
       "Hoa hồng",
       "Hoa nhài"
     ],
-    "origin": "Anh",
+    "origin": "Ý",
     "description": "Sản phẩm GUCCI Bloom Unisex cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
     "images": [
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
@@ -2970,7 +2970,7 @@ const products = [
       "Vanilla",
       "Caramel"
     ],
-    "origin": "UAE",
+    "origin": "Ý",
     "description": "Sản phẩm GUCCI L'eau Edition cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
@@ -3096,7 +3096,7 @@ const products = [
       "Cam tươi",
       "Cam Bergamot"
     ],
-    "origin": "Mỹ",
+    "origin": "Ý",
     "description": "Sản phẩm GUCCI Parfum EDT cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
@@ -3159,7 +3159,7 @@ const products = [
       "Hoa hồng",
       "Hoa nhài"
     ],
-    "origin": "UAE",
+    "origin": "Ý",
     "description": "Sản phẩm GUCCI Velvet Edition cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
@@ -3222,7 +3222,7 @@ const products = [
       "Hoa hồng",
       "Hoa nhài"
     ],
-    "origin": "Mỹ",
+    "origin": "Ý",
     "description": "Sản phẩm GUCCI Nuit Pour Homme cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
@@ -3264,7 +3264,7 @@ const products = [
       "Cam tươi",
       "Cam Bergamot"
     ],
-    "origin": "Anh",
+    "origin": "Ý",
     "description": "Sản phẩm GUCCI Classic Edition cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
@@ -3327,7 +3327,7 @@ const products = [
       "Cam tươi",
       "Cam Bergamot"
     ],
-    "origin": "Mỹ",
+    "origin": "Ý",
     "description": "Sản phẩm GUCCI Absolu EDT cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
     "images": [
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
@@ -3390,7 +3390,7 @@ const products = [
       "Đàn hương",
       "Tuyết tùng"
     ],
-    "origin": "Pháp",
+    "origin": "Ý",
     "description": "Sản phẩm GUCCI Blue Pour Homme cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
@@ -3453,7 +3453,7 @@ const products = [
       "Đàn hương",
       "Tuyết tùng"
     ],
-    "origin": "Mỹ",
+    "origin": "Ý",
     "description": "Sản phẩm GUCCI Noir Pour Homme cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
@@ -3579,7 +3579,7 @@ const products = [
       "Hoa hồng",
       "Hoa nhài"
     ],
-    "origin": "Tây Ban Nha",
+    "origin": "Pháp",
     "description": "Sản phẩm HERMES Nuit Pour Femme cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
@@ -3642,7 +3642,7 @@ const products = [
       "Đàn hương",
       "Tuyết tùng"
     ],
-    "origin": "Tây Ban Nha",
+    "origin": "Pháp",
     "description": "Sản phẩm HERMES Blanc Pour Femme cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
@@ -3705,7 +3705,7 @@ const products = [
       "Cam tươi",
       "Cam Bergamot"
     ],
-    "origin": "Tây Ban Nha",
+    "origin": "Pháp",
     "description": "Sản phẩm HERMES Gold Unisex cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
@@ -3768,7 +3768,7 @@ const products = [
       "Hoa hồng",
       "Hoa nhài"
     ],
-    "origin": "Mỹ",
+    "origin": "Pháp",
     "description": "Sản phẩm HERMES Noir Pour Femme cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
     "images": [
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
@@ -3873,7 +3873,7 @@ const products = [
       "Vanilla",
       "Caramel"
     ],
-    "origin": "Mỹ",
+    "origin": "Pháp",
     "description": "Sản phẩm HERMES Blue Pour Homme cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
@@ -3915,7 +3915,7 @@ const products = [
       "Đàn hương",
       "Tuyết tùng"
     ],
-    "origin": "Tây Ban Nha",
+    "origin": "Pháp",
     "description": "Sản phẩm HERMES Magic Edition cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
     "images": [
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
@@ -3957,7 +3957,7 @@ const products = [
       "Đàn hương",
       "Tuyết tùng"
     ],
-    "origin": "UAE",
+    "origin": "Pháp",
     "description": "Sản phẩm HERMES Extreme Pour Homme cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
@@ -4020,7 +4020,7 @@ const products = [
       "Đàn hương",
       "Tuyết tùng"
     ],
-    "origin": "UAE",
+    "origin": "Pháp",
     "description": "Sản phẩm HERMES Gold Edition cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
     "images": [
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
@@ -4083,7 +4083,7 @@ const products = [
       "Đàn hương",
       "Tuyết tùng"
     ],
-    "origin": "Ý",
+    "origin": "Pháp",
     "description": "Sản phẩm HERMES Parfum EDT cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
     "images": [
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
@@ -4125,7 +4125,7 @@ const products = [
       "Hoa hồng",
       "Hoa nhài"
     ],
-    "origin": "Ý",
+    "origin": "Pháp",
     "description": "Sản phẩm HERMES Blue EDP cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
     "images": [
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
@@ -4188,7 +4188,7 @@ const products = [
       "Cam tươi",
       "Cam Bergamot"
     ],
-    "origin": "Mỹ",
+    "origin": "Pháp",
     "description": "Sản phẩm HERMES Absolu EDP cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
@@ -4251,7 +4251,7 @@ const products = [
       "Vanilla",
       "Caramel"
     ],
-    "origin": "Ý",
+    "origin": "Pháp",
     "description": "Sản phẩm HERMES Classic Edition cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
@@ -4293,7 +4293,7 @@ const products = [
       "Hoa hồng",
       "Hoa nhài"
     ],
-    "origin": "UAE",
+    "origin": "Pháp",
     "description": "Sản phẩm HERMES Blue Unisex cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
@@ -4356,7 +4356,7 @@ const products = [
       "Cam tươi",
       "Cam Bergamot"
     ],
-    "origin": "Ý",
+    "origin": "Pháp",
     "description": "Sản phẩm HERMES Fraiche Edition cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
@@ -4419,7 +4419,7 @@ const products = [
       "Hoa hồng",
       "Hoa nhài"
     ],
-    "origin": "UAE",
+    "origin": "Pháp",
     "description": "Sản phẩm HERMES Blanc EDP cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
     "images": [
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
@@ -4482,7 +4482,7 @@ const products = [
       "Hoa hồng",
       "Hoa nhài"
     ],
-    "origin": "Tây Ban Nha",
+    "origin": "Pháp",
     "description": "Sản phẩm HERMES Bloom Pour Femme cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
@@ -4545,7 +4545,7 @@ const products = [
       "Đàn hương",
       "Tuyết tùng"
     ],
-    "origin": "Mỹ",
+    "origin": "Pháp",
     "description": "Sản phẩm HERMES Rouge Unisex cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
@@ -4608,7 +4608,7 @@ const products = [
       "Cam tươi",
       "Cam Bergamot"
     ],
-    "origin": "Mỹ",
+    "origin": "Pháp",
     "description": "Sản phẩm HERMES Absolu Pour Homme cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
@@ -4671,7 +4671,7 @@ const products = [
       "Đàn hương",
       "Tuyết tùng"
     ],
-    "origin": "Ý",
+    "origin": "Pháp",
     "description": "Sản phẩm YSL Parfum Pour Femme cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
     "images": [
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
@@ -4734,7 +4734,7 @@ const products = [
       "Vanilla",
       "Caramel"
     ],
-    "origin": "Anh",
+    "origin": "Pháp",
     "description": "Sản phẩm YSL Jour Pour Femme cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
@@ -4797,7 +4797,7 @@ const products = [
       "Cam tươi",
       "Cam Bergamot"
     ],
-    "origin": "Anh",
+    "origin": "Pháp",
     "description": "Sản phẩm YSL L'eau EDT cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
@@ -4860,7 +4860,7 @@ const products = [
       "Hoa hồng",
       "Hoa nhài"
     ],
-    "origin": "UAE",
+    "origin": "Pháp",
     "description": "Sản phẩm YSL Magic Pour Homme cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
     "images": [
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
@@ -4923,7 +4923,7 @@ const products = [
       "Hoa hồng",
       "Hoa nhài"
     ],
-    "origin": "Ý",
+    "origin": "Pháp",
     "description": "Sản phẩm YSL L'eau EDP cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
@@ -5028,7 +5028,7 @@ const products = [
       "Vanilla",
       "Caramel"
     ],
-    "origin": "Anh",
+    "origin": "Pháp",
     "description": "Sản phẩm YSL Absolu EDT cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
     "images": [
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
@@ -5070,7 +5070,7 @@ const products = [
       "Đàn hương",
       "Tuyết tùng"
     ],
-    "origin": "Ý",
+    "origin": "Pháp",
     "description": "Sản phẩm YSL Intense EDP cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
@@ -5133,7 +5133,7 @@ const products = [
       "Cam tươi",
       "Cam Bergamot"
     ],
-    "origin": "UAE",
+    "origin": "Pháp",
     "description": "Sản phẩm YSL Fraiche Edition cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
@@ -5175,7 +5175,7 @@ const products = [
       "Cam tươi",
       "Cam Bergamot"
     ],
-    "origin": "Anh",
+    "origin": "Pháp",
     "description": "Sản phẩm YSL Bloom EDT cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
@@ -5238,7 +5238,7 @@ const products = [
       "Cam tươi",
       "Cam Bergamot"
     ],
-    "origin": "Tây Ban Nha",
+    "origin": "Pháp",
     "description": "Sản phẩm YSL Royal Edition cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
@@ -5364,7 +5364,7 @@ const products = [
       "Hoa hồng",
       "Hoa nhài"
     ],
-    "origin": "UAE",
+    "origin": "Pháp",
     "description": "Sản phẩm YSL Cologne Pour Homme cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
     "images": [
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
@@ -5427,7 +5427,7 @@ const products = [
       "Vanilla",
       "Caramel"
     ],
-    "origin": "Anh",
+    "origin": "Pháp",
     "description": "Sản phẩm YSL Blue Pour Femme cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
     "images": [
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
@@ -5616,7 +5616,7 @@ const products = [
       "Hoa hồng",
       "Hoa nhài"
     ],
-    "origin": "Tây Ban Nha",
+    "origin": "Pháp",
     "description": "Sản phẩm YSL Elixir Edition cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
@@ -5658,7 +5658,7 @@ const products = [
       "Vanilla",
       "Caramel"
     ],
-    "origin": "Ý",
+    "origin": "Pháp",
     "description": "Sản phẩm YSL Jour EDP cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
@@ -5721,7 +5721,7 @@ const products = [
       "Vanilla",
       "Caramel"
     ],
-    "origin": "Anh",
+    "origin": "Pháp",
     "description": "Sản phẩm YSL Royal Unisex cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
     "images": [
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
@@ -5763,7 +5763,7 @@ const products = [
       "Cam tươi",
       "Cam Bergamot"
     ],
-    "origin": "Anh",
+    "origin": "Pháp",
     "description": "Sản phẩm YSL Extreme EDT cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
     "images": [
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
@@ -5826,7 +5826,7 @@ const products = [
       "Đàn hương",
       "Tuyết tùng"
     ],
-    "origin": "Ý",
+    "origin": "Pháp",
     "description": "Sản phẩm DIOR Gold Pour Homme cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
@@ -5868,7 +5868,7 @@ const products = [
       "Đàn hương",
       "Tuyết tùng"
     ],
-    "origin": "Anh",
+    "origin": "Pháp",
     "description": "Sản phẩm DIOR Absolu Pour Femme cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
     "images": [
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
@@ -5931,7 +5931,7 @@ const products = [
       "Cam tươi",
       "Cam Bergamot"
     ],
-    "origin": "UAE",
+    "origin": "Pháp",
     "description": "Sản phẩm DIOR Parfum Pour Femme cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
@@ -6120,7 +6120,7 @@ const products = [
       "Hoa hồng",
       "Hoa nhài"
     ],
-    "origin": "Mỹ",
+    "origin": "Pháp",
     "description": "Sản phẩm DIOR Jour Unisex cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
     "images": [
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
@@ -6246,7 +6246,7 @@ const products = [
       "Hoa hồng",
       "Hoa nhài"
     ],
-    "origin": "Tây Ban Nha",
+    "origin": "Pháp",
     "description": "Sản phẩm DIOR Blanc Pour Homme cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
     "images": [
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
@@ -6309,7 +6309,7 @@ const products = [
       "Hoa hồng",
       "Hoa nhài"
     ],
-    "origin": "Anh",
+    "origin": "Pháp",
     "description": "Sản phẩm DIOR Jour Edition cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
@@ -6351,7 +6351,7 @@ const products = [
       "Cam tươi",
       "Cam Bergamot"
     ],
-    "origin": "Anh",
+    "origin": "Pháp",
     "description": "Sản phẩm DIOR Elixir EDP cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
@@ -6393,7 +6393,7 @@ const products = [
       "Cam tươi",
       "Cam Bergamot"
     ],
-    "origin": "Anh",
+    "origin": "Pháp",
     "description": "Sản phẩm DIOR Bloom Edition cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
@@ -6456,7 +6456,7 @@ const products = [
       "Đàn hương",
       "Tuyết tùng"
     ],
-    "origin": "Anh",
+    "origin": "Pháp",
     "description": "Sản phẩm DIOR Oud Pour Femme cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
@@ -6519,7 +6519,7 @@ const products = [
       "Hoa hồng",
       "Hoa nhài"
     ],
-    "origin": "Ý",
+    "origin": "Pháp",
     "description": "Sản phẩm DIOR Absolu Unisex cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
     "images": [
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
@@ -6582,7 +6582,7 @@ const products = [
       "Đàn hương",
       "Tuyết tùng"
     ],
-    "origin": "Anh",
+    "origin": "Pháp",
     "description": "Sản phẩm DIOR Magic Edition cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
     "images": [
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
@@ -6645,7 +6645,7 @@ const products = [
       "Vanilla",
       "Caramel"
     ],
-    "origin": "Tây Ban Nha",
+    "origin": "Pháp",
     "description": "Sản phẩm DIOR L'eau Pour Homme cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
@@ -6708,7 +6708,7 @@ const products = [
       "Hoa hồng",
       "Hoa nhài"
     ],
-    "origin": "UAE",
+    "origin": "Pháp",
     "description": "Sản phẩm DIOR Royal EDP cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
     "images": [
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
@@ -6771,7 +6771,7 @@ const products = [
       "Hoa hồng",
       "Hoa nhài"
     ],
-    "origin": "Tây Ban Nha",
+    "origin": "Pháp",
     "description": "Sản phẩm DIOR Intense EDP cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
@@ -6813,7 +6813,7 @@ const products = [
       "Đàn hương",
       "Tuyết tùng"
     ],
-    "origin": "Mỹ",
+    "origin": "Pháp",
     "description": "Sản phẩm DIOR Magic EDP cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
@@ -6876,7 +6876,7 @@ const products = [
       "Đàn hương",
       "Tuyết tùng"
     ],
-    "origin": "Mỹ",
+    "origin": "Pháp",
     "description": "Sản phẩm DIOR Bloom Pour Homme cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
     "images": [
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
