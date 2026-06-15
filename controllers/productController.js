@@ -227,6 +227,64 @@ const getTopProducts = async (req, res) => {
     }
 };
 
+// @desc    Get all reviews from all products
+// @route   GET /api/products/reviews/all
+// @access  Private/Admin
+const getAllReviews = async (req, res) => {
+    try {
+        const products = await Product.find({ 'reviews.0': { $exists: true } });
+        let allReviews = [];
+
+        products.forEach(product => {
+            product.reviews.forEach(review => {
+                allReviews.push({
+                    _id: review._id,
+                    productId: product._id,
+                    productName: product.name,
+                    user: review.user,
+                    name: review.name,
+                    rating: review.rating,
+                    comment: review.comment,
+                    status: review.status || 'VISIBLE',
+                    createdAt: review.createdAt
+                });
+            });
+        });
+
+        // Sort by newest
+        allReviews.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+
+        res.json(allReviews);
+    } catch (error) {
+        res.status(500).json({ message: 'Lỗi server khi lấy đánh giá' });
+    }
+};
+
+// @desc    Update review status
+// @route   PUT /api/products/:productId/reviews/:reviewId/status
+// @access  Private/Admin
+const updateReviewStatus = async (req, res) => {
+    try {
+        const { status } = req.body;
+        const product = await Product.findById(req.params.productId);
+
+        if (product) {
+            const review = product.reviews.id(req.params.reviewId);
+            if (review) {
+                review.status = status;
+                await product.save();
+                res.json({ message: 'Đã cập nhật trạng thái đánh giá' });
+            } else {
+                res.status(404).json({ message: 'Không tìm thấy đánh giá' });
+            }
+        } else {
+            res.status(404).json({ message: 'Không tìm thấy sản phẩm' });
+        }
+    } catch (error) {
+        res.status(500).json({ message: 'Lỗi server khi cập nhật đánh giá' });
+    }
+};
+
 export { 
     getProducts, 
     getProductById, 
@@ -234,5 +292,7 @@ export {
     createProduct, 
     updateProduct,
     createProductReview,
-    getTopProducts
+    getTopProducts,
+    getAllReviews,
+    updateReviewStatus
 };
