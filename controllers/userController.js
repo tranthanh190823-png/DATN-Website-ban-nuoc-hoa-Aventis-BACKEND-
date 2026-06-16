@@ -42,7 +42,7 @@ const authUser = async (req, res, next) => {
             res.json(buildAuthResponse(user, res));
         } else {
             res.status(401);
-            throw new Error('Invalid email or password');
+            throw new Error('Email hoặc mật khẩu không chính xác');
         }
     } catch (error) {
         next(error);
@@ -60,7 +60,7 @@ const registerUser = async (req, res, next) => {
 
         if (userExists) {
             res.status(400);
-            throw new Error('User already exists');
+            throw new Error('Email này đã được sử dụng');
         }
 
         const { firstName, lastName, name: normalizedName } = splitName(name);
@@ -77,7 +77,7 @@ const registerUser = async (req, res, next) => {
             res.status(201).json(buildAuthResponse(user, res));
         } else {
             res.status(400);
-            throw new Error('Invalid user data');
+            throw new Error('Dữ liệu không hợp lệ');
         }
     } catch (error) {
         next(error);

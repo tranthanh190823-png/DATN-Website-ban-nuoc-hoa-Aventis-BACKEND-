@@ -145,7 +145,7 @@ const updateOrderToPaid = async (req, res, next) => {
 // @access  Private
 const getMyOrders = async (req, res, next) => {
     try {
-        const orders = await Order.find({ user: req.user._id });
+        const orders = await Order.find({ user: req.user._id }).sort({ createdAt: -1 });
         res.json(orders);
     } catch (error) {
         next(error);
@@ -157,7 +157,7 @@ const getMyOrders = async (req, res, next) => {
 // @access  Private/Admin
 const getOrders = async (req, res, next) => {
     try {
-        const orders = await Order.find({}).populate('user', 'id name');
+        const orders = await Order.find({}).populate('user', 'id name').sort({ createdAt: -1 });
         res.json(orders);
     } catch (error) {
         next(error);
