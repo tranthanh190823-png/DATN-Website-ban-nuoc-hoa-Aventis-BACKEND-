@@ -106,17 +106,17 @@ const deleteProduct = async (req, res) => {
     }
 };
 
-// @desc    Tạo 1 sản phẩm mới (dữ liệu rỗng mặc định để frontend edit sau)
-// @route   POST /api/products
-// @access  Private/Admin
 const createProduct = async (req, res) => {
     try {
         const product = new Product({
             name: 'Tên sản phẩm rỗng',
+            brand: 'CHANEL',
+            gender: 'Unisex',
+            origin: 'Chưa cập nhật',
             price: 0,
             user: req.user._id,
             images: ['https://via.placeholder.com/600'],
-            category: 'Chưa phân loại',
+            scentCategory: 'Hoa',
             stock: 0,
             salePrice: 0,
             description: 'Mô tả sản phẩm rỗng',
@@ -137,9 +137,9 @@ const updateProduct = async (req, res) => {
     try {
         const {
             name, brand, price, salePrice, description, images,
-            category, scentNotes, stock, rating,
+            category, scentCategory, scentNotes, stock, rating,
             isHot, isSale, isBestSeller, isNewArrival,
-            gender, origin, volumes
+            gender, origin, volumes, isActive
         } = req.body;
 
         const product = await Product.findById(req.params.id);
@@ -151,7 +151,8 @@ const updateProduct = async (req, res) => {
             product.salePrice = salePrice !== undefined ? salePrice : product.salePrice;
             product.description = description !== undefined ? description : product.description;
             product.images = images !== undefined ? images : product.images;
-            product.category = category !== undefined ? category : product.category;
+            if (category !== undefined) product.category = category;
+            if (scentCategory !== undefined) product.scentCategory = scentCategory;
             product.scentNotes = scentNotes !== undefined ? scentNotes : product.scentNotes;
             product.stock = stock !== undefined ? stock : product.stock;
             product.rating = rating !== undefined ? rating : product.rating;
@@ -162,6 +163,7 @@ const updateProduct = async (req, res) => {
             if (gender !== undefined) product.gender = gender;
             if (origin !== undefined) product.origin = origin;
             if (volumes !== undefined) product.volumes = volumes;
+            if (isActive !== undefined) product.isActive = isActive;
 
             const updatedProduct = await product.save();
             res.json(updatedProduct);

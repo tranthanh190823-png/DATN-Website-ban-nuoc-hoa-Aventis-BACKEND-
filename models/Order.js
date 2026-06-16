@@ -74,6 +74,11 @@ const orderSchema = mongoose.Schema({
     },
     cancelledAt: {
         type: Date
+    },
+    status: {
+        type: String,
+        enum: ['Chờ xử lý', 'Đã xử lý', 'Đang giao', 'Đã giao', 'Đã hủy'],
+        default: 'Chờ xử lý'
     }
 }, {
     timestamps: true
