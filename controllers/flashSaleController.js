@@ -17,16 +17,16 @@ const getFlashSales = async (req, res, next) => {
 // @access  Private/Admin
 const createFlashSale = async (req, res, next) => {
     try {
-        const { name, startTime, endTime, status, productIds } = req.body;
+        const { name, startTime, endTime, productIds, status } = req.body;
         const flashSale = new FlashSale({
             name,
             startTime,
             endTime,
-            status: status || 'UPCOMING',
-            productIds: productIds || []
+            productIds: productIds || [],
+            status: status || 'UPCOMING'
         });
-        const createdFlashSale = await flashSale.save();
-        res.status(201).json(createdFlashSale);
+        const created = await flashSale.save();
+        res.status(201).json(created);
     } catch (error) {
         next(error);
     }
@@ -37,7 +37,7 @@ const createFlashSale = async (req, res, next) => {
 // @access  Private/Admin
 const updateFlashSale = async (req, res, next) => {
     try {
-        const { name, startTime, endTime, status, productIds } = req.body;
+        const { name, startTime, endTime, productIds, status } = req.body;
         const flashSale = await FlashSale.findById(req.params.id);
 
         if (flashSale) {
@@ -45,12 +45,10 @@ const updateFlashSale = async (req, res, next) => {
             flashSale.startTime = startTime || flashSale.startTime;
             flashSale.endTime = endTime || flashSale.endTime;
             flashSale.status = status || flashSale.status;
-            if (productIds) {
-                flashSale.productIds = productIds;
-            }
+            if (productIds) flashSale.productIds = productIds;
 
-            const updatedFlashSale = await flashSale.save();
-            res.json(updatedFlashSale);
+            const updated = await flashSale.save();
+            res.json(updated);
         } else {
             res.status(404);
             throw new Error('Không tìm thấy Flash Sale');
