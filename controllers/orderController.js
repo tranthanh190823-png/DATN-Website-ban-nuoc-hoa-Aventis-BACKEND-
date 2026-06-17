@@ -1,4 +1,5 @@
 import Order from '../models/Order.js';
+import Product from '../models/Product.js';
 
 // Helper for status sorting
 const statusWeight = {
@@ -148,18 +149,48 @@ const updateOrderToPaid = async (req, res) => {
 const cancelOrder = async (req, res) => {
     try {
         const order = await Order.findById(req.params.id);
-        if (order) {
-            if (order.status !== 'Chờ xử lý') {
-                return res.status(400).json({ message: 'Chỉ có thể hủy đơn hàng khi chưa xác nhận (Chờ xử lý)' });
-            }
-            order.status = 'Đã hủy';
-            order.isCancelled = true;
-            order.cancelledAt = Date.now();
-            const updatedOrder = await order.save();
-            res.json(updatedOrder);
-        } else {
-            res.status(404).json({ message: 'Không tìm thấy đơn hàng' });
+
+        if (!order) {
+            return res.status(404).json({ message: 'Không tìm thấy đơn hàng' });
         }
+
+        if (order.user.toString() !== req.user._id.toString() && !req.user.isAdmin) {
+            return res.status(403).json({ message: 'Không có quyền hủy đơn hàng này' });
+        }
+
+        if (order.status !== 'Chờ xử lý') {
+            return res.status(400).json({ message: 'Chỉ có thể hủy đơn hàng khi chưa xác nhận (Chờ xử lý)' });
+        }
+
+        if (order.isDelivered || order.isPaid) {
+            return res.status(400).json({ message: 'Không thể hủy đơn hàng đã thanh toán hoặc đã giao' });
+        }
+
+        if (order.isCancelled) {
+            return res.status(400).json({ message: 'Đơn hàng này đã bị hủy trước đó' });
+        }
+
+        order.status = 'Đã hủy';
+        order.isCancelled = true;
+        order.cancelledAt = Date.now();
+
+        // Hoàn lại kho
+        for (const item of order.orderItems) {
+            const product = await Product.findById(item.product);
+            if (product) {
+                product.stock += item.qty;
+                if (item.volume && product.volumes) {
+                    const volumeObj = product.volumes.find(v => v.ml === item.volume);
+                    if (volumeObj) {
+                        volumeObj.stock += item.qty;
+                    }
+                }
+                await product.save();
+            }
+        }
+
+        const updatedOrder = await order.save();
+        res.json(updatedOrder);
     } catch (error) {
         res.status(500).json({ message: 'Lỗi server khi hủy đơn hàng' });
     }
