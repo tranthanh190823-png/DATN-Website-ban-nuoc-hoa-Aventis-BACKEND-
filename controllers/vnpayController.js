@@ -71,7 +71,7 @@ export const createPaymentUrl = async (req, res) => {
 
         const signData = qs.stringify(vnp_Params, { encode: false });
         const hmac = crypto.createHmac("sha512", secretKey);
-        const signed = hmac.update(new Buffer.from(signData, 'utf-8')).digest("hex");
+        const signed = hmac.update(Buffer.from(signData, 'utf-8')).digest("hex");
         vnp_Params['vnp_SecureHash'] = signed;
         
         vnpUrl += '?' + qs.stringify(vnp_Params, { encode: false });
@@ -98,7 +98,7 @@ export const vnpayReturn = async (req, res) => {
 
         const signData = qs.stringify(vnp_Params, { encode: false });
         const hmac = crypto.createHmac("sha512", secretKey);
-        const signed = hmac.update(new Buffer.from(signData, 'utf-8')).digest("hex");
+        const signed = hmac.update(Buffer.from(signData, 'utf-8')).digest("hex");
 
         if (secureHash === signed) {
             const orderId = vnp_Params['vnp_TxnRef'];
