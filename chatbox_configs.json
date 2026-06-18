@@ -1,0 +1,6 @@
+{
+    "api_key": "sk-MbKrKmDE7HtRUkh6001xrY5A7iZjtjlsLLRPyNArGvKj6Kf0",
+    "base_url": "https://api.yescale.io/v1",
+    "model": "deepseek-v3",
+    "language": "vi-VN"
+}
