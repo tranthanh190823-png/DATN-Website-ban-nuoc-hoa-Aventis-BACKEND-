@@ -12,6 +12,7 @@ import voucherRoutes from './routes/voucherRoutes.js';
 import newsRoutes from './routes/newsRoutes.js';
 import flashSaleRoutes from './routes/flashSaleRoutes.js';
 import chatRoutes from './routes/chatRoutes.js';
+import addressRoutes from './routes/addressRoutes.js';
 import { notFound, errorHandler } from './middlewares/errorMiddleware.js';
 
 dotenv.config();
@@ -38,6 +39,7 @@ app.use('/api/vouchers', voucherRoutes);
 app.use('/api/news', newsRoutes);
 app.use('/api/flash-sales', flashSaleRoutes);
 app.use('/api/chat', chatRoutes);
+app.use('/api/addresses', addressRoutes);
 
 app.get('/api/config/paypal', (req, res) => {
     res.send(process.env.PAYPAL_CLIENT_ID || 'sb');
