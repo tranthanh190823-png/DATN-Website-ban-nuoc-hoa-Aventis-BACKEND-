@@ -1,5 +1,7 @@
 node_modules/
 .env
+.env.example
+chatbox_configs.json
 *.log
 .DS_Store
 *.code-workspace
