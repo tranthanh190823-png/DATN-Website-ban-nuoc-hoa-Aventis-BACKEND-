@@ -8,7 +8,7 @@ import {
     getOrders,
     cancelOrder
 } from '../controllers/orderController.js';
-import { createPaymentUrl, vnpayReturn } from '../controllers/vnpayController.js';
+import { sepayWebhook } from '../controllers/sepayController.js';
 import { protect, admin } from '../middlewares/authMiddleware.js';
 
 const router = express.Router();
@@ -19,9 +19,8 @@ router.route('/')
 
 router.route('/mine').get(protect, getMyOrders);
 
-// VNPay Routes
-router.post('/vnpay_return', vnpayReturn);
-router.post('/:id/create_payment_url', protect, createPaymentUrl);
+// SePay Webhook (Public route)
+router.post('/sepay/webhook', sepayWebhook);
 
 router.route('/:id').get(protect, getOrderById);
 router.route('/:id/pay').put(protect, updateOrderToPaid);
