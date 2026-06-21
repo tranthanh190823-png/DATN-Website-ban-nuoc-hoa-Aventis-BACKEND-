@@ -12,6 +12,23 @@ const getNews = async (req, res, next) => {
     }
 };
 
+// @desc    Get single news by ID
+// @route   GET /api/news/:id
+// @access  Public
+const getNewsById = async (req, res, next) => {
+    try {
+        const news = await News.findById(req.params.id);
+        if (news) {
+            res.json(news);
+        } else {
+            res.status(404);
+            throw new Error('Không tìm thấy tin tức');
+        }
+    } catch (error) {
+        next(error);
+    }
+};
+
 // @desc    Create a news
 // @route   POST /api/news
 // @access  Private/Admin
@@ -74,4 +91,4 @@ const deleteNews = async (req, res, next) => {
     }
 };
 
-export { getNews, createNews, updateNews, deleteNews };
+export { getNews, getNewsById, createNews, updateNews, deleteNews };

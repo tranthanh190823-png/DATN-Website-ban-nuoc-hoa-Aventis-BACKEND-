@@ -10,6 +10,7 @@ const getProducts = async (req, res) => {
             name: { $regex: req.query.keyword, $options: 'i' }
         } : {};
 
+        // Filter theo category chung (nếu dùng)
         let categoryFilter = {};
         if (req.query.category) {
             const cat = req.query.category;
@@ -17,6 +18,18 @@ const getProducts = async (req, res) => {
             else if (cat === 'Nữ' || cat === 'Nu' || cat === 'nữ' || cat === 'nu') categoryFilter = { gender: 'Nu' };
             else if (cat === 'Unisex' || cat === 'unisex') categoryFilter = { gender: 'Unisex' };
             else categoryFilter = { scentCategory: cat };
+        }
+
+        // Filter riêng biệt theo gender
+        let genderFilter = {};
+        if (req.query.gender) {
+            genderFilter = { gender: req.query.gender };
+        }
+
+        // Filter riêng biệt theo scentCategory
+        let scentFilter = {};
+        if (req.query.scentCategory) {
+            scentFilter = { scentCategory: req.query.scentCategory };
         }
 
         // Filter theo brand
@@ -49,10 +62,13 @@ const getProducts = async (req, res) => {
         // Filter theo type
         let typeFilter = {};
         if (req.query.type) {
-            typeFilter = { type: req.query.type };
+            let typeVal = req.query.type;
+            if (typeVal === 'decant') typeVal = 'Chiết';
+            else if (typeVal === 'perfume') typeVal = 'Full';
+            typeFilter = { type: typeVal };
         }
 
-        const filter = { ...keyword, ...categoryFilter, ...brandFilter, ...priceFilter, ...volumeFilter, ...flagFilter, ...typeFilter };
+        const filter = { ...keyword, ...categoryFilter, ...genderFilter, ...scentFilter, ...brandFilter, ...priceFilter, ...volumeFilter, ...flagFilter, ...typeFilter };
 
         // Sort options
         let sortOption = { createdAt: -1 };
@@ -62,11 +78,25 @@ const getProducts = async (req, res) => {
         else if (req.query.sort === 'price_desc') sortOption = { salePrice: -1 };
         else if (req.query.sort === 'rating') sortOption = { rating: -1 };
 
-        const count = await Product.countDocuments(filter);
-        const products = await Product.find(filter)
-            .sort(sortOption)
-            .limit(pageSize)
-            .skip(pageSize * (page - 1));
+        let products;
+        let count;
+
+        if (req.query.sort === 'discount_desc') {
+            const allProducts = await Product.find(filter);
+            allProducts.sort((a, b) => {
+                const discountA = (a.price && a.salePrice && a.price > a.salePrice) ? (a.price - a.salePrice) / a.price : 0;
+                const discountB = (b.price && b.salePrice && b.price > b.salePrice) ? (b.price - b.salePrice) / b.price : 0;
+                return discountB - discountA;
+            });
+            count = allProducts.length;
+            products = allProducts.slice(pageSize * (page - 1), pageSize * page);
+        } else {
+            count = await Product.countDocuments(filter);
+            products = await Product.find(filter)
+                .sort(sortOption)
+                .limit(pageSize)
+                .skip(pageSize * (page - 1));
+        }
 
         res.json({ products, page, pages: Math.ceil(count / pageSize), count });
     } catch (error) {
@@ -106,17 +136,17 @@ const deleteProduct = async (req, res) => {
     }
 };
 
-// @desc    Tạo 1 sản phẩm mới (dữ liệu rỗng mặc định để frontend edit sau)
-// @route   POST /api/products
-// @access  Private/Admin
 const createProduct = async (req, res) => {
     try {
         const product = new Product({
             name: 'Tên sản phẩm rỗng',
+            brand: 'CHANEL',
+            gender: 'Unisex',
+            origin: 'Chưa cập nhật',
             price: 0,
             user: req.user._id,
             images: ['https://via.placeholder.com/600'],
-            category: 'Chưa phân loại',
+            scentCategory: 'Hoa',
             stock: 0,
             salePrice: 0,
             description: 'Mô tả sản phẩm rỗng',
@@ -137,21 +167,22 @@ const updateProduct = async (req, res) => {
     try {
         const {
             name, brand, price, salePrice, description, images,
-            category, scentNotes, stock, rating,
+            category, scentCategory, scentNotes, stock, rating,
             isHot, isSale, isBestSeller, isNewArrival,
-            gender, origin, volumes
+            gender, origin, volumes, isActive, type
         } = req.body;
 
         const product = await Product.findById(req.params.id);
 
         if (product) {
             product.name = name !== undefined ? name : product.name;
-            product.brand = brand !== undefined ? brand : product.brand;
+            if (brand) product.brand = brand;
             product.price = price !== undefined ? price : product.price;
             product.salePrice = salePrice !== undefined ? salePrice : product.salePrice;
             product.description = description !== undefined ? description : product.description;
             product.images = images !== undefined ? images : product.images;
-            product.category = category !== undefined ? category : product.category;
+            if (category !== undefined) product.category = category;
+            if (scentCategory !== undefined) product.scentCategory = scentCategory;
             product.scentNotes = scentNotes !== undefined ? scentNotes : product.scentNotes;
             product.stock = stock !== undefined ? stock : product.stock;
             product.rating = rating !== undefined ? rating : product.rating;
@@ -162,6 +193,8 @@ const updateProduct = async (req, res) => {
             if (gender !== undefined) product.gender = gender;
             if (origin !== undefined) product.origin = origin;
             if (volumes !== undefined) product.volumes = volumes;
+            if (isActive !== undefined) product.isActive = isActive;
+            if (type !== undefined) product.type = type;
 
             const updatedProduct = await product.save();
             res.json(updatedProduct);

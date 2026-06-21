@@ -1,218 +1,176 @@
 import Order from '../models/Order.js';
 import Product from '../models/Product.js';
-import Voucher from '../models/Voucher.js';
 
-// @desc    Create new order
-// @route   POST /api/orders
-// @access  Private
-const addOrderItems = async (req, res, next) => {
+// Helper for status sorting
+const statusWeight = {
+    'Chờ xử lý': 1,
+    'Đã xử lý': 2,
+    'Đang giao': 3,
+    'Đã giao': 4,
+    'Đã hủy': 5
+};
+
+// @desc    Get all orders
+// @route   GET /api/orders
+// @access  Private/Admin
+const getOrders = async (req, res) => {
     try {
-        const {
-            orderItems,
-            shippingAddress,
-            paymentMethod,
-            itemsPrice,
-            shippingPrice,
-            totalPrice,
-            voucherCode,
-            discountPrice,
-            userAddressData
-        } = req.body;
+        let orders = await Order.find({}).populate('user', 'id name email');
+        
+        orders.sort((a, b) => {
+            const aStatus = a.status || (a.isDelivered ? 'Đã giao' : (a.isCancelled ? 'Đã hủy' : 'Chờ xử lý'));
+            const bStatus = b.status || (b.isDelivered ? 'Đã giao' : (b.isCancelled ? 'Đã hủy' : 'Chờ xử lý'));
 
-        if (orderItems && orderItems.length === 0) {
-            res.status(400);
-            throw new Error('No order items');
-        } else {
-            const order = new Order({
-                orderItems,
-                user: req.user._id,
-                shippingAddress,
-                paymentMethod,
-                itemsPrice,
-                shippingPrice,
-                totalPrice,
-                voucherCode,
-                discountPrice
-            });
+            const aCompleted = aStatus === 'Đã giao' || aStatus === 'Đã hủy';
+            const bCompleted = bStatus === 'Đã giao' || bStatus === 'Đã hủy';
 
-            const createdOrder = await order.save();
+            // Đẩy các đơn chưa hoàn thành lên trên, đơn đã giao/hủy xuống cuối
+            if (!aCompleted && bCompleted) return -1;
+            if (aCompleted && !bCompleted) return 1;
 
-            // Cập nhật tồn kho (trừ kho)
-            for (const item of orderItems) {
-                const product = await Product.findById(item.product);
-                if (product) {
-                    product.stock = Math.max(0, product.stock - item.qty);
-                    if (item.volume && product.volumes) {
-                        const volumeObj = product.volumes.find(v => v.ml === item.volume);
-                        if (volumeObj) {
-                            volumeObj.stock = Math.max(0, volumeObj.stock - item.qty);
-                        }
-                    }
-                    await product.save();
-                }
+            // Trong nhóm chưa hoàn thành, đơn mới mua sẽ nằm cuối (cũ nhất lên trên)
+            if (!aCompleted && !bCompleted) {
+                return new Date(a.createdAt) - new Date(b.createdAt);
             }
 
-            // Cập nhật lượt sử dụng Voucher (nếu có)
-            if (voucherCode) {
-                const voucher = await Voucher.findOne({ code: voucherCode.toUpperCase() });
-                if (voucher) {
-                    voucher.usedCount += 1;
-                    await voucher.save();
-                }
-            }
+            // Trong nhóm đã hoàn thành, đơn mới nhất lên trên
+            return new Date(b.createdAt) - new Date(a.createdAt);
+        });
 
-            // Lưu địa chỉ vào sổ địa chỉ của user nếu có
-            if (userAddressData && userAddressData.province && userAddressData.district && userAddressData.ward) {
-                const existingAddress = req.user.addresses.find(a => 
-                    a.address === userAddressData.address &&
-                    a.province === userAddressData.province &&
-                    a.district === userAddressData.district &&
-                    a.ward === userAddressData.ward
-                );
-                
-                if (!existingAddress) {
-                    req.user.addresses.push({
-                        name: userAddressData.name || req.user.name,
-                        phone: userAddressData.phone || req.user.phone,
-                        address: userAddressData.address,
-                        province: userAddressData.province,
-                        district: userAddressData.district,
-                        ward: userAddressData.ward,
-                        provinceName: userAddressData.provinceName,
-                        districtName: userAddressData.districtName,
-                        wardName: userAddressData.wardName,
-                        isDefault: req.user.addresses.length === 0
-                    });
-                    await req.user.save();
-                }
-            }
-
-            res.status(201).json(createdOrder);
-        }
+        res.json(orders);
     } catch (error) {
-        next(error);
+        res.status(500).json({ message: 'Lỗi server khi lấy danh sách đơn hàng' });
     }
 };
 
 // @desc    Get order by ID
 // @route   GET /api/orders/:id
 // @access  Private
-const getOrderById = async (req, res, next) => {
+const getOrderById = async (req, res) => {
     try {
         const order = await Order.findById(req.params.id).populate('user', 'name email');
-
         if (order) {
             res.json(order);
         } else {
-            res.status(404);
-            throw new Error('Order not found');
+            res.status(404).json({ message: 'Không tìm thấy đơn hàng' });
         }
     } catch (error) {
-        next(error);
+        res.status(500).json({ message: 'Lỗi server khi lấy chi tiết đơn hàng' });
     }
 };
 
-// @desc    Update order to paid
-// @route   PUT /api/orders/:id/pay
-// @access  Private
-const updateOrderToPaid = async (req, res, next) => {
+// @desc    Update order to processed
+// @route   PUT /api/orders/:id/process
+// @access  Private/Admin
+const updateOrderToProcessed = async (req, res) => {
     try {
         const order = await Order.findById(req.params.id);
-
         if (order) {
-            order.isPaid = true;
-            order.paidAt = Date.now();
-            order.paymentResult = {
-                id: req.body.id,
-                status: req.body.status,
-                update_time: req.body.update_time,
-                email_address: req.body.payer?.email_address
-            };
-
+            if (order.status !== 'Chờ xử lý') {
+                return res.status(400).json({ message: 'Chỉ có thể xử lý đơn hàng ở trạng thái Chờ xử lý' });
+            }
+            order.status = 'Đã xử lý';
             const updatedOrder = await order.save();
             res.json(updatedOrder);
         } else {
-            res.status(404);
-            throw new Error('Order not found');
+            res.status(404).json({ message: 'Không tìm thấy đơn hàng' });
         }
     } catch (error) {
-        next(error);
+        res.status(500).json({ message: 'Lỗi server khi cập nhật trạng thái' });
     }
 };
 
-// @desc    Get logged in user orders
-// @route   GET /api/orders/mine
-// @access  Private
-const getMyOrders = async (req, res, next) => {
-    try {
-        const orders = await Order.find({ user: req.user._id }).sort({ createdAt: -1 });
-        res.json(orders);
-    } catch (error) {
-        next(error);
-    }
-};
-
-// @desc    Get all orders
-// @route   GET /api/orders
+// @desc    Update order to shipping
+// @route   PUT /api/orders/:id/ship
 // @access  Private/Admin
-const getOrders = async (req, res, next) => {
+const updateOrderToShipping = async (req, res) => {
     try {
-        const orders = await Order.find({}).populate('user', 'id name').sort({ createdAt: -1 });
-        res.json(orders);
+        const order = await Order.findById(req.params.id);
+        if (order) {
+            if (order.status !== 'Đã xử lý') {
+                return res.status(400).json({ message: 'Đơn hàng phải được xác nhận (Đã xử lý) trước khi giao' });
+            }
+            order.status = 'Đang giao';
+            const updatedOrder = await order.save();
+            res.json(updatedOrder);
+        } else {
+            res.status(404).json({ message: 'Không tìm thấy đơn hàng' });
+        }
     } catch (error) {
-        next(error);
+        res.status(500).json({ message: 'Lỗi server khi cập nhật trạng thái' });
     }
 };
 
 // @desc    Update order to delivered
 // @route   PUT /api/orders/:id/deliver
 // @access  Private/Admin
-const updateOrderToDelivered = async (req, res, next) => {
+const updateOrderToDelivered = async (req, res) => {
     try {
         const order = await Order.findById(req.params.id);
-
         if (order) {
+            if (order.status !== 'Đang giao') {
+                return res.status(400).json({ message: 'Chỉ có thể hoàn thành đơn hàng đang giao' });
+            }
+            order.status = 'Đã giao';
             order.isDelivered = true;
             order.deliveredAt = Date.now();
-
             const updatedOrder = await order.save();
             res.json(updatedOrder);
         } else {
-            res.status(404);
-            throw new Error('Order not found');
+            res.status(404).json({ message: 'Không tìm thấy đơn hàng' });
         }
     } catch (error) {
-        next(error);
+        res.status(500).json({ message: 'Lỗi server khi cập nhật trạng thái giao hàng' });
+    }
+};
+
+// @desc    Update order to paid
+// @route   PUT /api/orders/:id/pay
+// @access  Private
+const updateOrderToPaid = async (req, res) => {
+    try {
+        const order = await Order.findById(req.params.id);
+        if (order) {
+            order.isPaid = true;
+            order.paidAt = Date.now();
+            const updatedOrder = await order.save();
+            res.json(updatedOrder);
+        } else {
+            res.status(404).json({ message: 'Không tìm thấy đơn hàng' });
+        }
+    } catch (error) {
+        res.status(500).json({ message: 'Lỗi server khi cập nhật trạng thái thanh toán' });
     }
 };
 
 // @desc    Cancel order
 // @route   PUT /api/orders/:id/cancel
 // @access  Private
-const cancelOrder = async (req, res, next) => {
+const cancelOrder = async (req, res) => {
     try {
         const order = await Order.findById(req.params.id);
 
         if (!order) {
-            res.status(404);
-            throw new Error('Không tìm thấy đơn hàng');
+            return res.status(404).json({ message: 'Không tìm thấy đơn hàng' });
         }
 
         if (order.user.toString() !== req.user._id.toString() && !req.user.isAdmin) {
-            res.status(403);
-            throw new Error('Không có quyền hủy đơn hàng này');
+            return res.status(403).json({ message: 'Không có quyền hủy đơn hàng này' });
+        }
+
+        if (order.status !== 'Chờ xử lý') {
+            return res.status(400).json({ message: 'Chỉ có thể hủy đơn hàng khi chưa xác nhận (Chờ xử lý)' });
         }
 
         if (order.isDelivered || order.isPaid) {
-            res.status(400);
-            throw new Error('Không thể hủy đơn hàng đã thanh toán hoặc đã giao');
+            return res.status(400).json({ message: 'Không thể hủy đơn hàng đã thanh toán hoặc đã giao' });
         }
 
         if (order.isCancelled) {
-            res.status(400);
-            throw new Error('Đơn hàng này đã bị hủy trước đó');
+            return res.status(400).json({ message: 'Đơn hàng này đã bị hủy trước đó' });
         }
 
+        order.status = 'Đã hủy';
         order.isCancelled = true;
         order.cancelledAt = Date.now();
 
@@ -234,7 +192,59 @@ const cancelOrder = async (req, res, next) => {
         const updatedOrder = await order.save();
         res.json(updatedOrder);
     } catch (error) {
-        next(error);
+        res.status(500).json({ message: 'Lỗi server khi hủy đơn hàng' });
+    }
+};
+
+// @desc    Create new order
+// @route   POST /api/orders
+// @access  Private
+const addOrderItems = async (req, res) => {
+    try {
+        const {
+            orderItems,
+            shippingAddress,
+            paymentMethod,
+            itemsPrice,
+            shippingPrice,
+            totalPrice,
+            voucherCode,
+            discountPrice
+        } = req.body;
+
+        if (orderItems && orderItems.length === 0) {
+            return res.status(400).json({ message: 'Không có sản phẩm trong đơn hàng' });
+        } else {
+            const order = new Order({
+                orderItems,
+                user: req.user._id,
+                shippingAddress,
+                paymentMethod,
+                itemsPrice,
+                shippingPrice,
+                totalPrice,
+                voucherCode,
+                discountPrice,
+                status: 'Chờ xử lý'
+            });
+
+            const createdOrder = await order.save();
+            res.status(201).json(createdOrder);
+        }
+    } catch (error) {
+        res.status(500).json({ message: 'Lỗi server khi tạo đơn hàng' });
+    }
+};
+
+// @desc    Get logged in user orders
+// @route   GET /api/orders/myorders
+// @access  Private
+const getMyOrders = async (req, res) => {
+    try {
+        const orders = await Order.find({ user: req.user._id }).sort({ createdAt: -1 });
+        res.json(orders);
+    } catch (error) {
+        res.status(500).json({ message: 'Lỗi server khi lấy danh sách đơn hàng' });
     }
 };
 
@@ -242,6 +252,8 @@ export {
     addOrderItems,
     getOrderById,
     updateOrderToPaid,
+    updateOrderToProcessed,
+    updateOrderToShipping,
     updateOrderToDelivered,
     getMyOrders,
     getOrders,

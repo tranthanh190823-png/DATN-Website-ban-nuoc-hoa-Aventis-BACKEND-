@@ -38,11 +38,11 @@ const protect = async (req, res, next) => {
 
 // Admin middleware
 const admin = (req, res, next) => {
-    if (req.user && req.user.isAdmin) {
+    if (req.user && (req.user.isAdmin || req.user.isStaff)) {
         next();
     } else {
         res.status(401);
-        throw new Error('Not authorized as an admin');
+        throw new Error('Not authorized as an admin or staff');
     }
 };
 
