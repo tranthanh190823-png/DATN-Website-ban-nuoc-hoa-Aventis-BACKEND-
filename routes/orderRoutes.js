@@ -23,7 +23,6 @@ router.route('/mine').get(protect, getMyOrders);
 
 // SePay Webhook (Public route)
 router.post('/sepay/webhook', sepayWebhook);
-
 router.route('/:id').get(protect, getOrderById);
 router.route('/:id/pay').put(protect, updateOrderToPaid);
 router.route('/:id/process').put(protect, admin, updateOrderToProcessed);
