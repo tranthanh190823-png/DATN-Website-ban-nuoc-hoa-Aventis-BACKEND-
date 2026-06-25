@@ -70,6 +70,24 @@ const ORDER_INTENT_KEYWORDS = [
   'đã nhận', 'giao chưa', 'bao giờ nhận',
 ];
 
+// Từ khóa để detect loại sản phẩm: chiết hay full box
+const TYPE_KEYWORDS = {
+  'chiết': ['chiết', 'chiet', 'bỏ chai', 'bo chai', 'lọ nhỏ', 'ly nhỏ', 'mini'],
+  'full': ['full', 'full box', 'hộp đầy', 'đầy hộp', 'chính hãng', 'nguyên seal', 'mới 100%'],
+};
+
+const detectProductType = (text) => {
+  const t = text.toLowerCase();
+  
+  // Check chiết
+  if (TYPE_KEYWORDS['chiết'].some(kw => t.includes(kw))) return 'Chiết';
+  
+  // Check full
+  if (TYPE_KEYWORDS['full'].some(kw => t.includes(kw))) return 'Full';
+  
+  return null; // Không xác định
+};
+
 const detectIntent = (text) => {
   const t = text.toLowerCase();
   if (PRODUCT_INTENT_KEYWORDS.some((k) => t.includes(k))) return 'product';
@@ -116,6 +134,9 @@ const retrieveProducts = async (userText) => {
       else if (num > 100) maxPrice = num;
     }
 
+    // Detect product type (chiết hay full)
+    const productType = detectProductType(t);
+
     // Build query
     const query = { isActive: true };
 
@@ -134,6 +155,12 @@ const retrieveProducts = async (userText) => {
     if (wantsFemale && !wantsMale) query.gender = { $in: ['Nu', 'Unisex'] };
 
     if (matchedFamily) query.scentCategory = matchedFamily;
+
+    // Filter theo type nếu có
+    if (productType) {
+      query.type = productType;
+      console.log(`🔍 Product type detected: ${productType}`);
+    }
 
     let products = await Product.find(query)
       .sort({ isHot: -1, isBestSeller: -1, isNewArrival: -1, rating: -1 })
@@ -165,10 +192,23 @@ const buildProductContext = (products) => {
 
   const productList = products
     .map((p, i) => {
-      const price = p.salePrice || p.price;
-      const originalPrice = p.price > price ? ` (giá gốc ${p.price.toLocaleString('vi-VN')}₫)` : '';
+      // Lấy giá phù hợp theo type sản phẩm
+      let price, originalPrice;
+      
+      if (p.type === 'Chiết' && p.volumes && p.volumes.length > 0) {
+        // Với sản phẩm chiết, lấy giá từ volumes
+        price = p.volumes[0].salePrice || p.volumes[0].price;
+        originalPrice = p.volumes[0].price > price ? ` (giá gốc ${p.volumes[0].price.toLocaleString('vi-VN')}₫)` : '';
+      } else {
+        // Với sản phẩm full, lấy giá từ product level
+        price = p.salePrice || p.price;
+        originalPrice = p.price > price ? ` (giá gốc ${p.price.toLocaleString('vi-VN')}₫)` : '';
+      }
+      
       // Lấy volume từ volumes array (ưu tiên ml đầu tiên)
-      const volume = p.volumes && p.volumes.length > 0 ? `${p.volumes[0].ml}ml` : null;
+      // Nếu có label thì dùng label, nếu không thì dùng ml
+      const volumeInfo = p.volumes && p.volumes.length > 0 ? p.volumes[0] : null;
+      const volume = volumeInfo ? (volumeInfo.label || `${volumeInfo.ml}ml`) : null;
       const stockInfo =
         typeof p.stock === 'number'
           ? p.stock > 0
@@ -271,14 +311,29 @@ const getChatResponse = async (req, res) => {
     return res.json({
       response: botResponse,
       products: products.length > 0
-        ? products.map((p) => ({
-            _id: p._id,
-            name: p.name,
-            brand: p.brand,
-            images: p.images,
-            price: p.salePrice || p.price,
-            originalPrice: p.price,
-          }))
+        ? products.map((p) => {
+            // Lấy giá phù hợp theo type sản phẩm
+            let price, originalPrice;
+            
+            if (p.type === 'Chiết' && p.volumes && p.volumes.length > 0) {
+              // Với sản phẩm chiết, lấy giá từ volumes
+              price = p.volumes[0].salePrice || p.volumes[0].price;
+              originalPrice = p.volumes[0].price > price ? p.volumes[0].price : null;
+            } else {
+              // Với sản phẩm full, lấy giá từ product level
+              price = p.salePrice || p.price;
+              originalPrice = p.price > price ? p.price : null;
+            }
+            
+            return {
+              _id: p._id,
+              name: p.name,
+              brand: p.brand,
+              images: p.images,
+              price: price,
+              originalPrice: originalPrice,
+            };
+          })
         : [],
       intent,
       latency: elapsed,
