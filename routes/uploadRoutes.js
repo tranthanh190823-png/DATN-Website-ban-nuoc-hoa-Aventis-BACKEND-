@@ -2,6 +2,9 @@ import express from 'express';
 import multer from 'multer';
 import { v2 as cloudinary } from 'cloudinary';
 import { protect, admin } from '../middlewares/authMiddleware.js';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const router = express.Router();
 

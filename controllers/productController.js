@@ -151,7 +151,8 @@ const createProduct = async (req, res) => {
             stock: 0,
             salePrice: 0,
             description: 'Mô tả sản phẩm rỗng',
-            size: 'N/A'
+            size: 'N/A',
+            isNewArrival: true
         });
 
         const createdProduct = await product.save();
