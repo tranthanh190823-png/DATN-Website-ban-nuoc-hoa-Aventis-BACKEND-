@@ -215,9 +215,8 @@ const buildProductContext = (products) => {
             ? `còn hàng`
             : `hết hàng`
           : '';
-      return `${i + 1}. **${p.name}** — ${p.brand}${volume ? `, ${volume}` : ''} — ${price.toLocaleString('vi-VN')}₫${originalPrice}${stockInfo ? ` — ${stockInfo}` : ''}${
-        p.scentNotes && p.scentNotes.length > 0 ? ` — Notes: ${p.scentNotes.slice(0, 4).join(', ')}` : ''
-      }`;
+      return `${i + 1}. **${p.name}** — ${p.brand}${volume ? `, ${volume}` : ''} — ${price.toLocaleString('vi-VN')}₫${originalPrice}${stockInfo ? ` — ${stockInfo}` : ''}${p.scentNotes && p.scentNotes.length > 0 ? ` — Notes: ${p.scentNotes.slice(0, 4).join(', ')}` : ''
+        }`;
     })
     .join('\n');
 
@@ -275,7 +274,7 @@ const getChatResponse = async (req, res) => {
     }
 
     // Build final system prompt (kèm context sản phẩm nếu có)
-    const finalSystemPrompt = systemPrompt + productContext;
+    const finalSystemPrompt = systemPrompt + (chatConfig.language ? `\n\nNgôn ngữ trả lời bắt buộc: ${chatConfig.language}` : '') + productContext;
 
     // Trim history
     const trimmedMessages = trimHistory(messages, 12);

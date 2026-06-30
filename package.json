@@ -9,7 +9,7 @@
     "dev": "nodemon server.js",
     "seed": "node seeder.js",
     "seed:destroy": "node seeder.js -d",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --runInBand --detectOpenHandles --forceExit"
   },
   "keywords": [],
   "author": "",
@@ -32,9 +32,14 @@
     "multer": "^2.1.1",
     "nodemailer": "^9.0.1",
     "openai": "^6.44.0",
-    "qs": "^6.15.2"
+    "qs": "^6.15.2",
+    "socket.io": "^4.8.3"
   },
   "devDependencies": {
-    "nodemon": "^3.1.14"
+    "cross-env": "^10.1.0",
+    "jest": "^30.4.2",
+    "mongodb-memory-server": "^11.2.0",
+    "nodemon": "^3.1.14",
+    "supertest": "^7.2.2"
   }
 }
