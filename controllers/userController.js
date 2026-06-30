@@ -13,6 +13,7 @@ const buildAuthResponse = (user, res) => ({
     phone: user.phone,
     addresses: user.addresses,
     isAdmin: user.isAdmin,
+    isStaff: user.isStaff || false,
     token: generateToken(res, user._id)
 });
 
@@ -39,6 +40,10 @@ const authUser = async (req, res, next) => {
         const user = await User.findOne({ email });
 
         if (user && (await user.matchPassword(password))) {
+            if (user.isActive === false) {
+                res.status(403);
+                throw new Error('Tài khoản của bạn đã bị khóa. Vui lòng liên hệ quản trị viên.');
+            }
             res.json(buildAuthResponse(user, res));
         } else {
             res.status(401);
@@ -262,7 +267,7 @@ const getUsers = async (req, res, next) => {
 // @access  Private/Admin
 const getStaff = async (req, res, next) => {
     try {
-        const staff = await User.find({ isStaff: true }).select('-password').sort({ createdAt: -1 });
+        const staff = await User.find({ isAdmin: true }).select('-password').sort({ createdAt: -1 });
         res.json(staff);
     } catch (error) {
         next(error);
@@ -282,7 +287,7 @@ const createStaff = async (req, res, next) => {
             throw new Error('Email đã tồn tại');
         }
 
-        const nameParts = name ? name.split(' ') : ['Nhân viên'];
+        const nameParts = name ? name.split(' ') : ['Admin'];
         const firstName = nameParts[0];
         const lastName = nameParts.length > 1 ? nameParts.slice(1).join(' ') : firstName;
 
@@ -292,8 +297,8 @@ const createStaff = async (req, res, next) => {
             name,
             email,
             password,
-            isStaff: true,
-            isAdmin: false
+            isStaff: true, // Keep isStaff true just in case some other things rely on it
+            isAdmin: true
         });
 
         if (staff) {
@@ -306,7 +311,7 @@ const createStaff = async (req, res, next) => {
             });
         } else {
             res.status(400);
-            throw new Error('Dữ liệu nhân viên không hợp lệ');
+            throw new Error('Dữ liệu admin không hợp lệ');
         }
     } catch (error) {
         next(error);
