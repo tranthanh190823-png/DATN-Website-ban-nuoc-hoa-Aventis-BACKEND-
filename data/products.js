@@ -10,9 +10,9 @@ const products = [
       "Tuyết tùng"
     ],
     "origin": "UAE",
-    "description": "Sản phẩm AFNAN Rouge EDP cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nữ</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">UAE</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Gỗ (Woody)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Ngọt ngào, Quyến rũ, Thanh lịch</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Gặp gỡ bạn bè, Dạo phố, Hẹn hò lãng mạn</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>AFNAN Rouge EDP</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>AFNAN</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Đàn hương, Tuyết tùng</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">AFNAN Rouge EDP: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    AFNAN luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>AFNAN Rouge EDP</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Đàn hương</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Tuyết tùng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Phụ nữ trẻ trung từ 18-35 tuổi, yêu thích phong cách nữ tính, năng động, tự tin.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80\" alt=\"AFNAN Rouge EDP\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho AFNAN Rouge EDP</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800"
     ],
@@ -56,11 +56,44 @@ const products = [
     "price": 5300000,
     "salePrice": 5300000,
     "stock": 18,
-    "rating": 3.6,
+    "rating": 4.1,
     "isHot": true,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Hồ Kim Anh",
+        "rating": 3,
+        "comment": "Hương thơm nữ tính, ngọt ngào và vô cùng cuốn hút. Bám tỏa khá ổn trong tầm giá. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Phương My",
+        "rating": 4.5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Dương Tuấn Hùng",
+        "rating": 4.5,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Lan Linh",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Minh Phát",
+        "rating": 3.5,
+        "comment": "Mùi hương thì ok nhưng giao hàng hơi chậm. Độ bám tỏa trên da mình chỉ tầm 4 tiếng.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 5
   },
   {
     "name": "AFNAN Sport Pour Homme",
@@ -73,9 +106,9 @@ const products = [
       "Tuyết tùng"
     ],
     "origin": "UAE",
-    "description": "Sản phẩm AFNAN Sport Pour Homme cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">UAE</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Gỗ (Woody)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>AFNAN Sport Pour Homme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>AFNAN</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Đàn hương, Tuyết tùng</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">AFNAN Sport Pour Homme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    AFNAN luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>AFNAN Sport Pour Homme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Đàn hương</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Tuyết tùng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80\" alt=\"AFNAN Sport Pour Homme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho AFNAN Sport Pour Homme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800"
     ],
@@ -119,11 +152,38 @@ const products = [
     "price": 4500000,
     "salePrice": 3510000,
     "stock": 5,
-    "rating": 3.6,
+    "rating": 3.9,
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Hoàng Hải My",
+        "rating": 3,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Hữu Nam",
+        "rating": 3,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Bảo Hà",
+        "rating": 4.5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Hải Linh",
+        "rating": 5,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 4
   },
   {
     "name": "AFNAN L'eau EDP",
@@ -136,9 +196,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "UAE",
-    "description": "Sản phẩm AFNAN L'eau EDP cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">UAE</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>AFNAN L'eau EDP</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>AFNAN</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">AFNAN L'eau EDP: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    AFNAN luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>AFNAN L'eau EDP</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80\" alt=\"AFNAN L'eau EDP\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho AFNAN L'eau EDP</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800"
     ],
@@ -182,11 +242,38 @@ const products = [
     "price": 5500000,
     "salePrice": 5500000,
     "stock": 13,
-    "rating": 4.7,
+    "rating": 4.6,
     "isHot": false,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Võ Tuấn Sơn",
+        "rating": 4.5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phạm Kim Anh",
+        "rating": 4.5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Kim Trang",
+        "rating": 4.5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Thu Quỳnh",
+        "rating": 5,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Bám tỏa khá ổn trong tầm giá. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 4
   },
   {
     "name": "AFNAN Blanc EDT",
@@ -199,9 +286,9 @@ const products = [
       "Caramel"
     ],
     "origin": "UAE",
-    "description": "Sản phẩm AFNAN Blanc EDT cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">UAE</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Ngọt ngào (Gourmand)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>AFNAN Blanc EDT</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>AFNAN</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Vanilla, Caramel</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">AFNAN Blanc EDT: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    AFNAN luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>AFNAN Blanc EDT</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Vanilla</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Caramel</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80\" alt=\"AFNAN Blanc EDT\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho AFNAN Blanc EDT</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800"
     ],
@@ -245,11 +332,38 @@ const products = [
     "price": 2500000,
     "salePrice": 2025000,
     "stock": 25,
-    "rating": 4.9,
+    "rating": 4.4,
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Ngô Thanh Linh",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Độ lưu hương trên da mình phải được 7-8 tiếng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Huỳnh Lan Linh",
+        "rating": 5,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Dương Đức Nam",
+        "rating": 3,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hoàng Phương Anh",
+        "rating": 4.5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 4
   },
   {
     "name": "AFNAN Elixir EDT",
@@ -262,9 +376,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "UAE",
-    "description": "Sản phẩm AFNAN Elixir EDT cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nữ</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">UAE</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Ngọt ngào, Quyến rũ, Thanh lịch</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Gặp gỡ bạn bè, Dạo phố, Hẹn hò lãng mạn</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>AFNAN Elixir EDT</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>AFNAN</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">AFNAN Elixir EDT: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    AFNAN luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>AFNAN Elixir EDT</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Phụ nữ trẻ trung từ 18-35 tuổi, yêu thích phong cách nữ tính, năng động, tự tin.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80\" alt=\"AFNAN Elixir EDT\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho AFNAN Elixir EDT</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+      "https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800"
     ],
@@ -308,11 +422,50 @@ const products = [
     "price": 2900000,
     "salePrice": 2900000,
     "stock": 12,
-    "rating": 3.5,
+    "rating": 4.6,
     "isHot": false,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Vũ Lan Thảo",
+        "rating": 4.5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hồ Lan Yến",
+        "rating": 4,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Hồng Yến",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Độ lưu hương trên da mình phải được 7-8 tiếng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Bảo Thảo",
+        "rating": 5,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Phương Linh",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đỗ Đức Phong",
+        "rating": 4,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 6
   },
   {
     "name": "AFNAN Noir Pour Femme",
@@ -325,9 +478,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "UAE",
-    "description": "Sản phẩm AFNAN Noir Pour Femme cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">UAE</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>AFNAN Noir Pour Femme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>AFNAN</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">AFNAN Noir Pour Femme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    AFNAN luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>AFNAN Noir Pour Femme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"AFNAN Noir Pour Femme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho AFNAN Noir Pour Femme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800"
     ],
@@ -375,7 +528,28 @@ const products = [
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Trần Kim Vy",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Hải Linh",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Đức Bách",
+        "rating": 3,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Bám tỏa khá ổn trong tầm giá. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 3
   },
   {
     "name": "AFNAN Intense EDT",
@@ -388,9 +562,9 @@ const products = [
       "Tuyết tùng"
     ],
     "origin": "UAE",
-    "description": "Sản phẩm AFNAN Intense EDT cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">UAE</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Gỗ (Woody)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>AFNAN Intense EDT</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>AFNAN</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Đàn hương, Tuyết tùng</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">AFNAN Intense EDT: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    AFNAN luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>AFNAN Intense EDT</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Đàn hương</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Tuyết tùng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"AFNAN Intense EDT\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho AFNAN Intense EDT</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
     ],
@@ -434,11 +608,32 @@ const products = [
     "price": 2200000,
     "salePrice": 2200000,
     "stock": 30,
-    "rating": 4.7,
+    "rating": 4.8,
     "isHot": false,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Võ Mai My",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Dương Văn Khang",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đỗ Ngọc Nhung",
+        "rating": 4.5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 3
   },
   {
     "name": "AFNAN Jour EDP",
@@ -451,9 +646,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "UAE",
-    "description": "Sản phẩm AFNAN Jour EDP cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">UAE</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>AFNAN Jour EDP</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>AFNAN</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">AFNAN Jour EDP: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    AFNAN luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>AFNAN Jour EDP</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80\" alt=\"AFNAN Jour EDP\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho AFNAN Jour EDP</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800"
     ],
@@ -476,11 +671,44 @@ const products = [
     "price": 1700000,
     "salePrice": 1700000,
     "stock": 15,
-    "rating": 4,
+    "rating": 4.4,
     "isHot": false,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Phan Thị Quỳnh",
+        "rating": 4.5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Độ lưu hương trên da mình phải được 7-8 tiếng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Hoàng Hùng",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Thị Trang",
+        "rating": 4.5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phạm Minh Nam",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Thu My",
+        "rating": 3,
+        "comment": "Mùi hương thì ok nhưng giao hàng hơi chậm. Độ bám tỏa trên da mình chỉ tầm 4 tiếng.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 5
   },
   {
     "name": "AFNAN Magic Pour Homme",
@@ -493,9 +721,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "UAE",
-    "description": "Sản phẩm AFNAN Magic Pour Homme cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">UAE</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>AFNAN Magic Pour Homme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>AFNAN</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">AFNAN Magic Pour Homme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    AFNAN luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>AFNAN Magic Pour Homme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80\" alt=\"AFNAN Magic Pour Homme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho AFNAN Magic Pour Homme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800"
     ],
@@ -518,11 +746,38 @@ const products = [
     "price": 3200000,
     "salePrice": 2624000,
     "stock": 6,
-    "rating": 3.6,
+    "rating": 4.4,
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Bùi Hoàng Hùng",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Minh Bách",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Gia Tùng",
+        "rating": 4.5,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Hải Vy",
+        "rating": 3,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 4
   },
   {
     "name": "AFNAN Royal Unisex",
@@ -535,9 +790,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "UAE",
-    "description": "Sản phẩm AFNAN Royal Unisex cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">UAE</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>AFNAN Royal Unisex</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>AFNAN</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">AFNAN Royal Unisex: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    AFNAN luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>AFNAN Royal Unisex</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80\" alt=\"AFNAN Royal Unisex\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho AFNAN Royal Unisex</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
     ],
@@ -581,11 +836,44 @@ const products = [
     "price": 4300000,
     "salePrice": 3698000,
     "stock": 13,
-    "rating": 3.6,
+    "rating": 4.8,
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Trần Hữu Nam",
+        "rating": 5,
+        "comment": "Mùi nam tính, lịch lãm, hợp đi tiệc hoặc hẹn hò. Độ lưu hương trên da mình phải được 7-8 tiếng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Vũ Gia Đạt",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Độ lưu hương trên da mình phải được 7-8 tiếng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hồ Thanh My",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Đức Hùng",
+        "rating": 4.5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Huỳnh Tuấn Đạt",
+        "rating": 4.5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 5
   },
   {
     "name": "AFNAN Parfum EDP",
@@ -598,9 +886,9 @@ const products = [
       "Caramel"
     ],
     "origin": "UAE",
-    "description": "Sản phẩm AFNAN Parfum EDP cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">UAE</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Ngọt ngào (Gourmand)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>AFNAN Parfum EDP</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>AFNAN</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Vanilla, Caramel</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">AFNAN Parfum EDP: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    AFNAN luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>AFNAN Parfum EDP</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Vanilla</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Caramel</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80\" alt=\"AFNAN Parfum EDP\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho AFNAN Parfum EDP</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
+      "https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800"
     ],
@@ -623,11 +911,50 @@ const products = [
     "price": 4400000,
     "salePrice": 4400000,
     "stock": 24,
-    "rating": 4.3,
+    "rating": 4.6,
     "isHot": false,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Võ Thị Vy",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Bám tỏa khá ổn trong tầm giá. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Phương Nhung",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Bám tỏa khá ổn trong tầm giá. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Quang Phát",
+        "rating": 4.5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Bám tỏa khá ổn trong tầm giá. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Bảo Linh",
+        "rating": 5,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Huỳnh Kim Quỳnh",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Nguyễn Mai Thảo",
+        "rating": 3,
+        "comment": "Mùi hương thì ok nhưng giao hàng hơi chậm. Độ bám tỏa trên da mình chỉ tầm 4 tiếng.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 6
   },
   {
     "name": "AFNAN Parfum EDT",
@@ -640,9 +967,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "UAE",
-    "description": "Sản phẩm AFNAN Parfum EDT cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">UAE</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>AFNAN Parfum EDT</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>AFNAN</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">AFNAN Parfum EDT: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    AFNAN luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>AFNAN Parfum EDT</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80\" alt=\"AFNAN Parfum EDT\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho AFNAN Parfum EDT</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
+      "https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
     ],
@@ -686,11 +1013,44 @@ const products = [
     "price": 1600000,
     "salePrice": 1600000,
     "stock": 8,
-    "rating": 3.8,
+    "rating": 4.7,
     "isHot": false,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Nguyễn Hữu Bách",
+        "rating": 4.5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Đức Nam",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Dương Ngọc Hương",
+        "rating": 4.5,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Độ lưu hương trên da mình phải được 7-8 tiếng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hồ Tuấn Phong",
+        "rating": 4.5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Minh Phát",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Độ lưu hương trên da mình phải được 7-8 tiếng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 5
   },
   {
     "name": "AFNAN Royal Edition",
@@ -703,9 +1063,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "UAE",
-    "description": "Sản phẩm AFNAN Royal Edition cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">UAE</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>AFNAN Royal Edition</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>AFNAN</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">AFNAN Royal Edition: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    AFNAN luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>AFNAN Royal Edition</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80\" alt=\"AFNAN Royal Edition\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho AFNAN Royal Edition</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800"
     ],
@@ -749,11 +1109,62 @@ const products = [
     "price": 4000000,
     "salePrice": 3040000,
     "stock": 28,
-    "rating": 4.7,
+    "rating": 4.3,
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Ngô Quang Long",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Độ lưu hương trên da mình phải được 7-8 tiếng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Hải Quỳnh",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Nguyễn Thanh Phát",
+        "rating": 3,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Vũ Kim My",
+        "rating": 3,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hoàng Bảo Vy",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Đức Long",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Độ lưu hương trên da mình phải được 7-8 tiếng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Trọng Đạt",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lê Đức Nam",
+        "rating": 3.5,
+        "comment": "Mùi hương thì ok nhưng giao hàng hơi chậm. Độ bám tỏa trên da mình chỉ tầm 4 tiếng.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 8
   },
   {
     "name": "AFNAN Classic EDP",
@@ -766,9 +1177,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "UAE",
-    "description": "Sản phẩm AFNAN Classic EDP cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">UAE</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>AFNAN Classic EDP</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>AFNAN</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">AFNAN Classic EDP: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    AFNAN luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>AFNAN Classic EDP</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"AFNAN Classic EDP\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho AFNAN Classic EDP</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
     ],
@@ -812,11 +1223,38 @@ const products = [
     "price": 4100000,
     "salePrice": 3321000,
     "stock": 24,
-    "rating": 4.8,
+    "rating": 4.9,
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Nguyễn Ngọc Quỳnh",
+        "rating": 4.5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Độ lưu hương trên da mình phải được 7-8 tiếng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Hữu Đạt",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Độ lưu hương trên da mình phải được 7-8 tiếng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Kim Thảo",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Bám tỏa khá ổn trong tầm giá. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Dương Thu Quỳnh",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 4
   },
   {
     "name": "AFNAN Nuit Pour Femme",
@@ -829,9 +1267,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "UAE",
-    "description": "Sản phẩm AFNAN Nuit Pour Femme cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">UAE</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>AFNAN Nuit Pour Femme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>AFNAN</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">AFNAN Nuit Pour Femme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    AFNAN luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>AFNAN Nuit Pour Femme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"AFNAN Nuit Pour Femme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho AFNAN Nuit Pour Femme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800"
     ],
@@ -875,11 +1313,56 @@ const products = [
     "price": 3600000,
     "salePrice": 3600000,
     "stock": 9,
-    "rating": 4.3,
+    "rating": 4.9,
     "isHot": false,
     "isSale": false,
     "isNewArrival": true,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Lý Bảo Quỳnh",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Dương Bảo Quỳnh",
+        "rating": 5,
+        "comment": "Mùi nam tính, lịch lãm, hợp đi tiệc hoặc hẹn hò. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đỗ Mai Linh",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Văn Phát",
+        "rating": 4.5,
+        "comment": "Mùi nam tính, lịch lãm, hợp đi tiệc hoặc hẹn hò. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Đức Nam",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Bám tỏa khá ổn trong tầm giá. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Bảo Yến",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Vũ Gia Khang",
+        "rating": 4.5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 7
   },
   {
     "name": "AFNAN Elixir Edition",
@@ -892,9 +1375,9 @@ const products = [
       "Tuyết tùng"
     ],
     "origin": "UAE",
-    "description": "Sản phẩm AFNAN Elixir Edition cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">UAE</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Gỗ (Woody)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>AFNAN Elixir Edition</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>AFNAN</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Đàn hương, Tuyết tùng</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">AFNAN Elixir Edition: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    AFNAN luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>AFNAN Elixir Edition</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Đàn hương</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Tuyết tùng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80\" alt=\"AFNAN Elixir Edition\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho AFNAN Elixir Edition</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
+      "https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
     ],
@@ -917,11 +1400,56 @@ const products = [
     "price": 4400000,
     "salePrice": 4400000,
     "stock": 20,
-    "rating": 3.7,
+    "rating": 4.7,
     "isHot": false,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Phan Thái Long",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Dương Bảo Yến",
+        "rating": 5,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Quang Đạt",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hồ Minh Đạt",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phạm Gia Đạt",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hoàng Văn Nam",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Bám tỏa khá ổn trong tầm giá. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Huỳnh Trọng Khang",
+        "rating": 3,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 7
   },
   {
     "name": "AFNAN Classic Unisex",
@@ -934,9 +1462,9 @@ const products = [
       "Caramel"
     ],
     "origin": "UAE",
-    "description": "Sản phẩm AFNAN Classic Unisex cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">UAE</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Ngọt ngào (Gourmand)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>AFNAN Classic Unisex</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>AFNAN</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Vanilla, Caramel</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">AFNAN Classic Unisex: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    AFNAN luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>AFNAN Classic Unisex</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Vanilla</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Caramel</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80\" alt=\"AFNAN Classic Unisex\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho AFNAN Classic Unisex</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
+      "https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800"
     ],
@@ -980,11 +1508,32 @@ const products = [
     "price": 3700000,
     "salePrice": 3108000,
     "stock": 13,
-    "rating": 3.8,
+    "rating": 4.5,
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Huỳnh Quang Long",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đỗ Hoàng Hùng",
+        "rating": 4,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Trọng Phát",
+        "rating": 4.5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 3
   },
   {
     "name": "AFNAN Intense Pour Femme",
@@ -997,9 +1546,9 @@ const products = [
       "Caramel"
     ],
     "origin": "UAE",
-    "description": "Sản phẩm AFNAN Intense Pour Femme cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">UAE</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Ngọt ngào (Gourmand)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>AFNAN Intense Pour Femme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>AFNAN</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Vanilla, Caramel</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">AFNAN Intense Pour Femme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    AFNAN luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>AFNAN Intense Pour Femme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Vanilla</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Caramel</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80\" alt=\"AFNAN Intense Pour Femme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho AFNAN Intense Pour Femme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
+      "https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800"
     ],
@@ -1043,11 +1592,32 @@ const products = [
     "price": 5600000,
     "salePrice": 4760000,
     "stock": 21,
-    "rating": 4.2,
+    "rating": 4.8,
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Hồ Đức Đạt",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Vũ Phương Hà",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Độ lưu hương trên da mình phải được 7-8 tiếng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lê Thái Bách",
+        "rating": 4.5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Bám tỏa khá ổn trong tầm giá. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 3
   },
   {
     "name": "AFNAN Oud EDT",
@@ -1060,9 +1630,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "UAE",
-    "description": "Sản phẩm AFNAN Oud EDT cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">UAE</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>AFNAN Oud EDT</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>AFNAN</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">AFNAN Oud EDT: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    AFNAN luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>AFNAN Oud EDT</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"AFNAN Oud EDT\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho AFNAN Oud EDT</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800"
     ],
@@ -1106,11 +1676,38 @@ const products = [
     "price": 4200000,
     "salePrice": 4200000,
     "stock": 6,
-    "rating": 4.8,
+    "rating": 4.1,
     "isHot": true,
     "isSale": false,
     "isNewArrival": true,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Võ Hải Linh",
+        "rating": 4.5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Quang Khoa",
+        "rating": 4,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Độ lưu hương trên da mình phải được 7-8 tiếng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hồ Lan Thảo",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Thái Bách",
+        "rating": 3,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 4
   },
   {
     "name": "AFNAN Oud Pour Homme",
@@ -1123,9 +1720,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "UAE",
-    "description": "Sản phẩm AFNAN Oud Pour Homme cao cấp đến từ thương hiệu AFNAN. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nữ</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">UAE</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Ngọt ngào, Quyến rũ, Thanh lịch</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Gặp gỡ bạn bè, Dạo phố, Hẹn hò lãng mạn</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>AFNAN Oud Pour Homme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>AFNAN</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">AFNAN Oud Pour Homme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    AFNAN luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>AFNAN Oud Pour Homme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Phụ nữ trẻ trung từ 18-35 tuổi, yêu thích phong cách nữ tính, năng động, tự tin.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80\" alt=\"AFNAN Oud Pour Homme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho AFNAN Oud Pour Homme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
+      "https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800"
     ],
@@ -1169,11 +1766,38 @@ const products = [
     "price": 4000000,
     "salePrice": 4000000,
     "stock": 12,
-    "rating": 5,
+    "rating": 4.9,
     "isHot": false,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Dương Phương Thảo",
+        "rating": 4.5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Tuấn Long",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hoàng Thanh Long",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Độ lưu hương trên da mình phải được 7-8 tiếng. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Mai Vy",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Độ lưu hương trên da mình phải được 7-8 tiếng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 4
   },
   {
     "name": "CHANEL Sport Pour Homme",
@@ -1186,9 +1810,9 @@ const products = [
       "Tuyết tùng"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm CHANEL Sport Pour Homme cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nữ</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Gỗ (Woody)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Ngọt ngào, Quyến rũ, Thanh lịch</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Gặp gỡ bạn bè, Dạo phố, Hẹn hò lãng mạn</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>CHANEL Sport Pour Homme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>CHANEL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Đàn hương, Tuyết tùng</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">CHANEL Sport Pour Homme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    CHANEL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>CHANEL Sport Pour Homme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Đàn hương</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Tuyết tùng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Phụ nữ trẻ trung từ 18-35 tuổi, yêu thích phong cách nữ tính, năng động, tự tin.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80\" alt=\"CHANEL Sport Pour Homme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho CHANEL Sport Pour Homme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800"
     ],
@@ -1232,11 +1856,50 @@ const products = [
     "price": 3600000,
     "salePrice": 3600000,
     "stock": 15,
-    "rating": 3.7,
+    "rating": 4.2,
     "isHot": false,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Võ Ngọc Trang",
+        "rating": 4,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lê Bảo My",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Văn Đạt",
+        "rating": 3,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Nguyễn Thị Trang",
+        "rating": 4.5,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Bám tỏa khá ổn trong tầm giá. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Huỳnh Ngọc Trang",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Bám tỏa khá ổn trong tầm giá. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hoàng Hồng My",
+        "rating": 3.5,
+        "comment": "Mùi hương thì ok nhưng giao hàng hơi chậm. Độ bám tỏa trên da mình chỉ tầm 4 tiếng.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 6
   },
   {
     "name": "CHANEL Velvet Edition",
@@ -1249,9 +1912,9 @@ const products = [
       "Tuyết tùng"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm CHANEL Velvet Edition cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Gỗ (Woody)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>CHANEL Velvet Edition</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>CHANEL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Đàn hương, Tuyết tùng</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">CHANEL Velvet Edition: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    CHANEL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>CHANEL Velvet Edition</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Đàn hương</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Tuyết tùng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"CHANEL Velvet Edition\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho CHANEL Velvet Edition</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800"
     ],
@@ -1295,11 +1958,50 @@ const products = [
     "price": 3900000,
     "salePrice": 3900000,
     "stock": 25,
-    "rating": 3.7,
+    "rating": 4.3,
     "isHot": true,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Hoàng Thanh Bách",
+        "rating": 4.5,
+        "comment": "Mùi nam tính, lịch lãm, hợp đi tiệc hoặc hẹn hò. Bám tỏa khá ổn trong tầm giá. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hoàng Bảo Hà",
+        "rating": 3,
+        "comment": "Mùi nam tính, lịch lãm, hợp đi tiệc hoặc hẹn hò. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lê Trọng Đạt",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Ngọc Yến",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Hồng Anh",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Ngọc Anh",
+        "rating": 3,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 6
   },
   {
     "name": "CHANEL Noir Pour Femme",
@@ -1312,9 +2014,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm CHANEL Noir Pour Femme cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>CHANEL Noir Pour Femme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>CHANEL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">CHANEL Noir Pour Femme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    CHANEL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>CHANEL Noir Pour Femme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80\" alt=\"CHANEL Noir Pour Femme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho CHANEL Noir Pour Femme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800"
     ],
@@ -1337,11 +2039,56 @@ const products = [
     "price": 2500000,
     "salePrice": 2500000,
     "stock": 14,
-    "rating": 5,
+    "rating": 4.7,
     "isHot": false,
     "isSale": false,
     "isNewArrival": true,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Huỳnh Hải Anh",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Hải Quỳnh",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Đức Hùng",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hoàng Quang Khoa",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Quang Nam",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Thanh Trang",
+        "rating": 3,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Bám tỏa khá ổn trong tầm giá. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Phương My",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Bám tỏa khá ổn trong tầm giá. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 7
   },
   {
     "name": "CHANEL Velvet Unisex",
@@ -1354,9 +2101,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm CHANEL Velvet Unisex cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>CHANEL Velvet Unisex</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>CHANEL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">CHANEL Velvet Unisex: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    CHANEL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>CHANEL Velvet Unisex</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80\" alt=\"CHANEL Velvet Unisex\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho CHANEL Velvet Unisex</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+      "https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800"
     ],
@@ -1400,11 +2147,32 @@ const products = [
     "price": 5900000,
     "salePrice": 5251000,
     "stock": 12,
-    "rating": 4.6,
+    "rating": 4.7,
     "isHot": true,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Hoàng Thái Long",
+        "rating": 4,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hồ Thanh Hà",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Hữu Hùng",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 3
   },
   {
     "name": "CHANEL Magic Pour Femme",
@@ -1417,9 +2185,9 @@ const products = [
       "Tuyết tùng"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm CHANEL Magic Pour Femme cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Gỗ (Woody)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>CHANEL Magic Pour Femme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>CHANEL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Đàn hương, Tuyết tùng</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">CHANEL Magic Pour Femme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    CHANEL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>CHANEL Magic Pour Femme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Đàn hương</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Tuyết tùng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80\" alt=\"CHANEL Magic Pour Femme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho CHANEL Magic Pour Femme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800"
     ],
@@ -1463,11 +2231,50 @@ const products = [
     "price": 5300000,
     "salePrice": 5300000,
     "stock": 9,
-    "rating": 3.6,
+    "rating": 4.4,
     "isHot": false,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Võ Thái Khoa",
+        "rating": 4.5,
+        "comment": "Mùi nam tính, lịch lãm, hợp đi tiệc hoặc hẹn hò. Độ lưu hương trên da mình phải được 7-8 tiếng. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lê Lan Hương",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Phương Anh",
+        "rating": 3,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Minh Sơn",
+        "rating": 4,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Vũ Trọng Đạt",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Thu Yến",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Độ lưu hương trên da mình phải được 7-8 tiếng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 6
   },
   {
     "name": "CHANEL Blue Pour Homme",
@@ -1480,9 +2287,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm CHANEL Blue Pour Homme cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>CHANEL Blue Pour Homme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>CHANEL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">CHANEL Blue Pour Homme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    CHANEL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>CHANEL Blue Pour Homme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80\" alt=\"CHANEL Blue Pour Homme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho CHANEL Blue Pour Homme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800"
     ],
@@ -1505,11 +2312,32 @@ const products = [
     "price": 5800000,
     "salePrice": 5800000,
     "stock": 18,
-    "rating": 5,
+    "rating": 4.3,
     "isHot": true,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Đỗ Trọng Khang",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đỗ Thanh Đạt",
+        "rating": 3,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Dương Phương Quỳnh",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 3
   },
   {
     "name": "CHANEL Cologne Unisex",
@@ -1522,9 +2350,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm CHANEL Cologne Unisex cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>CHANEL Cologne Unisex</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>CHANEL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">CHANEL Cologne Unisex: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    CHANEL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>CHANEL Cologne Unisex</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"CHANEL Cologne Unisex\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho CHANEL Cologne Unisex</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800"
     ],
@@ -1568,11 +2396,50 @@ const products = [
     "price": 4900000,
     "salePrice": 4900000,
     "stock": 18,
-    "rating": 4.9,
+    "rating": 3.8,
     "isHot": false,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Võ Thị Nhung",
+        "rating": 3,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Vũ Trọng Nam",
+        "rating": 3,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Mai Vy",
+        "rating": 4.5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Nguyễn Bảo Anh",
+        "rating": 4.5,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Độ lưu hương trên da mình phải được 7-8 tiếng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Thu Hương",
+        "rating": 3,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Trọng Long",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 6
   },
   {
     "name": "CHANEL Fraiche Pour Homme",
@@ -1585,9 +2452,9 @@ const products = [
       "Caramel"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm CHANEL Fraiche Pour Homme cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Ngọt ngào (Gourmand)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>CHANEL Fraiche Pour Homme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>CHANEL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Vanilla, Caramel</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">CHANEL Fraiche Pour Homme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    CHANEL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>CHANEL Fraiche Pour Homme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Vanilla</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Caramel</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"CHANEL Fraiche Pour Homme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho CHANEL Fraiche Pour Homme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800"
     ],
@@ -1614,7 +2481,28 @@ const products = [
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Đặng Mai Linh",
+        "rating": 4,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Bám tỏa khá ổn trong tầm giá. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lê Quang Bách",
+        "rating": 4.5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Mai Linh",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 3
   },
   {
     "name": "CHANEL Noir Pour Homme",
@@ -1627,9 +2515,9 @@ const products = [
       "Caramel"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm CHANEL Noir Pour Homme cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nữ</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Ngọt ngào (Gourmand)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Ngọt ngào, Quyến rũ, Thanh lịch</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Gặp gỡ bạn bè, Dạo phố, Hẹn hò lãng mạn</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>CHANEL Noir Pour Homme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>CHANEL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Vanilla, Caramel</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">CHANEL Noir Pour Homme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    CHANEL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>CHANEL Noir Pour Homme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Vanilla</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Caramel</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Phụ nữ trẻ trung từ 18-35 tuổi, yêu thích phong cách nữ tính, năng động, tự tin.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80\" alt=\"CHANEL Noir Pour Homme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho CHANEL Noir Pour Homme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800"
     ],
@@ -1673,11 +2561,32 @@ const products = [
     "price": 5600000,
     "salePrice": 5600000,
     "stock": 5,
-    "rating": 4.3,
+    "rating": 4.7,
     "isHot": true,
     "isSale": false,
     "isNewArrival": true,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Huỳnh Thu Anh",
+        "rating": 4.5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Độ lưu hương trên da mình phải được 7-8 tiếng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Hoàng Phát",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Phương Linh",
+        "rating": 4.5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 3
   },
   {
     "name": "CHANEL Extreme EDT",
@@ -1690,9 +2599,9 @@ const products = [
       "Caramel"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm CHANEL Extreme EDT cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Ngọt ngào (Gourmand)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>CHANEL Extreme EDT</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>CHANEL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Vanilla, Caramel</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">CHANEL Extreme EDT: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    CHANEL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>CHANEL Extreme EDT</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Vanilla</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Caramel</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80\" alt=\"CHANEL Extreme EDT\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho CHANEL Extreme EDT</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
     ],
@@ -1715,11 +2624,38 @@ const products = [
     "price": 5500000,
     "salePrice": 4565000,
     "stock": 26,
-    "rating": 3.7,
+    "rating": 3.9,
     "isHot": true,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Đặng Gia Long",
+        "rating": 5,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Bám tỏa khá ổn trong tầm giá. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Dương Minh Long",
+        "rating": 3,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Vũ Thanh Long",
+        "rating": 3,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Bảo Quỳnh",
+        "rating": 4.5,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 4
   },
   {
     "name": "CHANEL Bloom EDP",
@@ -1732,9 +2668,9 @@ const products = [
       "Tuyết tùng"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm CHANEL Bloom EDP cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Gỗ (Woody)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>CHANEL Bloom EDP</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>CHANEL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Đàn hương, Tuyết tùng</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">CHANEL Bloom EDP: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    CHANEL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>CHANEL Bloom EDP</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Đàn hương</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Tuyết tùng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80\" alt=\"CHANEL Bloom EDP\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho CHANEL Bloom EDP</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
+      "https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800"
     ],
@@ -1757,11 +2693,50 @@ const products = [
     "price": 3200000,
     "salePrice": 3200000,
     "stock": 8,
-    "rating": 3.5,
+    "rating": 4.6,
     "isHot": false,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Bùi Quang Khoa",
+        "rating": 4.5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Vũ Mai Nhung",
+        "rating": 4.5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Văn Sơn",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Hoàng Khoa",
+        "rating": 4,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lê Thái Sơn",
+        "rating": 4.5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hoàng Kim Hương",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Độ lưu hương trên da mình phải được 7-8 tiếng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 6
   },
   {
     "name": "CHANEL Bloom EDT",
@@ -1774,9 +2749,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm CHANEL Bloom EDT cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>CHANEL Bloom EDT</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>CHANEL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">CHANEL Bloom EDT: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    CHANEL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>CHANEL Bloom EDT</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80\" alt=\"CHANEL Bloom EDT\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho CHANEL Bloom EDT</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
+      "https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
     ],
@@ -1820,11 +2795,56 @@ const products = [
     "price": 3900000,
     "salePrice": 3471000,
     "stock": 16,
-    "rating": 4.3,
+    "rating": 4.4,
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Phạm Hồng Hương",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Mai Vy",
+        "rating": 5,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Lan Quỳnh",
+        "rating": 3,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Dương Phương Hà",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Vũ Trọng Đạt",
+        "rating": 3,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Bám tỏa khá ổn trong tầm giá. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đỗ Quang Sơn",
+        "rating": 4.5,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lê Phương Hà",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 7
   },
   {
     "name": "CHANEL Bloom Unisex",
@@ -1837,9 +2857,9 @@ const products = [
       "Caramel"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm CHANEL Bloom Unisex cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Ngọt ngào (Gourmand)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>CHANEL Bloom Unisex</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>CHANEL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Vanilla, Caramel</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">CHANEL Bloom Unisex: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    CHANEL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>CHANEL Bloom Unisex</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Vanilla</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Caramel</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80\" alt=\"CHANEL Bloom Unisex\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho CHANEL Bloom Unisex</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800"
     ],
@@ -1883,11 +2903,56 @@ const products = [
     "price": 2000000,
     "salePrice": 2000000,
     "stock": 19,
-    "rating": 4.5,
+    "rating": 4.3,
     "isHot": false,
     "isSale": false,
     "isNewArrival": true,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Hoàng Thanh Khang",
+        "rating": 4.5,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Bám tỏa khá ổn trong tầm giá. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Huỳnh Minh Long",
+        "rating": 3,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lê Hồng Hà",
+        "rating": 5,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Bám tỏa khá ổn trong tầm giá. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Thị Vy",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Huỳnh Tuấn Nam",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Bám tỏa khá ổn trong tầm giá. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Thu Hà",
+        "rating": 4.5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đỗ Thái Hùng",
+        "rating": 3,
+        "comment": "Mùi hương thì ok nhưng giao hàng hơi chậm. Độ bám tỏa trên da mình chỉ tầm 4 tiếng.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 7
   },
   {
     "name": "CHANEL Intense Pour Homme",
@@ -1900,9 +2965,9 @@ const products = [
       "Tuyết tùng"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm CHANEL Intense Pour Homme cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nữ</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Gỗ (Woody)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Ngọt ngào, Quyến rũ, Thanh lịch</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Gặp gỡ bạn bè, Dạo phố, Hẹn hò lãng mạn</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>CHANEL Intense Pour Homme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>CHANEL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Đàn hương, Tuyết tùng</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">CHANEL Intense Pour Homme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    CHANEL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>CHANEL Intense Pour Homme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Đàn hương</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Tuyết tùng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Phụ nữ trẻ trung từ 18-35 tuổi, yêu thích phong cách nữ tính, năng động, tự tin.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"CHANEL Intense Pour Homme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho CHANEL Intense Pour Homme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800"
     ],
@@ -1925,11 +2990,56 @@ const products = [
     "price": 4000000,
     "salePrice": 4000000,
     "stock": 28,
-    "rating": 4.6,
+    "rating": 4.4,
     "isHot": true,
     "isSale": false,
     "isNewArrival": true,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Lê Thái Khoa",
+        "rating": 5,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Đức Đạt",
+        "rating": 5,
+        "comment": "Hương thơm nữ tính, ngọt ngào và vô cùng cuốn hút. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Đức Bách",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lê Đức Long",
+        "rating": 4,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phạm Phương Hương",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Vũ Tuấn Khang",
+        "rating": 3,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hoàng Kim Nhung",
+        "rating": 3.5,
+        "comment": "Mùi hương thì ok nhưng giao hàng hơi chậm. Độ bám tỏa trên da mình chỉ tầm 4 tiếng.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 7
   },
   {
     "name": "CHANEL L'eau Pour Femme",
@@ -1942,9 +3052,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm CHANEL L'eau Pour Femme cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>CHANEL L'eau Pour Femme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>CHANEL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">CHANEL L'eau Pour Femme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    CHANEL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>CHANEL L'eau Pour Femme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80\" alt=\"CHANEL L'eau Pour Femme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho CHANEL L'eau Pour Femme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800"
     ],
@@ -1988,11 +3098,44 @@ const products = [
     "price": 1500000,
     "salePrice": 1140000,
     "stock": 24,
-    "rating": 4.4,
+    "rating": 4.6,
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Phan Mai Hương",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Bám tỏa khá ổn trong tầm giá. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Huỳnh Mai Linh",
+        "rating": 4.5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Quang Tùng",
+        "rating": 4,
+        "comment": "Mùi nam tính, lịch lãm, hợp đi tiệc hoặc hẹn hò. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hoàng Lan Anh",
+        "rating": 4.5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Thanh Nam",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Độ lưu hương trên da mình phải được 7-8 tiếng. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 5
   },
   {
     "name": "CHANEL L'eau Pour Homme",
@@ -2005,9 +3148,9 @@ const products = [
       "Tuyết tùng"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm CHANEL L'eau Pour Homme cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nữ</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Gỗ (Woody)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Ngọt ngào, Quyến rũ, Thanh lịch</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Gặp gỡ bạn bè, Dạo phố, Hẹn hò lãng mạn</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>CHANEL L'eau Pour Homme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>CHANEL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Đàn hương, Tuyết tùng</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">CHANEL L'eau Pour Homme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    CHANEL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>CHANEL L'eau Pour Homme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Đàn hương</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Tuyết tùng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Phụ nữ trẻ trung từ 18-35 tuổi, yêu thích phong cách nữ tính, năng động, tự tin.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80\" alt=\"CHANEL L'eau Pour Homme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho CHANEL L'eau Pour Homme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
     ],
@@ -2051,11 +3194,50 @@ const products = [
     "price": 3600000,
     "salePrice": 3600000,
     "stock": 13,
-    "rating": 5,
+    "rating": 4.4,
     "isHot": false,
     "isSale": false,
     "isNewArrival": true,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Dương Thanh Sơn",
+        "rating": 3,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Độ lưu hương trên da mình phải được 7-8 tiếng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Gia Hùng",
+        "rating": 4.5,
+        "comment": "Hương thơm nữ tính, ngọt ngào và vô cùng cuốn hút. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Nguyễn Thanh Long",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phạm Thu Hương",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Độ lưu hương trên da mình phải được 7-8 tiếng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hoàng Phương Nhung",
+        "rating": 4.5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Nguyễn Gia Long",
+        "rating": 4.5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 6
   },
   {
     "name": "CHANEL Extreme Unisex",
@@ -2068,9 +3250,9 @@ const products = [
       "Caramel"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm CHANEL Extreme Unisex cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nữ</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Ngọt ngào (Gourmand)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Ngọt ngào, Quyến rũ, Thanh lịch</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Gặp gỡ bạn bè, Dạo phố, Hẹn hò lãng mạn</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>CHANEL Extreme Unisex</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>CHANEL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Vanilla, Caramel</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">CHANEL Extreme Unisex: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    CHANEL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>CHANEL Extreme Unisex</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Vanilla</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Caramel</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Phụ nữ trẻ trung từ 18-35 tuổi, yêu thích phong cách nữ tính, năng động, tự tin.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"CHANEL Extreme Unisex\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho CHANEL Extreme Unisex</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800"
     ],
@@ -2114,11 +3296,44 @@ const products = [
     "price": 4100000,
     "salePrice": 3485000,
     "stock": 15,
-    "rating": 4.6,
+    "rating": 4.5,
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Dương Hải Yến",
+        "rating": 5,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Văn Phong",
+        "rating": 4.5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Trọng Nam",
+        "rating": 3,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Mai Vy",
+        "rating": 5,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Bám tỏa khá ổn trong tầm giá. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Hữu Bách",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 5
   },
   {
     "name": "CHANEL Blue Edition",
@@ -2131,9 +3346,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm CHANEL Blue Edition cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>CHANEL Blue Edition</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>CHANEL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">CHANEL Blue Edition: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    CHANEL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>CHANEL Blue Edition</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80\" alt=\"CHANEL Blue Edition\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho CHANEL Blue Edition</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800"
     ],
@@ -2177,11 +3392,44 @@ const products = [
     "price": 5500000,
     "salePrice": 5500000,
     "stock": 15,
-    "rating": 3.6,
+    "rating": 4.6,
     "isHot": false,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Trần Hoàng Khang",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Độ lưu hương trên da mình phải được 7-8 tiếng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Trọng Bách",
+        "rating": 4.5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Bám tỏa khá ổn trong tầm giá. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Phương Vy",
+        "rating": 4,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Thái Khang",
+        "rating": 4.5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Gia Hùng",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 5
   },
   {
     "name": "CHANEL Cologne Edition",
@@ -2194,9 +3442,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm CHANEL Cologne Edition cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>CHANEL Cologne Edition</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>CHANEL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">CHANEL Cologne Edition: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    CHANEL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>CHANEL Cologne Edition</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80\" alt=\"CHANEL Cologne Edition\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho CHANEL Cologne Edition</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
     ],
@@ -2240,11 +3488,50 @@ const products = [
     "price": 2000000,
     "salePrice": 2000000,
     "stock": 8,
-    "rating": 4.9,
+    "rating": 4.8,
     "isHot": false,
     "isSale": false,
     "isNewArrival": true,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Hồ Mai Yến",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Độ lưu hương trên da mình phải được 7-8 tiếng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phạm Thanh Vy",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Huỳnh Mai Vy",
+        "rating": 4.5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Tuấn Khoa",
+        "rating": 4.5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Bám tỏa khá ổn trong tầm giá. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Quang Khoa",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Bám tỏa khá ổn trong tầm giá. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hồ Đức Tùng",
+        "rating": 4.5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Độ lưu hương trên da mình phải được 7-8 tiếng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 6
   },
   {
     "name": "CHANEL Jour EDT",
@@ -2257,9 +3544,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm CHANEL Jour EDT cao cấp đến từ thương hiệu CHANEL. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>CHANEL Jour EDT</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>CHANEL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">CHANEL Jour EDT: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    CHANEL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>CHANEL Jour EDT</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80\" alt=\"CHANEL Jour EDT\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho CHANEL Jour EDT</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800"
     ],
@@ -2303,11 +3590,56 @@ const products = [
     "price": 3000000,
     "salePrice": 3000000,
     "stock": 19,
-    "rating": 5,
+    "rating": 4.2,
     "isHot": false,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Nguyễn Đức Nam",
+        "rating": 4.5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Nguyễn Văn Nam",
+        "rating": 4,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Bám tỏa khá ổn trong tầm giá. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Tuấn Khoa",
+        "rating": 4,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Độ lưu hương trên da mình phải được 7-8 tiếng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phạm Thị Hương",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Nguyễn Kim Quỳnh",
+        "rating": 5,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Bám tỏa khá ổn trong tầm giá. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Hải Linh",
+        "rating": 4,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phạm Hải Linh",
+        "rating": 3,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 7
   },
   {
     "name": "GUCCI Rouge Pour Femme",
@@ -2320,9 +3652,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "Ý",
-    "description": "Sản phẩm GUCCI Rouge Pour Femme cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Ý</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>GUCCI Rouge Pour Femme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>GUCCI</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">GUCCI Rouge Pour Femme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    GUCCI luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>GUCCI Rouge Pour Femme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80\" alt=\"GUCCI Rouge Pour Femme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho GUCCI Rouge Pour Femme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
     ],
@@ -2366,11 +3698,56 @@ const products = [
     "price": 4700000,
     "salePrice": 3854000,
     "stock": 17,
-    "rating": 3.9,
+    "rating": 4.8,
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Trần Phương Linh",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phạm Phương Anh",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Gia Nam",
+        "rating": 4,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Thái Phát",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đỗ Đức Khang",
+        "rating": 4.5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Thị Linh",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phạm Gia Tùng",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 7
   },
   {
     "name": "GUCCI Gold Pour Homme",
@@ -2383,9 +3760,9 @@ const products = [
       "Caramel"
     ],
     "origin": "Ý",
-    "description": "Sản phẩm GUCCI Gold Pour Homme cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Ý</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Ngọt ngào (Gourmand)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>GUCCI Gold Pour Homme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>GUCCI</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Vanilla, Caramel</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">GUCCI Gold Pour Homme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    GUCCI luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>GUCCI Gold Pour Homme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Vanilla</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Caramel</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"GUCCI Gold Pour Homme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho GUCCI Gold Pour Homme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
     ],
@@ -2429,11 +3806,32 @@ const products = [
     "price": 3700000,
     "salePrice": 3700000,
     "stock": 20,
-    "rating": 3.6,
+    "rating": 4.3,
     "isHot": false,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Hoàng Mai Quỳnh",
+        "rating": 5,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phạm Thị My",
+        "rating": 5,
+        "comment": "Mùi nam tính, lịch lãm, hợp đi tiệc hoặc hẹn hò. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Nguyễn Thị Hà",
+        "rating": 3,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 3
   },
   {
     "name": "GUCCI L'eau EDT",
@@ -2446,9 +3844,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "Ý",
-    "description": "Sản phẩm GUCCI L'eau EDT cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Ý</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>GUCCI L'eau EDT</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>GUCCI</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">GUCCI L'eau EDT: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    GUCCI luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>GUCCI L'eau EDT</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80\" alt=\"GUCCI L'eau EDT\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho GUCCI L'eau EDT</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
     ],
@@ -2492,11 +3890,32 @@ const products = [
     "price": 5300000,
     "salePrice": 5300000,
     "stock": 15,
-    "rating": 4.6,
+    "rating": 5,
     "isHot": false,
     "isSale": false,
     "isNewArrival": true,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Lê Trọng Khoa",
+        "rating": 5,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Thanh Hùng",
+        "rating": 5,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Huỳnh Hoàng Bách",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 3
   },
   {
     "name": "GUCCI Noir EDP",
@@ -2509,9 +3928,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "Ý",
-    "description": "Sản phẩm GUCCI Noir EDP cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Ý</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>GUCCI Noir EDP</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>GUCCI</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">GUCCI Noir EDP: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    GUCCI luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>GUCCI Noir EDP</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80\" alt=\"GUCCI Noir EDP\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho GUCCI Noir EDP</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800"
     ],
@@ -2534,11 +3953,50 @@ const products = [
     "price": 5300000,
     "salePrice": 5300000,
     "stock": 7,
-    "rating": 4.2,
+    "rating": 3.9,
     "isHot": true,
     "isSale": false,
     "isNewArrival": true,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Huỳnh Hữu Nam",
+        "rating": 4.5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Thu Quỳnh",
+        "rating": 3,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lê Trọng Nam",
+        "rating": 3,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phạm Hải My",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Thanh Trang",
+        "rating": 4,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Độ lưu hương trên da mình phải được 7-8 tiếng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đỗ Mai Trang",
+        "rating": 4,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 6
   },
   {
     "name": "GUCCI Blue Pour Femme",
@@ -2551,9 +4009,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "Ý",
-    "description": "Sản phẩm GUCCI Blue Pour Femme cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Ý</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>GUCCI Blue Pour Femme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>GUCCI</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">GUCCI Blue Pour Femme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    GUCCI luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>GUCCI Blue Pour Femme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"GUCCI Blue Pour Femme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho GUCCI Blue Pour Femme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
     ],
@@ -2597,11 +4055,56 @@ const products = [
     "price": 2700000,
     "salePrice": 2700000,
     "stock": 17,
-    "rating": 4.2,
+    "rating": 4.3,
     "isHot": false,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Lê Ngọc Hương",
+        "rating": 3,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Huỳnh Thanh Quỳnh",
+        "rating": 5,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phạm Thanh Trang",
+        "rating": 5,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lê Bảo Quỳnh",
+        "rating": 3,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Hữu Hùng",
+        "rating": 5,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Thanh Hà",
+        "rating": 4,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hồ Thị Nhung",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 7
   },
   {
     "name": "GUCCI Nuit Unisex",
@@ -2614,9 +4117,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "Ý",
-    "description": "Sản phẩm GUCCI Nuit Unisex cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Ý</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>GUCCI Nuit Unisex</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>GUCCI</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">GUCCI Nuit Unisex: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    GUCCI luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>GUCCI Nuit Unisex</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"GUCCI Nuit Unisex\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho GUCCI Nuit Unisex</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
     ],
@@ -2660,11 +4163,44 @@ const products = [
     "price": 5800000,
     "salePrice": 4698000,
     "stock": 26,
-    "rating": 4.2,
+    "rating": 4.1,
     "isHot": true,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Đỗ Quang Nam",
+        "rating": 3,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đỗ Gia Khang",
+        "rating": 5,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Dương Thị Hương",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Bám tỏa khá ổn trong tầm giá. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hoàng Gia Sơn",
+        "rating": 4.5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Bảo My",
+        "rating": 3,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 5
   },
   {
     "name": "GUCCI Absolu Pour Homme",
@@ -2677,9 +4213,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "Ý",
-    "description": "Sản phẩm GUCCI Absolu Pour Homme cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Ý</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>GUCCI Absolu Pour Homme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>GUCCI</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">GUCCI Absolu Pour Homme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    GUCCI luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>GUCCI Absolu Pour Homme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80\" alt=\"GUCCI Absolu Pour Homme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho GUCCI Absolu Pour Homme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
     ],
@@ -2723,11 +4259,38 @@ const products = [
     "price": 3300000,
     "salePrice": 3300000,
     "stock": 23,
-    "rating": 4.2,
+    "rating": 4.5,
     "isHot": false,
     "isSale": false,
     "isNewArrival": true,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Hoàng Thanh Trang",
+        "rating": 3,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Nguyễn Thu Linh",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đỗ Trọng Hùng",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Độ lưu hương trên da mình phải được 7-8 tiếng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Kim Hà",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 4
   },
   {
     "name": "GUCCI Magic Unisex",
@@ -2740,9 +4303,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "Ý",
-    "description": "Sản phẩm GUCCI Magic Unisex cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Ý</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>GUCCI Magic Unisex</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>GUCCI</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">GUCCI Magic Unisex: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    GUCCI luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>GUCCI Magic Unisex</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80\" alt=\"GUCCI Magic Unisex\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho GUCCI Magic Unisex</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800"
     ],
@@ -2786,11 +4349,38 @@ const products = [
     "price": 1700000,
     "salePrice": 1700000,
     "stock": 28,
-    "rating": 4,
+    "rating": 4.4,
     "isHot": true,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Bùi Lan Quỳnh",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Bám tỏa khá ổn trong tầm giá. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lê Lan Hương",
+        "rating": 4,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Bám tỏa khá ổn trong tầm giá. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hồ Bảo Vy",
+        "rating": 4,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Văn Long",
+        "rating": 4.5,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Bám tỏa khá ổn trong tầm giá. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 4
   },
   {
     "name": "GUCCI Oud Unisex",
@@ -2803,9 +4393,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "Ý",
-    "description": "Sản phẩm GUCCI Oud Unisex cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Ý</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>GUCCI Oud Unisex</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>GUCCI</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">GUCCI Oud Unisex: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    GUCCI luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>GUCCI Oud Unisex</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80\" alt=\"GUCCI Oud Unisex\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho GUCCI Oud Unisex</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
+      "https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800"
     ],
@@ -2849,11 +4439,38 @@ const products = [
     "price": 1700000,
     "salePrice": 1700000,
     "stock": 27,
-    "rating": 4.2,
+    "rating": 4.6,
     "isHot": false,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Phạm Lan Thảo",
+        "rating": 4.5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Gia Phong",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hồ Thanh Khang",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Nguyễn Văn Đạt",
+        "rating": 4,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Bám tỏa khá ổn trong tầm giá. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 4
   },
   {
     "name": "GUCCI Oud EDP",
@@ -2866,9 +4483,9 @@ const products = [
       "Tuyết tùng"
     ],
     "origin": "Ý",
-    "description": "Sản phẩm GUCCI Oud EDP cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nữ</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Ý</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Gỗ (Woody)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Ngọt ngào, Quyến rũ, Thanh lịch</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Gặp gỡ bạn bè, Dạo phố, Hẹn hò lãng mạn</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>GUCCI Oud EDP</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>GUCCI</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Đàn hương, Tuyết tùng</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">GUCCI Oud EDP: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    GUCCI luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>GUCCI Oud EDP</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Đàn hương</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Tuyết tùng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Phụ nữ trẻ trung từ 18-35 tuổi, yêu thích phong cách nữ tính, năng động, tự tin.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"GUCCI Oud EDP\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho GUCCI Oud EDP</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800"
     ],
@@ -2891,11 +4508,32 @@ const products = [
     "price": 4900000,
     "salePrice": 4900000,
     "stock": 12,
-    "rating": 4.1,
+    "rating": 5,
     "isHot": false,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Hoàng Thanh Hà",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Độ lưu hương trên da mình phải được 7-8 tiếng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Nguyễn Đức Phong",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Độ lưu hương trên da mình phải được 7-8 tiếng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Thu Quỳnh",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 3
   },
   {
     "name": "GUCCI Bloom Unisex",
@@ -2908,9 +4546,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "Ý",
-    "description": "Sản phẩm GUCCI Bloom Unisex cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nữ</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Ý</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Ngọt ngào, Quyến rũ, Thanh lịch</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Gặp gỡ bạn bè, Dạo phố, Hẹn hò lãng mạn</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>GUCCI Bloom Unisex</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>GUCCI</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">GUCCI Bloom Unisex: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    GUCCI luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>GUCCI Bloom Unisex</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Phụ nữ trẻ trung từ 18-35 tuổi, yêu thích phong cách nữ tính, năng động, tự tin.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80\" alt=\"GUCCI Bloom Unisex\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho GUCCI Bloom Unisex</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800"
     ],
@@ -2954,11 +4592,44 @@ const products = [
     "price": 3400000,
     "salePrice": 3400000,
     "stock": 16,
-    "rating": 4.8,
+    "rating": 4.1,
     "isHot": false,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Đặng Hải Nhung",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đỗ Kim Hương",
+        "rating": 4.5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hồ Phương Trang",
+        "rating": 3,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Gia Long",
+        "rating": 3,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Nguyễn Phương Hà",
+        "rating": 5,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 5
   },
   {
     "name": "GUCCI L'eau Edition",
@@ -2971,9 +4642,9 @@ const products = [
       "Caramel"
     ],
     "origin": "Ý",
-    "description": "Sản phẩm GUCCI L'eau Edition cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Ý</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Ngọt ngào (Gourmand)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>GUCCI L'eau Edition</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>GUCCI</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Vanilla, Caramel</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">GUCCI L'eau Edition: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    GUCCI luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>GUCCI L'eau Edition</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Vanilla</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Caramel</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80\" alt=\"GUCCI L'eau Edition\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho GUCCI L'eau Edition</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800"
     ],
@@ -3017,11 +4688,32 @@ const products = [
     "price": 5100000,
     "salePrice": 4386000,
     "stock": 5,
-    "rating": 4.2,
+    "rating": 4.8,
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Hoàng Thanh Thảo",
+        "rating": 4.5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phạm Thái Nam",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phạm Thị Hương",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 3
   },
   {
     "name": "GUCCI Oud Pour Femme",
@@ -3034,9 +4726,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "Ý",
-    "description": "Sản phẩm GUCCI Oud Pour Femme cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Ý</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>GUCCI Oud Pour Femme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>GUCCI</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">GUCCI Oud Pour Femme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    GUCCI luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>GUCCI Oud Pour Femme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80\" alt=\"GUCCI Oud Pour Femme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho GUCCI Oud Pour Femme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
+      "https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800"
     ],
@@ -3080,11 +4772,44 @@ const products = [
     "price": 5600000,
     "salePrice": 5600000,
     "stock": 5,
-    "rating": 4,
+    "rating": 4.9,
     "isHot": false,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Đỗ Hồng Hà",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Độ lưu hương trên da mình phải được 7-8 tiếng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Văn Nam",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Vũ Lan Trang",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Quang Phong",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Bám tỏa khá ổn trong tầm giá. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hoàng Văn Tùng",
+        "rating": 4.5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 5
   },
   {
     "name": "GUCCI Parfum EDT",
@@ -3097,9 +4822,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "Ý",
-    "description": "Sản phẩm GUCCI Parfum EDT cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Ý</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>GUCCI Parfum EDT</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>GUCCI</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">GUCCI Parfum EDT: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    GUCCI luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>GUCCI Parfum EDT</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80\" alt=\"GUCCI Parfum EDT\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho GUCCI Parfum EDT</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
+      "https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800"
     ],
@@ -3143,11 +4868,44 @@ const products = [
     "price": 3500000,
     "salePrice": 2695000,
     "stock": 29,
-    "rating": 4.6,
+    "rating": 4,
     "isHot": true,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Huỳnh Thái Khoa",
+        "rating": 4,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Độ lưu hương trên da mình phải được 7-8 tiếng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Hoàng Bách",
+        "rating": 3,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Độ lưu hương trên da mình phải được 7-8 tiếng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lê Thanh Khang",
+        "rating": 5,
+        "comment": "Mùi nam tính, lịch lãm, hợp đi tiệc hoặc hẹn hò. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Thanh Sơn",
+        "rating": 5,
+        "comment": "Mùi nam tính, lịch lãm, hợp đi tiệc hoặc hẹn hò. Bám tỏa khá ổn trong tầm giá. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Kim My",
+        "rating": 3,
+        "comment": "Mùi hương thì ok nhưng giao hàng hơi chậm. Độ bám tỏa trên da mình chỉ tầm 4 tiếng.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 5
   },
   {
     "name": "GUCCI Velvet Edition",
@@ -3160,9 +4918,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "Ý",
-    "description": "Sản phẩm GUCCI Velvet Edition cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Ý</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>GUCCI Velvet Edition</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>GUCCI</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">GUCCI Velvet Edition: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    GUCCI luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>GUCCI Velvet Edition</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80\" alt=\"GUCCI Velvet Edition\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho GUCCI Velvet Edition</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
+      "https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80",
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800"
     ],
@@ -3206,11 +4964,44 @@ const products = [
     "price": 2300000,
     "salePrice": 1909000,
     "stock": 27,
-    "rating": 3.7,
+    "rating": 4.2,
     "isHot": true,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Ngô Thanh Nhung",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hoàng Thanh Nam",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Bám tỏa khá ổn trong tầm giá. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Gia Bách",
+        "rating": 4,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phạm Kim Vy",
+        "rating": 4,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hoàng Bảo Anh",
+        "rating": 3,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Độ lưu hương trên da mình phải được 7-8 tiếng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 5
   },
   {
     "name": "GUCCI Nuit Pour Homme",
@@ -3223,9 +5014,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "Ý",
-    "description": "Sản phẩm GUCCI Nuit Pour Homme cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Ý</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>GUCCI Nuit Pour Homme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>GUCCI</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">GUCCI Nuit Pour Homme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    GUCCI luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>GUCCI Nuit Pour Homme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"GUCCI Nuit Pour Homme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho GUCCI Nuit Pour Homme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800"
     ],
@@ -3248,11 +5039,44 @@ const products = [
     "price": 2500000,
     "salePrice": 2050000,
     "stock": 15,
-    "rating": 4.5,
+    "rating": 4.3,
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Lý Tuấn Hùng",
+        "rating": 4.5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Bám tỏa khá ổn trong tầm giá. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Ngọc Vy",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Minh Khoa",
+        "rating": 4.5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Tuấn Khang",
+        "rating": 4.5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Độ lưu hương trên da mình phải được 7-8 tiếng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Bảo Vy",
+        "rating": 3,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 5
   },
   {
     "name": "GUCCI Classic Edition",
@@ -3265,9 +5089,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "Ý",
-    "description": "Sản phẩm GUCCI Classic Edition cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Ý</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>GUCCI Classic Edition</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>GUCCI</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">GUCCI Classic Edition: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    GUCCI luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>GUCCI Classic Edition</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"GUCCI Classic Edition\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho GUCCI Classic Edition</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800"
     ],
@@ -3311,11 +5135,32 @@ const products = [
     "price": 1600000,
     "salePrice": 1600000,
     "stock": 30,
-    "rating": 3.8,
+    "rating": 4.3,
     "isHot": true,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Trần Phương Hà",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Hữu Hùng",
+        "rating": 3,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Bám tỏa khá ổn trong tầm giá. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Hữu Bách",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 3
   },
   {
     "name": "GUCCI Absolu EDT",
@@ -3328,9 +5173,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "Ý",
-    "description": "Sản phẩm GUCCI Absolu EDT cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nữ</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Ý</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Ngọt ngào, Quyến rũ, Thanh lịch</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Gặp gỡ bạn bè, Dạo phố, Hẹn hò lãng mạn</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>GUCCI Absolu EDT</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>GUCCI</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">GUCCI Absolu EDT: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    GUCCI luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>GUCCI Absolu EDT</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Phụ nữ trẻ trung từ 18-35 tuổi, yêu thích phong cách nữ tính, năng động, tự tin.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80\" alt=\"GUCCI Absolu EDT\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho GUCCI Absolu EDT</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
+      "https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800"
     ],
@@ -3374,11 +5219,56 @@ const products = [
     "price": 4600000,
     "salePrice": 3680000,
     "stock": 21,
-    "rating": 4,
+    "rating": 4.9,
     "isHot": true,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Huỳnh Tuấn Phát",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Vũ Đức Tùng",
+        "rating": 5,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Hải Hà",
+        "rating": 4.5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Thu Nhung",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Bám tỏa khá ổn trong tầm giá. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Hoàng Tùng",
+        "rating": 5,
+        "comment": "Hương thơm nữ tính, ngọt ngào và vô cùng cuốn hút. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lê Hồng Linh",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Hồng Yến",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 7
   },
   {
     "name": "GUCCI Blue Pour Homme",
@@ -3391,9 +5281,9 @@ const products = [
       "Tuyết tùng"
     ],
     "origin": "Ý",
-    "description": "Sản phẩm GUCCI Blue Pour Homme cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Ý</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Gỗ (Woody)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>GUCCI Blue Pour Homme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>GUCCI</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Đàn hương, Tuyết tùng</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">GUCCI Blue Pour Homme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    GUCCI luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>GUCCI Blue Pour Homme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Đàn hương</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Tuyết tùng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"GUCCI Blue Pour Homme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho GUCCI Blue Pour Homme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800"
     ],
@@ -3437,11 +5327,32 @@ const products = [
     "price": 3600000,
     "salePrice": 3600000,
     "stock": 25,
-    "rating": 3.9,
+    "rating": 4.7,
     "isHot": false,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Võ Trọng Khang",
+        "rating": 4,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Nguyễn Thị Hương",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hồ Thái Sơn",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 3
   },
   {
     "name": "GUCCI Noir Pour Homme",
@@ -3454,9 +5365,9 @@ const products = [
       "Tuyết tùng"
     ],
     "origin": "Ý",
-    "description": "Sản phẩm GUCCI Noir Pour Homme cao cấp đến từ thương hiệu GUCCI. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Ý</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Gỗ (Woody)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>GUCCI Noir Pour Homme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>GUCCI</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Đàn hương, Tuyết tùng</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">GUCCI Noir Pour Homme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    GUCCI luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>GUCCI Noir Pour Homme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Đàn hương</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Tuyết tùng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"GUCCI Noir Pour Homme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho GUCCI Noir Pour Homme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800"
     ],
@@ -3500,11 +5411,44 @@ const products = [
     "price": 5700000,
     "salePrice": 5700000,
     "stock": 26,
-    "rating": 5,
+    "rating": 4,
     "isHot": false,
     "isSale": false,
     "isNewArrival": true,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Nguyễn Lan Yến",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Thái Long",
+        "rating": 3,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Độ lưu hương trên da mình phải được 7-8 tiếng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hoàng Trọng Tùng",
+        "rating": 4,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Gia Phong",
+        "rating": 5,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Độ lưu hương trên da mình phải được 7-8 tiếng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Nguyễn Đức Bách",
+        "rating": 3,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 5
   },
   {
     "name": "HERMES Intense Unisex",
@@ -3517,9 +5461,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm HERMES Intense Unisex cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>HERMES Intense Unisex</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>HERMES</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">HERMES Intense Unisex: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    HERMES luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>HERMES Intense Unisex</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"HERMES Intense Unisex\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho HERMES Intense Unisex</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800"
     ],
@@ -3563,11 +5507,50 @@ const products = [
     "price": 2800000,
     "salePrice": 2380000,
     "stock": 23,
-    "rating": 4.9,
+    "rating": 5,
     "isHot": false,
     "isSale": true,
     "isNewArrival": true,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Lê Đức Hùng",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lê Bảo Nhung",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đỗ Mai Hương",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Bám tỏa khá ổn trong tầm giá. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Đức Phong",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Độ lưu hương trên da mình phải được 7-8 tiếng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Huỳnh Tuấn Đạt",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Quang Khoa",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 6
   },
   {
     "name": "HERMES Nuit Pour Femme",
@@ -3580,9 +5563,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm HERMES Nuit Pour Femme cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>HERMES Nuit Pour Femme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>HERMES</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">HERMES Nuit Pour Femme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    HERMES luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>HERMES Nuit Pour Femme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80\" alt=\"HERMES Nuit Pour Femme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho HERMES Nuit Pour Femme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
     ],
@@ -3626,11 +5609,50 @@ const products = [
     "price": 5700000,
     "salePrice": 5700000,
     "stock": 21,
-    "rating": 4.9,
+    "rating": 4.8,
     "isHot": true,
     "isSale": false,
     "isNewArrival": true,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Lê Ngọc Trang",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lê Hoàng Đạt",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Độ lưu hương trên da mình phải được 7-8 tiếng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Bảo Anh",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hoàng Văn Khang",
+        "rating": 4.5,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Hải Thảo",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Đức Bách",
+        "rating": 4.5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 6
   },
   {
     "name": "HERMES Blanc Pour Femme",
@@ -3643,9 +5665,9 @@ const products = [
       "Tuyết tùng"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm HERMES Blanc Pour Femme cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Gỗ (Woody)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>HERMES Blanc Pour Femme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>HERMES</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Đàn hương, Tuyết tùng</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">HERMES Blanc Pour Femme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    HERMES luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>HERMES Blanc Pour Femme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Đàn hương</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Tuyết tùng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80\" alt=\"HERMES Blanc Pour Femme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho HERMES Blanc Pour Femme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800"
     ],
@@ -3689,11 +5711,32 @@ const products = [
     "price": 3200000,
     "salePrice": 3200000,
     "stock": 25,
-    "rating": 5,
+    "rating": 4.2,
     "isHot": true,
     "isSale": false,
     "isNewArrival": true,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Lê Thị Hà",
+        "rating": 4.5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Bám tỏa khá ổn trong tầm giá. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đỗ Mai Yến",
+        "rating": 3,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Huỳnh Quang Khang",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 3
   },
   {
     "name": "HERMES Gold Unisex",
@@ -3706,9 +5749,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm HERMES Gold Unisex cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>HERMES Gold Unisex</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>HERMES</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">HERMES Gold Unisex: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    HERMES luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>HERMES Gold Unisex</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80\" alt=\"HERMES Gold Unisex\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho HERMES Gold Unisex</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800"
     ],
@@ -3752,11 +5795,44 @@ const products = [
     "price": 2300000,
     "salePrice": 2024000,
     "stock": 23,
-    "rating": 4.7,
+    "rating": 4.4,
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Vũ Minh Khoa",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hoàng Quang Khang",
+        "rating": 5,
+        "comment": "Mùi nam tính, lịch lãm, hợp đi tiệc hoặc hẹn hò. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hoàng Lan Quỳnh",
+        "rating": 4,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Hồng Vy",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Độ lưu hương trên da mình phải được 7-8 tiếng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Thị Nhung",
+        "rating": 3,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Độ lưu hương trên da mình phải được 7-8 tiếng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 5
   },
   {
     "name": "HERMES Noir Pour Femme",
@@ -3769,9 +5845,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm HERMES Noir Pour Femme cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nữ</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Ngọt ngào, Quyến rũ, Thanh lịch</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Gặp gỡ bạn bè, Dạo phố, Hẹn hò lãng mạn</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>HERMES Noir Pour Femme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>HERMES</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">HERMES Noir Pour Femme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    HERMES luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>HERMES Noir Pour Femme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Phụ nữ trẻ trung từ 18-35 tuổi, yêu thích phong cách nữ tính, năng động, tự tin.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80\" alt=\"HERMES Noir Pour Femme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho HERMES Noir Pour Femme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800"
     ],
@@ -3794,11 +5870,32 @@ const products = [
     "price": 3300000,
     "salePrice": 3300000,
     "stock": 26,
-    "rating": 3.9,
+    "rating": 4.5,
     "isHot": false,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Đặng Tuấn Đạt",
+        "rating": 4,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Bám tỏa khá ổn trong tầm giá. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Kim Linh",
+        "rating": 4.5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Bám tỏa khá ổn trong tầm giá. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Dương Thu Nhung",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 3
   },
   {
     "name": "HERMES Cologne Edition",
@@ -3811,9 +5908,9 @@ const products = [
       "Tuyết tùng"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm HERMES Cologne Edition cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Gỗ (Woody)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>HERMES Cologne Edition</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>HERMES</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Đàn hương, Tuyết tùng</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">HERMES Cologne Edition: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    HERMES luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>HERMES Cologne Edition</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Đàn hương</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Tuyết tùng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80\" alt=\"HERMES Cologne Edition\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho HERMES Cologne Edition</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800"
     ],
@@ -3857,11 +5954,56 @@ const products = [
     "price": 5900000,
     "salePrice": 4602000,
     "stock": 13,
-    "rating": 4.6,
+    "rating": 4.4,
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Huỳnh Thái Sơn",
+        "rating": 4,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lê Minh Tùng",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Bám tỏa khá ổn trong tầm giá. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Thu Anh",
+        "rating": 3,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Bám tỏa khá ổn trong tầm giá. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Trọng Đạt",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Bám tỏa khá ổn trong tầm giá. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Hải Thảo",
+        "rating": 4,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Dương Ngọc Linh",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Bám tỏa khá ổn trong tầm giá. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Hữu Khoa",
+        "rating": 4.5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Bám tỏa khá ổn trong tầm giá. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 7
   },
   {
     "name": "HERMES Blue Pour Homme",
@@ -3874,9 +6016,9 @@ const products = [
       "Caramel"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm HERMES Blue Pour Homme cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Ngọt ngào (Gourmand)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>HERMES Blue Pour Homme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>HERMES</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Vanilla, Caramel</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">HERMES Blue Pour Homme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    HERMES luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>HERMES Blue Pour Homme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Vanilla</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Caramel</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80\" alt=\"HERMES Blue Pour Homme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho HERMES Blue Pour Homme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800"
     ],
@@ -3899,11 +6041,44 @@ const products = [
     "price": 1600000,
     "salePrice": 1600000,
     "stock": 19,
-    "rating": 3.8,
+    "rating": 4.7,
     "isHot": false,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Hoàng Phương Hà",
+        "rating": 4.5,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Thái Khang",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Thu Trang",
+        "rating": 4.5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Độ lưu hương trên da mình phải được 7-8 tiếng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hoàng Minh Phát",
+        "rating": 4.5,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Tuấn Phát",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Độ lưu hương trên da mình phải được 7-8 tiếng. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 5
   },
   {
     "name": "HERMES Magic Edition",
@@ -3916,9 +6091,9 @@ const products = [
       "Tuyết tùng"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm HERMES Magic Edition cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nữ</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Gỗ (Woody)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Ngọt ngào, Quyến rũ, Thanh lịch</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Gặp gỡ bạn bè, Dạo phố, Hẹn hò lãng mạn</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>HERMES Magic Edition</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>HERMES</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Đàn hương, Tuyết tùng</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">HERMES Magic Edition: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    HERMES luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>HERMES Magic Edition</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Đàn hương</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Tuyết tùng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Phụ nữ trẻ trung từ 18-35 tuổi, yêu thích phong cách nữ tính, năng động, tự tin.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80\" alt=\"HERMES Magic Edition\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho HERMES Magic Edition</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
+      "https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80",
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
     ],
@@ -3941,11 +6116,32 @@ const products = [
     "price": 4500000,
     "salePrice": 3780000,
     "stock": 30,
-    "rating": 3.5,
+    "rating": 4.8,
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Lý Thu Hương",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Nguyễn Minh Nam",
+        "rating": 4.5,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Hữu Bách",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 3
   },
   {
     "name": "HERMES Extreme Pour Homme",
@@ -3958,9 +6154,9 @@ const products = [
       "Tuyết tùng"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm HERMES Extreme Pour Homme cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Gỗ (Woody)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>HERMES Extreme Pour Homme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>HERMES</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Đàn hương, Tuyết tùng</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">HERMES Extreme Pour Homme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    HERMES luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>HERMES Extreme Pour Homme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Đàn hương</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Tuyết tùng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"HERMES Extreme Pour Homme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho HERMES Extreme Pour Homme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800"
     ],
@@ -4004,11 +6200,38 @@ const products = [
     "price": 5900000,
     "salePrice": 5192000,
     "stock": 26,
-    "rating": 4.6,
+    "rating": 4.8,
     "isHot": true,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Phạm Thị Yến",
+        "rating": 4.5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Huỳnh Hồng Trang",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hoàng Hải Hương",
+        "rating": 4.5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Huỳnh Thanh Phát",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Độ lưu hương trên da mình phải được 7-8 tiếng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 4
   },
   {
     "name": "HERMES Gold Edition",
@@ -4021,9 +6244,9 @@ const products = [
       "Tuyết tùng"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm HERMES Gold Edition cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nữ</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Gỗ (Woody)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Ngọt ngào, Quyến rũ, Thanh lịch</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Gặp gỡ bạn bè, Dạo phố, Hẹn hò lãng mạn</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>HERMES Gold Edition</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>HERMES</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Đàn hương, Tuyết tùng</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">HERMES Gold Edition: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    HERMES luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>HERMES Gold Edition</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Đàn hương</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Tuyết tùng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Phụ nữ trẻ trung từ 18-35 tuổi, yêu thích phong cách nữ tính, năng động, tự tin.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80\" alt=\"HERMES Gold Edition\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho HERMES Gold Edition</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80",
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
     ],
@@ -4067,11 +6290,38 @@ const products = [
     "price": 4700000,
     "salePrice": 4136000,
     "stock": 28,
-    "rating": 3.8,
+    "rating": 4.6,
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Võ Hải Linh",
+        "rating": 4,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Thanh Phát",
+        "rating": 4.5,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đỗ Tuấn Tùng",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hồ Ngọc Yến",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 4
   },
   {
     "name": "HERMES Parfum EDT",
@@ -4084,9 +6334,9 @@ const products = [
       "Tuyết tùng"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm HERMES Parfum EDT cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nữ</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Gỗ (Woody)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Ngọt ngào, Quyến rũ, Thanh lịch</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Gặp gỡ bạn bè, Dạo phố, Hẹn hò lãng mạn</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>HERMES Parfum EDT</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>HERMES</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Đàn hương, Tuyết tùng</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">HERMES Parfum EDT: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    HERMES luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>HERMES Parfum EDT</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Đàn hương</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Tuyết tùng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Phụ nữ trẻ trung từ 18-35 tuổi, yêu thích phong cách nữ tính, năng động, tự tin.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"HERMES Parfum EDT\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho HERMES Parfum EDT</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800"
     ],
@@ -4109,11 +6359,50 @@ const products = [
     "price": 3800000,
     "salePrice": 3800000,
     "stock": 8,
-    "rating": 4.4,
+    "rating": 4.8,
     "isHot": true,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Vũ Quang Khang",
+        "rating": 4,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Phương My",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Bám tỏa khá ổn trong tầm giá. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đỗ Hải Quỳnh",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Hoàng Bách",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Độ lưu hương trên da mình phải được 7-8 tiếng. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Gia Phát",
+        "rating": 4.5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hồ Quang Phát",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 6
   },
   {
     "name": "HERMES Blue EDP",
@@ -4126,9 +6415,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm HERMES Blue EDP cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nữ</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Ngọt ngào, Quyến rũ, Thanh lịch</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Gặp gỡ bạn bè, Dạo phố, Hẹn hò lãng mạn</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>HERMES Blue EDP</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>HERMES</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">HERMES Blue EDP: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    HERMES luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>HERMES Blue EDP</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Phụ nữ trẻ trung từ 18-35 tuổi, yêu thích phong cách nữ tính, năng động, tự tin.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80\" alt=\"HERMES Blue EDP\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho HERMES Blue EDP</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
     ],
@@ -4172,11 +6461,44 @@ const products = [
     "price": 4100000,
     "salePrice": 3690000,
     "stock": 21,
-    "rating": 3.6,
+    "rating": 4.6,
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Lý Trọng Hùng",
+        "rating": 4.5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phạm Phương Hương",
+        "rating": 4.5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Bám tỏa khá ổn trong tầm giá. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Dương Minh Bách",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Bám tỏa khá ổn trong tầm giá. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phạm Hoàng Đạt",
+        "rating": 4,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hồ Thanh Hà",
+        "rating": 5,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 5
   },
   {
     "name": "HERMES Absolu EDP",
@@ -4189,9 +6511,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm HERMES Absolu EDP cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>HERMES Absolu EDP</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>HERMES</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">HERMES Absolu EDP: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    HERMES luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>HERMES Absolu EDP</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"HERMES Absolu EDP\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho HERMES Absolu EDP</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800"
     ],
@@ -4235,11 +6557,44 @@ const products = [
     "price": 3100000,
     "salePrice": 3100000,
     "stock": 29,
-    "rating": 3.6,
+    "rating": 4.7,
     "isHot": false,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Huỳnh Hồng Hà",
+        "rating": 4.5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Thái Long",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Minh Phát",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Bám tỏa khá ổn trong tầm giá. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Gia Hùng",
+        "rating": 4.5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Nguyễn Đức Tùng",
+        "rating": 4.5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 5
   },
   {
     "name": "HERMES Classic Edition",
@@ -4252,9 +6607,9 @@ const products = [
       "Caramel"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm HERMES Classic Edition cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Ngọt ngào (Gourmand)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>HERMES Classic Edition</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>HERMES</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Vanilla, Caramel</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">HERMES Classic Edition: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    HERMES luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>HERMES Classic Edition</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Vanilla</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Caramel</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80\" alt=\"HERMES Classic Edition\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho HERMES Classic Edition</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800"
     ],
@@ -4277,11 +6632,50 @@ const products = [
     "price": 5800000,
     "salePrice": 4756000,
     "stock": 29,
-    "rating": 5,
+    "rating": 4.7,
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Nguyễn Thị My",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Bám tỏa khá ổn trong tầm giá. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Mai Anh",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Vũ Tuấn Đạt",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Văn Nam",
+        "rating": 4.5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Tuấn Bách",
+        "rating": 5,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Hoàng Đạt",
+        "rating": 3.5,
+        "comment": "Mùi hương thì ok nhưng giao hàng hơi chậm. Độ bám tỏa trên da mình chỉ tầm 4 tiếng.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 6
   },
   {
     "name": "HERMES Blue Unisex",
@@ -4294,9 +6688,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm HERMES Blue Unisex cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>HERMES Blue Unisex</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>HERMES</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">HERMES Blue Unisex: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    HERMES luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>HERMES Blue Unisex</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80\" alt=\"HERMES Blue Unisex\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho HERMES Blue Unisex</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800"
     ],
@@ -4340,11 +6734,50 @@ const products = [
     "price": 2700000,
     "salePrice": 2700000,
     "stock": 27,
-    "rating": 3.8,
+    "rating": 4.7,
     "isHot": false,
     "isSale": false,
     "isNewArrival": true,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Ngô Kim Hương",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Bám tỏa khá ổn trong tầm giá. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Mai Nhung",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Dương Kim Linh",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Hải Yến",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Dương Hải Yến",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Bám tỏa khá ổn trong tầm giá. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Huỳnh Minh Phong",
+        "rating": 3,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 6
   },
   {
     "name": "HERMES Fraiche Edition",
@@ -4357,9 +6790,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm HERMES Fraiche Edition cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>HERMES Fraiche Edition</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>HERMES</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">HERMES Fraiche Edition: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    HERMES luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>HERMES Fraiche Edition</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80\" alt=\"HERMES Fraiche Edition\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho HERMES Fraiche Edition</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800"
     ],
@@ -4403,11 +6836,50 @@ const products = [
     "price": 2800000,
     "salePrice": 2184000,
     "stock": 18,
-    "rating": 3.6,
+    "rating": 4.6,
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Hoàng Minh Bách",
+        "rating": 4,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Nguyễn Thanh Vy",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Hải Vy",
+        "rating": 4,
+        "comment": "Mùi nam tính, lịch lãm, hợp đi tiệc hoặc hẹn hò. Độ lưu hương trên da mình phải được 7-8 tiếng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Nguyễn Lan Vy",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Dương Hồng Hương",
+        "rating": 4.5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Văn Long",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Bám tỏa khá ổn trong tầm giá. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 6
   },
   {
     "name": "HERMES Blanc EDP",
@@ -4420,9 +6892,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm HERMES Blanc EDP cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nữ</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Ngọt ngào, Quyến rũ, Thanh lịch</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Gặp gỡ bạn bè, Dạo phố, Hẹn hò lãng mạn</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>HERMES Blanc EDP</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>HERMES</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">HERMES Blanc EDP: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    HERMES luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>HERMES Blanc EDP</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Phụ nữ trẻ trung từ 18-35 tuổi, yêu thích phong cách nữ tính, năng động, tự tin.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80\" alt=\"HERMES Blanc EDP\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho HERMES Blanc EDP</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
+      "https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800"
     ],
@@ -4466,11 +6938,56 @@ const products = [
     "price": 2900000,
     "salePrice": 2175000,
     "stock": 24,
-    "rating": 4.1,
+    "rating": 4.4,
     "isHot": true,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Đỗ Đức Khoa",
+        "rating": 4.5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Thu Trang",
+        "rating": 4.5,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Dương Lan Nhung",
+        "rating": 4.5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Văn Phát",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Độ lưu hương trên da mình phải được 7-8 tiếng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Huỳnh Kim Trang",
+        "rating": 4,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Thu Nhung",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Nguyễn Hồng Anh",
+        "rating": 3,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 7
   },
   {
     "name": "HERMES Bloom Pour Femme",
@@ -4483,9 +7000,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm HERMES Bloom Pour Femme cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>HERMES Bloom Pour Femme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>HERMES</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">HERMES Bloom Pour Femme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    HERMES luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>HERMES Bloom Pour Femme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80\" alt=\"HERMES Bloom Pour Femme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho HERMES Bloom Pour Femme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800"
     ],
@@ -4529,11 +7046,38 @@ const products = [
     "price": 2400000,
     "salePrice": 2400000,
     "stock": 12,
-    "rating": 4.5,
+    "rating": 4.9,
     "isHot": true,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Hoàng Tuấn Bách",
+        "rating": 5,
+        "comment": "Mùi nam tính, lịch lãm, hợp đi tiệc hoặc hẹn hò. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Huỳnh Thanh Khoa",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Thanh Linh",
+        "rating": 4.5,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Văn Tùng",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 4
   },
   {
     "name": "HERMES Rouge Unisex",
@@ -4546,9 +7090,9 @@ const products = [
       "Tuyết tùng"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm HERMES Rouge Unisex cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Gỗ (Woody)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>HERMES Rouge Unisex</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>HERMES</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Đàn hương, Tuyết tùng</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">HERMES Rouge Unisex: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    HERMES luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>HERMES Rouge Unisex</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Đàn hương</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Tuyết tùng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80\" alt=\"HERMES Rouge Unisex\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho HERMES Rouge Unisex</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800"
     ],
@@ -4596,7 +7140,28 @@ const products = [
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Bùi Minh Long",
+        "rating": 4,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Dương Minh Đạt",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Thu Yến",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 3
   },
   {
     "name": "HERMES Absolu Pour Homme",
@@ -4609,9 +7174,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm HERMES Absolu Pour Homme cao cấp đến từ thương hiệu HERMES. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>HERMES Absolu Pour Homme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>HERMES</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">HERMES Absolu Pour Homme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    HERMES luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>HERMES Absolu Pour Homme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80\" alt=\"HERMES Absolu Pour Homme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho HERMES Absolu Pour Homme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
+      "https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800"
     ],
@@ -4655,11 +7220,56 @@ const products = [
     "price": 3100000,
     "salePrice": 3100000,
     "stock": 16,
-    "rating": 4.9,
+    "rating": 4.4,
     "isHot": true,
     "isSale": false,
     "isNewArrival": true,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Hồ Hoàng Phong",
+        "rating": 4,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lê Đức Phát",
+        "rating": 4,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hoàng Văn Khoa",
+        "rating": 3,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Độ lưu hương trên da mình phải được 7-8 tiếng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Dương Quang Long",
+        "rating": 5,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Bám tỏa khá ổn trong tầm giá. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Bảo My",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đỗ Bảo Linh",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hồ Hữu Hùng",
+        "rating": 4.5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 7
   },
   {
     "name": "YSL Parfum Pour Femme",
@@ -4672,9 +7282,9 @@ const products = [
       "Tuyết tùng"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm YSL Parfum Pour Femme cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nữ</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Gỗ (Woody)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Ngọt ngào, Quyến rũ, Thanh lịch</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Gặp gỡ bạn bè, Dạo phố, Hẹn hò lãng mạn</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>YSL Parfum Pour Femme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>YSL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Đàn hương, Tuyết tùng</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">YSL Parfum Pour Femme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    YSL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>YSL Parfum Pour Femme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Đàn hương</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Tuyết tùng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Phụ nữ trẻ trung từ 18-35 tuổi, yêu thích phong cách nữ tính, năng động, tự tin.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"YSL Parfum Pour Femme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho YSL Parfum Pour Femme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800"
     ],
@@ -4718,11 +7328,56 @@ const products = [
     "price": 5700000,
     "salePrice": 4503000,
     "stock": 11,
-    "rating": 4.8,
+    "rating": 4.5,
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Lý Trọng Tùng",
+        "rating": 4.5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Quang Sơn",
+        "rating": 4.5,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Tuấn Phát",
+        "rating": 4.5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Hồng Vy",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Hoàng Long",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Hồng Linh",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hồ Hồng Hương",
+        "rating": 3,
+        "comment": "Mùi hương thì ok nhưng giao hàng hơi chậm. Độ bám tỏa trên da mình chỉ tầm 4 tiếng.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 7
   },
   {
     "name": "YSL Jour Pour Femme",
@@ -4735,9 +7390,9 @@ const products = [
       "Caramel"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm YSL Jour Pour Femme cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Ngọt ngào (Gourmand)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>YSL Jour Pour Femme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>YSL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Vanilla, Caramel</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">YSL Jour Pour Femme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    YSL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>YSL Jour Pour Femme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Vanilla</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Caramel</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80\" alt=\"YSL Jour Pour Femme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho YSL Jour Pour Femme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800"
     ],
@@ -4781,11 +7436,44 @@ const products = [
     "price": 5500000,
     "salePrice": 5500000,
     "stock": 29,
-    "rating": 4.5,
+    "rating": 3.9,
     "isHot": false,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Phan Trọng Khang",
+        "rating": 3,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Huỳnh Tuấn Phát",
+        "rating": 4.5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Dương Phương Vy",
+        "rating": 4.5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Bám tỏa khá ổn trong tầm giá. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Hồng Trang",
+        "rating": 4.5,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Huỳnh Đức Hùng",
+        "rating": 3,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Độ lưu hương trên da mình phải được 7-8 tiếng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 5
   },
   {
     "name": "YSL L'eau EDT",
@@ -4798,9 +7486,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm YSL L'eau EDT cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>YSL L'eau EDT</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>YSL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">YSL L'eau EDT: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    YSL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>YSL L'eau EDT</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"YSL L'eau EDT\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho YSL L'eau EDT</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800"
     ],
@@ -4844,11 +7532,56 @@ const products = [
     "price": 2600000,
     "salePrice": 2184000,
     "stock": 14,
-    "rating": 4.9,
+    "rating": 4.6,
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Đỗ Gia Khang",
+        "rating": 4.5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Độ lưu hương trên da mình phải được 7-8 tiếng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hồ Thái Phong",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Hải Linh",
+        "rating": 5,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Bám tỏa khá ổn trong tầm giá. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đỗ Quang Nam",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đỗ Lan Linh",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hoàng Hoàng Phát",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Bám tỏa khá ổn trong tầm giá. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phạm Hữu Phong",
+        "rating": 3,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 7
   },
   {
     "name": "YSL Magic Pour Homme",
@@ -4861,9 +7594,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm YSL Magic Pour Homme cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nữ</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Ngọt ngào, Quyến rũ, Thanh lịch</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Gặp gỡ bạn bè, Dạo phố, Hẹn hò lãng mạn</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>YSL Magic Pour Homme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>YSL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">YSL Magic Pour Homme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    YSL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>YSL Magic Pour Homme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Phụ nữ trẻ trung từ 18-35 tuổi, yêu thích phong cách nữ tính, năng động, tự tin.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80\" alt=\"YSL Magic Pour Homme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho YSL Magic Pour Homme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
+      "https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80",
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800"
     ],
@@ -4907,11 +7640,32 @@ const products = [
     "price": 2900000,
     "salePrice": 2900000,
     "stock": 5,
-    "rating": 4.9,
+    "rating": 4.3,
     "isHot": true,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Nguyễn Thu Anh",
+        "rating": 3,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Mai Hà",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Thanh Nhung",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 3
   },
   {
     "name": "YSL L'eau EDP",
@@ -4924,9 +7678,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm YSL L'eau EDP cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>YSL L'eau EDP</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>YSL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">YSL L'eau EDP: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    YSL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>YSL L'eau EDP</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"YSL L'eau EDP\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho YSL L'eau EDP</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800"
     ],
@@ -4949,11 +7703,44 @@ const products = [
     "price": 3900000,
     "salePrice": 3003000,
     "stock": 27,
-    "rating": 3.8,
+    "rating": 4.1,
     "isHot": true,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Vũ Bảo My",
+        "rating": 5,
+        "comment": "Mùi nam tính, lịch lãm, hợp đi tiệc hoặc hẹn hò. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phạm Lan My",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Bám tỏa khá ổn trong tầm giá. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Thái Khoa",
+        "rating": 3,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Độ lưu hương trên da mình phải được 7-8 tiếng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Huỳnh Thị My",
+        "rating": 4.5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Mai Vy",
+        "rating": 3,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 5
   },
   {
     "name": "YSL Cologne EDT",
@@ -4966,9 +7753,9 @@ const products = [
       "Tuyết tùng"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm YSL Cologne EDT cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Gỗ (Woody)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>YSL Cologne EDT</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>YSL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Đàn hương, Tuyết tùng</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">YSL Cologne EDT: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    YSL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>YSL Cologne EDT</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Đàn hương</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Tuyết tùng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80\" alt=\"YSL Cologne EDT\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho YSL Cologne EDT</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800"
     ],
@@ -5012,11 +7799,56 @@ const products = [
     "price": 4400000,
     "salePrice": 3784000,
     "stock": 28,
-    "rating": 3.7,
+    "rating": 4.6,
     "isHot": false,
     "isSale": true,
     "isNewArrival": true,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Hồ Quang Hùng",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Huỳnh Mai Vy",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Đức Đạt",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Trọng Đạt",
+        "rating": 4.5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Hải Hà",
+        "rating": 4.5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Dương Đức Nam",
+        "rating": 3,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Dương Thái Sơn",
+        "rating": 5,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Độ lưu hương trên da mình phải được 7-8 tiếng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 7
   },
   {
     "name": "YSL Absolu EDT",
@@ -5029,9 +7861,9 @@ const products = [
       "Caramel"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm YSL Absolu EDT cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nữ</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Ngọt ngào (Gourmand)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Ngọt ngào, Quyến rũ, Thanh lịch</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Gặp gỡ bạn bè, Dạo phố, Hẹn hò lãng mạn</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>YSL Absolu EDT</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>YSL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Vanilla, Caramel</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">YSL Absolu EDT: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    YSL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>YSL Absolu EDT</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Vanilla</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Caramel</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Phụ nữ trẻ trung từ 18-35 tuổi, yêu thích phong cách nữ tính, năng động, tự tin.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80\" alt=\"YSL Absolu EDT\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho YSL Absolu EDT</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800"
     ],
@@ -5054,11 +7886,50 @@ const products = [
     "price": 5000000,
     "salePrice": 5000000,
     "stock": 9,
-    "rating": 4.1,
+    "rating": 4.7,
     "isHot": false,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Huỳnh Ngọc Quỳnh",
+        "rating": 4.5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Độ lưu hương trên da mình phải được 7-8 tiếng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Vũ Ngọc Nhung",
+        "rating": 5,
+        "comment": "Hương thơm nữ tính, ngọt ngào và vô cùng cuốn hút. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đỗ Mai Trang",
+        "rating": 4.5,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Bảo Hương",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Gia Khang",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hoàng Hữu Tùng",
+        "rating": 4,
+        "comment": "Hương thơm nữ tính, ngọt ngào và vô cùng cuốn hút. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 6
   },
   {
     "name": "YSL Intense EDP",
@@ -5071,9 +7942,9 @@ const products = [
       "Tuyết tùng"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm YSL Intense EDP cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Gỗ (Woody)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>YSL Intense EDP</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>YSL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Đàn hương, Tuyết tùng</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">YSL Intense EDP: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    YSL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>YSL Intense EDP</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Đàn hương</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Tuyết tùng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80\" alt=\"YSL Intense EDP\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho YSL Intense EDP</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800"
     ],
@@ -5117,11 +7988,44 @@ const products = [
     "price": 5200000,
     "salePrice": 4680000,
     "stock": 30,
-    "rating": 4.9,
+    "rating": 4.6,
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Trần Thái Sơn",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Vũ Thanh Hà",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Gia Phát",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Bám tỏa khá ổn trong tầm giá. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hoàng Quang Sơn",
+        "rating": 3,
+        "comment": "Mùi nam tính, lịch lãm, hợp đi tiệc hoặc hẹn hò. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Thị Anh",
+        "rating": 5,
+        "comment": "Mùi nam tính, lịch lãm, hợp đi tiệc hoặc hẹn hò. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 5
   },
   {
     "name": "YSL Fraiche Edition",
@@ -5134,9 +8038,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm YSL Fraiche Edition cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>YSL Fraiche Edition</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>YSL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">YSL Fraiche Edition: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    YSL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>YSL Fraiche Edition</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80\" alt=\"YSL Fraiche Edition\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho YSL Fraiche Edition</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
     ],
@@ -5159,11 +8063,56 @@ const products = [
     "price": 3500000,
     "salePrice": 2975000,
     "stock": 10,
-    "rating": 4.4,
+    "rating": 4.2,
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Trần Lan Vy",
+        "rating": 4.5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Hồng Quỳnh",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Văn Phong",
+        "rating": 4,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Bám tỏa khá ổn trong tầm giá. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Vũ Văn Hùng",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Hữu Long",
+        "rating": 3,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phạm Hồng Vy",
+        "rating": 5,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Thái Đạt",
+        "rating": 3,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 7
   },
   {
     "name": "YSL Bloom EDT",
@@ -5176,9 +8125,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm YSL Bloom EDT cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>YSL Bloom EDT</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>YSL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">YSL Bloom EDT: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    YSL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>YSL Bloom EDT</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"YSL Bloom EDT\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho YSL Bloom EDT</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
     ],
@@ -5222,11 +8171,50 @@ const products = [
     "price": 1700000,
     "salePrice": 1700000,
     "stock": 26,
-    "rating": 3.5,
+    "rating": 4.6,
     "isHot": false,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Vũ Tuấn Sơn",
+        "rating": 4.5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Thu Trang",
+        "rating": 4.5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Dương Hải Trang",
+        "rating": 4.5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Bám tỏa khá ổn trong tầm giá. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Lan Hương",
+        "rating": 5,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Minh Bách",
+        "rating": 4,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Đức Khoa",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Bám tỏa khá ổn trong tầm giá. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 6
   },
   {
     "name": "YSL Royal Edition",
@@ -5239,9 +8227,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm YSL Royal Edition cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>YSL Royal Edition</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>YSL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">YSL Royal Edition: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    YSL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>YSL Royal Edition</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"YSL Royal Edition\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho YSL Royal Edition</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800"
     ],
@@ -5285,11 +8273,32 @@ const products = [
     "price": 3100000,
     "salePrice": 2573000,
     "stock": 26,
-    "rating": 4.9,
+    "rating": 3.7,
     "isHot": false,
     "isSale": true,
     "isNewArrival": true,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Trần Văn Phong",
+        "rating": 3,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Bám tỏa khá ổn trong tầm giá. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Hồng Hương",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Vũ Phương Nhung",
+        "rating": 3,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 3
   },
   {
     "name": "YSL Blanc Pour Homme",
@@ -5302,9 +8311,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm YSL Blanc Pour Homme cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>YSL Blanc Pour Homme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>YSL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">YSL Blanc Pour Homme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    YSL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>YSL Blanc Pour Homme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80\" alt=\"YSL Blanc Pour Homme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho YSL Blanc Pour Homme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+      "https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800"
     ],
@@ -5348,11 +8357,44 @@ const products = [
     "price": 2400000,
     "salePrice": 2400000,
     "stock": 12,
-    "rating": 3.8,
+    "rating": 4.7,
     "isHot": false,
     "isSale": false,
     "isNewArrival": true,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Bùi Thu Thảo",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Phương Hà",
+        "rating": 4.5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hoàng Hồng My",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Hữu Khoa",
+        "rating": 4.5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Nguyễn Văn Khang",
+        "rating": 4.5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 5
   },
   {
     "name": "YSL Cologne Pour Homme",
@@ -5365,9 +8407,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm YSL Cologne Pour Homme cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nữ</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Ngọt ngào, Quyến rũ, Thanh lịch</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Gặp gỡ bạn bè, Dạo phố, Hẹn hò lãng mạn</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>YSL Cologne Pour Homme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>YSL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">YSL Cologne Pour Homme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    YSL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>YSL Cologne Pour Homme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Phụ nữ trẻ trung từ 18-35 tuổi, yêu thích phong cách nữ tính, năng động, tự tin.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80\" alt=\"YSL Cologne Pour Homme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho YSL Cologne Pour Homme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800"
     ],
@@ -5411,11 +8453,44 @@ const products = [
     "price": 2500000,
     "salePrice": 2100000,
     "stock": 10,
-    "rating": 4.5,
+    "rating": 4.3,
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Lý Gia Hùng",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đỗ Bảo Hương",
+        "rating": 3,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Dương Quang Khoa",
+        "rating": 4,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Kim Trang",
+        "rating": 4.5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Hoàng Sơn",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Bám tỏa khá ổn trong tầm giá. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 5
   },
   {
     "name": "YSL Blue Pour Femme",
@@ -5428,9 +8503,9 @@ const products = [
       "Caramel"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm YSL Blue Pour Femme cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nữ</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Ngọt ngào (Gourmand)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Ngọt ngào, Quyến rũ, Thanh lịch</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Gặp gỡ bạn bè, Dạo phố, Hẹn hò lãng mạn</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>YSL Blue Pour Femme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>YSL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Vanilla, Caramel</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">YSL Blue Pour Femme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    YSL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>YSL Blue Pour Femme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Vanilla</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Caramel</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Phụ nữ trẻ trung từ 18-35 tuổi, yêu thích phong cách nữ tính, năng động, tự tin.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80\" alt=\"YSL Blue Pour Femme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho YSL Blue Pour Femme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
     ],
@@ -5474,11 +8549,56 @@ const products = [
     "price": 4500000,
     "salePrice": 4500000,
     "stock": 15,
-    "rating": 3.7,
+    "rating": 4.4,
     "isHot": false,
     "isSale": false,
     "isNewArrival": true,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Hoàng Gia Nam",
+        "rating": 4.5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phạm Quang Hùng",
+        "rating": 5,
+        "comment": "Hương thơm nữ tính, ngọt ngào và vô cùng cuốn hút. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Lan Thảo",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Vũ Kim Hà",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Độ lưu hương trên da mình phải được 7-8 tiếng. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lê Trọng Nam",
+        "rating": 3,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phạm Minh Phát",
+        "rating": 4,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Độ lưu hương trên da mình phải được 7-8 tiếng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Kim Yến",
+        "rating": 4.5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 7
   },
   {
     "name": "YSL Velvet EDT",
@@ -5491,9 +8611,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm YSL Velvet EDT cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>YSL Velvet EDT</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>YSL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">YSL Velvet EDT: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    YSL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>YSL Velvet EDT</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80\" alt=\"YSL Velvet EDT\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho YSL Velvet EDT</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800"
     ],
@@ -5537,11 +8657,50 @@ const products = [
     "price": 3900000,
     "salePrice": 3237000,
     "stock": 19,
-    "rating": 4.3,
+    "rating": 4.8,
     "isHot": true,
     "isSale": true,
     "isNewArrival": true,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Dương Hải Vy",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Huỳnh Thái Hùng",
+        "rating": 4.5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Hữu Phong",
+        "rating": 4.5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Tuấn Phong",
+        "rating": 4.5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Trọng Nam",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Bảo Hương",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Độ lưu hương trên da mình phải được 7-8 tiếng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 6
   },
   {
     "name": "YSL Absolu Pour Femme",
@@ -5554,9 +8713,9 @@ const products = [
       "Caramel"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm YSL Absolu Pour Femme cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Ngọt ngào (Gourmand)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>YSL Absolu Pour Femme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>YSL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Vanilla, Caramel</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">YSL Absolu Pour Femme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    YSL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>YSL Absolu Pour Femme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Vanilla</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Caramel</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"YSL Absolu Pour Femme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho YSL Absolu Pour Femme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
     ],
@@ -5600,11 +8759,56 @@ const products = [
     "price": 3600000,
     "salePrice": 3132000,
     "stock": 27,
-    "rating": 3.5,
+    "rating": 4.6,
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Hồ Hải Hà",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Thị Quỳnh",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Dương Tuấn Bách",
+        "rating": 5,
+        "comment": "Mùi nam tính, lịch lãm, hợp đi tiệc hoặc hẹn hò. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hồ Mai Nhung",
+        "rating": 4,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Độ lưu hương trên da mình phải được 7-8 tiếng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Nguyễn Hữu Nam",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hồ Kim My",
+        "rating": 3,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Bám tỏa khá ổn trong tầm giá. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Quang Phong",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Độ lưu hương trên da mình phải được 7-8 tiếng. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 7
   },
   {
     "name": "YSL Elixir Edition",
@@ -5617,9 +8821,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm YSL Elixir Edition cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>YSL Elixir Edition</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>YSL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">YSL Elixir Edition: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    YSL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>YSL Elixir Edition</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80\" alt=\"YSL Elixir Edition\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho YSL Elixir Edition</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800"
     ],
@@ -5642,11 +8846,50 @@ const products = [
     "price": 3500000,
     "salePrice": 2625000,
     "stock": 22,
-    "rating": 4.3,
+    "rating": 4.8,
     "isHot": true,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Đặng Thanh Hà",
+        "rating": 4,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Lan Vy",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Lan Hà",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Ngọc Quỳnh",
+        "rating": 5,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Độ lưu hương trên da mình phải được 7-8 tiếng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Lan Thảo",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Kim Hương",
+        "rating": 4.5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 6
   },
   {
     "name": "YSL Jour EDP",
@@ -5659,9 +8902,9 @@ const products = [
       "Caramel"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm YSL Jour EDP cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Ngọt ngào (Gourmand)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>YSL Jour EDP</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>YSL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Vanilla, Caramel</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">YSL Jour EDP: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    YSL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>YSL Jour EDP</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Vanilla</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Caramel</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80\" alt=\"YSL Jour EDP\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho YSL Jour EDP</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
+      "https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800"
     ],
@@ -5705,11 +8948,44 @@ const products = [
     "price": 2600000,
     "salePrice": 2340000,
     "stock": 27,
-    "rating": 4.7,
+    "rating": 4.6,
     "isHot": true,
     "isSale": true,
     "isNewArrival": true,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Lý Đức Bách",
+        "rating": 3,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Minh Bách",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Tuấn Khoa",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Quang Tùng",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Thanh Linh",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Độ lưu hương trên da mình phải được 7-8 tiếng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 5
   },
   {
     "name": "YSL Royal Unisex",
@@ -5722,9 +8998,9 @@ const products = [
       "Caramel"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm YSL Royal Unisex cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nữ</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Ngọt ngào (Gourmand)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Ngọt ngào, Quyến rũ, Thanh lịch</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Gặp gỡ bạn bè, Dạo phố, Hẹn hò lãng mạn</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>YSL Royal Unisex</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>YSL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Vanilla, Caramel</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">YSL Royal Unisex: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    YSL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>YSL Royal Unisex</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Vanilla</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Caramel</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Phụ nữ trẻ trung từ 18-35 tuổi, yêu thích phong cách nữ tính, năng động, tự tin.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80\" alt=\"YSL Royal Unisex\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho YSL Royal Unisex</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
+      "https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800"
     ],
@@ -5747,11 +9023,50 @@ const products = [
     "price": 2500000,
     "salePrice": 2500000,
     "stock": 7,
-    "rating": 4.9,
+    "rating": 4.8,
     "isHot": true,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Vũ Bảo Quỳnh",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Bám tỏa khá ổn trong tầm giá. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Bảo Linh",
+        "rating": 4.5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Lan Quỳnh",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Bám tỏa khá ổn trong tầm giá. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Ngọc Nhung",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Độ lưu hương trên da mình phải được 7-8 tiếng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hồ Thanh Nhung",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phạm Quang Nam",
+        "rating": 4.5,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 6
   },
   {
     "name": "YSL Extreme EDT",
@@ -5764,9 +9079,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm YSL Extreme EDT cao cấp đến từ thương hiệu YSL. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nữ</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Ngọt ngào, Quyến rũ, Thanh lịch</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Gặp gỡ bạn bè, Dạo phố, Hẹn hò lãng mạn</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>YSL Extreme EDT</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>YSL</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">YSL Extreme EDT: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    YSL luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>YSL Extreme EDT</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Phụ nữ trẻ trung từ 18-35 tuổi, yêu thích phong cách nữ tính, năng động, tự tin.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80\" alt=\"YSL Extreme EDT\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho YSL Extreme EDT</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800"
     ],
@@ -5810,11 +9125,56 @@ const products = [
     "price": 2000000,
     "salePrice": 1720000,
     "stock": 20,
-    "rating": 3.5,
+    "rating": 4.3,
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Dương Hữu Bách",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Văn Phát",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đỗ Thanh Hương",
+        "rating": 4,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hoàng Lan Nhung",
+        "rating": 3,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Kim Yến",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Phương Linh",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Mai Linh",
+        "rating": 3,
+        "comment": "Mùi hương thì ok nhưng giao hàng hơi chậm. Độ bám tỏa trên da mình chỉ tầm 4 tiếng.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 7
   },
   {
     "name": "DIOR Gold Pour Homme",
@@ -5827,9 +9187,9 @@ const products = [
       "Tuyết tùng"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm DIOR Gold Pour Homme cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Gỗ (Woody)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>DIOR Gold Pour Homme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>DIOR</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Đàn hương, Tuyết tùng</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">DIOR Gold Pour Homme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    DIOR luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>DIOR Gold Pour Homme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Đàn hương</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Tuyết tùng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80\" alt=\"DIOR Gold Pour Homme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho DIOR Gold Pour Homme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+      "https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800"
     ],
@@ -5852,11 +9212,50 @@ const products = [
     "price": 4900000,
     "salePrice": 4410000,
     "stock": 8,
-    "rating": 4.1,
+    "rating": 4.5,
     "isHot": false,
     "isSale": true,
     "isNewArrival": true,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Trần Phương Hương",
+        "rating": 3,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đỗ Văn Phong",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Dương Hoàng Nam",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phạm Thị Hương",
+        "rating": 4.5,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đỗ Thanh Yến",
+        "rating": 5,
+        "comment": "Mùi nam tính, lịch lãm, hợp đi tiệc hoặc hẹn hò. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Thu Trang",
+        "rating": 4.5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 6
   },
   {
     "name": "DIOR Absolu Pour Femme",
@@ -5869,9 +9268,9 @@ const products = [
       "Tuyết tùng"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm DIOR Absolu Pour Femme cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nữ</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Gỗ (Woody)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Ngọt ngào, Quyến rũ, Thanh lịch</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Gặp gỡ bạn bè, Dạo phố, Hẹn hò lãng mạn</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>DIOR Absolu Pour Femme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>DIOR</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Đàn hương, Tuyết tùng</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">DIOR Absolu Pour Femme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    DIOR luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>DIOR Absolu Pour Femme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Đàn hương</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Tuyết tùng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Phụ nữ trẻ trung từ 18-35 tuổi, yêu thích phong cách nữ tính, năng động, tự tin.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80\" alt=\"DIOR Absolu Pour Femme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho DIOR Absolu Pour Femme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800"
     ],
@@ -5915,11 +9314,56 @@ const products = [
     "price": 3100000,
     "salePrice": 2418000,
     "stock": 5,
-    "rating": 3.6,
+    "rating": 4.7,
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Hồ Phương Yến",
+        "rating": 4,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Nguyễn Đức Tùng",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Độ lưu hương trên da mình phải được 7-8 tiếng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Dương Phương Linh",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Đức Long",
+        "rating": 5,
+        "comment": "Hương thơm nữ tính, ngọt ngào và vô cùng cuốn hút. Bám tỏa khá ổn trong tầm giá. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Thanh Nam",
+        "rating": 4.5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đỗ Hải Thảo",
+        "rating": 4.5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Trọng Hùng",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 7
   },
   {
     "name": "DIOR Parfum Pour Femme",
@@ -5932,9 +9376,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm DIOR Parfum Pour Femme cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>DIOR Parfum Pour Femme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>DIOR</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">DIOR Parfum Pour Femme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    DIOR luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>DIOR Parfum Pour Femme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80\" alt=\"DIOR Parfum Pour Femme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho DIOR Parfum Pour Femme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800"
     ],
@@ -5957,11 +9401,44 @@ const products = [
     "price": 3800000,
     "salePrice": 3800000,
     "stock": 16,
-    "rating": 4.5,
+    "rating": 4.4,
     "isHot": false,
     "isSale": false,
     "isNewArrival": true,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Đỗ Trọng Bách",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Bám tỏa khá ổn trong tầm giá. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Lan Linh",
+        "rating": 4,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Thái Đạt",
+        "rating": 4.5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lê Văn Khang",
+        "rating": 4.5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Bám tỏa khá ổn trong tầm giá. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Hồng My",
+        "rating": 4,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 5
   },
   {
     "name": "DIOR Magic Unisex",
@@ -5974,9 +9451,9 @@ const products = [
       "Caramel"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm DIOR Magic Unisex cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nữ</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Ngọt ngào (Gourmand)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Ngọt ngào, Quyến rũ, Thanh lịch</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Gặp gỡ bạn bè, Dạo phố, Hẹn hò lãng mạn</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>DIOR Magic Unisex</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>DIOR</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Vanilla, Caramel</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">DIOR Magic Unisex: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    DIOR luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>DIOR Magic Unisex</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Vanilla</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Caramel</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Phụ nữ trẻ trung từ 18-35 tuổi, yêu thích phong cách nữ tính, năng động, tự tin.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"DIOR Magic Unisex\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho DIOR Magic Unisex</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800"
     ],
@@ -6020,11 +9497,44 @@ const products = [
     "price": 1900000,
     "salePrice": 1444000,
     "stock": 10,
-    "rating": 4.6,
+    "rating": 4.8,
     "isHot": true,
     "isSale": true,
     "isNewArrival": true,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Dương Kim Quỳnh",
+        "rating": 5,
+        "comment": "Hương thơm nữ tính, ngọt ngào và vô cùng cuốn hút. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Dương Hoàng Nam",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Thanh Bách",
+        "rating": 4.5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Nguyễn Gia Tùng",
+        "rating": 4.5,
+        "comment": "Hương thơm nữ tính, ngọt ngào và vô cùng cuốn hút. Độ lưu hương trên da mình phải được 7-8 tiếng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Nguyễn Thanh Khoa",
+        "rating": 5,
+        "comment": "Hương thơm nữ tính, ngọt ngào và vô cùng cuốn hút. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 5
   },
   {
     "name": "DIOR Classic EDP",
@@ -6037,9 +9547,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm DIOR Classic EDP cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>DIOR Classic EDP</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>DIOR</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">DIOR Classic EDP: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    DIOR luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>DIOR Classic EDP</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80\" alt=\"DIOR Classic EDP\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho DIOR Classic EDP</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+      "https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80",
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800"
     ],
@@ -6066,7 +9576,34 @@ const products = [
     "isHot": false,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Hoàng Gia Tùng",
+        "rating": 5,
+        "comment": "Mùi nam tính, lịch lãm, hợp đi tiệc hoặc hẹn hò. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Vũ Mai Vy",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lê Trọng Phát",
+        "rating": 5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Bám tỏa khá ổn trong tầm giá. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Huỳnh Bảo Quỳnh",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Bám tỏa khá ổn trong tầm giá. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 4
   },
   {
     "name": "DIOR Fraiche EDT",
@@ -6079,9 +9616,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm DIOR Fraiche EDT cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>DIOR Fraiche EDT</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>DIOR</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">DIOR Fraiche EDT: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    DIOR luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>DIOR Fraiche EDT</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80\" alt=\"DIOR Fraiche EDT\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho DIOR Fraiche EDT</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
+      "https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80",
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800"
     ],
@@ -6104,11 +9641,38 @@ const products = [
     "price": 3000000,
     "salePrice": 3000000,
     "stock": 6,
-    "rating": 4.3,
+    "rating": 4.5,
     "isHot": true,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Ngô Thanh Hương",
+        "rating": 4.5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Vũ Thái Bách",
+        "rating": 4.5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Độ lưu hương trên da mình phải được 7-8 tiếng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Trọng Sơn",
+        "rating": 4,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Bám tỏa khá ổn trong tầm giá. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Ngọc Linh",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Độ lưu hương trên da mình phải được 7-8 tiếng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 4
   },
   {
     "name": "DIOR Jour Unisex",
@@ -6121,9 +9685,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm DIOR Jour Unisex cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nữ</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Ngọt ngào, Quyến rũ, Thanh lịch</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Gặp gỡ bạn bè, Dạo phố, Hẹn hò lãng mạn</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>DIOR Jour Unisex</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>DIOR</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">DIOR Jour Unisex: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    DIOR luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>DIOR Jour Unisex</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Phụ nữ trẻ trung từ 18-35 tuổi, yêu thích phong cách nữ tính, năng động, tự tin.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80\" alt=\"DIOR Jour Unisex\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho DIOR Jour Unisex</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
+      "https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
     ],
@@ -6167,11 +9731,38 @@ const products = [
     "price": 5500000,
     "salePrice": 5500000,
     "stock": 28,
-    "rating": 3.5,
+    "rating": 4.9,
     "isHot": true,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Lê Hoàng Phong",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Hải My",
+        "rating": 5,
+        "comment": "Hương thơm nữ tính, ngọt ngào và vô cùng cuốn hút. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Hữu Đạt",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Bám tỏa khá ổn trong tầm giá. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Huỳnh Thanh Yến",
+        "rating": 4.5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 4
   },
   {
     "name": "DIOR Gold EDP",
@@ -6184,9 +9775,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm DIOR Gold EDP cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>DIOR Gold EDP</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>DIOR</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">DIOR Gold EDP: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    DIOR luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>DIOR Gold EDP</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"DIOR Gold EDP\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho DIOR Gold EDP</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800"
     ],
@@ -6230,11 +9821,38 @@ const products = [
     "price": 2500000,
     "salePrice": 2500000,
     "stock": 23,
-    "rating": 4,
+    "rating": 4.9,
     "isHot": false,
     "isSale": false,
     "isNewArrival": true,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Võ Thanh Vy",
+        "rating": 4.5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Quang Tùng",
+        "rating": 5,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phạm Minh Phát",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hồ Thái Hùng",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 4
   },
   {
     "name": "DIOR Blanc Pour Homme",
@@ -6247,9 +9865,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm DIOR Blanc Pour Homme cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nữ</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Ngọt ngào, Quyến rũ, Thanh lịch</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Gặp gỡ bạn bè, Dạo phố, Hẹn hò lãng mạn</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>DIOR Blanc Pour Homme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>DIOR</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">DIOR Blanc Pour Homme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    DIOR luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>DIOR Blanc Pour Homme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Phụ nữ trẻ trung từ 18-35 tuổi, yêu thích phong cách nữ tính, năng động, tự tin.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"DIOR Blanc Pour Homme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho DIOR Blanc Pour Homme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800"
     ],
@@ -6293,11 +9911,56 @@ const products = [
     "price": 3000000,
     "salePrice": 3000000,
     "stock": 6,
-    "rating": 3.9,
+    "rating": 4.6,
     "isHot": true,
     "isSale": false,
     "isNewArrival": true,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Dương Kim My",
+        "rating": 4,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Dương Thị Trang",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Tuấn Phong",
+        "rating": 4.5,
+        "comment": "Hương thơm nữ tính, ngọt ngào và vô cùng cuốn hút. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Huỳnh Gia Bách",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Độ lưu hương trên da mình phải được 7-8 tiếng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hoàng Gia Long",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Bám tỏa khá ổn trong tầm giá. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Quang Sơn",
+        "rating": 4.5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Thị Hà",
+        "rating": 4.5,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Độ lưu hương trên da mình phải được 7-8 tiếng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 7
   },
   {
     "name": "DIOR Jour Edition",
@@ -6310,9 +9973,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm DIOR Jour Edition cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>DIOR Jour Edition</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>DIOR</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">DIOR Jour Edition: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    DIOR luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>DIOR Jour Edition</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"DIOR Jour Edition\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho DIOR Jour Edition</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800"
     ],
@@ -6335,11 +9998,62 @@ const products = [
     "price": 4200000,
     "salePrice": 3612000,
     "stock": 26,
-    "rating": 4.9,
+    "rating": 4.5,
     "isHot": true,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Huỳnh Phương Thảo",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Độ lưu hương trên da mình phải được 7-8 tiếng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Minh Nam",
+        "rating": 4.5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lê Thanh Nhung",
+        "rating": 4,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Bám tỏa khá ổn trong tầm giá. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Nguyễn Bảo Thảo",
+        "rating": 4,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Hồng Vy",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Kim Nhung",
+        "rating": 5,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phạm Trọng Sơn",
+        "rating": 5,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Nguyễn Minh Đạt",
+        "rating": 3.5,
+        "comment": "Mùi hương thì ok nhưng giao hàng hơi chậm. Độ bám tỏa trên da mình chỉ tầm 4 tiếng.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 8
   },
   {
     "name": "DIOR Elixir EDP",
@@ -6352,9 +10066,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm DIOR Elixir EDP cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>DIOR Elixir EDP</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>DIOR</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">DIOR Elixir EDP: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    DIOR luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>DIOR Elixir EDP</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80\" alt=\"DIOR Elixir EDP\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho DIOR Elixir EDP</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800"
     ],
@@ -6377,11 +10091,44 @@ const products = [
     "price": 2300000,
     "salePrice": 1863000,
     "stock": 14,
-    "rating": 3.6,
+    "rating": 4.1,
     "isHot": true,
     "isSale": true,
     "isNewArrival": true,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Nguyễn Ngọc Thảo",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Nguyễn Hải Quỳnh",
+        "rating": 4,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Thị Quỳnh",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Nguyễn Thanh My",
+        "rating": 3,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Huỳnh Hồng Hà",
+        "rating": 3.5,
+        "comment": "Mùi hương thì ok nhưng giao hàng hơi chậm. Độ bám tỏa trên da mình chỉ tầm 4 tiếng.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 5
   },
   {
     "name": "DIOR Bloom Edition",
@@ -6394,9 +10141,9 @@ const products = [
       "Cam Bergamot"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm DIOR Bloom Edition cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Cam đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Cam chanh (Citrus)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>DIOR Bloom Edition</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>DIOR</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Cam tươi, Cam Bergamot</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">DIOR Bloom Edition: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    DIOR luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>DIOR Bloom Edition</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Cam tươi</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Cam Bergamot</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80\" alt=\"DIOR Bloom Edition\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho DIOR Bloom Edition</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
       "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800"
     ],
@@ -6440,11 +10187,38 @@ const products = [
     "price": 4900000,
     "salePrice": 4900000,
     "stock": 28,
-    "rating": 4.7,
+    "rating": 5,
     "isHot": false,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Hồ Mai Hương",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hồ Phương My",
+        "rating": 5,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Huỳnh Thái Khang",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hồ Hoàng Phát",
+        "rating": 5,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 4
   },
   {
     "name": "DIOR Oud Pour Femme",
@@ -6457,9 +10231,9 @@ const products = [
       "Tuyết tùng"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm DIOR Oud Pour Femme cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Gỗ (Woody)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>DIOR Oud Pour Femme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>DIOR</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Đàn hương, Tuyết tùng</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">DIOR Oud Pour Femme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    DIOR luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>DIOR Oud Pour Femme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Đàn hương</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Tuyết tùng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80\" alt=\"DIOR Oud Pour Femme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho DIOR Oud Pour Femme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
+      "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800"
     ],
@@ -6503,11 +10277,50 @@ const products = [
     "price": 4500000,
     "salePrice": 4500000,
     "stock": 12,
-    "rating": 4.2,
+    "rating": 4.6,
     "isHot": true,
     "isSale": false,
     "isNewArrival": true,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Bùi Đức Hùng",
+        "rating": 4.5,
+        "comment": "Mùi nam tính, lịch lãm, hợp đi tiệc hoặc hẹn hò. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Kim Hà",
+        "rating": 4,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Hải Trang",
+        "rating": 4.5,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Bám tỏa khá ổn trong tầm giá. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Tuấn Phong",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phạm Thanh Khang",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Bám tỏa khá ổn trong tầm giá. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Huỳnh Thanh Hùng",
+        "rating": 4.5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 6
   },
   {
     "name": "DIOR Absolu Unisex",
@@ -6520,9 +10333,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm DIOR Absolu Unisex cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nữ</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Ngọt ngào, Quyến rũ, Thanh lịch</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Gặp gỡ bạn bè, Dạo phố, Hẹn hò lãng mạn</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>DIOR Absolu Unisex</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>DIOR</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">DIOR Absolu Unisex: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    DIOR luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>DIOR Absolu Unisex</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Phụ nữ trẻ trung từ 18-35 tuổi, yêu thích phong cách nữ tính, năng động, tự tin.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80\" alt=\"DIOR Absolu Unisex\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho DIOR Absolu Unisex</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800"
     ],
@@ -6570,7 +10383,34 @@ const products = [
     "isHot": true,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Lê Ngọc Trang",
+        "rating": 3,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Vũ Đức Hùng",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Huỳnh Gia Sơn",
+        "rating": 3,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hồ Hoàng Phong",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 4
   },
   {
     "name": "DIOR Magic Edition",
@@ -6583,9 +10423,9 @@ const products = [
       "Tuyết tùng"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm DIOR Magic Edition cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với nam giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nam</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Gỗ (Woody)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Nam tính, Lịch lãm, Đẳng cấp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Hội họp, Gặp gỡ đối tác, Tiệc tùng</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>DIOR Magic Edition</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>DIOR</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Đàn hương, Tuyết tùng</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">DIOR Magic Edition: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    DIOR luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>DIOR Magic Edition</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Đàn hương</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Tuyết tùng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Nam giới trưởng thành, nhân viên văn phòng, doanh nhân thành đạt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80\" alt=\"DIOR Magic Edition\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho DIOR Magic Edition</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800"
     ],
@@ -6629,11 +10469,44 @@ const products = [
     "price": 4700000,
     "salePrice": 3854000,
     "stock": 14,
-    "rating": 4.1,
+    "rating": 4.4,
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Phạm Đức Phát",
+        "rating": 4.5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Hải Thảo",
+        "rating": 4.5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Phương Hà",
+        "rating": 4,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Độ lưu hương trên da mình phải được 7-8 tiếng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Kim Quỳnh",
+        "rating": 5,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lê Thái Nam",
+        "rating": 4,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 5
   },
   {
     "name": "DIOR L'eau Pour Homme",
@@ -6646,9 +10519,9 @@ const products = [
       "Caramel"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm DIOR L'eau Pour Homme cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Ngọt đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Ngọt ngào (Gourmand)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>DIOR L'eau Pour Homme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>DIOR</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Vanilla, Caramel</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">DIOR L'eau Pour Homme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    DIOR luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>DIOR L'eau Pour Homme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Vanilla</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Caramel</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"DIOR L'eau Pour Homme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho DIOR L'eau Pour Homme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800"
     ],
@@ -6692,11 +10565,56 @@ const products = [
     "price": 2200000,
     "salePrice": 1804000,
     "stock": 25,
-    "rating": 3.6,
+    "rating": 4.5,
     "isHot": false,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Võ Ngọc Trang",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hoàng Văn Bách",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Vũ Gia Hùng",
+        "rating": 4.5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Thị My",
+        "rating": 4.5,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Độ lưu hương trên da mình phải được 7-8 tiếng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Nguyễn Quang Bách",
+        "rating": 4.5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Đặng Mai Quỳnh",
+        "rating": 4,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Đức Tùng",
+        "rating": 4,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 7
   },
   {
     "name": "DIOR Royal EDP",
@@ -6709,9 +10627,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm DIOR Royal EDP cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với nữ giới.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Nữ</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Ngọt ngào, Quyến rũ, Thanh lịch</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Đi làm, Gặp gỡ bạn bè, Dạo phố, Hẹn hò lãng mạn</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>DIOR Royal EDP</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>DIOR</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">DIOR Royal EDP: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    DIOR luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>DIOR Royal EDP</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Phụ nữ trẻ trung từ 18-35 tuổi, yêu thích phong cách nữ tính, năng động, tự tin.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80\" alt=\"DIOR Royal EDP\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho DIOR Royal EDP</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
       "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800"
     ],
@@ -6755,11 +10673,56 @@ const products = [
     "price": 2000000,
     "salePrice": 1620000,
     "stock": 8,
-    "rating": 3.6,
+    "rating": 4.9,
     "isHot": true,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": false
+    "isBestSeller": false,
+    "reviews": [
+      {
+        "name": "Võ Minh Long",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hoàng Lan Anh",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Võ Đức Hùng",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Thị Linh",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lý Thu Hà",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Lê Tuấn Khoa",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hoàng Kim My",
+        "rating": 4,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Độ bám siêu đỉnh, mình rất bất ngờ về chất lượng. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 7
   },
   {
     "name": "DIOR Intense EDP",
@@ -6772,9 +10735,9 @@ const products = [
       "Hoa nhài"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm DIOR Intense EDP cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Hoa đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Hoa cỏ (Floral)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>DIOR Intense EDP</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>DIOR</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Hoa hồng, Hoa nhài</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">DIOR Intense EDP: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    DIOR luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>DIOR Intense EDP</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Hoa hồng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Hoa nhài</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80\" alt=\"DIOR Intense EDP\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho DIOR Intense EDP</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
+      "https://images.unsplash.com/photo-1594035910387-fea4772749d5?w=800&q=80",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800"
     ],
@@ -6797,11 +10760,56 @@ const products = [
     "price": 5200000,
     "salePrice": 5200000,
     "stock": 21,
-    "rating": 3.5,
+    "rating": 4.9,
     "isHot": true,
     "isSale": false,
     "isNewArrival": false,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Bùi Thái Sơn",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Vũ Gia Phong",
+        "rating": 5,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Sản phẩm chuẩn chính hãng, check code đầy đủ.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Vũ Đức Phát",
+        "rating": 5,
+        "comment": "Hương thơm cực kỳ sang trọng, không bị nồng gắt. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Thị My",
+        "rating": 4.5,
+        "comment": "Hương thơm nam tính, mạnh mẽ và rất cuốn hút. Tỏa hương tốt trong bán kính 1 cánh tay, lưu hương lâu. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Thanh Phong",
+        "rating": 5,
+        "comment": "Mùi rất nhẹ nhàng nhưng vẫn có chiều sâu. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phạm Thị Linh",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Mai Yến",
+        "rating": 4.5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Sáng xịt đi làm mà đến tối về vẫn thoang thoảng. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 7
   },
   {
     "name": "DIOR Magic EDP",
@@ -6814,9 +10822,9 @@ const products = [
       "Tuyết tùng"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm DIOR Magic EDP cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Gỗ (Woody)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>DIOR Magic EDP</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>DIOR</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Đàn hương, Tuyết tùng</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">DIOR Magic EDP: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    DIOR luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>DIOR Magic EDP</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Đàn hương</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Tuyết tùng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80\" alt=\"DIOR Magic EDP\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho DIOR Magic EDP</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=800",
+      "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
       "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
       "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800"
     ],
@@ -6860,11 +10868,32 @@ const products = [
     "price": 5300000,
     "salePrice": 5300000,
     "stock": 9,
-    "rating": 4.2,
+    "rating": 4.5,
     "isHot": false,
     "isSale": false,
     "isNewArrival": true,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Lý Hồng Yến",
+        "rating": 5,
+        "comment": "Mùi này mình ưng dã man, cảm giác rất đẳng cấp. Bám tỏa khá ổn trong tầm giá. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Ngô Lan Yến",
+        "rating": 4.5,
+        "comment": "Hương thơm nịnh mũi, ai ngửi cũng khen. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Sẽ còn ủng hộ shop nhiều lần nữa.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Hồ Kim Trang",
+        "rating": 4,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Độ lưu hương trên da mình phải được 7-8 tiếng. Mua làm quà tặng sếp rất hợp lý, hộp đẹp xịn xò.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 3
   },
   {
     "name": "DIOR Bloom Pour Homme",
@@ -6877,9 +10906,9 @@ const products = [
       "Tuyết tùng"
     ],
     "origin": "Pháp",
-    "description": "Sản phẩm DIOR Bloom Pour Homme cao cấp đến từ thương hiệu DIOR. Mùi hương đặc trưng của Gỗ đem lại sự sang trọng và lôi cuốn, phù hợp với cả nam và nữ.",
+    "description": "<h3 style=\"font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;\">Chi tiết về sản phẩm</h3>\n<table style=\"width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;\">\n    <tr><td style=\"font-weight: bold; width: 30%; color: #333;\">Phân loại:</td><td style=\"color: #666;\">Nước hoa Unisex</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Xuất xứ:</td><td style=\"color: #666;\">Pháp</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nồng độ:</td><td style=\"color: #666;\">Eau de Parfum (EDP)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Nhóm hương:</td><td style=\"color: #4a90e2;\">Hương Gỗ (Woody)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Phong cách:</td><td style=\"color: #666;\">Hiện đại, Tinh tế, Phi giới tính (Unisex)</td></tr>\n    <tr><td style=\"font-weight: bold; color: #333;\">Dịp sử dụng:</td><td style=\"color: #666;\">Sử dụng hàng ngày, Đi học, Đi làm, Cà phê cuối tuần</td></tr>\n</table>\n\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 20px;\">\n    <strong>DIOR Bloom Pour Homme</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>DIOR</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>Đàn hương, Tuyết tùng</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.\n</p>\n\n<h3 style=\"font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;\">DIOR Bloom Pour Homme: Biểu tượng của sự đẳng cấp</h3>\n<p style=\"line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    DIOR luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>DIOR Bloom Pour Homme</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.\n</p>\n\n<div style=\"background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;\">\n    <h3 style=\"font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;\">Cấu trúc 3 tầng hương</h3>\n    \n    <div style=\"display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;\">\n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương đầu (5 - 15 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌿 Đàn hương</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương giữa (20 - 60 phút)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🌸 Tuyết tùng</div>\n        </div>\n        \n        <div style=\"flex: 1;\">\n            <div style=\"background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;\">Hương cuối (>6 tiếng)</div>\n            <div style=\"color: #555; font-size: 14px; font-weight: 500;\">🪵 Gỗ đàn hương, Xạ hương, Hổ phách</div>\n        </div>\n    </div>\n</div>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Ai phù hợp với mùi hương này?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;\">\n    <li>Mọi độ tuổi yêu thích sự mới mẻ, tự do và cá tính riêng biệt.</li>\n    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>\n</ul>\n\n<h3 style=\"font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;\">Thích hợp dùng khi nào?</h3>\n<ul style=\"list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;\">\n    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>\n    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>\n    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>\n</ul>\n\n<div style=\"text-align: center; margin-bottom: 24px;\">\n    <img src=\"https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80\" alt=\"DIOR Bloom Pour Homme\" style=\"max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;\" />\n    <p style=\"text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;\">Hình ảnh minh họa cho DIOR Bloom Pour Homme</p>\n</div>",
     "images": [
-      "https://images.unsplash.com/photo-1595425959632-ce1517441865?w=800",
+      "https://images.unsplash.com/photo-1523293115678-d2900f52f2a2?w=800&q=80",
       "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800",
       "https://images.unsplash.com/photo-1615397323114-1e0e181e5927?w=800"
     ],
@@ -6902,11 +10931,38 @@ const products = [
     "price": 5600000,
     "salePrice": 4424000,
     "stock": 5,
-    "rating": 4.6,
+    "rating": 4.8,
     "isHot": true,
     "isSale": true,
     "isNewArrival": false,
-    "isBestSeller": true
+    "isBestSeller": true,
+    "reviews": [
+      {
+        "name": "Nguyễn Thanh Đạt",
+        "rating": 5,
+        "comment": "Mùi hương vô cùng quyến rũ và tinh tế. Lưu hương rất trâu, đi chơi cả ngày không sợ bay mùi. Shop chuẩn bị hàng nhanh, mới đặt hôm qua nay đã nhận được.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Bùi Hữu Long",
+        "rating": 5,
+        "comment": "Lần đầu xịt thử đã thấy mê luôn, mùi rất đặc trưng. Độ lưu hương trên da mình phải được 7-8 tiếng. Giá tốt hơn nhiều so với ngoài store mà chất lượng y chang.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Phan Văn Phát",
+        "rating": 4,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Xịt lên quần áo thì thơm đến ngày hôm sau luôn. Đóng gói siêu cẩn thận, bọc chống sốc mấy lớp.",
+        "status": "VISIBLE"
+      },
+      {
+        "name": "Trần Thị Hà",
+        "rating": 5,
+        "comment": "Phải nói là tuyệt tác mùi hương, rất đáng tiền. Bám tỏa khá ổn trong tầm giá. Tư vấn viên nhiệt tình, dễ thương.",
+        "status": "VISIBLE"
+      }
+    ],
+    "numReviews": 4
   }
 ];
 

@@ -17,7 +17,9 @@
   "dependencies": {
     "@ai-sdk/xai": "^3.0.96",
     "ai": "^6.0.207",
+    "axios": "^1.18.1",
     "bcryptjs": "^3.0.3",
+    "cheerio": "^1.2.0",
     "cloudinary": "^2.9.0",
     "cors": "^2.8.6",
     "dotenv": "^17.3.1",
