@@ -63,62 +63,49 @@ const newProducts = products.map((product) => {
     let baseNotes = notes.length > 2 ? notes.slice(Math.ceil(notes.length/3)*2).join(', ') : "Gỗ đàn hương, Xạ hương, Hổ phách";
 
     const richDescription = `
-<h3 style="font-size: 24px; font-weight: bold; margin-bottom: 20px; color: #111;">Chi tiết về sản phẩm</h3>
-<table style="width: 100%; margin-bottom: 30px; font-size: 15px; border-collapse: separate; border-spacing: 0 10px;">
-    <tr><td style="font-weight: bold; width: 30%; color: #333;">Phân loại:</td><td style="color: #666;">Nước hoa ${product.gender === 'Nam' ? 'Nam' : product.gender === 'Nu' ? 'Nữ' : 'Unisex'}</td></tr>
-    <tr><td style="font-weight: bold; color: #333;">Xuất xứ:</td><td style="color: #666;">${product.origin || 'Chưa cập nhật'}</td></tr>
-    <tr><td style="font-weight: bold; color: #333;">Nồng độ:</td><td style="color: #666;">Eau de Parfum (EDP)</td></tr>
-    <tr><td style="font-weight: bold; color: #333;">Nhóm hương:</td><td style="color: #4a90e2;">${scentGroupName}</td></tr>
-    <tr><td style="font-weight: bold; color: #333;">Phong cách:</td><td style="color: #666;">${style}</td></tr>
-    <tr><td style="font-weight: bold; color: #333;">Dịp sử dụng:</td><td style="color: #666;">${dipSuDung}</td></tr>
-</table>
-
-<p style="line-height: 1.8; color: #444; margin-bottom: 20px;">
-    <strong>${product.name}</strong> là dòng nước hoa cao cấp đến từ thương hiệu <strong>${product.brand}</strong>. Mang trong mình tinh thần hiện đại và tự do, sản phẩm mở ra một không gian hương thơm tinh tế, lưu giữ trọn vẹn những nốt hương đặc trưng nhất. Sự hòa quyện của <strong>${product.scentNotes.join(', ')}</strong> tạo nên cảm giác vừa tươi mới, vừa quyến rũ như một khu vườn tràn ngập sức sống.
-</p>
-
-<h3 style="font-size: 20px; font-weight: bold; margin-top: 30px; margin-bottom: 15px; color: #111;">${product.name}: Biểu tượng của sự đẳng cấp</h3>
-<p style="line-height: 1.8; color: #444; margin-bottom: 30px;">
-    ${product.brand} luôn nổi bật với sự kết hợp giữa nét cổ điển và hiện đại, tạo dấu ấn đậm nét trong làng nước hoa toàn cầu. <strong>${product.name}</strong> không chỉ là một mùi hương, mà còn là một thông điệp tôn vinh vẻ đẹp tự nhiên và bản lĩnh của người sử dụng.
-</p>
-
-<div style="background-color: #fcfcfc; padding: 30px 20px; border-radius: 12px; margin-bottom: 40px; text-align: center; border: 1px solid #eee;">
-    <h3 style="font-size: 18px; font-weight: bold; color: #333; margin-bottom: 25px; text-transform: uppercase;">Cấu trúc 3 tầng hương</h3>
-    
-    <div style="display: flex; flex-direction: column; md:flex-row; justify-content: space-between; gap: 20px;">
-        <div style="flex: 1;">
-            <div style="background-color: #ffb8b8; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;">Hương đầu (5 - 15 phút)</div>
-            <div style="color: #555; font-size: 14px; font-weight: 500;">🌿 ${topNotes}</div>
-        </div>
+<div class="not-prose" style="max-width: 1000px; margin: 0 auto; text-align: left;">
+    <!-- Top Section: Text and Image -->
+    <div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: center; margin-bottom: 20px;">
         
-        <div style="flex: 1;">
-            <div style="background-color: #ffcccc; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;">Hương giữa (20 - 60 phút)</div>
-            <div style="color: #555; font-size: 14px; font-weight: 500;">🌸 ${middleNotes}</div>
+        <!-- Left: Text Content -->
+        <div style="flex: 1; min-width: 300px;">
+            <h2 style="font-size: 26px; font-weight: bold; line-height: 1.3; text-transform: uppercase; margin-top: 0; margin-bottom: 16px; color: #000; letter-spacing: 0.5px;">
+                Hương thơm đẳng cấp mang đến sự quyến rũ tuyệt đối.
+            </h2>
+            
+            <p style="font-size: 15px; line-height: 1.6; color: #111; margin-top: 0; margin-bottom: 12px;">
+                Khi sử dụng nước hoa, từng tầng hương đều tạo nên sự khác biệt. <strong>${product.name}</strong> được sáng tạo để giúp những người đam mê hương thơm khẳng định phong cách riêng, mang lại sự tự tin mà không kém phần tinh tế.
+            </p>
+            
+            <p style="font-size: 15px; line-height: 1.6; color: #111; margin-top: 0; margin-bottom: 12px;">
+                Từ những buổi họp quan trọng, dạo phố thư giãn đến những đêm tiệc sang trọng, chai nước hoa này được thiết kế để đồng hành cùng bạn trên mọi khoảnh khắc. Sự hòa quyện của <strong>${product.scentNotes.join(', ')}</strong> giúp bạn luôn nổi bật giữa đám đông.
+            </p>
+            
+            <p style="font-size: 15px; line-height: 1.6; color: #111; margin-top: 0; margin-bottom: 0;">
+                Dù bạn đang chuẩn bị cho một cuộc hẹn hò lãng mạn hay một ngày làm việc bận rộn, sản phẩm đến từ <strong>${product.brand}</strong> này đáp ứng mọi yêu cầu của những người dùng khó tính nhất. Kết hợp tính năng lưu hương vượt trội mà vẫn giữ phong cách thời thượng.
+            </p>
         </div>
-        
-        <div style="flex: 1;">
-            <div style="background-color: #ffd6d6; color: #c0392b; font-weight: bold; padding: 8px 15px; border-radius: 20px; display: inline-block; margin-bottom: 10px; font-size: 14px;">Hương cuối (>6 tiếng)</div>
-            <div style="color: #555; font-size: 14px; font-weight: 500;">🪵 ${baseNotes}</div>
+
+        <!-- Right: Image -->
+        <div style="flex: 1; min-width: 300px; background-color: #f7f7f7; display: flex; justify-content: center; align-items: center; padding: 20px;">
+            <img src="${generatedImageUrl}" alt="${product.name}" style="max-width: 100%; height: auto; object-fit: contain; mix-blend-mode: multiply;" />
         </div>
     </div>
-</div>
 
-<h3 style="font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;">Ai phù hợp với mùi hương này?</h3>
-<ul style="list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 30px;">
-    <li>${phuHop}</li>
-    <li>Người thích sự lưu hương dai dẳng, muốn để lại dấu ấn ở mọi nơi mình bước qua.</li>
-</ul>
-
-<h3 style="font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #111;">Thích hợp dùng khi nào?</h3>
-<ul style="list-style-type: disc; margin-left: 20px; line-height: 1.8; color: #444; margin-bottom: 40px;">
-    <li><strong>Đi làm, đi học:</strong> Tạo cảm giác tươi sáng, năng lượng tích cực mà không quá nồng gắt.</li>
-    <li><strong>Gặp gỡ bạn bè:</strong> Dịu dàng, cuốn hút nhưng không lấn át không gian xung quanh.</li>
-    <li><strong>Sự kiện, tiệc tùng:</strong> Tôn vinh nét sang trọng và đẳng cấp của bạn.</li>
-</ul>
-
-<div style="text-align: center; margin-bottom: 24px;">
-    <img src="${generatedImageUrl}" alt="${product.name}" style="max-width: 100%; max-height: 500px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); object-fit: cover; margin: 0 auto; display: block;" />
-    <p style="text-align: center; font-style: italic; color: #666; margin-top: 12px; font-size: 0.95em;">Hình ảnh minh họa cho ${product.name}</p>
+    <!-- Bottom Section: Specs List -->
+    <div style="border-top: 1px solid #eee; padding-top: 15px; padding-bottom: 15px;">
+        <h3 style="font-size: 18px; font-weight: bold; margin-bottom: 15px; color: #000;">Thông tin chi tiết</h3>
+        
+        <ul style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 8px 20px; padding-left: 15px; list-style-type: disc; margin: 0; color: #111; font-size: 14px;">
+            <li style="margin-bottom: 4px; line-height: 1.4;">Thương hiệu: <strong>${product.brand}</strong></li>
+            <li style="margin-bottom: 4px; line-height: 1.4;">Giới tính: <strong>${product.gender === 'Nam' ? 'Nam' : product.gender === 'Nu' ? 'Nữ' : 'Unisex'}</strong></li>
+            <li style="margin-bottom: 4px; line-height: 1.4;">Nhóm hương: <strong>${scentGroupName}</strong></li>
+            <li style="margin-bottom: 4px; line-height: 1.4;">Phong cách: <strong>${style}</strong></li>
+            <li style="margin-bottom: 4px; line-height: 1.4;">Nồng độ: <strong>Eau de Parfum (EDP)</strong></li>
+            <li style="margin-bottom: 4px; line-height: 1.4;">Xuất xứ: <strong>${product.origin || 'Chưa cập nhật'}</strong></li>
+            <li style="margin-bottom: 4px; line-height: 1.4;">Mã sản phẩm: <strong>${product._id ? product._id.toString().substring(18).toUpperCase() : 'SP' + Math.floor(Math.random() * 10000)}</strong></li>
+        </ul>
+    </div>
 </div>
 `.trim();
 

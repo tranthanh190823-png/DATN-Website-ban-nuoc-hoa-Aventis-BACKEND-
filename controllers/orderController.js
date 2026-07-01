@@ -154,22 +154,27 @@ const cancelOrder = async (req, res) => {
             return res.status(404).json({ message: 'Không tìm thấy đơn hàng' });
         }
 
-        if (order.user.toString() !== req.user._id.toString() && !req.user.isAdmin) {
-            return res.status(403).json({ message: 'Không có quyền hủy đơn hàng này' });
-        }
-
-        if (order.status !== 'Chờ xử lý') {
-            return res.status(400).json({ message: 'Chỉ có thể hủy đơn hàng khi chưa xác nhận (Chờ xử lý)' });
-        }
-
-        if (order.isDelivered || order.isPaid) {
-            return res.status(400).json({ message: 'Không thể hủy đơn hàng đã thanh toán hoặc đã giao' });
+        if (!req.user.isAdmin) {
+            if (order.user.toString() !== req.user._id.toString()) {
+                return res.status(403).json({ message: 'Không có quyền hủy đơn hàng này' });
+            }
+            if (order.status !== 'Chờ xử lý') {
+                return res.status(400).json({ message: 'Chỉ có thể hủy đơn hàng khi chưa xác nhận (Chờ xử lý)' });
+            }
+            if (order.isPaid) {
+                return res.status(400).json({ message: 'Không thể tự hủy đơn hàng đã thanh toán' });
+            }
+        } else {
+            if (!['Chờ xử lý', 'Đã xử lý', 'Đang giao'].includes(order.status)) {
+                return res.status(400).json({ message: 'Chỉ có thể hủy đơn hàng chưa giao thành công' });
+            }
         }
 
         if (order.isCancelled) {
             return res.status(400).json({ message: 'Đơn hàng này đã bị hủy trước đó' });
         }
 
+        order.cancelReason = req.body.reason || 'Không có lý do';
         order.status = 'Đã hủy';
         order.isCancelled = true;
         order.cancelledAt = Date.now();
