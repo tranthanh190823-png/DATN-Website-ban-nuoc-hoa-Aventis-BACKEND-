@@ -85,7 +85,9 @@ const userSchema = new mongoose.Schema({
     // Danh sách địa chỉ
     addresses: [addressSchema]
 }, {
-    timestamps: true
+    timestamps: true,
+    toJSON: { virtuals: true },
+    toObject: { virtuals: true }
 });
 
 // Tự động tạo name từ firstName + lastName, hash password
@@ -124,6 +126,14 @@ userSchema.methods.getResetPasswordToken = function() {
 
     return resetToken;
 };
+
+// Virtual để lấy địa chỉ mặc định
+userSchema.virtual('defaultAddress').get(function() {
+    if (this.addresses && this.addresses.length > 0) {
+        return this.addresses.find(addr => addr.isDefault) || this.addresses[0];
+    }
+    return null;
+});
 
 const User = mongoose.model('User', userSchema);
 export default User;

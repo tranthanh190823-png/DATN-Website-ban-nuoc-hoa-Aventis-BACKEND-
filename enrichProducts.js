@@ -7,6 +7,12 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const productsFilePath = path.join(__dirname, 'data', 'products.js');
 
+const imageMapPath = path.join(__dirname, 'imageMap.json');
+let imageMap = {};
+if (fs.existsSync(imageMapPath)) {
+    imageMap = JSON.parse(fs.readFileSync(imageMapPath, 'utf-8'));
+}
+
 const newProducts = products.map((product) => {
     let style = "Sang trọng, Cuốn hút";
     let phuHop = "Người yêu thích sự quyến rũ, tinh tế, phù hợp cho người trưởng thành.";
@@ -40,8 +46,15 @@ const newProducts = products.map((product) => {
         "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&q=80",
         "https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&q=80"
     ];
-    // Pick one based on product name length to be somewhat consistent
-    const generatedImageUrl = unsplashImages[product.name.length % unsplashImages.length];
+    // Pick from imageMap if available, else fallback
+    let customImage = imageMap[product.name];
+    let primaryImageUrl = "";
+    if (customImage) {
+        primaryImageUrl = Array.isArray(customImage) ? customImage[0] : customImage;
+    } else {
+        primaryImageUrl = unsplashImages[product.name.length % unsplashImages.length];
+    }
+    const generatedImageUrl = primaryImageUrl;
 
     // Splitting scentNotes to Top, Middle, Base notes for the infographic effect
     let notes = product.scentNotes || [];
@@ -109,10 +122,16 @@ const newProducts = products.map((product) => {
 </div>
 `.trim();
 
-    // Update product images array with the generated image
-    const newImages = [generatedImageUrl];
-    if (product.images && product.images.length > 1) {
-        newImages.push(...product.images.slice(1));
+    // Update product images array
+    let newImages = [];
+    if (customImage) {
+        newImages = Array.isArray(customImage) ? customImage : [customImage];
+    } else {
+        newImages = [generatedImageUrl];
+        if (product.images && product.images.length > 1) {
+            // Keep maximum 3 images total if they exist
+            newImages.push(...product.images.slice(1, 3));
+        }
     }
 
     return {
