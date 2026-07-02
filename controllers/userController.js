@@ -12,6 +12,7 @@ const buildAuthResponse = (user, res) => ({
     email: user.email,
     phone: user.phone,
     addresses: user.addresses,
+    defaultAddress: user.defaultAddress,
     isAdmin: user.isAdmin,
     isStaff: user.isStaff || false,
     token: generateToken(res, user._id)
@@ -181,6 +182,7 @@ const getUserProfile = async (req, res, next) => {
                 email: user.email,
                 phone: user.phone,
                 addresses: user.addresses,
+                defaultAddress: user.defaultAddress,
                 isAdmin: user.isAdmin,
             });
         } else {
@@ -238,6 +240,7 @@ const updateUserProfile = async (req, res, next) => {
                 email: updatedUser.email,
                 phone: updatedUser.phone,
                 addresses: updatedUser.addresses,
+                defaultAddress: updatedUser.defaultAddress,
                 isAdmin: updatedUser.isAdmin,
                 token: generateToken(res, updatedUser._id)
             });
