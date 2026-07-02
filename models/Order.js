@@ -75,6 +75,10 @@ const orderSchema = mongoose.Schema({
     cancelledAt: {
         type: Date
     },
+    cancelReason: {
+        type: String,
+        default: ''
+    },
     status: {
         type: String,
         enum: ['Chờ xử lý', 'Đã xử lý', 'Đang giao', 'Đã giao', 'Đã hủy'],

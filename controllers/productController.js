@@ -149,7 +149,8 @@ const createProduct = async (req, res) => {
             stock: 0,
             salePrice: 0,
             description: 'Mô tả sản phẩm rỗng',
-            size: 'N/A'
+            size: 'N/A',
+            isNewArrival: true
         });
 
         const createdProduct = await product.save();
@@ -216,7 +217,7 @@ const createProductReview = async (req, res) => {
 
         if (product) {
             const alreadyReviewed = product.reviews.find(
-                (r) => r.user.toString() === req.user._id.toString()
+                (r) => r.user && r.user.toString() === req.user._id.toString()
             );
 
             if (alreadyReviewed) {

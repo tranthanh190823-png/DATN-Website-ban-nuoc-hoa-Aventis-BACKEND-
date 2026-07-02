@@ -1,5 +1,8 @@
 import express from 'express';
 import dotenv from 'dotenv';
+
+dotenv.config();
+
 import cors from 'cors';
 import morgan from 'morgan';
 import connectDB from './configs/db.js';
@@ -13,14 +16,19 @@ import newsRoutes from './routes/newsRoutes.js';
 import flashSaleRoutes from './routes/flashSaleRoutes.js';
 import chatRoutes from './routes/chatRoutes.js';
 import addressRoutes from './routes/addressRoutes.js';
+import chatLiveRoutes from './routes/chatLiveRoutes.js';
 import { notFound, errorHandler } from './middlewares/errorMiddleware.js';
-
-dotenv.config();
+import http from 'http';
+import { initSocket } from './utils/socket.js';
 
 // Connect to MongoDB
-connectDB();
+if (process.env.NODE_ENV !== 'test') {
+  connectDB();
+}
 
 const app = express();
+const server = http.createServer(app);
+initSocket(server);
 
 app.use(express.json());
 app.use(cors());
@@ -39,6 +47,7 @@ app.use('/api/vouchers', voucherRoutes);
 app.use('/api/news', newsRoutes);
 app.use('/api/flash-sales', flashSaleRoutes);
 app.use('/api/chat', chatRoutes);
+app.use('/api/chat-live', chatLiveRoutes);
 app.use('/api/addresses', addressRoutes);
 
 app.get('/api/config/paypal', (req, res) => {
@@ -51,6 +60,10 @@ app.use(errorHandler);
 
 const PORT = process.env.PORT || 5000;
 
-app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
-});
+if (process.env.NODE_ENV !== 'test') {
+  server.listen(PORT, () => {
+      console.log(`Server running on port ${PORT}`);
+  });
+}
+
+export default app;
