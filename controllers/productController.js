@@ -35,7 +35,7 @@ const getProducts = async (req, res) => {
         // Filter theo brand
         let brandFilter = {};
         if (req.query.brand) {
-            const brands = req.query.brand.split(',');
+            const brands = req.query.brand.split(',').map(b => b.trim());
             brandFilter = { brand: { $in: brands.map(b => new RegExp(`^${b}$`, 'i')) } };
         }
 
@@ -92,11 +92,9 @@ const getProducts = async (req, res) => {
             count = allProducts.length;
             products = allProducts.slice(pageSize * (page - 1), pageSize * page);
         } else {
-            count = await Product.countDocuments(filter);
-            products = await Product.find(filter)
-                .sort(sortOption)
-                .limit(pageSize)
-                .skip(pageSize * (page - 1));
+            const allProducts = await Product.find(filter);
+            count = allProducts.length;
+            products = allProducts.slice(pageSize * (page - 1), pageSize * page);
         }
 
         res.json({ products, page, pages: Math.ceil(count / pageSize), count });
