@@ -46,11 +46,13 @@ const getProducts = async (req, res) => {
             volumeFilter = { 'volumes.ml': vol };
         }
 
+        const minP = Number(req.query.minPrice) || 0;
+        const maxP = Number(req.query.maxPrice) || 100000000;
         const priceFilter = (req.query.minPrice || req.query.maxPrice) ? {
-            price: {
-                $gte: Number(req.query.minPrice) || 0,
-                $lte: Number(req.query.maxPrice) || 100000000
-            }
+            $or: [
+                { price: { $gte: minP, $lte: maxP } },
+                { 'volumes.price': { $gte: minP, $lte: maxP } }
+            ]
         } : {};
 
         // Filter theo flags
