@@ -1,5 +1,17 @@
 import mongoose from 'mongoose';
 
+const productCardSchema = new mongoose.Schema(
+  {
+    _id: { type: mongoose.Schema.Types.ObjectId, ref: 'Product' },
+    name: String,
+    brand: String,
+    images: [String],
+    price: Number,
+    originalPrice: Number,
+  },
+  { _id: false }
+);
+
 const messageSchema = new mongoose.Schema(
   {
     conversationId: {
@@ -9,12 +21,16 @@ const messageSchema = new mongoose.Schema(
     },
     sender: {
       type: String,
-      enum: ['User', 'Admin'],
+      enum: ['User', 'Admin', 'AI'],
       required: true,
     },
     text: {
       type: String,
       required: true,
+    },
+    products: {
+      type: [productCardSchema],
+      default: undefined,
     },
   },
   {
