@@ -28,20 +28,21 @@ const getDashboardStats = async (req, res) => {
         }
 
         const dateFilter = startDate && endDate ? { createdAt: { $gte: startDate, $lte: endDate } } : {};
-        const deliveredDateFilter = startDate && endDate ? { isDelivered: true, createdAt: { $gte: startDate, $lte: endDate } } : { isDelivered: true };
+        const deliveredDateFilter = startDate && endDate ? { status: 'Đã giao', createdAt: { $gte: startDate, $lte: endDate } } : { status: 'Đã giao' };
+        const revenueDateFilter = deliveredDateFilter; // Sử dụng Đã giao làm chuẩn doanh thu
 
         // 1. Đếm tổng các thực thể
         const totalOrders = await Order.countDocuments(dateFilter);
         const totalUsers = await User.countDocuments({ isAdmin: false, ...dateFilter });
         const totalProducts = await Product.countDocuments({ isActive: true });
 
-        const pendingOrders = await Order.countDocuments({ isCancelled: false, isDelivered: false, ...dateFilter });
+        const pendingOrders = await Order.countDocuments({ isCancelled: false, status: 'Chờ xử lý', ...dateFilter });
         const deliveredOrders = await Order.countDocuments(deliveredDateFilter);
         const cancelledOrders = await Order.countDocuments({ isCancelled: true, ...dateFilter });
 
         // 2. Tổng doanh thu (đơn đã giao)
         const salesData = await Order.aggregate([
-            { $match: deliveredDateFilter },
+            { $match: revenueDateFilter },
             { $group: { _id: null, totalSales: { $sum: '$totalPrice' } } }
         ]);
         const totalSales = salesData[0]?.totalSales || 0;
@@ -50,7 +51,7 @@ const getDashboardStats = async (req, res) => {
         let chartData = [];
         if (period === 'day') {
             const salesByHour = await Order.aggregate([
-                { $match: deliveredDateFilter },
+                { $match: revenueDateFilter },
                 { $group: { _id: { $hour: { date: '$createdAt', timezone: '+07:00' } }, totalSales: { $sum: '$totalPrice' } } },
                 { $sort: { _id: 1 } }
             ]);
@@ -60,7 +61,7 @@ const getDashboardStats = async (req, res) => {
             });
         } else if (period === 'week') {
             const salesByDayOfWeek = await Order.aggregate([
-                { $match: deliveredDateFilter },
+                { $match: revenueDateFilter },
                 { $group: { _id: { $dayOfWeek: { date: '$createdAt', timezone: '+07:00' } }, totalSales: { $sum: '$totalPrice' } } }
             ]);
             const days = ['CN', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7'];
@@ -71,7 +72,7 @@ const getDashboardStats = async (req, res) => {
         } else if (period === 'month') {
             const daysInMonth = new Date(now.getFullYear(), now.getMonth() + 1, 0).getDate();
             const salesByDay = await Order.aggregate([
-                { $match: deliveredDateFilter },
+                { $match: revenueDateFilter },
                 { $group: { _id: { $dayOfMonth: { date: '$createdAt', timezone: '+07:00' } }, totalSales: { $sum: '$totalPrice' } } }
             ]);
             chartData = Array.from({ length: daysInMonth }, (_, i) => {
@@ -80,10 +81,10 @@ const getDashboardStats = async (req, res) => {
             });
         } else {
             // year or all
-            let yearFilter = deliveredDateFilter;
+            let yearFilter = revenueDateFilter;
             if (period === 'all') {
                 const currentYear = new Date().getFullYear();
-                yearFilter = { isDelivered: true, createdAt: { $gte: new Date(`${currentYear}-01-01`), $lte: new Date(`${currentYear}-12-31T23:59:59.999Z`) } };
+                yearFilter = { status: 'Đã giao', createdAt: { $gte: new Date(`${currentYear}-01-01`), $lte: new Date(`${currentYear}-12-31T23:59:59.999Z`) } };
             }
             const salesByMonth = await Order.aggregate([
                 { $match: yearFilter },
@@ -110,7 +111,7 @@ const getDashboardStats = async (req, res) => {
 
         // 6. Doanh thu theo thương hiệu
         const revenueByBrand = await Order.aggregate([
-            { $match: deliveredDateFilter },
+            { $match: revenueDateFilter },
             { $unwind: '$orderItems' },
             {
                 $lookup: {
