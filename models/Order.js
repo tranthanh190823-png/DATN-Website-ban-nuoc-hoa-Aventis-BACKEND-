@@ -59,6 +59,53 @@ const orderSchema = mongoose.Schema({
     paidAt: {
         type: Date
     },
+    paymentResult: {
+        id: { type: String },
+        status: { type: String },
+        update_time: { type: String },
+        email_address: { type: String }
+    },
+    vnpTxnRef: {
+        type: String
+    },
+    isRefunded: {
+        type: Boolean,
+        default: false
+    },
+    refundedAt: {
+        type: Date
+    },
+    refundAmount: {
+        type: Number,
+        default: 0
+    },
+    refundReason: {
+        type: String,
+        default: ''
+    },
+    refundResult: {
+        id: { type: String },
+        status: { type: String },
+        responseCode: { type: String },
+        message: { type: String },
+        refundedBy: { type: String }
+    },
+    refundRequestStatus: {
+        type: String,
+        enum: ['none', 'pending', 'approved', 'rejected'],
+        default: 'none'
+    },
+    refundRequestReason: {
+        type: String,
+        default: ''
+    },
+    refundRequestedAt: {
+        type: Date
+    },
+    refundRequestNote: {
+        type: String,
+        default: ''
+    },
     isDelivered: {
         type: Boolean,
         required: true,

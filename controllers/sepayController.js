@@ -1,4 +1,5 @@
 import Order from '../models/Order.js';
+import { notifyOrderPaid } from '../utils/sendOrderPaymentEmail.js';
 
 // @desc    Xử lý Webhook từ SePay
 // @route   POST /api/sepay/webhook
@@ -50,6 +51,7 @@ export const sepayWebhook = async (req, res) => {
         if (matchedOrder) {
             // Kiểm tra số tiền
             if (Number(transferAmount) >= matchedOrder.totalPrice) {
+                const wasAlreadyPaid = matchedOrder.isPaid;
                 matchedOrder.isPaid = true;
                 matchedOrder.paidAt = Date.now();
                 matchedOrder.paymentMethod = 'SePay';
@@ -62,6 +64,10 @@ export const sepayWebhook = async (req, res) => {
 
                 await matchedOrder.save();
                 console.log(`[SePay] Đã cập nhật thanh toán cho đơn hàng ${matchedOrder._id}`);
+
+                if (!wasAlreadyPaid) {
+                    notifyOrderPaid(matchedOrder);
+                }
             } else {
                 console.log(`[SePay] Đơn hàng ${matchedOrder._id} nhận được số tiền ${transferAmount} nhưng không đủ (Yêu cầu: ${matchedOrder.totalPrice})`);
             }

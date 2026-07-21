@@ -54,6 +54,17 @@ app.get('/api/config/paypal', (req, res) => {
     res.send(process.env.PAYPAL_CLIENT_ID || 'sb');
 });
 
+// VNPay redirect về Return URL — nếu URL trỏ nhầm vào BE/ngrok thì chuyển tiếp sang FE
+const redirectVnpayReturnToFrontend = (req, res) => {
+    const frontendUrl = (process.env.FRONTEND_URL || 'http://localhost:5173').replace(/\/$/, '');
+    const query = new URLSearchParams(req.query).toString();
+    const target = `${frontendUrl}/vnpay-return${query ? `?${query}` : ''}`;
+    res.redirect(302, target);
+};
+
+app.get('/vnpay-return', redirectVnpayReturnToFrontend);
+app.get('/vnpay_return', redirectVnpayReturnToFrontend);
+
 // Error handling (phải đặt sau cùng)
 app.use(notFound);
 app.use(errorHandler);

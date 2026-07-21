@@ -1,5 +1,6 @@
 import Order from '../models/Order.js';
 import Product from '../models/Product.js';
+import { notifyOrderPaid } from '../utils/sendOrderPaymentEmail.js';
 
 // Helper for status sorting
 const statusWeight = {
@@ -114,6 +115,14 @@ const updateOrderToDelivered = async (req, res) => {
             order.status = 'Đã giao';
             order.isDelivered = true;
             order.deliveredAt = Date.now();
+
+            // COD: coi như đã thanh toán khi giao thành công (phục vụ hoàn/trả hàng)
+            const method = String(order.paymentMethod || '').toUpperCase();
+            if (!order.isPaid && (method === 'COD' || method === 'CASH' || method === '')) {
+                order.isPaid = true;
+                order.paidAt = Date.now();
+            }
+
             const updatedOrder = await order.save();
             res.json(updatedOrder);
         } else {
@@ -131,9 +140,15 @@ const updateOrderToPaid = async (req, res) => {
     try {
         const order = await Order.findById(req.params.id);
         if (order) {
+            const wasAlreadyPaid = order.isPaid;
             order.isPaid = true;
             order.paidAt = Date.now();
             const updatedOrder = await order.save();
+
+            if (!wasAlreadyPaid) {
+                notifyOrderPaid(updatedOrder);
+            }
+
             res.json(updatedOrder);
         } else {
             res.status(404).json({ message: 'Không tìm thấy đơn hàng' });
@@ -143,7 +158,7 @@ const updateOrderToPaid = async (req, res) => {
     }
 };
 
-// @desc    Cancel order
+// @desc    Cancel order (hoặc cập nhật lý do hủy nếu đơn đã hủy)
 // @route   PUT /api/orders/:id/cancel
 // @access  Private
 const cancelOrder = async (req, res) => {
@@ -154,30 +169,45 @@ const cancelOrder = async (req, res) => {
             return res.status(404).json({ message: 'Không tìm thấy đơn hàng' });
         }
 
+        const reason = String(req.body?.reason ?? '').trim();
+        if (!reason || reason.length < 5) {
+            return res.status(400).json({ message: 'Vui lòng nhập lý do hủy đơn (ít nhất 5 ký tự)' });
+        }
+
+        // Đơn đã hủy: cho phép sửa lại lý do hủy (persist vào DB)
+        if (order.isCancelled || order.status === 'Đã hủy') {
+            if (!req.user.isAdmin) {
+                if (order.user.toString() !== req.user._id.toString()) {
+                    return res.status(403).json({ message: 'Không có quyền sửa lý do hủy đơn này' });
+                }
+            }
+            const updatedOrder = await Order.findByIdAndUpdate(
+                order._id,
+                { $set: { cancelReason: reason, isCancelled: true, status: 'Đã hủy' } },
+                { new: true }
+            );
+            return res.json(updatedOrder);
+        }
+
         if (!req.user.isAdmin) {
             if (order.user.toString() !== req.user._id.toString()) {
                 return res.status(403).json({ message: 'Không có quyền hủy đơn hàng này' });
             }
             if (order.status !== 'Chờ xử lý') {
-                return res.status(400).json({ message: 'Chỉ có thể hủy đơn hàng khi chưa xác nhận (Chờ xử lý)' });
+                return res.status(400).json({
+                    message: 'Đơn đã được duyệt hoặc đang giao, không thể hủy. Nếu đã nhận hàng, vui lòng yêu cầu trả hàng/hoàn tiền.',
+                });
             }
             if (order.isPaid) {
-                return res.status(400).json({ message: 'Không thể tự hủy đơn hàng đã thanh toán' });
+                return res.status(400).json({
+                    message: 'Không thể tự hủy đơn hàng đã thanh toán. Vui lòng yêu cầu hoàn tiền nếu đủ điều kiện.',
+                });
             }
         } else {
             if (!['Chờ xử lý', 'Đã xử lý', 'Đang giao'].includes(order.status)) {
                 return res.status(400).json({ message: 'Chỉ có thể hủy đơn hàng chưa giao thành công' });
             }
         }
-
-        if (order.isCancelled) {
-            return res.status(400).json({ message: 'Đơn hàng này đã bị hủy trước đó' });
-        }
-
-        order.cancelReason = req.body.reason || 'Không có lý do';
-        order.status = 'Đã hủy';
-        order.isCancelled = true;
-        order.cancelledAt = Date.now();
 
         // Hoàn lại kho
         for (const item of order.orderItems) {
@@ -194,10 +224,24 @@ const cancelOrder = async (req, res) => {
             }
         }
 
-        const updatedOrder = await order.save();
+        // Dùng findByIdAndUpdate để chắc chắn cancelReason được ghi vào MongoDB
+        const updatedOrder = await Order.findByIdAndUpdate(
+            order._id,
+            {
+                $set: {
+                    cancelReason: reason,
+                    status: 'Đã hủy',
+                    isCancelled: true,
+                    cancelledAt: new Date(),
+                },
+            },
+            { new: true }
+        );
+
         res.json(updatedOrder);
     } catch (error) {
-        res.status(500).json({ message: 'Lỗi server khi hủy đơn hàng' });
+        console.error('[Cancel Order Error]:', error.message);
+        res.status(500).json({ message: 'Lỗi server khi hủy đơn hàng', error: error.message });
     }
 };
 

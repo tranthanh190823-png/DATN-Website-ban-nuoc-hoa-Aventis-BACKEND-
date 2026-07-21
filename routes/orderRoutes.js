@@ -11,6 +11,15 @@ import {
     cancelOrder
 } from '../controllers/orderController.js';
 import { sepayWebhook } from '../controllers/sepayController.js';
+import {
+    createPaymentUrl,
+    vnpayReturn,
+    vnpayIpn,
+    refundOrder,
+    requestRefund,
+    approveRefundRequest,
+    rejectRefundRequest,
+} from '../controllers/vnpayController.js';
 import { protect, admin } from '../middlewares/authMiddleware.js';
 
 const router = express.Router();
@@ -21,8 +30,16 @@ router.route('/')
 
 router.route('/mine').get(protect, getMyOrders);
 
-// SePay Webhook (Public route)
+// Payment webhooks (Public routes)
 router.post('/sepay/webhook', sepayWebhook);
+router.post('/vnpay_return', vnpayReturn);
+router.get('/vnpay_ipn', vnpayIpn);
+
+router.post('/:id/create_payment_url', protect, createPaymentUrl);
+router.put('/:id/request-refund', protect, requestRefund);
+router.put('/:id/refund-request/approve', protect, admin, approveRefundRequest);
+router.put('/:id/refund-request/reject', protect, admin, rejectRefundRequest);
+router.put('/:id/refund', protect, admin, refundOrder);
 router.route('/:id').get(protect, getOrderById);
 router.route('/:id/pay').put(protect, updateOrderToPaid);
 router.route('/:id/process').put(protect, admin, updateOrderToProcessed);

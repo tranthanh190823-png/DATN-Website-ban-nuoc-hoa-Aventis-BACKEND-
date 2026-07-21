@@ -228,22 +228,9 @@ const updateUserProfile = async (req, res, next) => {
                 user.password = req.body.password;
             }
 
-            if (req.body.addresses) {
-                user.addresses = req.body.addresses;
-            }
-
             const updatedUser = await user.save();
 
-            res.json({
-                _id: updatedUser._id,
-                name: updatedUser.name,
-                email: updatedUser.email,
-                phone: updatedUser.phone,
-                addresses: updatedUser.addresses,
-                defaultAddress: updatedUser.defaultAddress,
-                isAdmin: updatedUser.isAdmin,
-                token: generateToken(res, updatedUser._id)
-            });
+            res.json(buildAuthResponse(updatedUser, res));
         } else {
             res.status(404);
             throw new Error('User not found');
@@ -411,34 +398,43 @@ const forgotPassword = async (req, res, next) => {
 
         await user.save({ validateBeforeSave: false });
 
-        // Tạo URL reset password (Thay http://localhost:3000 bằng URL thật khi deploy)
-        const resetUrl = `http://localhost:3000/resetpassword/${resetToken}`;
+        // Tạo URL reset password (Thay http://localhost:5173 bằng URL thật khi deploy)
+        const resetUrl = `http://localhost:5173/resetpassword/${resetToken}`;
 
         const message = `Bạn nhận được email này vì bạn (hoặc ai đó) đã yêu cầu đặt lại mật khẩu.\n\nHãy truy cập vào đường dẫn sau để đặt lại mật khẩu của bạn:\n\n${resetUrl}`;
-        
-        // Log URL ra console để dễ test trong môi trường dev
-        console.log(`\n\n---------------------------------`);
-        console.log(`🔗 Link Đặt Lại Mật Khẩu: \n${resetUrl}`);
-        console.log(`---------------------------------\n\n`);
 
         try {
-            // Tạm thời comment lại phần gửi mail thực tế để test dễ dàng
-            /*
+            // Gửi email reset password
             await sendEmail({
                 email: user.email,
-                subject: 'Yêu cầu đặt lại mật khẩu',
-                message
+                subject: 'Yêu cầu đặt lại mật khẩu - DATN Nước Hoa',
+                message,
+                html: `
+                    <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
+                        <h2 style="color: #333;">Yêu cầu Đặt Lại Mật Khẩu</h2>
+                        <p>Xin chào ${user.name},</p>
+                        <p>Bạn nhận được email này vì bạn (hoặc ai đó) đã yêu cầu đặt lại mật khẩu cho tài khoản của mình.</p>
+                        <p style="margin: 20px 0;">
+                            <a href="${resetUrl}" style="background-color: #4CAF50; color: white; padding: 12px 24px; text-decoration: none; border-radius: 4px; display: inline-block;">
+                                Đặt Lại Mật Khẩu
+                            </a>
+                        </p>
+                        <p style="color: #666; font-size: 14px;">Hoặc copy link này vào trình duyệt:</p>
+                        <p style="color: #666; font-size: 12px; word-break: break-all;">${resetUrl}</p>
+                        <p style="color: #666; font-size: 12px; margin-top: 20px;">Link này có hiệu lực trong 10 phút.</p>
+                        <hr style="border: none; border-top: 1px solid #eee; margin: 20px 0;">
+                        <p style="color: #999; font-size: 12px;">Đây là email tự động từ DATN Nước Hoa. Vui lòng không trả lời email này.</p>
+                    </div>
+                `
             });
-            */
-            // Giả lập gửi thành công
-            res.status(200).json({ message: 'Email đã được gửi (Check Terminal để lấy Link)' });
+            res.status(200).json({ message: 'Email đặt lại mật khẩu đã được gửi. Vui lòng kiểm tra email của bạn.' });
         } catch (error) {
             user.resetPasswordToken = undefined;
             user.resetPasswordExpire = undefined;
             await user.save({ validateBeforeSave: false });
 
             res.status(500);
-            throw new Error('Không thể gửi email');
+            throw new Error('Không thể gửi email. Vui lòng thử lại sau.');
         }
     } catch (error) {
         next(error);
@@ -473,13 +469,7 @@ const resetPassword = async (req, res, next) => {
 
         await user.save();
 
-        res.status(200).json({
-            _id: user._id,
-            name: user.name,
-            email: user.email,
-            isAdmin: user.isAdmin,
-            token: generateToken(res, user._id)
-        });
+        res.status(200).json(buildAuthResponse(user, res));
     } catch (error) {
         next(error);
     }

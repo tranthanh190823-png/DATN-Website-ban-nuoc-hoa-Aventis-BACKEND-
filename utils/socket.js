@@ -1,43 +1,85 @@
 import { Server } from 'socket.io';
 import Message from '../models/Message.js';
 import Conversation from '../models/Conversation.js';
+import { generateAIResponse } from './aiChatService.js';
+
+const broadcastAdminStatus = (io, isOnline) => {
+  io.emit('admin_status', { isOnline });
+};
+
+const broadcastClientStatus = (io, participantId, isOnline) => {
+  io.to('admin_room').emit('client_status', {
+    participantId,
+    isOnline,
+    lastActive: isOnline ? undefined : new Date(),
+  });
+};
+
+const toAIMessages = (messages) =>
+  messages.map((m) => ({
+    role: m.sender === 'User' ? 'user' : 'assistant',
+    content: m.text,
+  }));
 
 export const initSocket = (server) => {
   const io = new Server(server, {
     cors: {
-      origin: "*", // Or specify the frontend URL e.g. http://localhost:5173
-      methods: ["GET", "POST"]
-    }
+      origin: '*',
+      methods: ['GET', 'POST'],
+    },
   });
+
+  const adminSockets = new Set();
+  const clientSockets = new Map();
 
   io.on('connection', (socket) => {
     console.log('A user connected:', socket.id);
 
-    // Admin joins a specific room
     socket.on('join_admin', () => {
+      socket.data.role = 'admin';
+      adminSockets.add(socket.id);
       socket.join('admin_room');
+      broadcastAdminStatus(io, true);
       console.log('Admin joined admin_room');
     });
 
-    // Customer joins their own room based on participantId
     socket.on('join_conversation', async (participantId) => {
+      socket.data.role = 'client';
+      socket.data.participantId = participantId;
+      clientSockets.set(participantId, socket.id);
       socket.join(participantId);
       console.log(`User joined conversation room: ${participantId}`);
-      
-      // Ensure conversation exists
+
+      socket.emit('admin_status', { isOnline: adminSockets.size > 0 });
+      broadcastClientStatus(io, participantId, true);
+
       let conversation = await Conversation.findOne({ participantId });
       if (!conversation) {
         conversation = await Conversation.create({ participantId });
-        // Notify admin about new conversation
         io.to('admin_room').emit('new_conversation', conversation);
       }
     });
 
-    // Handle new message
+    socket.on('typing', ({ senderRole, participantId }) => {
+      if (senderRole === 'User' && participantId) {
+        io.to('admin_room').emit('client_typing', { participantId });
+      } else if (senderRole === 'Admin' && participantId) {
+        io.to(participantId).emit('admin_typing');
+      }
+    });
+
+    socket.on('stop_typing', ({ senderRole, participantId }) => {
+      if (senderRole === 'User' && participantId) {
+        io.to('admin_room').emit('client_stop_typing', { participantId });
+      } else if (senderRole === 'Admin' && participantId) {
+        io.to(participantId).emit('admin_stop_typing');
+      }
+    });
+
     socket.on('send_message', async (data) => {
       try {
         const { participantId, sender, text } = data;
-        
+
         let conversation = await Conversation.findOne({ participantId });
         if (!conversation) {
           conversation = await Conversation.create({ participantId });
@@ -47,28 +89,63 @@ export const initSocket = (server) => {
         const message = await Message.create({
           conversationId: conversation._id,
           sender,
-          text
+          text,
         });
 
         conversation.lastMessage = text;
         if (sender === 'User') {
           conversation.unreadByAdmin += 1;
-        } else {
+        } else if (sender === 'Admin') {
           conversation.unreadByUser += 1;
         }
         await conversation.save();
 
-        // Broadcast to customer room and admin room
         io.to(participantId).emit('receive_message', message);
         io.to('admin_room').emit('receive_message', { ...message.toObject(), participantId });
         io.to('admin_room').emit('update_conversation', conversation);
 
+        if (sender === 'User' && adminSockets.size === 0) {
+          io.to(participantId).emit('ai_typing', true);
+
+          try {
+            const history = await Message.find({ conversationId: conversation._id })
+              .sort({ createdAt: 1 })
+              .limit(12);
+
+            const { text: aiText, products } = await generateAIResponse(toAIMessages(history));
+
+            if (adminSockets.size > 0) {
+              console.log('Admin came online during AI processing, skipping AI reply');
+              return;
+            }
+
+            const aiMessage = await Message.create({
+              conversationId: conversation._id,
+              sender: 'AI',
+              text: aiText,
+              products: products.length > 0 ? products : undefined,
+            });
+
+            conversation.lastMessage = aiText;
+            await conversation.save();
+
+            io.to(participantId).emit('receive_message', aiMessage);
+            io.to('admin_room').emit('receive_message', {
+              ...aiMessage.toObject(),
+              participantId,
+            });
+            io.to('admin_room').emit('update_conversation', conversation);
+          } catch (aiError) {
+            console.error('AI auto-reply error:', aiError);
+          } finally {
+            io.to(participantId).emit('ai_typing', false);
+          }
+        }
       } catch (error) {
         console.error('Error saving message:', error);
       }
     });
 
-    // Handle marking as read
     socket.on('mark_as_read', async ({ participantId, readBy }) => {
       try {
         const conversation = await Conversation.findOne({ participantId });
@@ -88,6 +165,21 @@ export const initSocket = (server) => {
 
     socket.on('disconnect', () => {
       console.log('User disconnected:', socket.id);
+
+      if (socket.data.role === 'admin') {
+        adminSockets.delete(socket.id);
+        if (adminSockets.size === 0) {
+          broadcastAdminStatus(io, false);
+        }
+      }
+
+      if (socket.data.role === 'client' && socket.data.participantId) {
+        const { participantId } = socket.data;
+        if (clientSockets.get(participantId) === socket.id) {
+          clientSockets.delete(participantId);
+          broadcastClientStatus(io, participantId, false);
+        }
+      }
     });
   });
 
