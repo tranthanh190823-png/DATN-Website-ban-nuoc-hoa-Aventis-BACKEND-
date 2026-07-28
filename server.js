@@ -36,7 +36,7 @@ app.use(morgan('dev'));
 
 // Routes
 app.get('/', (req, res) => {
-    res.send('API is running...');
+  res.send('API is running...');
 });
 app.use('/api/products', productRoutes);
 app.use('/api/users', userRoutes);
@@ -51,15 +51,15 @@ app.use('/api/chat-live', chatLiveRoutes);
 app.use('/api/addresses', addressRoutes);
 
 app.get('/api/config/paypal', (req, res) => {
-    res.send(process.env.PAYPAL_CLIENT_ID || 'sb');
+  res.send(process.env.PAYPAL_CLIENT_ID || 'sb');
 });
 
 // VNPay redirect về Return URL — nếu URL trỏ nhầm vào BE/ngrok thì chuyển tiếp sang FE
 const redirectVnpayReturnToFrontend = (req, res) => {
-    const frontendUrl = (process.env.FRONTEND_URL || 'http://localhost:5173').replace(/\/$/, '');
-    const query = new URLSearchParams(req.query).toString();
-    const target = `${frontendUrl}/vnpay-return${query ? `?${query}` : ''}`;
-    res.redirect(302, target);
+  const frontendUrl = (process.env.FRONTEND_URL || 'http://localhost:5173').replace(/\/$/, '');
+  const query = new URLSearchParams(req.query).toString();
+  const target = `${frontendUrl}/vnpay-return${query ? `?${query}` : ''}`;
+  res.redirect(302, target);
 };
 
 app.get('/vnpay-return', redirectVnpayReturnToFrontend);
@@ -73,7 +73,7 @@ const PORT = process.env.PORT || 5000;
 
 if (process.env.NODE_ENV !== 'test') {
   server.listen(PORT, () => {
-      console.log(`Server running on port ${PORT}`);
+    console.log(`Server running on port ${PORT}`);
   });
 }
 

@@ -90,6 +90,22 @@ const orderSchema = mongoose.Schema({
         message: { type: String },
         refundedBy: { type: String }
     },
+    refundBankAccount: {
+        type: String,
+        default: ''
+    },
+    refundBankName: {
+        type: String,
+        default: ''
+    },
+    refundBankBank: {
+        type: String,
+        default: ''
+    },
+    refundTransferImage: {
+        type: String,
+        default: ''
+    },
     refundRequestStatus: {
         type: String,
         enum: ['none', 'pending', 'approved', 'rejected'],

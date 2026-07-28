@@ -174,6 +174,12 @@ const cancelOrder = async (req, res) => {
             return res.status(400).json({ message: 'Vui lòng nhập lý do hủy đơn (ít nhất 5 ký tự)' });
         }
 
+        // Lấy thông tin hoàn tiền thủ công (nếu có)
+        const refundBankAccount = String(req.body?.refundBankAccount ?? '').trim();
+        const refundBankName = String(req.body?.refundBankName ?? '').trim();
+        const refundBankBank = String(req.body?.refundBankBank ?? '').trim();
+        const refundTransferImage = String(req.body?.refundTransferImage ?? '').trim();
+
         // Đơn đã hủy: cho phép sửa lại lý do hủy (persist vào DB)
         if (order.isCancelled || order.status === 'Đã hủy') {
             if (!req.user.isAdmin) {
@@ -181,9 +187,15 @@ const cancelOrder = async (req, res) => {
                     return res.status(403).json({ message: 'Không có quyền sửa lý do hủy đơn này' });
                 }
             }
+            const updateFields = { cancelReason: reason, isCancelled: true, status: 'Đã hủy' };
+            if (refundBankAccount) updateFields.refundBankAccount = refundBankAccount;
+            if (refundBankName) updateFields.refundBankName = refundBankName;
+            if (refundBankBank) updateFields.refundBankBank = refundBankBank;
+            if (refundTransferImage) updateFields.refundTransferImage = refundTransferImage;
+
             const updatedOrder = await Order.findByIdAndUpdate(
                 order._id,
-                { $set: { cancelReason: reason, isCancelled: true, status: 'Đã hủy' } },
+                { $set: updateFields },
                 { new: true }
             );
             return res.json(updatedOrder);
@@ -225,16 +237,20 @@ const cancelOrder = async (req, res) => {
         }
 
         // Dùng findByIdAndUpdate để chắc chắn cancelReason được ghi vào MongoDB
+        const updateFields = {
+            cancelReason: reason,
+            status: 'Đã hủy',
+            isCancelled: true,
+            cancelledAt: new Date(),
+        };
+        if (refundBankAccount) updateFields.refundBankAccount = refundBankAccount;
+        if (refundBankName) updateFields.refundBankName = refundBankName;
+        if (refundBankBank) updateFields.refundBankBank = refundBankBank;
+        if (refundTransferImage) updateFields.refundTransferImage = refundTransferImage;
+
         const updatedOrder = await Order.findByIdAndUpdate(
             order._id,
-            {
-                $set: {
-                    cancelReason: reason,
-                    status: 'Đã hủy',
-                    isCancelled: true,
-                    cancelledAt: new Date(),
-                },
-            },
+            { $set: updateFields },
             { new: true }
         );
 

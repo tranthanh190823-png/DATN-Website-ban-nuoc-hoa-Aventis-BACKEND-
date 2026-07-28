@@ -200,7 +200,7 @@ function canRequestRefund(order) {
     return REFUNDABLE_STATUSES.includes(order.status);
 }
 
-async function executeOrderRefund(order, { reason, shouldCancel, refundedBy, req }) {
+async function executeOrderRefund(order, { reason, shouldCancel, refundedBy, manualRefundData, req }) {
     // COD đã giao có thể xin trả/hoàn dù trước đó chưa gắn isPaid
     if (!order.isPaid && !(order.isDelivered && order.status === 'Đã giao')) {
         return { success: false, status: 400, message: 'Chỉ hoàn tiền được cho đơn đã thanh toán hoặc đã giao' };
@@ -284,6 +284,13 @@ async function executeOrderRefund(order, { reason, shouldCancel, refundedBy, req
         await restoreOrderStock(order);
     }
 
+    if (manualRefundData) {
+        if (manualRefundData.refundBankAccount) order.refundBankAccount = manualRefundData.refundBankAccount;
+        if (manualRefundData.refundBankName) order.refundBankName = manualRefundData.refundBankName;
+        if (manualRefundData.refundBankBank) order.refundBankBank = manualRefundData.refundBankBank;
+        if (manualRefundData.refundTransferImage) order.refundTransferImage = manualRefundData.refundTransferImage;
+    }
+
     await order.save();
     return { success: true, order };
 }
@@ -354,6 +361,7 @@ export const approveRefundRequest = async (req, res) => {
             reason: order.refundRequestReason,
             shouldCancel,
             refundedBy: req.user.name || req.user.email,
+            manualRefundData: req.body,
             req,
         });
 
@@ -413,11 +421,12 @@ export const refundOrder = async (req, res) => {
             return res.status(404).json({ message: 'Không tìm thấy đơn hàng' });
         }
 
-        const { reason, cancelOrder: shouldCancel } = req.body || {};
+        const { reason, cancelOrder: shouldCancel, refundBankAccount, refundBankName, refundBankBank, refundTransferImage } = req.body || {};
         const result = await executeOrderRefund(order, {
             reason,
             shouldCancel,
             refundedBy: req.user.name || req.user.email,
+            manualRefundData: { refundBankAccount, refundBankName, refundBankBank, refundTransferImage },
             req,
         });
 

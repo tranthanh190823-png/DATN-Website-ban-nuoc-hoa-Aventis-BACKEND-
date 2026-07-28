@@ -176,6 +176,28 @@ const updateProduct = async (req, res) => {
             gender, origin, volumes, isActive, type
         } = req.body;
 
+        // Validate giá khuyến mãi phải thấp hơn giá gốc
+        if (salePrice && price && salePrice > 0 && salePrice >= price) {
+            return res.status(400).json({ message: 'Giá khuyến mãi phải thấp hơn giá gốc' });
+        }
+
+        // Validate giá KM trong volumes
+        if (volumes && Array.isArray(volumes)) {
+            for (const vol of volumes) {
+                if (vol.salePrice && vol.salePrice > 0 && vol.price && vol.salePrice >= vol.price) {
+                    return res.status(400).json({
+                        message: `Giá khuyến mãi của biến thể ${vol.label || vol.ml + 'ml'} phải thấp hơn giá gốc`
+                    });
+                }
+            }
+            // Validate trùng dung tích
+            const mlValues = volumes.filter(v => v.ml > 0).map(v => v.ml);
+            const uniqueMl = new Set(mlValues);
+            if (mlValues.length !== uniqueMl.size) {
+                return res.status(400).json({ message: 'Không được thêm biến thể trùng dung tích (ml)' });
+            }
+        }
+
         const product = await Product.findById(req.params.id);
 
         if (product) {
