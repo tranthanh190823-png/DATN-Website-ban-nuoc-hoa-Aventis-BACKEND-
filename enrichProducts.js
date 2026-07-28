@@ -12,7 +12,6 @@ let imageMap = {};
 if (fs.existsSync(imageMapPath)) {
     imageMap = JSON.parse(fs.readFileSync(imageMapPath, 'utf-8'));
 }
-
 const newProducts = products.map((product) => {
     let style = "Sang trọng, Cuốn hút";
     let phuHop = "Người yêu thích sự quyến rũ, tinh tế, phù hợp cho người trưởng thành.";

@@ -46,6 +46,9 @@ const authUser = async (req, res, next) => {
                 throw new Error('Tài khoản của bạn đã bị khóa. Vui lòng liên hệ quản trị viên.');
             }
             res.json(buildAuthResponse(user, res));
+        } else if (user && user.googleId) {
+            res.status(401);
+            throw new Error('Tài khoản này được liên kết với Google. Vui lòng chọn "Đăng nhập bằng Google".');
         } else {
             res.status(401);
             throw new Error('Email hoặc mật khẩu không chính xác');
@@ -66,6 +69,9 @@ const registerUser = async (req, res, next) => {
 
         if (userExists) {
             res.status(400);
+            if (userExists.googleId) {
+                throw new Error('Email này đã được liên kết với tài khoản Google. Vui lòng chọn "Đăng nhập bằng Google".');
+            }
             throw new Error('Email này đã được sử dụng');
         }
 

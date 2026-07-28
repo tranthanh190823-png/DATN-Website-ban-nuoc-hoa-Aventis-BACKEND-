@@ -35,7 +35,7 @@ const getProducts = async (req, res) => {
         // Filter theo brand
         let brandFilter = {};
         if (req.query.brand) {
-            const brands = req.query.brand.split(',');
+            const brands = req.query.brand.split(',').map(b => b.trim());
             brandFilter = { brand: { $in: brands.map(b => new RegExp(`^${b}$`, 'i')) } };
         }
 
@@ -74,12 +74,12 @@ const getProducts = async (req, res) => {
         const filter = { ...keyword, ...categoryFilter, ...genderFilter, ...scentFilter, ...brandFilter, ...priceFilter, ...volumeFilter, ...flagFilter, ...typeFilter };
 
         // Sort options
-        let sortOption = { createdAt: -1 };
-        if (req.query.sort === 'newest') sortOption = { createdAt: -1 };
-        else if (req.query.sort === 'best_seller') sortOption = { numReviews: -1, rating: -1 };
-        else if (req.query.sort === 'price-asc') sortOption = { price: 1 };
-        else if (req.query.sort === 'price-desc') sortOption = { price: -1 };
-        else if (req.query.sort === 'rating') sortOption = { rating: -1 };
+        let sortOption = { createdAt: -1, _id: 1 };
+        if (req.query.sort === 'newest') sortOption = { createdAt: -1, _id: 1 };
+        else if (req.query.sort === 'best_seller') sortOption = { numReviews: -1, rating: -1, _id: 1 };
+        else if (req.query.sort === 'price-asc') sortOption = { price: 1, _id: 1 };
+        else if (req.query.sort === 'price-desc') sortOption = { price: -1, _id: 1 };
+        else if (req.query.sort === 'rating') sortOption = { rating: -1, _id: 1 };
 
         let products;
         let count;
@@ -97,8 +97,8 @@ const getProducts = async (req, res) => {
             count = await Product.countDocuments(filter);
             products = await Product.find(filter)
                 .sort(sortOption)
-                .limit(pageSize)
-                .skip(pageSize * (page - 1));
+                .skip(pageSize * (page - 1))
+                .limit(pageSize);
         }
 
         res.json({ products, page, pages: Math.ceil(count / pageSize), count });
