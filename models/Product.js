@@ -64,6 +64,8 @@ const productSchema = new mongoose.Schema({
     reviews: [reviewSchema],
     rating: { type: Number, default: 0 },
     numReviews: { type: Number, default: 0 },
+    // Lượt bán
+    sold: { type: Number, default: 0 },
     // Trạng thái
     isHot: { type: Boolean, default: false },
     isSale: { type: Boolean, default: false },

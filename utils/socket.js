@@ -21,11 +21,15 @@ const toAIMessages = (messages) =>
     content: m.text,
   }));
 
+let io;
+const connectedAdmins = new Set();
+const connectedClients = new Map(); // socket.id -> participantId
+
 export const initSocket = (server) => {
-  const io = new Server(server, {
+  io = new Server(server, {
     cors: {
       origin: '*',
-      methods: ['GET', 'POST'],
+      methods: ['GET', 'POST', 'PUT', 'DELETE'],
     },
   });
 
@@ -52,7 +56,6 @@ export const initSocket = (server) => {
 
       socket.emit('admin_status', { isOnline: adminSockets.size > 0 });
       broadcastClientStatus(io, participantId, true);
-
       let conversation = await Conversation.findOne({ participantId });
       if (!conversation) {
         conversation = await Conversation.create({ participantId });
@@ -79,7 +82,6 @@ export const initSocket = (server) => {
     socket.on('send_message', async (data) => {
       try {
         const { participantId, sender, text } = data;
-
         let conversation = await Conversation.findOne({ participantId });
         if (!conversation) {
           conversation = await Conversation.create({ participantId });
@@ -146,14 +148,18 @@ export const initSocket = (server) => {
       }
     });
 
+
     socket.on('mark_as_read', async ({ participantId, readBy }) => {
       try {
         const conversation = await Conversation.findOne({ participantId });
         if (conversation) {
           if (readBy === 'Admin') {
             conversation.unreadByAdmin = 0;
+            // Báo cho User biết Admin đã xem
+            io.to(participantId).emit('message_seen', { readBy: 'Admin', participantId });
           } else if (readBy === 'User') {
             conversation.unreadByUser = 0;
+            io.to('admin_room').emit('message_seen', { readBy: 'User', participantId });
           }
           await conversation.save();
           io.to('admin_room').emit('update_conversation', conversation);
@@ -165,7 +171,6 @@ export const initSocket = (server) => {
 
     socket.on('disconnect', () => {
       console.log('User disconnected:', socket.id);
-
       if (socket.data.role === 'admin') {
         adminSockets.delete(socket.id);
         if (adminSockets.size === 0) {
@@ -184,4 +189,11 @@ export const initSocket = (server) => {
   });
 
   return io;
+};
+
+export const getIO = () => {
+    if (!io) {
+        throw new Error('Socket.io not initialized!');
+    }
+    return io;
 };

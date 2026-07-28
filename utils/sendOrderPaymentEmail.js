@@ -5,13 +5,28 @@ const formatCurrency = (amount) =>
   `${Number(amount || 0).toLocaleString('vi-VN')}₫`;
 
 const formatPaymentMethod = (method) => {
+  const key = String(method || '').toUpperCase();
   const map = {
     COD: 'Thanh toán khi nhận hàng (COD)',
-    VNPay: 'VNPay',
-    SePay: 'Chuyển khoản ngân hàng (SePay)',
-    PayPal: 'PayPal',
+    CASH: 'Thanh toán khi nhận hàng (COD)',
+    VNPAY: 'VNPay',
+    SEPAY: 'Chuyển khoản ngân hàng (SePay)',
+    PAYPAL: 'PayPal',
   };
-  return map[method] || method || 'Không xác định';
+  // Also match original casing keys used in older data
+  if (map[key]) return map[key];
+  const legacy = {
+    COD: map.COD,
+    VNPay: map.VNPAY,
+    SePay: map.SEPAY,
+    PayPal: map.PAYPAL,
+  };
+  return legacy[method] || method || 'Không xác định';
+};
+
+const getFrontendOrderUrl = (orderId) => {
+  const base = (process.env.FRONTEND_URL || 'http://localhost:5173').replace(/\/$/, '');
+  return `${base}/order/${orderId}`;
 };
 
 const buildOrderItemsHtml = (orderItems = []) =>
@@ -30,30 +45,16 @@ const buildOrderItemsHtml = (orderItems = []) =>
     )
     .join('');
 
-const buildOrderPaymentHtml = (order, user) => {
-  const frontendUrl = process.env.FRONTEND_URL || 'http://localhost:5173';
-  const orderUrl = `${frontendUrl}/order/${order._id}`;
-  const shortId = order._id.toString().slice(-8).toUpperCase();
-  const paidAt = order.paidAt
-    ? new Date(order.paidAt).toLocaleString('vi-VN')
-    : new Date().toLocaleString('vi-VN');
-
-  return `
-    <div style="font-family: Arial, sans-serif; max-width: 640px; margin: 0 auto; color: #333;">
-      <div style="background: linear-gradient(135deg, #1a1a1a 0%, #3d2b1f 100%); padding: 24px; text-align: center; border-radius: 8px 8px 0 0;">
-        <h1 style="color: #d4af37; margin: 0; font-size: 22px; letter-spacing: 2px;">AVENTIS</h1>
-        <p style="color: #f5f0e8; margin: 8px 0 0; font-size: 14px;">Xác nhận thanh toán đơn hàng</p>
-      </div>
-
-      <div style="padding: 24px; background: #fff; border: 1px solid #eee; border-top: none;">
-        <p>Xin chào <strong>${user.name}</strong>,</p>
-        <p>Cảm ơn anh/chị đã mua sắm tại <strong>Aventis</strong>. Đơn hàng của anh/chị đã được <strong>thanh toán thành công</strong>.</p>
-
+const buildOrderSummaryBlock = (order) => `
         <div style="background: #faf8f4; border: 1px solid #e8e0d4; border-radius: 8px; padding: 16px; margin: 20px 0;">
-          <p style="margin: 0 0 8px;"><strong>Mã đơn hàng:</strong> #${shortId}</p>
-          <p style="margin: 0 0 8px;"><strong>Thời gian thanh toán:</strong> ${paidAt}</p>
-          <p style="margin: 0 0 8px;"><strong>Phương thức:</strong> ${formatPaymentMethod(order.paymentMethod)}</p>
-          <p style="margin: 0;"><strong>Tổng thanh toán:</strong> <span style="color: #8b5a2b; font-size: 18px;">${formatCurrency(
+          <p style="margin: 0 0 8px;"><strong>Mã đơn hàng:</strong> #${order._id
+            .toString()
+            .slice(-8)
+            .toUpperCase()}</p>
+          <p style="margin: 0 0 8px;"><strong>Phương thức:</strong> ${formatPaymentMethod(
+            order.paymentMethod
+          )}</p>
+          <p style="margin: 0;"><strong>Tổng tiền:</strong> <span style="color: #8b5a2b; font-size: 18px;">${formatCurrency(
             order.totalPrice
           )}</span></p>
         </div>
@@ -93,19 +94,100 @@ const buildOrderPaymentHtml = (order, user) => {
           ${order.shippingAddress?.city || ''}, ${order.shippingAddress?.postalCode || ''}<br>
           ${order.shippingAddress?.country || 'Việt Nam'}
         </p>
+`;
 
-        <p style="margin: 24px 0;">
-          <a href="${orderUrl}" style="background-color: #8b5a2b; color: white; padding: 12px 24px; text-decoration: none; border-radius: 4px; display: inline-block;">
-            Theo dõi đơn hàng
-          </a>
-        </p>
-
-        <p style="color: #666; font-size: 14px;">Đơn hàng đang được xử lý. Anh/chị sẽ nhận được thông báo khi đơn hàng được giao.</p>
+const buildShellHtml = (subtitle, bodyInner) => `
+    <div style="font-family: Arial, sans-serif; max-width: 640px; margin: 0 auto; color: #333;">
+      <div style="background: linear-gradient(135deg, #1a1a1a 0%, #3d2b1f 100%); padding: 24px; text-align: center; border-radius: 8px 8px 0 0;">
+        <h1 style="color: #d4af37; margin: 0; font-size: 22px; letter-spacing: 2px;">AVENTIS</h1>
+        <p style="color: #f5f0e8; margin: 8px 0 0; font-size: 14px;">${subtitle}</p>
+      </div>
+      <div style="padding: 24px; background: #fff; border: 1px solid #eee; border-top: none;">
+        ${bodyInner}
         <hr style="border: none; border-top: 1px solid #eee; margin: 24px 0;">
         <p style="color: #999; font-size: 12px;">Đây là email tự động từ Aventis. Vui lòng không trả lời email này.</p>
       </div>
     </div>
   `;
+
+const buildOrderPlacedHtml = (order, user) => {
+  const orderUrl = getFrontendOrderUrl(order._id);
+  const method = String(order.paymentMethod || '').toUpperCase();
+  const paymentHint =
+    method === 'COD' || method === 'CASH' || method === ''
+      ? 'Anh/chị sẽ thanh toán khi nhận hàng (COD).'
+      : method === 'SEPAY'
+        ? 'Vui lòng hoàn tất chuyển khoản theo hướng dẫn SePay để đơn được xác nhận thanh toán.'
+        : method === 'VNPAY'
+          ? 'Nếu chưa thanh toán xong trên VNPay, vui lòng hoàn tất để đơn được xử lý sớm.'
+          : 'Đơn hàng của anh/chị đang được ghi nhận.';
+
+  return buildShellHtml(
+    'Xác nhận đơn hàng',
+    `
+        <p>Xin chào <strong>${user.name}</strong>,</p>
+        <p>Cảm ơn anh/chị đã đặt hàng tại <strong>Aventis</strong>. Chúng tôi đã <strong>nhận đơn hàng</strong> và đang xử lý.</p>
+        <p style="color: #666; font-size: 14px;">Trạng thái: <strong>${
+          order.status || 'Chờ xử lý'
+        }</strong>. ${paymentHint}</p>
+        ${buildOrderSummaryBlock(order)}
+        <p style="margin: 24px 0;">
+          <a href="${orderUrl}" style="background-color: #8b5a2b; color: white; padding: 12px 24px; text-decoration: none; border-radius: 4px; display: inline-block;">
+            Theo dõi đơn hàng
+          </a>
+        </p>
+        <p style="color: #666; font-size: 14px;">Anh/chị sẽ nhận thêm email khi thanh toán thành công (nếu thanh toán online).</p>
+    `
+  );
+};
+
+const buildOrderPlacedText = (order, user) => {
+  const shortId = order._id.toString().slice(-8).toUpperCase();
+  const items = (order.orderItems || [])
+    .map(
+      (item) =>
+        `- ${item.name} x${item.qty}: ${formatCurrency(item.price * item.qty)}`
+    )
+    .join('\n');
+
+  return `Xin chào ${user.name},
+
+Cảm ơn anh/chị đã đặt hàng tại Aventis. Đơn hàng #${shortId} đã được ghi nhận.
+
+Trạng thái: ${order.status || 'Chờ xử lý'}
+Phương thức: ${formatPaymentMethod(order.paymentMethod)}
+Tổng tiền: ${formatCurrency(order.totalPrice)}
+
+Chi tiết sản phẩm:
+${items}
+
+Địa chỉ giao hàng:
+${order.shippingAddress?.address || ''}, ${order.shippingAddress?.city || ''}
+
+Cảm ơn anh/chị đã mua sắm tại Aventis!`;
+};
+
+const buildOrderPaymentHtml = (order, user) => {
+  const orderUrl = getFrontendOrderUrl(order._id);
+  const paidAt = order.paidAt
+    ? new Date(order.paidAt).toLocaleString('vi-VN')
+    : new Date().toLocaleString('vi-VN');
+
+  return buildShellHtml(
+    'Xác nhận thanh toán đơn hàng',
+    `
+        <p>Xin chào <strong>${user.name}</strong>,</p>
+        <p>Cảm ơn anh/chị đã mua sắm tại <strong>Aventis</strong>. Đơn hàng của anh/chị đã được <strong>thanh toán thành công</strong>.</p>
+        <p style="margin: 0 0 8px; font-size: 14px;"><strong>Thời gian thanh toán:</strong> ${paidAt}</p>
+        ${buildOrderSummaryBlock(order)}
+        <p style="margin: 24px 0;">
+          <a href="${orderUrl}" style="background-color: #8b5a2b; color: white; padding: 12px 24px; text-decoration: none; border-radius: 4px; display: inline-block;">
+            Theo dõi đơn hàng
+          </a>
+        </p>
+        <p style="color: #666; font-size: 14px;">Đơn hàng đang được xử lý. Anh/chị sẽ nhận được thông báo khi đơn hàng được giao.</p>
+    `
+  );
 };
 
 const buildOrderPaymentText = (order, user) => {
@@ -133,15 +215,48 @@ ${order.shippingAddress?.address || ''}, ${order.shippingAddress?.city || ''}
 Cảm ơn anh/chị đã mua sắm tại Aventis!`;
 };
 
-export const notifyOrderPaid = async (order) => {
-  try {
-    let orderDoc = order;
+const resolveOrderWithUser = async (order) => {
+  if (order?.user?.email) {
+    return order;
+  }
+  if (!order?._id) {
+    return null;
+  }
+  return Order.findById(order._id).populate('user', 'name email');
+};
 
-    if (!order.user?.email) {
-      orderDoc = await Order.findById(order._id).populate('user', 'name email');
+export const notifyOrderPlaced = async (order) => {
+  try {
+    const orderDoc = await resolveOrderWithUser(order);
+    const user = orderDoc?.user;
+
+    if (!user?.email) {
+      console.warn(`[Order Email] Không có email cho đơn hàng ${orderDoc?._id}`);
+      return;
     }
 
+    const shortId = orderDoc._id.toString().slice(-8).toUpperCase();
+
+    await sendEmail({
+      email: user.email,
+      subject: `Xác nhận đơn hàng #${shortId} - Aventis`,
+      message: buildOrderPlacedText(orderDoc, user),
+      html: buildOrderPlacedHtml(orderDoc, user),
+    });
+
+    console.log(
+      `[Order Email] Đã gửi email xác nhận đặt hàng #${shortId} → ${user.email}`
+    );
+  } catch (error) {
+    console.error('[Order Email] Lỗi gửi email đặt hàng:', error.message);
+  }
+};
+
+export const notifyOrderPaid = async (order) => {
+  try {
+    const orderDoc = await resolveOrderWithUser(order);
     const user = orderDoc?.user;
+
     if (!user?.email) {
       console.warn(`[Order Email] Không có email cho đơn hàng ${orderDoc?._id}`);
       return;
@@ -156,7 +271,9 @@ export const notifyOrderPaid = async (order) => {
       html: buildOrderPaymentHtml(orderDoc, user),
     });
 
-    console.log(`[Order Email] Đã gửi email xác nhận thanh toán đơn #${shortId} → ${user.email}`);
+    console.log(
+      `[Order Email] Đã gửi email xác nhận thanh toán đơn #${shortId} → ${user.email}`
+    );
   } catch (error) {
     console.error('[Order Email] Lỗi gửi email thanh toán:', error.message);
   }
