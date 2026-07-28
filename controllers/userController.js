@@ -141,6 +141,12 @@ const authWithGoogle = async (req, res, next) => {
         });
 
         if (user) {
+            // Neu user da ton tai nhung khong co googleId
+            if (!user.googleId && user.email === normalizedEmail) {
+                res.status(400);
+                throw new Error('Email nay da duoc dang ky. Vui long dang nhap bang mat khau.');
+            }
+
             user.email = normalizedEmail;
             user.googleId = payload.sub;
             user.googleAvatar = payload.picture || user.googleAvatar;

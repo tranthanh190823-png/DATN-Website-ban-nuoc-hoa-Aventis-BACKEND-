@@ -127,14 +127,20 @@ const getDashboardStats = async (req, res) => {
                 const found = salesByDay.find(item => item._id === i + 1);
                 return { label: `${i + 1}`, totalSales: found?.totalSales || 0, ordersCount: found?.ordersCount || 0 };
             });
+        } else if (period === 'all') {
+            const salesByYear = await Order.aggregate([
+                { $match: { status: 'Đã giao' } },
+                { $group: { _id: { $year: { date: '$createdAt', timezone: '+07:00' } }, totalSales: { $sum: '$totalPrice' }, ordersCount: { $sum: 1 } } },
+                { $sort: { _id: 1 } }
+            ]);
+            chartData = salesByYear.map(item => ({
+                label: `${item._id}`,
+                totalSales: item.totalSales || 0,
+                ordersCount: item.ordersCount || 0
+            }));
         } else {
-            let yearFilter = revenueDateFilter;
-            if (period === 'all') {
-                const currentYear = new Date().getFullYear();
-                yearFilter = { status: 'Đã giao', createdAt: { $gte: new Date(`${currentYear}-01-01`), $lte: new Date(`${currentYear}-12-31T23:59:59.999Z`) } };
-            }
             const salesByMonth = await Order.aggregate([
-                { $match: yearFilter },
+                { $match: revenueDateFilter },
                 { $group: { _id: { $month: { date: '$createdAt', timezone: '+07:00' } }, totalSales: { $sum: '$totalPrice' }, ordersCount: { $sum: 1 } } },
             ]);
             chartData = Array.from({ length: 12 }, (_, i) => {
