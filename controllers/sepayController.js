@@ -66,7 +66,9 @@ export const sepayWebhook = async (req, res) => {
                 console.log(`[SePay] Đã cập nhật thanh toán cho đơn hàng ${matchedOrder._id}`);
 
                 if (!wasAlreadyPaid) {
-                    notifyOrderPaid(matchedOrder);
+                    notifyOrderPaid(matchedOrder).catch((err) =>
+                        console.error('[Order Email] paid (sepay) failed:', err.message)
+                    );
                 }
             } else {
                 console.log(`[SePay] Đơn hàng ${matchedOrder._id} nhận được số tiền ${transferAmount} nhưng không đủ (Yêu cầu: ${matchedOrder.totalPrice})`);

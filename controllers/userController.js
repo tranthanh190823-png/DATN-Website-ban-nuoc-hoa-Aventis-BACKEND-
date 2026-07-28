@@ -398,8 +398,8 @@ const forgotPassword = async (req, res, next) => {
 
         await user.save({ validateBeforeSave: false });
 
-        // Tạo URL reset password (Thay http://localhost:5173 bằng URL thật khi deploy)
-        const resetUrl = `http://localhost:5173/resetpassword/${resetToken}`;
+        const frontendUrl = (process.env.FRONTEND_URL || 'http://localhost:5173').replace(/\/$/, '');
+        const resetUrl = `${frontendUrl}/resetpassword/${resetToken}`;
 
         const message = `Bạn nhận được email này vì bạn (hoặc ai đó) đã yêu cầu đặt lại mật khẩu.\n\nHãy truy cập vào đường dẫn sau để đặt lại mật khẩu của bạn:\n\n${resetUrl}`;
 
@@ -429,6 +429,21 @@ const forgotPassword = async (req, res, next) => {
             });
             res.status(200).json({ message: 'Email đặt lại mật khẩu đã được gửi. Vui lòng kiểm tra email của bạn.' });
         } catch (error) {
+            console.error('[ForgotPassword] SMTP error:', error.message);
+            if (error.code) console.error('[ForgotPassword] code:', error.code);
+
+            // Dev: giữ token + trả resetUrl để test khi SMTP chậm/chặn (không dùng production)
+            if (process.env.NODE_ENV !== 'production') {
+                console.warn('[ForgotPassword] DEV fallback — mở link này để reset mật khẩu:');
+                console.warn(resetUrl);
+                return res.status(200).json({
+                    message:
+                        'Không gửi được email (môi trường dev). Dùng resetUrl bên dưới hoặc xem console server.',
+                    resetUrl,
+                    emailError: error.message,
+                });
+            }
+
             user.resetPasswordToken = undefined;
             user.resetPasswordExpire = undefined;
             await user.save({ validateBeforeSave: false });

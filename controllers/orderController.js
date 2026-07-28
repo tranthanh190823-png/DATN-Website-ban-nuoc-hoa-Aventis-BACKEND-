@@ -1,6 +1,6 @@
 import Order from '../models/Order.js';
 import Product from '../models/Product.js';
-import { notifyOrderPaid } from '../utils/sendOrderPaymentEmail.js';
+import { notifyOrderPaid, notifyOrderPlaced } from '../utils/sendOrderPaymentEmail.js';
 
 // Helper for status sorting
 const statusWeight = {
@@ -118,12 +118,20 @@ const updateOrderToDelivered = async (req, res) => {
 
             // COD: coi như đã thanh toán khi giao thành công (phục vụ hoàn/trả hàng)
             const method = String(order.paymentMethod || '').toUpperCase();
+            const wasAlreadyPaid = order.isPaid;
             if (!order.isPaid && (method === 'COD' || method === 'CASH' || method === '')) {
                 order.isPaid = true;
                 order.paidAt = Date.now();
             }
 
             const updatedOrder = await order.save();
+
+            if (!wasAlreadyPaid && updatedOrder.isPaid) {
+                notifyOrderPaid(updatedOrder).catch((err) =>
+                    console.error('[Order Email] paid (deliver) failed:', err.message)
+                );
+            }
+
             res.json(updatedOrder);
         } else {
             res.status(404).json({ message: 'Không tìm thấy đơn hàng' });
@@ -146,7 +154,9 @@ const updateOrderToPaid = async (req, res) => {
             const updatedOrder = await order.save();
 
             if (!wasAlreadyPaid) {
-                notifyOrderPaid(updatedOrder);
+                notifyOrderPaid(updatedOrder).catch((err) =>
+                    console.error('[Order Email] paid failed:', err.message)
+                );
             }
 
             res.json(updatedOrder);
@@ -278,6 +288,12 @@ const addOrderItems = async (req, res) => {
             });
 
             const createdOrder = await order.save();
+
+            // Mail xác nhận đặt hàng — không chặn response 201
+            notifyOrderPlaced(createdOrder).catch((err) =>
+                console.error('[Order Email] place failed:', err.message)
+            );
+
             res.status(201).json(createdOrder);
         }
     } catch (error) {

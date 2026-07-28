@@ -52,7 +52,9 @@ async function markOrderPaidFromVnpay(order, vnp_Params) {
     await order.save();
 
     if (!wasAlreadyPaid) {
-        notifyOrderPaid(order);
+        notifyOrderPaid(order).catch((err) =>
+            console.error('[Order Email] paid (vnpay) failed:', err.message)
+        );
     }
 
     return {
