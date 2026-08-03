@@ -34,15 +34,25 @@ const checkVoucher = async (req, res) => {
         }
 
         // Tính toán số tiền được giảm
-        let discountAmount = (orderValue * voucher.discountPercentage) / 100;
+        let discountAmount = 0;
         
-        // Nếu có giới hạn số tiền giảm tối đa
-        if (voucher.maxDiscountAmount > 0 && discountAmount > voucher.maxDiscountAmount) {
+        if (voucher.discountType === 'FREE_SHIP') {
+            // Free ship mã sẽ được Frontend xử lý trừ vào tiền ship, ở đây trả về discountAmount = 0 nhưng có type
+            discountAmount = 0;
+        } else if (voucher.discountType === 'FIXED') {
             discountAmount = voucher.maxDiscountAmount;
+        } else {
+            // PERCENTAGE (Mặc định)
+            discountAmount = (orderValue * voucher.discountPercentage) / 100;
+            // Nếu có giới hạn số tiền giảm tối đa
+            if (voucher.maxDiscountAmount > 0 && discountAmount > voucher.maxDiscountAmount) {
+                discountAmount = voucher.maxDiscountAmount;
+            }
         }
 
         res.json({
             code: voucher.code,
+            discountType: voucher.discountType || 'PERCENTAGE',
             discountPercentage: voucher.discountPercentage,
             discountAmount,
             message: 'Áp dụng mã giảm giá thành công!'
@@ -59,6 +69,7 @@ const createVoucher = async (req, res) => {
     try {
         const {
             code,
+            discountType,
             discountPercentage,
             maxDiscountAmount,
             minOrderValue,
@@ -75,9 +86,10 @@ const createVoucher = async (req, res) => {
 
         const voucher = new Voucher({
             code: code.toUpperCase(),
-            discountPercentage,
-            maxDiscountAmount,
-            minOrderValue,
+            discountType: discountType || 'PERCENTAGE',
+            discountPercentage: discountPercentage || 0,
+            maxDiscountAmount: maxDiscountAmount || 0,
+            minOrderValue: minOrderValue || 0,
             expirationDate,
             usageLimit,
             isActive
@@ -145,6 +157,7 @@ const updateVoucher = async (req, res) => {
 
         if (voucher) {
             voucher.code = req.body.code ? req.body.code.toUpperCase() : voucher.code;
+            voucher.discountType = req.body.discountType ?? voucher.discountType;
             voucher.discountPercentage = req.body.discountPercentage ?? voucher.discountPercentage;
             voucher.maxDiscountAmount = req.body.maxDiscountAmount ?? voucher.maxDiscountAmount;
             voucher.minOrderValue = req.body.minOrderValue ?? voucher.minOrderValue;
