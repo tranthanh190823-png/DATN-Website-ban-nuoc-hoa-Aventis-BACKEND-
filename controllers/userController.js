@@ -373,6 +373,10 @@ const updateUser = async (req, res, next) => {
             user.email = req.body.email || user.email;
             user.isAdmin = req.body.isAdmin !== undefined ? req.body.isAdmin : user.isAdmin;
             user.isStaff = req.body.isStaff !== undefined ? req.body.isStaff : user.isStaff;
+            
+            if (req.body.password) {
+                user.password = req.body.password;
+            }
 
             const updatedUser = await user.save();
 

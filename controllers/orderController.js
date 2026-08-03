@@ -1,5 +1,6 @@
 import Order from '../models/Order.js';
 import Product from '../models/Product.js';
+import Voucher from '../models/Voucher.js';
 import { notifyOrderPaid, notifyOrderPlaced } from '../utils/sendOrderPaymentEmail.js';
 
 // Helper for status sorting
@@ -304,6 +305,14 @@ const addOrderItems = async (req, res) => {
             });
 
             const createdOrder = await order.save();
+
+            // Nếu có mã voucher, tăng usedCount lên 1
+            if (voucherCode) {
+                await Voucher.findOneAndUpdate(
+                    { code: voucherCode },
+                    { $inc: { usedCount: 1 } }
+                ).catch(err => console.error('[Order Voucher] failed to increment usedCount:', err.message));
+            }
 
             // Mail xác nhận đặt hàng — không chặn response 201
             notifyOrderPlaced(createdOrder).catch((err) =>
