@@ -23,7 +23,11 @@ const getProducts = async (req, res) => {
         // Filter riêng biệt theo gender
         let genderFilter = {};
         if (req.query.gender) {
-            genderFilter = { gender: req.query.gender };
+            let gen = req.query.gender;
+            if (gen === 'Nữ' || gen === 'nữ' || gen === 'nu') gen = 'Nu';
+            else if (gen === 'nam') gen = 'Nam';
+            else if (gen === 'unisex') gen = 'Unisex';
+            genderFilter = { gender: gen };
         }
 
         // Filter riêng biệt theo scentCategory
@@ -71,36 +75,52 @@ const getProducts = async (req, res) => {
 
         const filter = { ...keyword, ...categoryFilter, ...genderFilter, ...scentFilter, ...brandFilter, ...priceFilter, ...volumeFilter, ...flagFilter, ...typeFilter };
 
-        // Sort options
+        // Xác định tuỳ chọn sắp xếp
         let sortOption = { createdAt: -1 };
         if (req.query.sort === 'newest') sortOption = { createdAt: -1 };
         else if (req.query.sort === 'best_seller') sortOption = { numReviews: -1, rating: -1 };
-        else if (req.query.sort === 'price-asc') sortOption = { price: 1 };
-        else if (req.query.sort === 'price-desc') sortOption = { price: -1 };
+        else if (req.query.sort === 'price-asc') sortOption = { effectivePrice: 1 };
+        else if (req.query.sort === 'price-desc') sortOption = { effectivePrice: -1 };
         else if (req.query.sort === 'rating') sortOption = { rating: -1 };
+        else if (req.query.sort === 'discount_desc') sortOption = { discountPercent: -1 };
 
-        let products;
-        let count;
+        // Pipeline tối ưu: Lọc -> Tính toán (giá thực tế, % giảm giá) -> Sắp xếp -> Phân trang bằng $facet
+        const pipeline = [
+            { $match: filter },
+            {
+                $addFields: {
+                    effectivePrice: {
+                        $cond: {
+                            if: { $and: [{ $gt: ["$salePrice", 0] }, { $lt: ["$salePrice", "$price"] }] },
+                            then: "$salePrice",
+                            else: "$price"
+                        }
+                    },
+                    discountPercent: {
+                        $cond: {
+                            if: { $and: [{ $gt: ["$price", 0] }, { $gt: ["$salePrice", 0] }, { $lt: ["$salePrice", "$price"] }] },
+                            then: { $divide: [{ $subtract: ["$price", "$salePrice"] }, "$price"] },
+                            else: 0
+                        }
+                    }
+                }
+            },
+            { $sort: sortOption },
+            {
+                $facet: {
+                    metadata: [{ $count: "total" }],
+                    data: [{ $skip: pageSize * (page - 1) }, { $limit: pageSize }]
+                }
+            }
+        ];
 
-        if (req.query.sort === 'discount_desc') {
-            const allProducts = await Product.find(filter);
-            allProducts.sort((a, b) => {
-                const discountA = (a.price && a.salePrice && a.price > a.salePrice) ? (a.price - a.salePrice) / a.price : 0;
-                const discountB = (b.price && b.salePrice && b.price > b.salePrice) ? (b.price - b.salePrice) / b.price : 0;
-                return discountB - discountA;
-            });
-            count = allProducts.length;
-            products = allProducts.slice(pageSize * (page - 1), pageSize * page);
-        } else {
-            count = await Product.countDocuments(filter);
-            products = await Product.find(filter)
-                .sort(sortOption)
-                .limit(pageSize)
-                .skip(pageSize * (page - 1));
-        }
+        const results = await Product.aggregate(pipeline);
+        const count = results[0].metadata.length > 0 ? results[0].metadata[0].total : 0;
+        const products = results[0].data;
 
         res.json({ products, page, pages: Math.ceil(count / pageSize), count });
     } catch (error) {
+        console.error("Lỗi lấy danh sách sản phẩm:", error);
         res.status(500).json({ message: 'Lỗi server khi lấy dữ liệu sản phẩm' });
     }
 };
