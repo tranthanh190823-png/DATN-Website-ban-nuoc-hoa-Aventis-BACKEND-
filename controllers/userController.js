@@ -410,7 +410,9 @@ const forgotPassword = async (req, res, next) => {
 
         await user.save({ validateBeforeSave: false });
 
-        const frontendUrl = (process.env.FRONTEND_URL || 'http://localhost:5173').replace(/\/$/, '');
+        // Tự động nhận diện domain Frontend từ Request Header (Origin/Referer) hoặc ENV
+        const requestOrigin = req.headers.origin || (req.headers.referer ? new URL(req.headers.referer).origin : null);
+        const frontendUrl = (requestOrigin || process.env.FRONTEND_URL || 'http://localhost:5173').replace(/\/$/, '');
         const resetUrl = `${frontendUrl}/resetpassword/${resetToken}`;
 
         const message = `Bạn nhận được email này vì bạn (hoặc ai đó) đã yêu cầu đặt lại mật khẩu.\n\nHãy truy cập vào đường dẫn sau để đặt lại mật khẩu của bạn:\n\n${resetUrl}`;
@@ -461,7 +463,7 @@ const forgotPassword = async (req, res, next) => {
             await user.save({ validateBeforeSave: false });
 
             res.status(500);
-            throw new Error('Không thể gửi email. Vui lòng thử lại sau.');
+            throw new Error(`Không thể gửi email: ${error.message || 'Lỗi kết nối SMTP'}. Vui lòng kiểm tra cấu hình SMTP_EMAIL & Mật khẩu ứng dụng Gmail trên Server.`);
         }
     } catch (error) {
         next(error);
