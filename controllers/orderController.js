@@ -18,7 +18,7 @@ const statusWeight = {
 const getOrders = async (req, res) => {
     try {
         let orders = await Order.find({}).populate('user', 'id name email');
-        
+
         orders.sort((a, b) => {
             const aStatus = a.status || (a.isDelivered ? 'Đã giao' : (a.isCancelled ? 'Đã hủy' : 'Chờ xử lý'));
             const bStatus = b.status || (b.isDelivered ? 'Đã giao' : (b.isCancelled ? 'Đã hủy' : 'Chờ xử lý'));

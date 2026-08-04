@@ -55,7 +55,7 @@ const userSchema = new mongoose.Schema({
     },
     password: {
         type: String,
-        required: function() {
+        required: function () {
             // Không yêu cầu password nếu đăng nhập bằng Google
             return !this.googleId;
         }
@@ -108,7 +108,7 @@ const userSchema = new mongoose.Schema({
 });
 
 // Tự động tạo name từ firstName + lastName, hash password
-userSchema.pre('save', async function() {
+userSchema.pre('save', async function () {
     // Ghép tên đầy đủ
     if (this.isModified('firstName') || this.isModified('lastName')) {
         this.name = `${this.firstName} ${this.lastName}`.trim();
@@ -122,13 +122,13 @@ userSchema.pre('save', async function() {
 });
 
 // Phương thức kiểm tra mật khẩu
-userSchema.methods.matchPassword = async function(enteredPassword) {
+userSchema.methods.matchPassword = async function (enteredPassword) {
     if (!this.password) return false;
     return await bcrypt.compare(enteredPassword, this.password);
 };
 
 // Phương thức tạo token reset mật khẩu
-userSchema.methods.getResetPasswordToken = function() {
+userSchema.methods.getResetPasswordToken = function () {
     // Tạo token ngẫu nhiên
     const resetToken = crypto.randomBytes(20).toString('hex');
 
@@ -145,7 +145,7 @@ userSchema.methods.getResetPasswordToken = function() {
 };
 
 // Virtual để lấy địa chỉ mặc định
-userSchema.virtual('defaultAddress').get(function() {
+userSchema.virtual('defaultAddress').get(function () {
     if (this.addresses && this.addresses.length > 0) {
         return this.addresses.find(addr => addr.isDefault) || this.addresses[0];
     }
