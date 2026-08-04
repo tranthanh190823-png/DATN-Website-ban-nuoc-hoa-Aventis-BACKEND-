@@ -163,7 +163,7 @@ const createProduct = async (req, res) => {
             name: 'Tên sản phẩm rỗng',
             brand: 'CHANEL',
             gender: 'Unisex',
-            origin: 'Chưa cập nhật',
+            origin: 'Pháp',
             price: 0,
             user: req.user._id,
             images: ['https://via.placeholder.com/600'],
@@ -340,6 +340,23 @@ const updateReviewStatus = async (req, res) => {
     }
 };
 
+const clearAllProductReviews = async (req, res) => {
+    try {
+        const product = await Product.findById(req.params.id);
+        if (product) {
+            product.reviews = [];
+            product.numReviews = 0;
+            product.rating = 0;
+            await product.save();
+            res.json({ message: 'Đã xóa tất cả đánh giá' });
+        } else {
+            res.status(404).json({ message: 'Không tìm thấy sản phẩm' });
+        }
+    } catch (error) {
+        res.status(500).json({ message: 'Lỗi server' });
+    }
+};
+
 export { 
     getProducts, 
     getProductById, 
@@ -349,5 +366,6 @@ export {
     createProductReview,
     getTopProducts,
     getAllReviews,
-    updateReviewStatus
+    updateReviewStatus,
+    clearAllProductReviews
 };

@@ -21,6 +21,9 @@ import {
 } from '../controllers/vnpayController.js';
 import { protect, admin } from '../middlewares/authMiddleware.js';
 
+import Order from '../models/Order.js';
+import User from '../models/User.js';
+
 const router = express.Router();
 
 router.route('/')

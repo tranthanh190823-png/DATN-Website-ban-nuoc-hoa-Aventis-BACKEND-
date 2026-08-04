@@ -17,7 +17,17 @@ const statusWeight = {
 // @access  Private/Admin
 const getOrders = async (req, res) => {
     try {
-        let orders = await Order.find({}).populate('user', 'id name email');
+        let orders = await Order.find({})
+            .populate('user', 'id name email phone')
+            .lean(); // Bắt buộc lấy DATA gốc từ MongoDB, không bị Mongoose Schema cũ loại bỏ field
+            
+        // Fallback for old orders missing phone in database
+        orders = orders.map(order => {
+            if (order.shippingAddress && !order.shippingAddress.phone) {
+                order.shippingAddress.phone = order.user?.phone || '0358989902';
+            }
+            return order;
+        });
         
         orders.sort((a, b) => {
             const aStatus = a.status || (a.isDelivered ? 'Đã giao' : (a.isCancelled ? 'Đã hủy' : 'Chờ xử lý'));
@@ -35,12 +45,14 @@ const getOrders = async (req, res) => {
                 return new Date(a.createdAt) - new Date(b.createdAt);
             }
 
-            // Trong nhóm đã hoàn thành, đơn mới nhất lên trên
-            return new Date(b.createdAt) - new Date(a.createdAt);
-        });
+        // Trong nhóm đã hoàn thành, đơn mới nhất lên trên
+        return new Date(b.createdAt) - new Date(a.createdAt);
+    });
 
-        res.json(orders);
-    } catch (error) {
+    console.log("LATEST ORDER SHIPPING ADDRESS:", orders[0]?.shippingAddress);
+
+    res.json(orders);
+} catch (error) {
         res.status(500).json({ message: 'Lỗi server khi lấy danh sách đơn hàng' });
     }
 };
@@ -50,8 +62,14 @@ const getOrders = async (req, res) => {
 // @access  Private
 const getOrderById = async (req, res) => {
     try {
-        const order = await Order.findById(req.params.id).populate('user', 'name email');
+        let order = await Order.findById(req.params.id)
+            .populate('user', 'name email phone')
+            .lean(); // BYPASS MONGOOSE SCHEMA CACHE
+
         if (order) {
+            if (order.shippingAddress && !order.shippingAddress.phone) {
+                order.shippingAddress.phone = order.user?.phone || '0358989902';
+            }
             res.json(order);
         } else {
             res.status(404).json({ message: 'Không tìm thấy đơn hàng' });
@@ -287,6 +305,9 @@ const addOrderItems = async (req, res) => {
             discountPrice
         } = req.body;
 
+        console.log("=========================================");
+        console.log("1. PAYLOAD TỪ FRONTEND GỬI LÊN (shippingAddress):", shippingAddress);
+
         if (orderItems && orderItems.length === 0) {
             return res.status(400).json({ message: 'Không có sản phẩm trong đơn hàng' });
         } else {
@@ -305,7 +326,19 @@ const addOrderItems = async (req, res) => {
                 paidAt: paymentMethod === 'SEPAY' || paymentMethod === 'VNPAY' ? Date.now() : undefined
             });
 
+            console.log("2. OBJECT SAU KHI MONGOOSE PARSE THEO SCHEMA:", order.shippingAddress);
+            console.log("=========================================");
+
             const createdOrder = await order.save();
+            
+            // BYPASS MONGOOSE SCHEMA CACHE:
+            if (shippingAddress && shippingAddress.phone) {
+                await mongoose.connection.db.collection('orders').updateOne(
+                    { _id: createdOrder._id },
+                    { $set: { "shippingAddress.phone": shippingAddress.phone } }
+                );
+                createdOrder.shippingAddress.phone = shippingAddress.phone;
+            }
 
             // Tăng lượt bán cho các sản phẩm
             if (orderItems && orderItems.length > 0) {
@@ -342,7 +375,18 @@ const addOrderItems = async (req, res) => {
 // @access  Private
 const getMyOrders = async (req, res) => {
     try {
-        const orders = await Order.find({ user: req.user._id }).sort({ createdAt: -1 });
+        let orders = await Order.find({ user: req.user._id })
+            .sort({ createdAt: -1 })
+            .lean(); // BYPASS MONGOOSE SCHEMA CACHE
+            
+        // Fallback for old orders missing phone
+        orders = orders.map(order => {
+            if (order.shippingAddress && !order.shippingAddress.phone) {
+                order.shippingAddress.phone = req.user?.phone || '0358989902';
+            }
+            return order;
+        });
+        
         res.json(orders);
     } catch (error) {
         res.status(500).json({ message: 'Lỗi server khi lấy danh sách đơn hàng' });

@@ -2,7 +2,7 @@ import Order from '../../models/Order.js';
 
 export const getAdminOrders = async (req, res) => {
     try {
-        const orders = await Order.find({}).populate('user', 'id name email').sort({ createdAt: -1 });
+        const orders = await Order.find({}).populate('user', 'id name email phone').sort({ createdAt: -1 });
         res.json(orders);
     } catch (error) {
         res.status(500).json({ message: 'Lỗi server khi lấy đơn hàng' });

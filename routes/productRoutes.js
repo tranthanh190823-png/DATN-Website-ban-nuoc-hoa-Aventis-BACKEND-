@@ -8,7 +8,8 @@ import {
     createProductReview,
     getTopProducts,
     getAllReviews,
-    updateReviewStatus
+    updateReviewStatus,
+    clearAllProductReviews
 } from '../controllers/productController.js';
 import { protect, admin } from '../middlewares/authMiddleware.js';
 
@@ -18,7 +19,9 @@ router.route('/').get(getProducts).post(protect, admin, createProduct);
 router.get('/top', getTopProducts);
 router.get('/reviews/all', protect, admin, getAllReviews);
 router.put('/:productId/reviews/:reviewId/status', protect, admin, updateReviewStatus);
-router.route('/:id/reviews').post(protect, createProductReview);
+router.route('/:id/reviews')
+    .post(protect, createProductReview)
+    .delete(protect, admin, clearAllProductReviews);
 router.route('/:id')
     .get(getProductById)
     .delete(protect, admin, deleteProduct)

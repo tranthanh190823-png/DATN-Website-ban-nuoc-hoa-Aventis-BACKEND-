@@ -391,7 +391,7 @@ export const generateAIResponse = async (messages) => {
   const client = new OpenAI({
     apiKey: chatConfig.api_key,
     baseURL: chatConfig.base_url,
-    timeout: chatConfig.ai_timeout_ms || 12000,
+    timeout: chatConfig.ai_timeout_ms || 30000,
   });
 
   const requestPayload = {
