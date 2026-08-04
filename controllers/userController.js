@@ -220,7 +220,7 @@ const updateUserProfile = async (req, res, next) => {
                 user.firstName = nameParts[0];
                 user.lastName = nameParts.length > 1 ? nameParts.slice(1).join(' ') : nameParts[0];
             }
-            
+
             user.email = req.body.email || user.email;
 
             if (req.body.phone !== undefined) {
@@ -416,59 +416,45 @@ const forgotPassword = async (req, res, next) => {
 
         // Tự động nhận diện domain Frontend từ Request Header (Origin/Referer) hoặc ENV
         const requestOrigin = req.headers.origin || (req.headers.referer ? new URL(req.headers.referer).origin : null);
-        const frontendUrl = (requestOrigin || process.env.FRONTEND_URL || 'http://localhost:5173').replace(/\/$/, '');
+        const frontendUrl = (requestOrigin || process.env.FRONTEND_URL || 'http://localhost:5173', 'https://aventis.io.vn/').replace(/\/$/, '');
         const resetUrl = `${frontendUrl}/resetpassword/${resetToken}`;
 
         const message = `Bạn nhận được email này vì bạn (hoặc ai đó) đã yêu cầu đặt lại mật khẩu.\n\nHãy truy cập vào đường dẫn sau để đặt lại mật khẩu của bạn:\n\n${resetUrl}`;
 
-        try {
-            // Gửi email reset password
-            await sendEmail({
-                email: user.email,
-                subject: 'Yêu cầu đặt lại mật khẩu - DATN Nước Hoa',
-                message,
-                html: `
-                    <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
-                        <h2 style="color: #333;">Yêu cầu Đặt Lại Mật Khẩu</h2>
-                        <p>Xin chào ${user.name},</p>
-                        <p>Bạn nhận được email này vì bạn (hoặc ai đó) đã yêu cầu đặt lại mật khẩu cho tài khoản của mình.</p>
-                        <p style="margin: 20px 0;">
-                            <a href="${resetUrl}" style="background-color: #4CAF50; color: white; padding: 12px 24px; text-decoration: none; border-radius: 4px; display: inline-block;">
-                                Đặt Lại Mật Khẩu
-                            </a>
-                        </p>
-                        <p style="color: #666; font-size: 14px;">Hoặc copy link này vào trình duyệt:</p>
-                        <p style="color: #666; font-size: 12px; word-break: break-all;">${resetUrl}</p>
-                        <p style="color: #666; font-size: 12px; margin-top: 20px;">Link này có hiệu lực trong 10 phút.</p>
-                        <hr style="border: none; border-top: 1px solid #eee; margin: 20px 0;">
-                        <p style="color: #999; font-size: 12px;">Đây là email tự động từ DATN Nước Hoa. Vui lòng không trả lời email này.</p>
-                    </div>
-                `
-            });
-            res.status(200).json({ message: 'Email đặt lại mật khẩu đã được gửi. Vui lòng kiểm tra email của bạn.' });
-        } catch (error) {
-            console.error('[ForgotPassword] SMTP error:', error.message);
-            if (error.code) console.error('[ForgotPassword] code:', error.code);
+        const emailOptions = {
+            email: user.email,
+            subject: 'Yêu cầu đặt lại mật khẩu - DATN Nước Hoa',
+            message,
+            html: `
+                <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
+                    <h2 style="color: #333;">Yêu cầu Đặt Lại Mật Khẩu</h2>
+                    <p>Xin chào ${user.name},</p>
+                    <p>Bạn nhận được email này vì bạn (hoặc ai đó) đã yêu cầu đặt lại mật khẩu cho tài khoản của mình.</p>
+                    <p style="margin: 20px 0;">
+                        <a href="${resetUrl}" style="background-color: #4CAF50; color: white; padding: 12px 24px; text-decoration: none; border-radius: 4px; display: inline-block;">
+                            Đặt Lại Mật Khẩu
+                        </a>
+                    </p>
+                    <p style="color: #666; font-size: 14px;">Hoặc copy link này vào trình duyệt:</p>
+                    <p style="color: #666; font-size: 12px; word-break: break-all;">${resetUrl}</p>
+                    <p style="color: #666; font-size: 12px; margin-top: 20px;">Link này có hiệu lực trong 10 phút.</p>
+                    <hr style="border: none; border-top: 1px solid #eee; margin: 20px 0;">
+                    <p style="color: #999; font-size: 12px;">Đây là email tự động từ DATN Nước Hoa. Vui lòng không trả lời email này.</p>
+                </div>
+            `
+        };
 
-            // Dev: giữ token + trả resetUrl để test khi SMTP chậm/chặn (không dùng production)
+        // Gửi email bất đồng bộ ở background để giao diện phản hồi TỨC THÌ cho người dùng (< 50ms)
+        sendEmail(emailOptions).catch((error) => {
+            console.error('[ForgotPassword] Background SMTP error:', error.message);
             if (process.env.NODE_ENV !== 'production') {
-                console.warn('[ForgotPassword] DEV fallback — mở link này để reset mật khẩu:');
-                console.warn(resetUrl);
-                return res.status(200).json({
-                    message:
-                        'Không gửi được email (môi trường dev). Dùng resetUrl bên dưới hoặc xem console server.',
-                    resetUrl,
-                    emailError: error.message,
-                });
+                console.warn('[ForgotPassword] DEV link khôi phục:', resetUrl);
             }
+        });
 
-            user.resetPasswordToken = undefined;
-            user.resetPasswordExpire = undefined;
-            await user.save({ validateBeforeSave: false });
-
-            res.status(500);
-            throw new Error(`Không thể gửi email: ${error.message || 'Lỗi kết nối SMTP'}. Vui lòng kiểm tra cấu hình SMTP_EMAIL & Mật khẩu ứng dụng Gmail trên Server.`);
-        }
+        res.status(200).json({
+            message: 'Email đặt lại mật khẩu đã được gửi. Vui lòng kiểm tra hộp thư của bạn.'
+        });
     } catch (error) {
         next(error);
     }

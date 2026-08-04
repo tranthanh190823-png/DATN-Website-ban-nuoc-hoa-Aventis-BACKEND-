@@ -20,7 +20,6 @@ const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const isRetryable = (error) => {
     if (!error) return false;
     if (error.code && RETRYABLE_CODES.has(error.code)) return true;
-    // Nodemailer sometimes wraps network errors without a standard code
     const msg = String(error.message || '').toLowerCase();
     return (
         msg.includes('timeout') ||
@@ -31,38 +30,58 @@ const isRetryable = (error) => {
     );
 };
 
+const createTransporterConfig = (forcePort = null) => {
+    const host = (process.env.SMTP_HOST || 'smtp.gmail.com').trim();
+    const port = forcePort || Number(process.env.SMTP_PORT) || 465;
+    const user = (process.env.SMTP_EMAIL || '').trim();
+    // Tự động loại bỏ khoảng trắng nếu dán Mật khẩu ứng dụng dạng "abcd efgh ijkl mnop"
+    const pass = (process.env.SMTP_PASSWORD || '').trim().replace(/\s+/g, '');
+    const isGmail = host.toLowerCase().includes('gmail');
+
+    const config = {
+        auth: { user, pass },
+        tls: { rejectUnauthorized: false },
+        pool: true,
+        maxConnections: 5,
+        maxMessages: 100,
+        connectionTimeout: 8000,
+        greetingTimeout: 5000,
+        socketTimeout: 10000,
+    };
+
+    if (isGmail && (port === 465 || !process.env.SMTP_PORT)) {
+        config.service = 'gmail';
+    } else {
+        config.host = host;
+        config.port = port;
+        config.secure = port === 465;
+        if (port === 587) {
+            config.requireTLS = true;
+        }
+    }
+
+    return nodemailer.createTransport(config);
+};
+
 const getTransporter = () => {
     if (transporter) return transporter;
-
-    const port = Number(process.env.SMTP_PORT) || 587;
-
-    // Port 587 + STARTTLS ổn định hơn 465 trên Windows/mạng chặn SSL thuần.
-    // family: 4 force IPv4 để tránh lỗi dual-stack (Local undefined:undefined).
-    // Timeout dài hơn vì Gmail SMTP trên một số mạng VN rất chậm (60–100s).
-    transporter = nodemailer.createTransport({
-        host: process.env.SMTP_HOST || 'smtp.gmail.com',
-        port,
-        secure: port === 465,
-        requireTLS: port === 587,
-        family: 4,
-        pool: true,
-        maxConnections: 1,
-        maxMessages: 20,
-        auth: {
-            user: process.env.SMTP_EMAIL,
-            pass: process.env.SMTP_PASSWORD,
-        },
-        connectionTimeout: 45000,
-        greetingTimeout: 30000,
-        socketTimeout: 60000,
-    });
-
+    transporter = createTransporterConfig();
     return transporter;
 };
 
 const sendEmail = async (options, { retries = 2 } = {}) => {
+    const smtpEmail = (process.env.SMTP_EMAIL || '').trim();
+    const fromName = process.env.FROM_NAME || 'Aventis';
+    const fromEmail = (process.env.FROM_EMAIL || smtpEmail).trim();
+
+    if (!smtpEmail || !process.env.SMTP_PASSWORD) {
+        throw new Error(
+            'Chưa cấu hình biến môi trường SMTP_EMAIL hoặc SMTP_PASSWORD.'
+        );
+    }
+
     const message = {
-        from: `${process.env.FROM_NAME} <${process.env.FROM_EMAIL}>`,
+        from: `"${fromName}" <${fromEmail}>`,
         to: options.email,
         subject: options.subject,
         text: options.message,
@@ -73,7 +92,9 @@ const sendEmail = async (options, { retries = 2 } = {}) => {
 
     for (let attempt = 1; attempt <= retries; attempt++) {
         try {
-            const info = await getTransporter().sendMail(message);
+            // Attempt 1 uses default transporter, attempt 2 forces SSL 465 / service: 'gmail'
+            const currentTransporter = attempt === 1 ? getTransporter() : createTransporterConfig(465);
+            const info = await currentTransporter.sendMail(message);
             console.log(
                 `✅ Email sent successfully (attempt ${attempt}/${retries}): %s`,
                 info.messageId
@@ -89,21 +110,25 @@ const sendEmail = async (options, { retries = 2 } = {}) => {
             if (error.command) console.error('   command:', error.command);
             if (error.response) console.error('   response:', error.response);
 
-            // Auth errors won't fix themselves — fail fast
-            if (error.code === 'EAUTH' || !isRetryable(error) || attempt === retries) {
+            if (error.code === 'EAUTH' || (error.response && error.response.includes('535'))) {
+                throw new Error(
+                    'Xác thực Gmail thất bại. Vui lòng kiểm tra Mật khẩu ứng dụng 16 ký tự của Google.'
+                );
+            }
+
+            if (!isRetryable(error) || attempt === retries) {
                 break;
             }
 
-            // Drop pooled connection so next attempt opens a fresh socket
             try {
-                getTransporter().close();
+                if (transporter) transporter.close();
             } catch {
                 /* ignore */
             }
             transporter = null;
 
-            const delayMs = 1500 * attempt;
-            console.log(`   retrying in ${delayMs}ms...`);
+            const delayMs = 1000 * attempt;
+            console.log(`   Retrying sending email in ${delayMs}ms...`);
             await sleep(delayMs);
         }
     }
@@ -112,3 +137,5 @@ const sendEmail = async (options, { retries = 2 } = {}) => {
 };
 
 export default sendEmail;
+
+
