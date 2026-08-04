@@ -507,6 +507,84 @@ const resetPassword = async (req, res, next) => {
         next(error);
     }
 };
+// @desc    Get user cart
+// @route   GET /api/users/cart
+// @access  Private
+const getUserCart = async (req, res, next) => {
+    try {
+        const user = await User.findById(req.user._id);
+        if (user) {
+            res.json(user.cart);
+        } else {
+            res.status(404);
+            throw new Error('User not found');
+        }
+    } catch (error) {
+        next(error);
+    }
+};
+
+// @desc    Update user cart
+// @route   PUT /api/users/cart
+// @access  Private
+const updateUserCart = async (req, res, next) => {
+    try {
+        const user = await User.findById(req.user._id);
+        if (user) {
+            user.cart = req.body.cartItems || [];
+            await user.save();
+            res.json(user.cart);
+        } else {
+            res.status(404);
+            throw new Error('User not found');
+        }
+    } catch (error) {
+        next(error);
+    }
+};
+
+// @desc    Get user wishlist
+// @route   GET /api/users/wishlist
+// @access  Private
+const getUserWishlist = async (req, res, next) => {
+    try {
+        const user = await User.findById(req.user._id).populate('wishlist', 'name image price rating numReviews countInStock');
+        if (user) {
+            res.json(user.wishlist);
+        } else {
+            res.status(404);
+            throw new Error('User not found');
+        }
+    } catch (error) {
+        next(error);
+    }
+};
+
+// @desc    Toggle product in user wishlist
+// @route   POST /api/users/wishlist
+// @access  Private
+const toggleUserWishlist = async (req, res, next) => {
+    try {
+        const { productId } = req.body;
+        const user = await User.findById(req.user._id);
+        if (user) {
+            const isExist = user.wishlist.find(id => id.toString() === productId);
+            if (isExist) {
+                user.wishlist = user.wishlist.filter(id => id.toString() !== productId);
+            } else {
+                user.wishlist.push(productId);
+            }
+            await user.save();
+            const updatedUser = await User.findById(req.user._id).populate('wishlist', 'name image price rating numReviews countInStock');
+            res.json(updatedUser.wishlist);
+        } else {
+            res.status(404);
+            throw new Error('User not found');
+        }
+    } catch (error) {
+        next(error);
+    }
+};
 
 export {
     authUser,
@@ -521,5 +599,9 @@ export {
     deleteUser,
     updateUser,
     forgotPassword,
-    resetPassword
+    resetPassword,
+    getUserCart,
+    updateUserCart,
+    getUserWishlist,
+    toggleUserWishlist
 };

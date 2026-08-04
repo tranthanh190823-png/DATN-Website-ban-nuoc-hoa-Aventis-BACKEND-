@@ -12,7 +12,11 @@ import {
     deleteUser,
     updateUser,
     forgotPassword,
-    resetPassword
+    resetPassword,
+    getUserCart,
+    updateUserCart,
+    getUserWishlist,
+    toggleUserWishlist
 } from '../controllers/userController.js';
 import { protect, admin } from '../middlewares/authMiddleware.js';
 
@@ -28,6 +32,8 @@ router.route('/profile')
 router.post('/forgotpassword', forgotPassword);
 router.put('/resetpassword/:token', resetPassword);
 router.put('/:id/toggle-status', protect, admin, toggleUserStatus);
+router.route('/cart').get(protect, getUserCart).put(protect, updateUserCart);
+router.route('/wishlist').get(protect, getUserWishlist).post(protect, toggleUserWishlist);
 router.route('/:id')
     .delete(protect, admin, deleteUser)
     .put(protect, admin, updateUser);
