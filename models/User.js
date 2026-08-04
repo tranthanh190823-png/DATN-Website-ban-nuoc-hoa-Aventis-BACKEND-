@@ -16,6 +16,16 @@ const addressSchema = new mongoose.Schema({
     isDefault: { type: Boolean, default: false }
 });
 
+const cartItemSchema = new mongoose.Schema({
+    product: { type: mongoose.Schema.Types.ObjectId, ref: 'Product', required: true },
+    name: { type: String, required: true },
+    image: { type: String, required: true },
+    price: { type: Number, required: true },
+    qty: { type: Number, required: true },
+    volume: { type: Number },
+    countInStock: { type: Number }
+});
+
 const userSchema = new mongoose.Schema({
     firstName: {
         type: String,
@@ -83,7 +93,14 @@ const userSchema = new mongoose.Schema({
     resetPasswordToken: String,
     resetPasswordExpire: Date,
     // Danh sách địa chỉ
-    addresses: [addressSchema]
+    addresses: [addressSchema],
+    // Danh sách sản phẩm yêu thích
+    wishlist: [{
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Product'
+    }],
+    // Giỏ hàng
+    cart: [cartItemSchema]
 }, {
     timestamps: true,
     toJSON: { virtuals: true },
