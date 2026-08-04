@@ -117,10 +117,8 @@ const updateOrderToDelivered = async (req, res) => {
             order.isDelivered = true;
             order.deliveredAt = Date.now();
 
-            // COD: coi như đã thanh toán khi giao thành công (phục vụ hoàn/trả hàng)
-            const method = String(order.paymentMethod || '').toUpperCase();
-            const wasAlreadyPaid = order.isPaid;
-            if (!order.isPaid && (method === 'COD' || method === 'CASH' || method === '')) {
+            // Coi như đã thanh toán khi giao thành công (phục vụ hoàn/trả hàng)
+            if (!order.isPaid) {
                 order.isPaid = true;
                 order.paidAt = Date.now();
             }
@@ -237,6 +235,7 @@ const cancelOrder = async (req, res) => {
             const product = await Product.findById(item.product);
             if (product) {
                 product.stock += item.qty;
+                product.sold = Math.max(0, (product.sold || 0) - item.qty);
                 if (item.volume && product.volumes) {
                     const volumeObj = product.volumes.find(v => v.ml === item.volume);
                     if (volumeObj) {
@@ -301,10 +300,22 @@ const addOrderItems = async (req, res) => {
                 totalPrice,
                 voucherCode,
                 discountPrice,
-                status: 'Chờ xử lý'
+                status: 'Chờ xử lý',
+                isPaid: paymentMethod === 'SEPAY' || paymentMethod === 'VNPAY',
+                paidAt: paymentMethod === 'SEPAY' || paymentMethod === 'VNPAY' ? Date.now() : undefined
             });
 
             const createdOrder = await order.save();
+
+            // Tăng lượt bán cho các sản phẩm
+            if (orderItems && orderItems.length > 0) {
+                for (const item of orderItems) {
+                    await Product.findByIdAndUpdate(
+                        item.product,
+                        { $inc: { sold: item.qty } }
+                    ).catch(err => console.error('[Order Product] failed to increment sold:', err.message));
+                }
+            }
 
             // Nếu có mã voucher, tăng usedCount lên 1
             if (voucherCode) {

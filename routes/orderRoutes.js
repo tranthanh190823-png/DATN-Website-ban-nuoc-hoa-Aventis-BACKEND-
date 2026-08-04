@@ -11,7 +11,14 @@ import {
     cancelOrder
 } from '../controllers/orderController.js';
 import { sepayWebhook } from '../controllers/sepayController.js';
-import { createPaymentUrl, vnpayReturn } from '../controllers/vnpayController.js';
+import {
+    createPaymentUrl,
+    vnpayReturn,
+    requestRefund,
+    approveRefundRequest,
+    rejectRefundRequest,
+    refundOrder
+} from '../controllers/vnpayController.js';
 import { protect, admin } from '../middlewares/authMiddleware.js';
 
 const router = express.Router();
@@ -34,5 +41,10 @@ router.route('/:id/process').put(protect, admin, updateOrderToProcessed);
 router.route('/:id/ship').put(protect, admin, updateOrderToShipping);
 router.route('/:id/deliver').put(protect, admin, updateOrderToDelivered);
 router.route('/:id/cancel').put(protect, cancelOrder);
+
+router.route('/:id/request-refund').put(protect, requestRefund);
+router.route('/:id/refund-request/approve').put(protect, admin, approveRefundRequest);
+router.route('/:id/refund-request/reject').put(protect, admin, rejectRefundRequest);
+router.route('/:id/refund').put(protect, admin, refundOrder);
 
 export default router;

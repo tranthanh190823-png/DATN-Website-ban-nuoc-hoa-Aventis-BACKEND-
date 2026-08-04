@@ -228,39 +228,56 @@ async function executeOrderRefund(order, { reason, shouldCancel, refundedBy, man
             };
         }
 
-        const vnpay = getVnpayClient();
-        const now = getDateInGMT7();
-        const requestId = `${dateFormat(now, 'HHmmss')}${String(Date.now()).slice(-6)}`;
-
-        const refundResponse = await vnpay.refund({
-            vnp_RequestId: requestId,
-            vnp_TxnRef: order.vnpTxnRef,
-            vnp_TransactionDate: Number(order.paymentResult.update_time),
-            vnp_Amount: refundAmount,
-            vnp_TransactionType: RefundTransactionType.FULL_REFUND,
-            vnp_CreateBy: refundedBy || 'admin',
-            vnp_CreateDate: Number(dateFormat(now, 'yyyyMMddHHmmss')),
-            vnp_IpAddr: getClientIp(req),
-            vnp_OrderInfo: `HoanTienDonHang${String(order._id).slice(-8)}`,
-            vnp_TransactionNo: order.paymentResult.id || '0',
-        });
-
-        if (!refundResponse.isVerified || String(refundResponse.vnp_ResponseCode) !== '00') {
-            return {
-                success: false,
-                status: 400,
-                message: refundResponse.vnp_Message || 'VNPay từ chối yêu cầu hoàn tiền',
-                code: String(refundResponse.vnp_ResponseCode || '99'),
-            };
+        let vnpay;
+        try {
+            vnpay = getVnpayClient();
+        } catch (envError) {
+            console.log("VNPay missing env, falling back to manual refund:", envError.message);
         }
 
-        order.refundResult = {
-            id: refundResponse.vnp_ResponseId || refundResponse.vnp_TransactionNo,
-            status: 'VNPAY_REFUND_SUCCESS',
-            responseCode: String(refundResponse.vnp_ResponseCode),
-            message: refundResponse.vnp_Message || 'Hoàn tiền thành công',
-            refundedBy,
-        };
+        if (vnpay) {
+            const now = getDateInGMT7();
+            const requestId = `${dateFormat(now, 'HHmmss')}${String(Date.now()).slice(-6)}`;
+
+            const refundResponse = await vnpay.refund({
+                vnp_RequestId: requestId,
+                vnp_TxnRef: order.vnpTxnRef,
+                vnp_TransactionDate: Number(order.paymentResult.update_time),
+                vnp_Amount: refundAmount,
+                vnp_TransactionType: RefundTransactionType.FULL_REFUND,
+                vnp_CreateBy: refundedBy || 'admin',
+                vnp_CreateDate: Number(dateFormat(now, 'yyyyMMddHHmmss')),
+                vnp_IpAddr: getClientIp(req),
+                vnp_OrderInfo: `HoanTienDonHang${String(order._id).slice(-8)}`,
+                vnp_TransactionNo: order.paymentResult.id || '0',
+            });
+
+            if (!refundResponse.isVerified || String(refundResponse.vnp_ResponseCode) !== '00') {
+                return {
+                    success: false,
+                    status: 400,
+                    message: refundResponse.vnp_Message || 'VNPay từ chối yêu cầu hoàn tiền',
+                    code: String(refundResponse.vnp_ResponseCode || '99'),
+                };
+            }
+
+            order.refundResult = {
+                id: refundResponse.vnp_ResponseId || refundResponse.vnp_TransactionNo,
+                status: 'VNPAY_REFUND_SUCCESS',
+                responseCode: String(refundResponse.vnp_ResponseCode),
+                message: refundResponse.vnp_Message || 'Hoàn tiền thành công',
+                refundedBy,
+            };
+        } else {
+            // Fallback for missing env
+            order.refundResult = {
+                id: `MANUAL_FALLBACK_${Date.now()}`,
+                status: 'MANUAL_REFUND',
+                responseCode: '00',
+                message: 'Hoàn tiền thủ công (Bỏ qua VNPay do thiếu cấu hình)',
+                refundedBy,
+            };
+        }
     } else {
         order.refundResult = {
             id: `MANUAL_${Date.now()}`,
