@@ -30,32 +30,42 @@ const isRetryable = (error) => {
     );
 };
 
-const createTransporterConfig = (forcePort = null) => {
+const createTransporterConfig = (strategyIndex = 0) => {
     const host = (process.env.SMTP_HOST || 'smtp.gmail.com').trim();
-    const port = forcePort || Number(process.env.SMTP_PORT) || 465;
     const user = (process.env.SMTP_EMAIL || '').trim();
-    // Tự động loại bỏ khoảng trắng nếu dán Mật khẩu ứng dụng dạng "abcd efgh ijkl mnop"
     const pass = (process.env.SMTP_PASSWORD || '').trim().replace(/\s+/g, '');
     const isGmail = host.toLowerCase().includes('gmail');
+
+    // Các cấu hình thử nghiệm tương thích với mọi loại mạng/cổng
+    // Strategy 0: Cổng 465 (SSL)
+    // Strategy 1: Cổng 587 (STARTTLS)
+    // Strategy 2: Cổng 25 (Standard SMTP)
+    const strategies = [
+        { port: 465, secure: true },
+        { port: 587, secure: false, requireTLS: true },
+        { port: 25, secure: false }
+    ];
+
+    const currentStrategy = strategies[strategyIndex % strategies.length];
+    const port = Number(process.env.SMTP_PORT) || currentStrategy.port;
+    const secure = process.env.SMTP_PORT ? Number(process.env.SMTP_PORT) === 465 : currentStrategy.secure;
 
     const config = {
         auth: { user, pass },
         tls: { rejectUnauthorized: false },
-        pool: true,
-        maxConnections: 5,
-        maxMessages: 100,
-        connectionTimeout: 8000,
-        greetingTimeout: 5000,
-        socketTimeout: 10000,
+        pool: false, // Dùng kết nối đơn lẻ để xoay cổng nhanh hơn khi bị chặn
+        connectionTimeout: 4000, // Timeout ngắn 4s để nhanh chuyển cổng khác nếu bị tường lửa chặn
+        greetingTimeout: 3000,
+        socketTimeout: 5000,
     };
 
-    if (isGmail && (port === 465 || !process.env.SMTP_PORT)) {
+    if (isGmail && strategyIndex === 0 && (!process.env.SMTP_PORT || process.env.SMTP_PORT === '465')) {
         config.service = 'gmail';
     } else {
         config.host = host;
         config.port = port;
-        config.secure = port === 465;
-        if (port === 587) {
+        config.secure = secure;
+        if (currentStrategy.requireTLS) {
             config.requireTLS = true;
         }
     }
@@ -63,13 +73,7 @@ const createTransporterConfig = (forcePort = null) => {
     return nodemailer.createTransport(config);
 };
 
-const getTransporter = () => {
-    if (transporter) return transporter;
-    transporter = createTransporterConfig();
-    return transporter;
-};
-
-const sendEmail = async (options, { retries = 2 } = {}) => {
+const sendEmail = async (options, { retries = 3 } = {}) => {
     const smtpEmail = (process.env.SMTP_EMAIL || '').trim();
     const fromName = process.env.FROM_NAME || 'Aventis';
     const fromEmail = (process.env.FROM_EMAIL || smtpEmail).trim();
@@ -90,25 +94,22 @@ const sendEmail = async (options, { retries = 2 } = {}) => {
 
     let lastError;
 
-    for (let attempt = 1; attempt <= retries; attempt++) {
+    // Thử lần lượt các chiến lược cổng: 465 (SSL) -> 587 (TLS) -> 25 (Standard)
+    for (let attempt = 0; attempt < retries; attempt++) {
         try {
-            // Attempt 1 uses default transporter, attempt 2 forces SSL 465 / service: 'gmail'
-            const currentTransporter = attempt === 1 ? getTransporter() : createTransporterConfig(465);
+            const currentTransporter = createTransporterConfig(attempt);
             const info = await currentTransporter.sendMail(message);
             console.log(
-                `✅ Email sent successfully (attempt ${attempt}/${retries}): %s`,
+                `✅ Email sent successfully via strategy ${attempt + 1}: %s`,
                 info.messageId
             );
             return info;
         } catch (error) {
             lastError = error;
             console.error(
-                `❌ Error sending email (attempt ${attempt}/${retries}):`,
+                `❌ Error sending email (attempt ${attempt + 1}/${retries}):`,
                 error.message
             );
-            if (error.code) console.error('   code:', error.code);
-            if (error.command) console.error('   command:', error.command);
-            if (error.response) console.error('   response:', error.response);
 
             if (error.code === 'EAUTH' || (error.response && error.response.includes('535'))) {
                 throw new Error(
@@ -116,20 +117,10 @@ const sendEmail = async (options, { retries = 2 } = {}) => {
                 );
             }
 
-            if (!isRetryable(error) || attempt === retries) {
-                break;
+            if (attempt < retries - 1) {
+                console.log(`   🔄 Swapping SMTP strategy / port for retry ${attempt + 2}...`);
+                await sleep(500);
             }
-
-            try {
-                if (transporter) transporter.close();
-            } catch {
-                /* ignore */
-            }
-            transporter = null;
-
-            const delayMs = 1000 * attempt;
-            console.log(`   Retrying sending email in ${delayMs}ms...`);
-            await sleep(delayMs);
         }
     }
 

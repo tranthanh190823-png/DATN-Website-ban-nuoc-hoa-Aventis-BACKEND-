@@ -12,6 +12,7 @@ import {
     deleteUser,
     updateUser,
     forgotPassword,
+    validateResetToken,
     resetPassword,
     getUserCart,
     updateUserCart,
@@ -30,6 +31,7 @@ router.route('/profile')
     .get(protect, getUserProfile)
     .put(protect, updateUserProfile);
 router.post('/forgotpassword', forgotPassword);
+router.get('/resetpassword/:token', validateResetToken);
 router.put('/resetpassword/:token', resetPassword);
 router.put('/:id/toggle-status', protect, admin, toggleUserStatus);
 router.route('/cart').get(protect, getUserCart).put(protect, updateUserCart);

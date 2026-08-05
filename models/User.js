@@ -138,8 +138,8 @@ userSchema.methods.getResetPasswordToken = function () {
         .update(resetToken)
         .digest('hex');
 
-    // Set hạn dùng token (10 phút)
-    this.resetPasswordExpire = Date.now() + 10 * 60 * 1000;
+    // Set hạn dùng token (15 phút)
+    this.resetPasswordExpire = Date.now() + 15 * 60 * 1000;
 
     return resetToken;
 };

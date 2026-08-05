@@ -373,7 +373,7 @@ const updateUser = async (req, res, next) => {
             user.email = req.body.email || user.email;
             user.isAdmin = req.body.isAdmin !== undefined ? req.body.isAdmin : user.isAdmin;
             user.isStaff = req.body.isStaff !== undefined ? req.body.isStaff : user.isStaff;
-            
+
             if (req.body.password) {
                 user.password = req.body.password;
             }
@@ -402,7 +402,13 @@ const updateUser = async (req, res, next) => {
 // @access  Public
 const forgotPassword = async (req, res, next) => {
     try {
-        const user = await User.findOne({ email: req.body.email });
+        if (!req.body.email) {
+            res.status(400);
+            throw new Error('Vui lòng nhập địa chỉ email');
+        }
+
+        const email = req.body.email.trim().toLowerCase();
+        const user = await User.findOne({ email });
 
         if (!user) {
             res.status(404);
@@ -414,10 +420,17 @@ const forgotPassword = async (req, res, next) => {
 
         await user.save({ validateBeforeSave: false });
 
-        // Tự động nhận diện domain Frontend từ Request Header (Origin/Referer) hoặc ENV
+        // Ưu tiên domain từ ENV (ví dụ: https://aventis.io.vn) trước khi fallback sang Request Header hoặc domain mặc định
+        const envFrontendUrl = process.env.FRONTEND_URL ? process.env.FRONTEND_URL.split(',')[0].trim() : null;
         const requestOrigin = req.headers.origin || (req.headers.referer ? new URL(req.headers.referer).origin : null);
-        const frontendUrl = (requestOrigin || process.env.FRONTEND_URL || 'http://localhost:5173', 'https://aventis.io.vn/').replace(/\/$/, '');
+        const frontendUrl = (envFrontendUrl || requestOrigin || 'https://aventis.io.vn').replace(/\/$/, '');
         const resetUrl = `${frontendUrl}/resetpassword/${resetToken}`;
+
+        // In link khôi phục trực tiếp ra Terminal Backend (Cực kỳ hữu ích khi báo cáo/demo nếu mạng chặn mail)
+        console.log('\n=====================================================');
+        console.log('🔑 [RESET PASSWORD LINK]');
+        console.log(resetUrl);
+        console.log('=====================================================\n');
 
         const message = `Bạn nhận được email này vì bạn (hoặc ai đó) đã yêu cầu đặt lại mật khẩu.\n\nHãy truy cập vào đường dẫn sau để đặt lại mật khẩu của bạn:\n\n${resetUrl}`;
 
@@ -437,7 +450,7 @@ const forgotPassword = async (req, res, next) => {
                     </p>
                     <p style="color: #666; font-size: 14px;">Hoặc copy link này vào trình duyệt:</p>
                     <p style="color: #666; font-size: 12px; word-break: break-all;">${resetUrl}</p>
-                    <p style="color: #666; font-size: 12px; margin-top: 20px;">Link này có hiệu lực trong 10 phút.</p>
+                    <p style="color: #666; font-size: 12px; margin-top: 20px;">Link này có hiệu lực trong 15 phút.</p>
                     <hr style="border: none; border-top: 1px solid #eee; margin: 20px 0;">
                     <p style="color: #999; font-size: 12px;">Đây là email tự động từ DATN Nước Hoa. Vui lòng không trả lời email này.</p>
                 </div>
@@ -447,14 +460,38 @@ const forgotPassword = async (req, res, next) => {
         // Gửi email bất đồng bộ ở background để giao diện phản hồi TỨC THÌ cho người dùng (< 50ms)
         sendEmail(emailOptions).catch((error) => {
             console.error('[ForgotPassword] Background SMTP error:', error.message);
-            if (process.env.NODE_ENV !== 'production') {
-                console.warn('[ForgotPassword] DEV link khôi phục:', resetUrl);
-            }
+            console.warn('[ForgotPassword] Hướng dẫn: Bạn có thể copy trực tiếp Link khôi phục được in ở Terminal ở trên!');
         });
 
         res.status(200).json({
             message: 'Email đặt lại mật khẩu đã được gửi. Vui lòng kiểm tra hộp thư của bạn.'
         });
+    } catch (error) {
+        next(error);
+    }
+};
+
+// @desc    Validate Reset Password Token
+// @route   GET /api/users/resetpassword/:token
+// @access  Public
+const validateResetToken = async (req, res, next) => {
+    try {
+        const resetPasswordToken = crypto
+            .createHash('sha256')
+            .update(req.params.token)
+            .digest('hex');
+
+        const user = await User.findOne({
+            resetPasswordToken,
+            resetPasswordExpire: { $gt: new Date() }
+        });
+
+        if (!user) {
+            res.status(400);
+            throw new Error('Link khôi phục mật khẩu đã hết hạn hoặc không hợp lệ.');
+        }
+
+        res.status(200).json({ valid: true, email: user.email });
     } catch (error) {
         next(error);
     }
@@ -473,7 +510,7 @@ const resetPassword = async (req, res, next) => {
 
         const user = await User.findOne({
             resetPasswordToken,
-            resetPasswordExpire: { $gt: Date.now() }
+            resetPasswordExpire: { $gt: new Date() }
         });
 
         if (!user) {
@@ -487,6 +524,12 @@ const resetPassword = async (req, res, next) => {
         user.resetPasswordExpire = undefined;
 
         await user.save();
+
+        // Xóa triệt để token khỏi DB bằng $unset để đảm bảo token là Single-Use (chỉ dùng 1 lần)
+        await User.updateOne(
+            { _id: user._id },
+            { $unset: { resetPasswordToken: 1, resetPasswordExpire: 1 } }
+        );
 
         res.status(200).json(buildAuthResponse(user, res));
     } catch (error) {
@@ -585,6 +628,7 @@ export {
     deleteUser,
     updateUser,
     forgotPassword,
+    validateResetToken,
     resetPassword,
     getUserCart,
     updateUserCart,
