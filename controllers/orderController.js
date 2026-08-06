@@ -332,12 +332,22 @@ const addOrderItems = async (req, res) => {
             const createdOrder = await order.save();
             
             // BYPASS MONGOOSE SCHEMA CACHE:
-            if (shippingAddress && shippingAddress.phone) {
-                await mongoose.connection.db.collection('orders').updateOne(
-                    { _id: createdOrder._id },
-                    { $set: { "shippingAddress.phone": shippingAddress.phone } }
-                );
-                createdOrder.shippingAddress.phone = shippingAddress.phone;
+            if (shippingAddress) {
+                const updateFields = {};
+                if (shippingAddress.phone) {
+                    updateFields["shippingAddress.phone"] = shippingAddress.phone;
+                    createdOrder.shippingAddress.phone = shippingAddress.phone;
+                }
+                if (shippingAddress.fullName) {
+                    updateFields["shippingAddress.fullName"] = shippingAddress.fullName;
+                    createdOrder.shippingAddress.fullName = shippingAddress.fullName;
+                }
+                if (Object.keys(updateFields).length > 0) {
+                    await mongoose.connection.db.collection('orders').updateOne(
+                        { _id: createdOrder._id },
+                        { $set: updateFields }
+                    );
+                }
             }
 
             // Tăng lượt bán cho các sản phẩm
