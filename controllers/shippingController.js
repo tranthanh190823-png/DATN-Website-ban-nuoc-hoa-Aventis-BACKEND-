@@ -5,7 +5,7 @@ import axios from 'axios';
 // @access  Public
 const calculateFee = async (req, res) => {
     try {
-        const { to_district_id, to_ward_code, totalWeight, insurance_value } = req.body;
+        const { to_district_id, to_ward_code, totalWeight, length, width, height, insurance_value } = req.body;
 
         if (!to_district_id || !to_ward_code) {
             return res.status(400).json({ message: 'Thiếu thông tin Quận/Huyện hoặc Phường/Xã' });
@@ -29,10 +29,10 @@ const calculateFee = async (req, res) => {
                 to_district_id: parseInt(to_district_id),
                 to_ward_code: to_ward_code,
                 weight: totalWeight || 200, // Gram
-                length: 10,
-                width: 10,
-                height: 10,
-                insurance_value: insurance_value || 0
+                length: length || 10,
+                width: width || 10,
+                height: height || 10,
+                insurance_value: insurance_value ? Math.min(insurance_value, 5000000) : 0 // Bật lại phí bảo hiểm, GHN giới hạn tối đa 5 triệu
             },
             {
                 headers: {
