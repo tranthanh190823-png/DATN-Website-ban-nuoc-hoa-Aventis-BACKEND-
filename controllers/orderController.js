@@ -131,6 +131,9 @@ const updateOrderToDelivered = async (req, res) => {
             if (order.status !== 'Đang giao') {
                 return res.status(400).json({ message: 'Chỉ có thể hoàn thành đơn hàng đang giao' });
             }
+
+            const wasAlreadyPaid = order.isPaid;
+
             order.status = 'Đã giao';
             order.isDelivered = true;
             order.deliveredAt = Date.now();
@@ -403,6 +406,19 @@ const getMyOrders = async (req, res) => {
     }
 };
 
+// @desc    Delete all orders
+// @route   DELETE /api/orders/all
+// @access  Private/Admin
+const deleteAllOrders = async (req, res) => {
+    try {
+        const result = await Order.deleteMany({});
+        res.json({ message: `Đã xóa ${result.deletedCount} đơn hàng`, deletedCount: result.deletedCount });
+    } catch (error) {
+        console.error('[Delete All Orders Error]:', error.message);
+        res.status(500).json({ message: 'Lỗi server khi xóa đơn hàng' });
+    }
+};
+
 export {
     addOrderItems,
     getOrderById,
@@ -412,5 +428,6 @@ export {
     updateOrderToDelivered,
     getMyOrders,
     getOrders,
-    cancelOrder
+    cancelOrder,
+    deleteAllOrders
 };
